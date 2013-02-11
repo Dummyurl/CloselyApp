@@ -1,4 +1,0 @@
-GetLike
-=======
-
-GetLike
