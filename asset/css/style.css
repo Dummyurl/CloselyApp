@@ -1097,7 +1097,31 @@ width: 79px;
 font-size: 11px;
 font-family: gisha;
 	}
-	
+
+.navigation-bubble{
+position: absolute;
+right: 94px;
+z-index: 100;
+top: 28px;
+display:hidden;
+
+}
+
+.bubble-top{background: url(../img/bubble-top.png) no-repeat;
+width: 393px;
+height: 43px;
+text-align:right;
+font-size:16px;
+z-index: 100;}
+.bubble-center{background: url(../img/bubble-center.png) repeat-y;
+width: 334px;
+height: 80px;
+z-index: 100;}
+.bubble-bottom{background: url(../img/bubble-bottom.png) no-repeat;
+width: 334px;
+z-index: 100;
+height: 15px;}
+
 /* 	.login{
 		position:relative;
 		float: right;
