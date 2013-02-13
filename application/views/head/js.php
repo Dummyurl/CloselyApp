@@ -37,26 +37,38 @@
 		<script src="<?php echo base_url();?>asset/js/jquery.flexslider-min.js"></script>
 		<!-- modernizr -->
 		<script src="<?php echo base_url();?>asset/js/modernizr.js"></script>
+		<!-- side menu hoverinit -->
+		<script src="<?php echo base_url();?>asset/js/jquery.hoverIntent.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+			$('.navigation-bubble').hoverIntent(overme,outme);
+			function overme(){ $(this).css('display','block');}
+			function outme(){ $(this).css('display','none');}
+			
+			$("a.button").hoverIntent({
+				over: openMenu, 
+				timeout: 200, 
+				out: closMenu
+			});
+		}); 
+
 		
-		<script type='text/javascript'>
-		$(function(){
-		  var prev;    
-		  $('a.button').hover(function(){
-		  prev = $('.navigation-bubble').html();
-			  var position = $(this).position();
-			  var id = $(this).attr('id');
-			  $('.navigation-bubble').fadeIn('slow');
-			   $(".navigation-bubble").css("top",position.top)
-			   $(".navigation-bubble").css("left",position.left-340)
-			    $('.bubble-top').text($("#"+id+' p').text());
-		  }, function(){
-
-				// $('.navigation-bubble').fadeOut('slow');
-
-		  });
-		})
-
-		</script>
+		function openMenu(){ 
+			prev = $('.navigation-bubble').html();
+			var position = $(this).position();
+			var id = $(this).attr('id');
+			$('.navigation-bubble').fadeIn('slow');
+			$(".navigation-bubble").css("top",position.top)
+			$(".navigation-bubble").css("left",position.left-340)
+			$('.bubble-top .btn_txt').text($("#"+id+' p').text());
+		}
+		function closMenu(){ 
+			$('.navigation-bubble').hide();
+		}
+	</script>
+		
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('.description_box').cycle({

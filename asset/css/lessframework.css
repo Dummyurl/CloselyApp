@@ -46,7 +46,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 .wrapper {
 	width: 940px;
-	margin-top: -12px;
+	margin-top: 0px;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 

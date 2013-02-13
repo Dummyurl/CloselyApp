@@ -1,7 +1,10 @@
 		        	<div id="headline">	
 						<div class="navigation-bubble">
-							<div class="bubble-top"></div>
-							<div class="bubble-center"></div>	
+							<div class="bubble-top"><p class="btn_txt"></p></div>
+							<div class="bubble-center">
+							<div class="category_img"><img src="<?php echo base_url();?>asset/img/category/deals.png" alt="alt text" /></div>
+							<div class="categories_list">fddff</div>
+							</div>	
 							<div class="bubble-bottom"></div>	
 						</div>					
 						<div class="mainbutton">
