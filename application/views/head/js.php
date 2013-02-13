@@ -41,16 +41,21 @@
 		<script type='text/javascript'>
 		$(function(){
 		  var prev;    
-		  $('.button').hover(function(){
-		  prev = $('.description_box').html();
-			  $('.description_box').html(this.id);
+		  $('a.button').hover(function(){
+		  prev = $('.navigation-bubble').html();
+			  var position = $(this).position();
+			  var id = $(this).attr('id');
+			  $('.navigation-bubble').fadeIn('slow');
+			   $(".navigation-bubble").css("top",position.top)
+			   $(".navigation-bubble").css("left",position.left-340)
+			    $('.bubble-top').text($("#"+id+' p').text());
 		  }, function(){
-			  $('.description_box').html(prev);
-			  	$('.description_box').cycle({
-					fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-				});
+
+				// $('.navigation-bubble').fadeOut('slow');
+
 		  });
 		})
+
 		</script>
 		<script type="text/javascript">
 			$(document).ready(function() {
