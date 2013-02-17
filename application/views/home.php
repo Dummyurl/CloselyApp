@@ -1,4 +1,4 @@
-﻿<?php $this->load->helper('url'); ?>
+<?php $this->load->helper('url'); ?>
 <!doctype html>
 <html class="no-js">	
 	<head>

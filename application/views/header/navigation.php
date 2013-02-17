@@ -1,4 +1,4 @@
-﻿<div class="wrapper clearfix">
+<div class="wrapper">
 				<a href="index.html" id="logo"><img  src="<?php echo base_url();?>asset/img/newlogo.png" alt="Zeni" id="imglogo"></a>
 				<nav>
 					<ul id="nav" class="sf-menu">

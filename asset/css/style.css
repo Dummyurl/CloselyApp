@@ -30,7 +30,8 @@ footer, header, nav, section, audio, video {
 
 .wrapper{
 	margin: 0 auto; 
-	position: relative;
+	
+	width: 940px;
 }
 
 body{
@@ -59,8 +60,8 @@ body a{
 
 #logo{
 	display: inline-block;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 80px;
+	padding-bottom: 50px;
 	margin: 0px -34px;
 }
 
@@ -89,9 +90,6 @@ footer,
 aside{ line-height: 1.5em; }
 
 
-.wrapper {
-	width: 940px;
-}
 
 .right{
 	float: right;
@@ -1348,7 +1346,17 @@ top: 12px;
 position: absolute;
 left: 8px;
 top: 13px;}
+.search_text{font-size: 19px;
+position: absolute;
+left: 8px;
+color: white;
+top: 7px;}
 .buttonmail{
+float: left;
+position: relative !important;
+width: 15px !important;
+margin: -4px 0px 12px -9px!important;}
+.search{
 float: left;
 position: relative !important;
 width: 15px !important;
@@ -1388,6 +1396,41 @@ background-image: -webkit-linear-gradient(top, #dadada 0%, #003050 30%);
 background-image: linear-gradient(to bottom, #dadada 0%, #003050 30%);
 }
 
+
+.searchbutton{
+position: absolute;
+background-color: #003050;
+font-weight: bold;
+font-size: 28px;
+width: 49px;
+height: 31px;
+padding: 0 25px;
+margin: 8px 0;
+left: 20px;
+top: 25px;
+text-align: center;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border: 1px solid rgba(0, 48, 80, 0.4);
+
+background-image: -ms-linear-gradient(top, #dadada 0%, #003050 30%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #dadada 0%, #003050 30%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #dadada 0%, #003050 30%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dadada), color-stop(1, #003050));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #dadada 0%, #003050 30%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #dadada 0%, #003050 30%);
+}
 
 .buttontext{
 position: absolute;
@@ -1762,8 +1805,56 @@ width: 624px;
 float: left;}
 	
 	.thispro{float: right;
+background: url(../img/search-bar.png) no-repeat;
+width: 303px;
+height: 61px;}
+
+.thispro input{
+color: #B9B9B9;
+border: 0px solid #CCC;
+font-weight: bold;
+font-size: 19px;
+float: right;
+width: 195px;
+height: 30px;
+padding: 0 5px;
+margin: 22px 12px;
+text-align: right;
+direction: rtl;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-box-shadow: inset 5px 5px 15px -7px black;
+-webkit-box-shadow: inset 5px 5px 15px -7px black;
+box-shadow: inset 5px 5px 15px -7px black;
+}
+
+.user-panel{
+margin: 0px 5px;
+width: 295px;
+text-align: right;
+height: 100px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 4px;
+-webkit-box-shadow: 8px 8px 8px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+box-shadow: 0px 7px 12px rgba(0,0,0,0.55);
+background: rgb(255, 255, 255);
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgb(173, 215, 238)));
+background-image: -moz-linear-gradient(top,#E6E8E8,rgb(255, 255, 255));
+}
+.face-text{float: left;
+color: rgb(56, 31, 0);
+font-size: 25px;
+font-weight: bold;
+width: 250px;
+margin: 5px -10px;}
+.face-logo{float: right;margin: 1px 6px;}
+.face-logo img{width:52px}
+.user-panel-contant{}
+.facebook-connect-text{}
+.top-panel{float: right;
 margin: 1px 203px 0px 0px;
 z-index: 1000;
-background: url(../img/search-bar.png) no-repeat;
-width: 302px;
-height: 58px;}
+width: 303px}

@@ -52,6 +52,13 @@
 				timeout: 200, 
 				out: closMenu
 			});
+			
+			 $('#panel').hoverIntent(openpanel,closepanel);
+			function openpanel(){$(this).animate({height:240},400);}
+			function closepanel(){ $(this).animate({height:100},400);}
+			
+	
+		
 		}); 
 
 		

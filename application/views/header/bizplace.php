@@ -1,4 +1,4 @@
-<span class="thispro">mkmkm</span>
+
 	<div id="top-widget-holder">
 				<div class="wrapper">
 					<div id="top-widget">
@@ -62,4 +62,18 @@
 					</div>
 				</div>
 				<a href="#" id="top-open">Menu</a>
+				<div class="top-panel">
+	<span class="thispro">
+	<input type="text" value="הזן כתובת מייל">
+	<div class="searchbutton search"><span class="search_text">חיפוש</span></div>
+	</span>
+	<a href="#">
+	<div class="user-panel" id="panel">
+		<div class="face-text">
+			<div class="user-panel-contant">התחבר עם פייסבוק</div>	
+		</div>
+		<div class="face-logo"><img src="<?php echo base_url();?>asset/img/facebook2.png" alt="Post" /></div>
+	</div>
+	</a>
+</div>
 			</div>
