@@ -8,6 +8,11 @@
 font-family: Gisha;
 src: url('/gisha.ttf');
 }
+@font-face
+{
+font-family: Guttman-Yad;
+src: url('/Guttman Yad-Brush.ttf');
+}
 
 /* GENERAL ------------------------------------------------------------*/
 
@@ -31,7 +36,7 @@ footer, header, nav, section, audio, video {
 .wrapper{
 	margin: 0 auto; 
 	
-	width: 940px;
+	width: 1024px;
 }
 
 body{
@@ -60,11 +65,12 @@ body a{
 
 #logo{
 	display: inline-block;
-	padding-top: 80px;
-	padding-bottom: 50px;
+	padding-top: 110px;
+	padding-bottom: 25px;
 	margin: 0px -34px;
 }
 
+#logo img{width:300px}
 
 #logo:hover{ opacity: 0.8;}
 
@@ -127,7 +133,11 @@ padding: 0 10px;
 margin-right: 15px;
 }
 
-
+.side-top-img{position: absolute;
+right: 2px;
+top: 130px;
+z-index: -1;}
+.side-top-img img{width:300px}
 /* WIDGETS------------------------------------------------*/
 
 #top-widget-holder{
@@ -462,6 +472,10 @@ nav a{
 /* MAIN ------------------------------------------------------------*/
 
 #main{
+ -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
 	padding-top: 40px;
 	background: url(../img/oblique-lines.png) repeat-x;
 	margin-bottom: 60px;
@@ -1020,32 +1034,25 @@ footer .wrapper,
 
 
 	.button {
-	width: 105px;
+border-style: solid;
+border-width: 1px;
+border-color: rgb(145, 145, 145);
+width: 105px;
 height: 100px;
 line-height: 100px;
 margin: 10px;
-color: white;
+color: rgb(15, 15, 15);
 text-decoration: none;
-font-size: 10;
+font-size: 11px;
 font-family: helvetica, arial;
 font-weight: bold;
 display: block;
 text-align: center;
 position: relative;
-background: #014464;
+background: rgba(172, 241, 26, 0.97);
 background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C));
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-border: 1px solid #368DBE;
-border-top: 1px solid #C3D6DF;
-text-shadow: 1px 1px 1px black;
--moz-box-shadow: 0 1px 3px black;
--webkit-box-shadow: 0 1px 3px black;
-box-shadow: 0 1px 3px black;
-	}
-	
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(248, 172, 2)), color-stop(.5, rgb(248, 172, 2)), to(rgb(248, 199, 2)));
+}	
 	/* WHILE HOVERED */
 	.button:hover {
 		background: #014464;
@@ -1231,7 +1238,7 @@ left: 132px;
 		position:relative;
 		float: right;
 		margin-top: -6px;
-		width:624px;
+		width:715px;
 		height:86px;
 		border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
 		border: 1px solid rgba(0, 48, 80, 0.4);
@@ -1258,27 +1265,19 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #DFDDD5 100%);
 		position: relative;
 		float: right;
 		margin-top: 16px;
-		width: 624px;
+		margin-right: 30px;
+		width: 710px;
 		height: 226px;
-		border-radius: 6px;
-		-moz-border-radius: 6px;
-		-webkit-border-radius: 6px;
-		border: 2px solid rgba(156, 156, 156, 0.2);
-		background-color: #DFDDD5;
-		margin: 10px 0 0;
+
 	}
 	
 	.main_cupon-3{
-		position: relative;
-		float: right;
-		width: 624px;
-		margin-top: 12px;
-		height: 120px;
-		border-radius: 6px;
-		-moz-border-radius: 6px;
-		-webkit-border-radius: 6px;
-		border: 2px solid rgba(156, 156, 156, 0.2);
-		background-color: #DFDDD5;
+position: relative;
+float: right;
+width: 710px;
+margin-right: 30px;
+margin-top: 70px;
+height: 120px;
 		
 	}
 	
@@ -1511,8 +1510,8 @@ float: left;
 
 
 .boxgrid{ 
-	width: 190px; 
-	height: 108px; 
+	width: 221px; 
+	height: 130px; 
 	margin: 4px 8px 0 7px;
 	float:left; 
 	background:#161613; 
@@ -1521,8 +1520,8 @@ float: left;
 	position: relative; 
 }
 	.boxgrid img{ 
-	height:108px;
-	width:190px;
+	height:130px;
+	width:221px;
 		position: absolute; 
 		top: 0; 
 		left: 0; 
@@ -1559,7 +1558,7 @@ float: left;
 			define width and height of list item (slide)
 			entire slider area will adjust according to the parameters provided here
 		*/ 
-		width:630px;
+		width:715px;
 		height:241px;
 		overflow:hidden; 
 		}	
@@ -1678,23 +1677,24 @@ text-align:right;
 		
 }
 .infobox h3 {
-    position: relative;
-    width: 270px;
-    color: #fff;
-    padding: 10px 20px;
-    margin: 0;
-    left: -13px;
-    z-index: 100;
-    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-    background: #3198dd;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#33acfc), to(#00030C));
-    background-image: -moz-linear-gradient(top,#33acfc,#3198dd);
-    font-size: 160%;
-    text-align: right;
-    text-shadow: #2128C8 0 -1px 1px;
-    font-weight: bold;
+position: relative;
+width: 270px;
+color: #fff;
+padding: 10px 20px;
+margin: 0;
+left: -13px;
+z-index: 100;
+-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+background: #3198dd;
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(96,124, 150) ), to(rgb(96,124, 150) ));
+background-image: -moz-linear-gradient(top,#33acfc,#3198dd);
+font-size: 160%;
+text-align: right;
+text-shadow: #2128C8 0 -1px 1px;
+font-weight: bold;
+
 }
 
 .big{
@@ -1801,7 +1801,7 @@ border:1px solid #bee1fa; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 	    }
 		
 		#content-block{margin: -10px 0px 0px 0px;
-width: 624px;
+width: 715px;
 float: left;}
 	
 	.thispro{float: right;
@@ -1830,31 +1830,27 @@ box-shadow: inset 5px 5px 15px -7px black;
 }
 
 .user-panel{
-margin: 0px 5px;
-width: 295px;
+margin: 54px 2px 0px;
+width: 300px;
+z-index: 1000;
 text-align: right;
-height: 100px;
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
-border-radius: 4px;
--webkit-box-shadow: 8px 8px 8px rgba(0,0,0,1);
--moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-box-shadow: 0px 7px 12px rgba(0,0,0,0.55);
-background: rgb(255, 255, 255);
-background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgb(173, 215, 238)));
-background-image: -moz-linear-gradient(top,#E6E8E8,rgb(255, 255, 255));
+height: 44px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 4px;
+background: url(../img/bottompanel.png) no-repeat;
+background-position: left bottom;
 }
 .face-text{float: left;
-color: rgb(56, 31, 0);
-font-size: 25px;
+color: rgb(15, 26, 148);
+font-size: 15px;
 font-weight: bold;
-width: 250px;
-margin: 5px -10px;}
-.face-logo{float: right;margin: 1px 6px;}
-.face-logo img{width:52px}
+width: 256px;
+margin: 12px -19px 9px 0px;}
+.face-logo{float: right;margin:6px 10px 1px 0px;}
+.face-logo img{width:26px}
 .user-panel-contant{}
 .facebook-connect-text{}
 .top-panel{float: right;
-margin: 1px 203px 0px 0px;
 z-index: 1000;
+margin: 1px 0px 0px 0px;
 width: 303px}

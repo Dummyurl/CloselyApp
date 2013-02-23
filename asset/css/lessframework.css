@@ -45,8 +45,9 @@ px      68    160    252    344    436    528    620    712    804    896    */
 }
 
 .wrapper {
-	width: 940px;
+	width: 1024px;
 	margin-top: 0px;
+	position: relative;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
@@ -121,7 +122,7 @@ px      68    160    252    344    436    528    620    712    */
 	#slider-holder #headline{
 /* 		float:none; */
 		width: 779px; /* 712 - 40 */
-		margin-top: 0px;
+		margin-top: -27px!important;
 		min-height: 100px;
 		border-top: 1px solid #ccc;
 	}
@@ -237,8 +238,37 @@ px      68    160    252    */
 		#imglogo{
 	width:200px;
 	position: absolute;
-	left: 4px;
+	right: 3px;
 	}	
+	
+	#logo {
+display: inline-block;
+padding-top: 110px;
+padding-bottom: 126px;
+margin: 0px -1px;
+}
+.button {
+width: 346px;
+height: 60px;
+margin: 0px -53px;
+}
+
+.button img {
+position: absolute;
+right: 8px;
+top: 9px;
+width: 40px;
+}
+
+.button p {
+left: -12px;
+top: -33px;
+width: 300px;
+color: rgb(248, 248, 248);
+z-index: 100;
+font-size: 22px;
+font-family: gisha;
+}
 	
 	.wrapper {
 		width: 295px;
@@ -290,6 +320,7 @@ height: 100px;}
 	height: 100PX;
 	min-height:100px;
 }
+.side-top-img img {display:none;}
 
 .bizlogo {
 width: 295px;
@@ -396,10 +427,11 @@ bs figure,
 	#slider-holder #headline{
 float: none;
 width: 260px;
-padding: 0px 9px 247px 24px;
+padding: 0px 10px 187px 24px;
 margin-top: 0px;
-min-height: 347px;
+min-height: 0px;
 border-top: 1px solid #CCC;
+margin-top: -20px;
 	}
 	
 	#headline em#corner{

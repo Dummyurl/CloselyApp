@@ -1,6 +1,20 @@
 
 	<div id="top-widget-holder">
 				<div class="wrapper">
+					<div class="top-panel">
+						<span class="thispro">
+						<input type="text" value="הזן כתובת מייל">
+						<div class="searchbutton search"><span class="search_text">חיפוש</span></div>
+						</span>
+						<a href="#">
+						<div class="user-panel" id="panel">
+						<div class="face-text">
+						<div class="user-panel-contant">התחבר עם פייסבוק</div>	
+						</div>
+						<div class="face-logo"><img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" /></div>
+						</div>
+						</a>
+					</div>
 					<div id="top-widget">
 						<div class="padding">
 						<ul  class="widget-cols clearfix">
@@ -60,20 +74,8 @@
 							</ul>				
 						</div>
 					</div>
+					<div class="side-top-img"><img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" /></div>
 				</div>
 				<a href="#" id="top-open">Menu</a>
-				<div class="top-panel">
-	<span class="thispro">
-	<input type="text" value="הזן כתובת מייל">
-	<div class="searchbutton search"><span class="search_text">חיפוש</span></div>
-	</span>
-	<a href="#">
-	<div class="user-panel" id="panel">
-		<div class="face-text">
-			<div class="user-panel-contant">התחבר עם פייסבוק</div>	
-		</div>
-		<div class="face-logo"><img src="<?php echo base_url();?>asset/img/facebook2.png" alt="Post" /></div>
-	</div>
-	</a>
-</div>
+
 			</div>

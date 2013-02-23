@@ -54,8 +54,8 @@
 			});
 			
 			 $('#panel').hoverIntent(openpanel,closepanel);
-			function openpanel(){$(this).animate({height:240},400);}
-			function closepanel(){ $(this).animate({height:100},400);}
+			function openpanel(){$(this).animate({height:160},400);}
+			function closepanel(){ $(this).animate({height:44},400);}
 			
 	
 		
@@ -99,20 +99,23 @@ $(document).ready(function(){
 		
 			<script type="text/javascript">
 			console.log('fff');
-			$("#slider").easySlider({
-				auto: true,
-				continuous: true,
-				nextId: "slider1next",
-				prevId: "slider1prev"
-			});
+
 	</script>	
 	
 	<script type="text/javascript">
 			$(document).ready(function(){
+			 
+				$("#slider").easySlider({
+					auto: true,
+					continuous: true,
+					nextId: "slider1next",
+					prevId: "slider1prev",
+					hoverpause: true 
+				});
 				$('.boxgrid.slidedown').hover(function(){
-					$(".cover", this).stop().animate({top:'-260px'},{queue:false,duration:300});
+					$(".cover", this).stop().animate({top:'-260px'},{queue:false,duration:530});
 				}, function() {
-					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:300});
+					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:530});
 				});
 			});
 		</script>

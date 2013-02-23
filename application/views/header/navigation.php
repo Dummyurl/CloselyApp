@@ -1,5 +1,5 @@
 <div class="wrapper">
-				<a href="index.html" id="logo"><img  src="<?php echo base_url();?>asset/img/newlogo.png" alt="Zeni" id="imglogo"></a>
+				<a href="index.html" id="logo"><img  src="<?php echo base_url();?>asset/img/logo2.png" alt="Zeni" id="imglogo"></a>
 				<nav>
 					<ul id="nav" class="sf-menu">
 						<li class="current-menu-item"><a href="index.html">ראשי</a></li>

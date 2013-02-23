@@ -19,7 +19,7 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		 $data['content']['blocks'] = array('code','slider','banners','shops');
+		 $data['content']['blocks'] = array('slider','banners','shops');
 		$this->load->view('home',$data);
 	}
 }
