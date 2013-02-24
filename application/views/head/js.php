@@ -41,7 +41,12 @@
 		<script src="<?php echo base_url();?>asset/js/jquery.hoverIntent.js"></script>
 
 	<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
+		$(document).ready(function(){			
+			$('.shop_image').hoverIntent(overimg,outimg);
+			
+			
+			 function overimg(){ $(this).addClass('over-img-photo')}
+			 function outimg(){ $(this).removeClass('over-img-photo')}
 			
 			$('.navigation-bubble').hoverIntent(overme,outme);
 			function overme(){ $(this).css('display','block');}
@@ -54,9 +59,10 @@
 			});
 			
 			 $('#panel').hoverIntent(openpanel,closepanel);
-			function openpanel(){$(this).animate({height:160},400);}
-			function closepanel(){ $(this).animate({height:44},400);}
+			function openpanel(){$(this).animate({height:220},200);}
+			function closepanel(){ $(this).animate({height:44},200);}
 			
+
 	
 		
 		}); 

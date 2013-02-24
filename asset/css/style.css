@@ -10,8 +10,8 @@ src: url('/gisha.ttf');
 }
 @font-face
 {
-font-family: Guttman-Yad;
-src: url('/Guttman Yad-Brush.ttf');
+font-family:barcode;
+src: url('/barcode.ttf');
 }
 
 /* GENERAL ------------------------------------------------------------*/
@@ -1602,17 +1602,101 @@ float: left;
 	
 	
 	.wall-messages{
-			position: relative;
-		float: right;
-		width: 643px;
-		
-		overflow:hidden;
-		border-radius: 6px;
-		-moz-border-radius: 6px;
-		-webkit-border-radius: 6px;
+position: relative;
+float: right;
+width: 715px;
+margin: 72px 24px 30px 0px;
+overflow: hidden;
+color:black;
 	}
 	
+.wall-messages ul{
+list-style-type:none;
+float: right;
+
+	}
 	
+	.wall-messages li{
+display: inline;
+width: 222px;
+float: right;
+margin: 7px;
+border-style: dashed;
+border-width: 1px;
+border-color: rgb(145, 145, 145);
+
+
+	}
+	.double_grey_double_divider{margin: 12px 8px 1px 6px;
+background: url(../img/double-dash-x-grey.png) repeat-x;
+height: 7px;}
+	.double_grey_single_divider{margin: 2px 8px 3px 8px;
+background: url(../img/dash-x-grey.png) repeat-x;
+height: 7px;}
+.block_title_container{margin: 10px 0px 0px 0px;}
+.block_title{font-size: 31px;
+text-align: right;
+font-family: gisha;
+margin: 0px 15px 0px 0px;
+font-weight: bold;
+color: rgb(45, 45, 119);}
+	
+/* grid shop view */	
+	.product_grid{}
+	.product_grid .shop_header{margin: 4px;}
+	.product_grid .shop_header img{width: 213px;}
+	.product_grid .shop_contant{}
+	.product_grid .shop_contant .shop_head  .shop_buyer{float:right; margin: 0px 8px 0px 0px;}
+	.product_grid .shop_contant .shop_head  .shop_title{margin: 0px 0px 0px 8px;
+height: 41px;
+padding: 4px;
+text-align: right;
+width: 140px;
+border-style: dashed;
+border-width: 1px;
+border-color: rgb(145, 145, 145);
+float: left;}
+	.product_grid .shop_contant .shop_image{height: 200px;
+position: relative;
+margin: 0px 8px;
+text-align: center;
+background: url(../img/shop_det_bg.png) no-repeat;}
+.over-img-photo{height: 200px;
+background: url(../img/shop_det_bg_over.png) no-repeat !important;}
+.product_grid .shop_contant .shop_image .comment{background: url(../img/comment.png) no-repeat; position: absolute; top:0px;}
+.product_grid .shop_contant .shop_image .price{background: url(../img/price.png) no-repeat; position: absolute;top:0px;}
+.product_grid .shop_contant .shop_image .fav{background: url(../img/fav.png) no-repeat; position: absolute;top:0px;}
+	.product_grid .shop_footer{}
+.shop-photo{width: 80%;
+overflow: hidden;
+width: 150px;
+height: 120px;
+position: absolute;
+right: 20px;
+top: 43px;}
+
+.shop_detials{float: left;
+background: rgb(252, 194, 91);
+margin: 0px 0px 0px 10px;
+padding: 5px 24px;}
+.shop_like{float: right;
+background: rgb(91, 168, 25);
+margin: 0px 10px 0px 0px;
+padding: 5px 32px;}
+
+.my_barcode{font-family: barcode;
+font-size: 71px;
+margin: 68px 12px 37px;}	
+.show_coupon{float: right;
+background: rgb(25, 168, 162);
+margin: 4px 10px 0px 0px;
+padding: 5px 52px;}
+.addon_icons{position: absolute;top:-9px;left:0px;}
+.addon_icons li{display: inline;
+border-style: none;
+border-width: 0px;
+width: 5px;}
+
 	/* right boxes */
 .info_box {
 	width: 307px;
@@ -1632,7 +1716,7 @@ float: left;
 }
 
 .infobox-container .triangle-l {
-    border-color: transparent #2083c2 transparent transparent;
+    border-color: transparent rgb(182, 126, 41) transparent transparent;
     border-style:solid;
     border-width:13px;
     height:0;
@@ -1669,9 +1753,9 @@ text-align:right;
     -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
     -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
     box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-    background: #CBCBCB;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E8E8), to(#CBCBCB));
-    background-image: -moz-linear-gradient(top,#E6E8E8,#CBCBCB);
+    background: white;
+/*     background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E8E8), to(#CBCBCB));
+    background-image: -moz-linear-gradient(top,#E6E8E8,#CBCBCB); */
     color: #fff;
     font-size: 90%;
 		
@@ -1687,9 +1771,7 @@ z-index: 100;
 -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
 -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
 box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-background: #3198dd;
-background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(96,124, 150) ), to(rgb(96,124, 150) ));
-background-image: -moz-linear-gradient(top,#33acfc,#3198dd);
+background: rgb(241, 182, 29);
 font-size: 160%;
 text-align: right;
 text-shadow: #2128C8 0 -1px 1px;
@@ -1739,9 +1821,7 @@ margin: 8px 4px;
 height: 28px;
 width: 282px;}
 .contant-box{
-		border-radius: 6px;
-		-moz-border-radius: 6px;
-		-webkit-border-radius: 6px;
+
 		height:187px;
 		width:278px;
 		margin: 5px;

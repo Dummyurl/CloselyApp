@@ -1,31 +1,4 @@
-﻿				<!-- right side boxes -->	
-					
-		    <div class="info_box">
-				<div class="infobox-container"> 
-					<div class="triangle-l"></div>
-						<div class="infobox"> 
-							<h3><span>ניוזלטר</span></h3> 
-							<div class="inputemail">
-								<input type="text" value="הזן כתובת מייל" />
-							</div>	
-							<div class="codebutton buttonmail"><span class="buttontmailext">הרשם</span></div>	
-<div class="clearfix"</div>						
-						</div> 
-				</div>
-			</div>
-					
-			
-			<div class="info_box">
-				<div class="infobox-container"> 
-					<div class="triangle-l"></div>
-						<div class="infobox big" style="height:300px">  
-							<h3><span>עסקים מובילים</span></h3> 
-							<div class="contant-box">
-							</div>										
-						</div> 
-				</div>
-			</div>	
-			
+				<!-- right side boxes -->	
 			<div class="info_box">
 				<div class="infobox-container"> 
 					<div class="triangle-l"></div>
@@ -50,6 +23,32 @@
 						</div> 
 				</div>
 			</div>	
+	
+					
+		    <div class="info_box">
+				<div class="infobox-container"> 
+					<div class="triangle-l"></div>
+						<div class="infobox"> 
+							<h3><span>ניוזלטר</span></h3> 
+							<div class="inputemail">
+								<input type="text" value="הזן כתובת מייל" />
+							</div>	
+							<div class="codebutton buttonmail"><span class="buttontmailext">הרשם</span></div>	
+							<div class="clearfix"></div>						
+						</div> 
+				</div>
+			</div>
+					
 			
-		</div>
+			<div class="info_box">
+				<div class="infobox-container"> 
+					<div class="triangle-l"></div>
+						<div class="infobox big" style="height:300px">  
+							<h3><span>עסקים מובילים</span></h3> 
+							<div class="contant-box">
+							</div>										
+						</div> 
+				</div>
+			</div>	
+
 				<!-- ENDS slider holder -->

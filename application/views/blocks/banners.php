@@ -1,5 +1,9 @@
-﻿<div class="main_cupon-3">
-
+<div class="main_cupon-3">
+<div class="block_title_container">
+	<div class="double_grey_single_divider"></div>	
+	<div class="block_title">...קופונים אחרונים</div>
+	<div class="double_grey_double_divider"></div>
+</div>
 <div id="slider">
 		
 			<ul>				
