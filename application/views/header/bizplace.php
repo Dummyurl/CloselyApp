@@ -3,8 +3,8 @@
 				<div class="wrapper">
 					<div class="top-panel">
 						<span class="thispro">
-						<input type="text" value="הזן כתובת מייל">
-						<div class="searchbutton search"><span class="search_text">חיפוש</span></div>
+						<input type="text" value="הזן קוד קופון">
+						<div class="searchbutton search"><span class="search_text">קבל</span></div>
 						</span>
 						<a href="#">
 						<div class="user-panel" id="panel">

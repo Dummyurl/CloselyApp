@@ -1347,7 +1347,7 @@ left: 8px;
 top: 13px;}
 .search_text{font-size: 19px;
 position: absolute;
-left: 8px;
+left: 15px;
 color: white;
 top: 7px;}
 .buttonmail{
@@ -1362,7 +1362,7 @@ width: 15px !important;
 margin: -4px 0px 12px -9px!important;}
 .codebutton{
 position: absolute;
-background-color: #003050;
+background-color: rgb(248,172,2);
 font-weight: bold;
 font-size: 28px;
 width: 49px;
@@ -1372,33 +1372,14 @@ margin: 8px 0;
 left: 10px;
 top: 12px;
 text-align: center;
-border-radius: 6px;
--moz-border-radius: 6px;
--webkit-border-radius: 6px;
 border: 1px solid rgba(0, 48, 80, 0.4);
 
-background-image: -ms-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* Opera */ 
-background-image: -o-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dadada), color-stop(1, #003050));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* W3C Markup, IE10 Release Preview */ 
-background-image: linear-gradient(to bottom, #dadada 0%, #003050 30%);
 }
 
 
 .searchbutton{
 position: absolute;
-background-color: #003050;
+background-color: rgb(248, 172, 2);
 font-weight: bold;
 font-size: 28px;
 width: 49px;
@@ -1408,27 +1389,7 @@ margin: 8px 0;
 left: 20px;
 top: 25px;
 text-align: center;
-border-radius: 6px;
--moz-border-radius: 6px;
--webkit-border-radius: 6px;
 border: 1px solid rgba(0, 48, 80, 0.4);
-
-background-image: -ms-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* Opera */ 
-background-image: -o-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dadada), color-stop(1, #003050));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #dadada 0%, #003050 30%);
-
-/* W3C Markup, IE10 Release Preview */ 
-background-image: linear-gradient(to bottom, #dadada 0%, #003050 30%);
 }
 
 .buttontext{
@@ -1510,7 +1471,7 @@ float: left;
 
 
 .boxgrid{ 
-	width: 221px; 
+	width: 219px; 
 	height: 130px; 
 	margin: 4px 8px 0 7px;
 	float:left; 
@@ -1521,7 +1482,7 @@ float: left;
 }
 	.boxgrid img{ 
 	height:130px;
-	width:221px;
+	width:219px;
 		position: absolute; 
 		top: 0; 
 		left: 0; 
@@ -1747,9 +1708,6 @@ text-align:right;
     margin:10px;
     position: relative;
     z-index: 90;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
     -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
     -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
     box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
@@ -1826,19 +1784,13 @@ width: 282px;}
 		width:278px;
 		margin: 5px;
 		background:#fff;
-		border: 1px solid #CFCFCF;
 		overflow: hidden;
 		
 }	
 .contant-box ul {overflow:hidden;height:200px;}
 .box-row{
-border:1px solid #bee1fa; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-family:arial, helvetica, sans-serif; padding: 5px 5px 5px 5px; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; text-align: center; color: #FFFFFF; background-color: #f2f9fe;
- background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
- background-image: -webkit-linear-gradient(top, #f2f9fe, #d6f0fd);
- background-image: -moz-linear-gradient(top, #f2f9fe, #d6f0fd);
- background-image: -ms-linear-gradient(top, #f2f9fe, #d6f0fd);
- background-image: -o-linear-gradient(top, #f2f9fe, #d6f0fd);
- background-image: linear-gradient(top, #f2f9fe, #d6f0fd);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f9fe, endColorstr=#d6f0fd);
+background: url(../img/dash-x-grey.png) repeat-x;
+padding: 6px 1px;
 }
 
 .box-row:hover{
@@ -1901,9 +1853,6 @@ padding: 0 5px;
 margin: 22px 12px;
 text-align: right;
 direction: rtl;
-border-radius: 6px;
--moz-border-radius: 6px;
--webkit-border-radius: 6px;
 -moz-box-shadow: inset 5px 5px 15px -7px black;
 -webkit-box-shadow: inset 5px 5px 15px -7px black;
 box-shadow: inset 5px 5px 15px -7px black;
