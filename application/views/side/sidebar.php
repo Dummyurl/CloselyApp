@@ -1,14 +1,16 @@
 				<!-- right side boxes -->	
 			<div class="info_box">
 				<div class="infobox-container"> 
-					<div class="triangle-l"></div>
+					
 						<div class="infobox big" style="height:284px"> 
 							<h3><span>המבזבזים המובילים</span></h3> 
 							<div class="top-buttons">
-							<img src="<?php echo base_url();?>asset/img/bt.png" alt="Post" id="l-list"  class="bt-top"/>
-							<img src="<?php echo base_url();?>asset/img/bt.png" alt="Post" id="c-list"  class="bt-top"/>
-							<img src="<?php echo base_url();?>asset/img/bt.png" alt="Post" id="r-list"  class="bt-top"/>
-
+								<div class="triangle-l"></div>
+								<ul>
+									<li class="summery-type" rel="1"><a href="#" onClick="return false;">קניות</a></li>
+									<li class="summery-type" rel="2"><a href="#" onClick="return false;">קופונים</a></li>
+									<li class="summery-type" rel="3"><a href="#" onClick="return false;">המלצות</a></li>
+								</ul>
 							</div>	
 							<div class="contant-box">
 							<ul>
@@ -27,7 +29,6 @@
 					
 		    <div class="info_box">
 				<div class="infobox-container"> 
-					<div class="triangle-l"></div>
 						<div class="infobox"> 
 							<h3><span>ניוזלטר</span></h3> 
 							<div class="inputemail">
@@ -42,10 +43,12 @@
 			
 			<div class="info_box">
 				<div class="infobox-container"> 
-					<div class="triangle-l"></div>
+				
 						<div class="infobox big" style="height:300px">  
 							<h3><span>עסקים מובילים</span></h3> 
+							<div class="triangle-l topfix"></div>
 							<div class="contant-box">
+							<img class="cover" src="<?php echo base_url();?>asset/img/logobiz.png"/>
 							</div>										
 						</div> 
 				</div>

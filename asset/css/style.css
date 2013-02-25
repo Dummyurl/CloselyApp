@@ -1362,7 +1362,7 @@ width: 15px !important;
 margin: -4px 0px 12px -9px!important;}
 .codebutton{
 position: absolute;
-background-color: rgb(248,172,2);
+background-color: rgb(100, 121, 148);
 font-weight: bold;
 font-size: 28px;
 width: 49px;
@@ -1662,7 +1662,7 @@ width: 5px;}
 .info_box {
 	width: 307px;
 	float: right;
-	margin: -6px 0px;
+	margin: 5px 0px;
 	
 }
 
@@ -1677,29 +1677,33 @@ width: 5px;}
 }
 
 .infobox-container .triangle-l {
-    border-color: transparent rgb(182, 126, 41) transparent transparent;
-    border-style:solid;
-    border-width:13px;
-    height:0;
-    width:0;
-	margin-top:-20px;
-   
-    left: -12px;
-    top: 72px;
-    z-index: 0; /* displayed under infobox */
+border-color: rgba(240, 178, 46, 0.97) rgba(182, 126, 41, 0) transparent transparent;
+border-style: solid;
+border-width: 13px;
+height: 0;
+width: 0;
+margin-top: -20px;
+left: 223px;
+top: 20px;
+z-index: 1000; /* displayed under infobox */
 }
 
 .triangle-l {
-	border-color: transparent #7d90a3 transparent transparent;
-	border-style:solid;
-	border-width:15px;
-	height:0px;
-	width:0px;
-	position: relative;
-	left: -30px;
-	top: 65px;
-	z-index: -1; /* displayed under bubble */
+border-color: transparent #7d90a3 transparent transparent;
+border-style: solid;
+border-width: 15px;
+height: 0px;
+width: 0px;
+position: absolute;
+left: -30px;
+top: 65px;
+z-index: -1; /* displayed under bubble */
 }
+
+.overli {
+background:rgb(100, 121, 148)!important;
+}
+
 
 .infobox {
 text-align:right;
@@ -1708,9 +1712,9 @@ text-align:right;
     margin:10px;
     position: relative;
     z-index: 90;
-    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
+    -moz-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
+	box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
     background: white;
 /*     background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E8E8), to(#CBCBCB));
     background-image: -moz-linear-gradient(top,#E6E8E8,#CBCBCB); */
@@ -1720,11 +1724,11 @@ text-align:right;
 }
 .infobox h3 {
 position: relative;
-width: 270px;
+width: 239px;
 color: #fff;
 padding: 10px 20px;
 margin: 0;
-left: -13px;
+left: 5px;
 z-index: 100;
 -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
 -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
@@ -1740,6 +1744,8 @@ font-weight: bold;
 .big{
 min-height:0px
 }
+
+.topfix{top: 69px!important;}
 
 .lock{
 min-height:0px
@@ -1775,16 +1781,17 @@ margin: 8px 4px;
    box-shadow:          inset 5px 5px 15px -7px black;
 }
 .top-buttons .bt{float:right;width:94px}
-.top-buttons{margin: 15px 0px 0px 0px;
-height: 28px;
-width: 282px;}
+.top-buttons{background:#aaaaaa;
+margin: 0px 0px 0px 5px;
+position: relative;
+height: 42px;
+width: 279px;}
 .contant-box{
-
-		height:187px;
-		width:278px;
-		margin: 5px;
-		background:#fff;
-		overflow: hidden;
+height: 190px;
+width: 278px;
+margin: 18px 5px;
+background: #fff;
+overflow: hidden;
 		
 }	
 .contant-box ul {overflow:hidden;height:200px;}
@@ -1805,7 +1812,18 @@ padding: 6px 1px;
 
 .box-row img{float:right}
 .box-row .line-contant{height:50px;}
-	
+.summery-type{float: right;
+margin-right: -1px;
+width: 93px;
+font-size: 14px;
+font-weight: bold;
+margin-top: 1px;
+padding-top: 12px;
+height: 29px;
+display: inline;
+text-align: center;
+border-right: 1px dashed white;}
+.top-buttons a{}
 	/* infinity scroll*/
 
 	    #more{

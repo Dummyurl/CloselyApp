@@ -39,12 +39,24 @@
 		<script src="<?php echo base_url();?>asset/js/modernizr.js"></script>
 		<!-- side menu hoverinit -->
 		<script src="<?php echo base_url();?>asset/js/jquery.hoverIntent.js"></script>
+		<!-- tiny scrollbar-->
+		<script src="<?php echo base_url();?>asset/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
+		<script>
+			(function($){
+				$(window).load(function(){
+					$("#content_1").mCustomScrollbar({
+						autoHideScrollbar:true,
+						theme:"light-thin"
+					});
+				});
+			})(jQuery);
+		</script>
+	
 	<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){			
+		$(document).ready(function(){	
+		
 			$('.shop_image').hoverIntent(overimg,outimg);
-			
-			
 			 function overimg(){ $(this).addClass('over-img-photo')}
 			 function outimg(){ $(this).removeClass('over-img-photo')}
 			
@@ -52,6 +64,31 @@
 			function overme(){ $(this).css('display','block');}
 			function outme(){ $(this).css('display','none');}
 			
+			$('.summery-type[rel=1]').addClass('overli');
+ 			$('.summery-type').hoverIntent(overli,outli);
+			var triangleLeft = {};
+			triangleLeft = $('.infobox-container .triangle-l').position();
+			
+			function overli(){
+				$(this).addClass('overli')
+				var triangle = $(this).attr('rel');
+				switch(triangle)
+				{
+					case "1": $('.infobox-container .triangle-l').css('left','223px') ;
+					break;
+					case "2": $('.infobox-container .triangle-l').css('left','127px');
+					break;
+					case "3": $('.infobox-container .triangle-l').css('left','32px');
+					break;
+				}
+        
+			 }
+	 
+			function outli(){
+				$(this).removeClass('overli');
+				$('.infobox-container .triangle-l').css('left',triangleLeft.left) ;
+			}
+
 			$("a.button").hoverIntent({
 				over: openMenu, 
 				timeout: 200, 
@@ -62,7 +99,7 @@
 			function openpanel(){$(this).animate({height:220},200);}
 			function closepanel(){ $(this).animate({height:44},200);}
 			
-
+			
 	
 		
 		}); 
@@ -82,13 +119,13 @@
 		}
 	</script>
 		
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('.description_box').cycle({
-					fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-				});
-			});
-		</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.description_box').cycle({
+			fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		});
+	});
+</script>
 		
 <script type="text/javascript">
 $(document).ready(function(){
@@ -102,13 +139,7 @@ $(document).ready(function(){
 	});
 });
 </script>
-		
-			<script type="text/javascript">
-			console.log('fff');
-
-	</script>	
-	
-	<script type="text/javascript">
+<script type="text/javascript">
 			$(document).ready(function(){
 			 
 				$("#slider").easySlider({
@@ -124,4 +155,4 @@ $(document).ready(function(){
 					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:530});
 				});
 			});
-		</script>
+</script>
