@@ -136,8 +136,45 @@ margin-right: 15px;
 .side-top-img{position: absolute;
 right: 2px;
 top: 130px;
+height: 157px;
 z-index: -1;}
-.side-top-img img{width:300px}
+.side-top-img input{color: #B9B9B9;
+color: #B9B9B9;
+border: 0px solid #CCC;
+font-weight: bold;
+font-size: 19px;
+float: right;
+width: 290px;
+height: 43px;
+padding: 0 5px;
+margin: 117px -2px;
+text-align: right;
+direction: rtl;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-box-shadow: inset 5px 5px 15px -7px black;
+-webkit-box-shadow: inset 5px 5px 15px -7px black;
+box-shadow: inset 5px 5px 15px -7px black;}
+.side-top-img img{position: absolute;
+top: -25px;
+right: -1px;
+width: 300px;
+display:none;
+height: 133px;}
+.find{border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border: 1px solid #CCC;
+position: absolute;
+bottom: 0px;
+font-size: 19px;
+font-weight: bold;
+color: black;
+left: 3px;
+padding: 7px 12px;
+background: orange;
+}
 /* WIDGETS------------------------------------------------*/
 
 #top-widget-holder{
@@ -1881,6 +1918,7 @@ box-shadow: inset 5px 5px 15px -7px black;
 margin: 54px 2px 0px;
 width: 300px;
 z-index: 1000;
+position: relative;
 text-align: right;
 height: 44px;
 -moz-border-radius-bottomright: 4px;
@@ -1890,15 +1928,25 @@ background-position: left bottom;
 }
 .face-text{float: left;
 color: rgb(15, 26, 148);
-font-size: 15px;
+font-size: 13px;
 font-weight: bold;
-width: 256px;
-margin: 12px -19px 9px 0px;}
-.face-logo{float: right;margin:6px 10px 1px 0px;}
-.face-logo img{width:26px}
+width: 290px;
+margin: 8px 0px 0px 0px;}
+.face-logo{float: right;margin: 10px 6px 1px 0px;}
+.biz-icon{}
+img.fbicon , img.biz-icon {width:18px;float: right;}
+.panel_line a{float: right;padding: 4px 6px 0px 8px;}
 .user-panel-contant{}
 .facebook-connect-text{}
 .top-panel{float: right;
 z-index: 1000;
 margin: 1px 0px 0px 0px;
 width: 303px}
+.panel_contant{display: none;}
+.open_panel{position: absolute;
+bottom: 9px;
+text-align: center;
+width: 306px;
+left: 0px;
+font-size: 21px;}
+.fbconnect{}

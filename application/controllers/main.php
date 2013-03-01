@@ -2,6 +2,11 @@
 
 class Main extends CI_Controller {
 
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Facebook_model');
+    }
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,9 +24,31 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
+		$fb_data = $this->session->userdata('fb_data');
 		 $data['content']['blocks'] = array('slider','banners','shops');
+		 $data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}
+	
+	function topsecret()
+	{
+		$fb_data = $this->session->userdata('fb_data');
+		$this->load->helper('url'); 
+		if((!$fb_data['uid']) or (!$fb_data['me']))
+		{
+			redirect('main');
+		}
+		else
+		{
+			$data = array(
+						'fb_data' => $fb_data,
+						);
+			
+			$this->load->view('topsecret', $data);
+		}
+	}
+	
+	
 }
 
 /* End of file welcome.php */

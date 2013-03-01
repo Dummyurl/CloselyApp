@@ -51,7 +51,7 @@ header{ background: rgb(96,124, 150) url(../img/small-top-bg.png) top left repea
 }
 
 #top-widget-holder a{
-	color: #fff;
+	color: rgb(187, 63, 63);
 }
 
 /* NAVIGATION ------------------------------------------------------------*/

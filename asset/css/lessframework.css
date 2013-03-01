@@ -244,8 +244,11 @@ px      68    160    252    */
 	#logo {
 display: inline-block;
 padding-top: 110px;
-padding-bottom: 126px;
+padding-bottom: 170px;
 margin: 0px -1px;
+}
+.side-top-img{
+top: 150px;
 }
 .button {
 width: 346px;

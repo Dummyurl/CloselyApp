@@ -6,14 +6,25 @@
 						<input type="text" value="הזן קוד קופון">
 						<div class="searchbutton search"><span class="search_text">קבל</span></div>
 						</span>
-						<a href="#">
 						<div class="user-panel" id="panel">
-						<div class="face-text">
-						<div class="user-panel-contant">התחבר עם פייסבוק</div>	
+							<div class="face-text">
+								<div class="user-panel-contant">
+								<?php if(!$fb_data['me']): ?>
+								<div class="panel_line">
+									<img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" class="fbicon" /><a href="<?php echo $fb_data['loginUrl']; ?>" class="fbconnect"><?php echo ' התחבר עם פייסבוק '; ?></a>
+									<img class="biz-icon" src="<?php echo base_url();?>asset/img/bizicon.png" alt="Post" /><a href="#"><?php echo ' בעל עסק? לחץ כאן '; ?></a>	
+								</div>
+								<?php else: ?>
+								<a href="#" class="open_panel">פאנל משתמש</a>
+								<div class="panel_contant">
+								<img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="pic" />
+									<p>Hi <?php echo $fb_data['me']['name']; ?>,<br />
+								<a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p>
+								</div>
+								<?php endif; ?>
+								</div>	
+							</div>
 						</div>
-						<div class="face-logo"><img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" /></div>
-						</div>
-						</a>
 					</div>
 					<div id="top-widget">
 						<div class="padding">
@@ -74,7 +85,9 @@
 							</ul>				
 						</div>
 					</div>
-					<div class="side-top-img"><img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" /></div>
+					<div class="side-top-img">
+					<img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" />
+					<div class="find">חפש</div><input type="text" value="הזן קוד קופון"></div>
 				</div>
 				<a href="#" id="top-open">Menu</a>
 

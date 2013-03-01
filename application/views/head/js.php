@@ -8,11 +8,8 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 		<!-- include Cycle plugin -->
 		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
-		<script src="<?php echo base_url();?>asset/js/facebook.js"></script>
 		 <script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.oembed.js"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>asset/js/wall.js"></script>
-		
-				<!-- Tweet -->
+		<!-- Tweet -->
 		<script src="<?php echo base_url();?>asset/js/tweet/jquery.tweet.js" ></script> 
 		<!-- ENDS Tweet -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/easySlider1.7.js"></script> 
@@ -95,13 +92,14 @@
 				out: closMenu
 			});
 			
+			<?php if($fb_data['me']): ?>
 			 $('#panel').hoverIntent(openpanel,closepanel);
-			function openpanel(){$(this).animate({height:220},200);}
-			function closepanel(){ $(this).animate({height:44},200);}
-			
-			
-	
+			function openpanel(){$(this).animate({height:220},200);$('.panel_contant').css('display','block');}
+			function closepanel(){ $(this).animate({height:44},200);$('.panel_contant').css('display','none');}
+			<?php endif; ?>
 		
+
+	
 		}); 
 
 		

@@ -10,4 +10,7 @@
 		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
 		<link rel="stylesheet" href="<?php echo base_url();?>asset/css/flexslider.css" >
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/lessframework.css"/>
-				<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/skin.css"/>
+		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/skin.css"/>
+		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/jquery.fancybox.css"/>
+
+				
