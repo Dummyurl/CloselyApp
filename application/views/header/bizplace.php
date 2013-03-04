@@ -11,15 +11,23 @@
 								<div class="user-panel-contant">
 								<?php if(!$fb_data['me']): ?>
 								<div class="panel_line">
-									<img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" class="fbicon" /><a href="<?php echo $fb_data['loginUrl']; ?>" class="fbconnect"><?php echo ' התחבר עם פייסבוק '; ?></a>
+									<img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" class="fbicon" /><a href="<?php echo $fb_data['loginUrl']; ?>"  class="fbconnect" onclick = "facebookPopup(this.href); return false"><?php echo ' התחבר עם פייסבוק '; ?></a>
 									<img class="biz-icon" src="<?php echo base_url();?>asset/img/bizicon.png" alt="Post" /><a href="#"><?php echo ' בעל עסק? לחץ כאן '; ?></a>	
 								</div>
 								<?php else: ?>
 								<a href="#" class="open_panel">פאנל משתמש</a>
+								<div class="notification_icons">
+								<img src="<?php echo base_url();?>asset/img/comment.png" alt="Post" class="fbicon" />
+								<img src="<?php echo base_url();?>asset/img/cart.png" alt="Post" class="fbicon" style="margin:-3px 0px;" />
+								<img src="<?php echo base_url();?>asset/img/request.png" alt="Post" class="fbicon" />
+								<img src="<?php echo base_url();?>asset/img/coupons.png" alt="Post" class="fbicon" />
+								</div>
 								<div class="panel_contant">
 								<img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="pic" />
-									<p>Hi <?php echo $fb_data['me']['name']; ?>,<br />
-								<a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p>
+									<p><?php echo $fb_data['me']['name']; ?> ,הי<br />
+								הודעות חדשות<a href="<?php echo $fb_data['logoutUrl']; ?>">7</a>יש לך
+								</p>
+								<!-- <a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p> -->
 								</div>
 								<?php endif; ?>
 								</div>	
@@ -92,3 +100,18 @@
 				<a href="#" id="top-open">Menu</a>
 
 			</div>
+			
+<script type="text/javascript">
+	function facebookPopup (url) {
+		popup = window.open(url, "facebook_popup",
+		"width=620,height=400,status=no,scrollbars=no,resizable=no");
+		popup.focus();
+	}
+	
+	function CloseAndRefresh() 
+    {
+        window.opener.location.href = window.opener.location.href;
+        window.close();
+    }
+</script>			
+			

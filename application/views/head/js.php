@@ -94,7 +94,7 @@
 			
 			<?php if($fb_data['me']): ?>
 			 $('#panel').hoverIntent(openpanel,closepanel);
-			function openpanel(){$(this).animate({height:220},200);$('.panel_contant').css('display','block');}
+			function openpanel(){$(this).animate({height:180},200);$('.panel_contant').css('display','block');}
 			function closepanel(){ $(this).animate({height:44},200);$('.panel_contant').css('display','none');}
 			<?php endif; ?>
 		

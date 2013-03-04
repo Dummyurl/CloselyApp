@@ -6,7 +6,7 @@
 		<?php $this->load->view('head/css'); ?>
 		<?php $this->load->view('head/js'); ?>
 	</head>	
-	<body lang="en">
+	<body lang="en" onload='CloseAndRefresh()'>
 		<!-- loading animation div -->
 		<div id="more" ></div>
 		<header class="clearfix">
