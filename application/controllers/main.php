@@ -28,7 +28,9 @@ class Main extends CI_Controller {
         // $data['query'] = $this->Categories->get_parents();
 		$this->load->model('categories_model');
 		$data['records']['categories'] = $this->categories_model->getAll();
-
+		// Load model for coupons block
+		$this->load->model('coupons_model');
+		$data['content']['records']['coupons'] = $this->coupons_model->getAll();
 		
 		$fb_data = $this->session->userdata('fb_data');
 		 $data['content']['blocks'] = array('slider','banners','shops');

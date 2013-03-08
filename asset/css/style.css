@@ -1521,18 +1521,21 @@ float: left;
 	height: 130px; 
 	margin: 4px 8px 0 7px;
 	float:left; 
-	background:#161613; 
-	border: solid 2px #8399AF; 
-	overflow: hidden; 
+	border-style: dashed;
+	border-width: 1px;
+	border-color: rgb(145, 145, 145);
+
 	position: relative; 
 }
-	.boxgrid img{ 
+	.boxgrid .cover{ 
 	height:130px;
 	width:219px;
 		position: absolute; 
 		top: 0; 
 		left: 0; 
 		border: 0; 
+		color:black;
+		background:white;
 	}
 	.boxgrid p{ 
 		padding: 0 10px; 
@@ -1540,8 +1543,68 @@ float: left;
 		font-weight:bold; 
 		font:10pt "Lucida Grande", Arial, sans-serif; 
 	}
-	
-	
+
+.cover .sale_type{float: left;
+margin: 5px -5px;
+text-align: center;
+background: rgb(3, 129, 177);
+font-weight: bold;
+color: rgb(248, 202, 55);
+font-size: 24px;
+padding: 16px 0px 16px 12px;}
+.cover .sale_content{float: right;
+width: 139px;
+text-align: right;
+margin: 7px 6px 0px 5px;}
+.cover .sale_title{font-size: 15px;
+font-weight: bold;
+color: rgb(201, 0, 0);}
+.cover .sale_description{color: rgb(99, 99, 99);
+font-weight: bold;
+padding: 4px 0px;
+font-size: 12px;}
+.cover .sale_store_logo{float:left;margin: 4px 6px;}
+.cover .sale_store_logo img{width: 100px;
+height: 30px;}
+.cover .sale_status{float: right;
+width: 106px;
+margin: 10px 0px;}
+.cover .sale_status .triangle{border-color: rgba(216, 162, 46, 0) rgb(130, 252, 35) transparent rgba(3, 129, 177, 0);
+border-style: solid;
+border-width: 12px;
+z-index: 100;
+float: left;}	
+.cover .sale_status .state{float: right;
+width: 78px;
+height: 23px;
+background: rgb(130, 252, 35);
+margin: 1px -4px;
+padding: 0px 4px;
+color: white;
+font-weight: bold;
+font-size: 12px;}
+.cover .cutoff{position: absolute;bottom:-22px}
+
+.cover .triangle-l {
+border-color: rgba(216, 162, 46, 0) rgba(182, 126, 41, 0) transparent rgb(3, 129, 177);
+border-style: solid;
+border-width: 25px;
+margin-top: -23px;
+left: 56px;
+top: 28px;
+z-index: 100;
+}
+
+.cover .triangle-small{
+border-color: rgba(216, 162, 46, 0) rgb(2, 19, 111) rgba(255, 0, 0, 0) rgba(253, 0, 0, 0);
+border-style: solid;
+border-width: 5px;
+position: absolute;
+left: -10px;
+top: 52px;
+z-index: -1;
+}
+
 	 .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
             margin:0;
             padding:0;
@@ -1698,6 +1761,7 @@ margin: 68px 12px 37px;}
 background: rgb(25, 168, 162);
 margin: 4px 10px 0px 0px;
 padding: 5px 52px;}
+
 .addon_icons{position: absolute;top:-9px;left:0px;}
 .addon_icons li{display: inline;
 border-style: none;

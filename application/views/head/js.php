@@ -127,20 +127,3 @@ $(document).ready(function(){
 	});
 });
 </script>
-<script type="text/javascript">
-			$(document).ready(function(){
-			 
-				$("#slider").easySlider({
-					auto: true,
-					continuous: true,
-					nextId: "slider1next",
-					prevId: "slider1prev",
-					hoverpause: true 
-				});
-				$('.boxgrid.slidedown').hover(function(){
-					$(".cover", this).stop().animate({top:'-260px'},{queue:false,duration:530});
-				}, function() {
-					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:530});
-				});
-			});
-</script>
