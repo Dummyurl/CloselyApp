@@ -1177,6 +1177,11 @@ position: absolute;
 top: 10px;
 left: 20px;
 }
+.subcategories{}
+.subcategories_line{color: black;
+font-size: 15px;
+margin: 4px 10px 2px 10px;
+text-align: right;}
 .categories_list{float:right; margin: 0px 25px;}
 /* 	.login{
 		position:relative;
@@ -1829,10 +1834,14 @@ height: 190px;
 width: 278px;
 margin: 18px 5px;
 background: #fff;
-overflow: hidden;
+
 		
 }	
-.contant-box ul {overflow:hidden;height:200px;}
+.contant-box ul {
+				width: 100%;
+				height: 187px;
+				overflow: auto;
+			}
 .box-row{
 background: url(../img/dash-x-grey.png) repeat-x;
 padding: 6px 1px;
@@ -1932,8 +1941,8 @@ background-position: left bottom;
 color: rgb(15, 26, 148);
 font-size: 13px;
 font-weight: bold;
-width: 290px;
-margin: 8px 0px 0px 0px;}
+width: 300px;
+margin: 10px 0px 0px -8px;}
 .face-logo{float: right;margin: 10px 6px 1px 0px;}
 .biz-icon{}
 .panel_line img.fbicon , img.biz-icon {width:18px;float: right;}
@@ -1945,7 +1954,7 @@ z-index: 1000;
 margin: 1px 0px 0px 0px;
 width: 303px}
 .panel_contant{display: none;}
-.panel_contant img{float:right;}
+.panel_contant img.pic{float:right; margin: 0px 11px 0px 0px;}
 .panel_contant p{float: left;
 width: 211px;
 margin: -16px 0px;}
@@ -1961,3 +1970,216 @@ float: left;
 left: 6px;}
 .notification_icons img{float:left;background: url(../img/line.png) no-repeat top right;padding:0px 3px;}
 .fbconnect{}
+.mypanel_buttons{padding: 60px 1px;
+margin: 12px 2px 12px 6px;}
+.mypanel_buttons img {float: left;
+padding: 0px 2px 0px 4px;}
+
+
+
+./*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+	right: 0px;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+.jspHorizontalBar,
+.jspVerticalBar,
+.jspTrack
+{
+background: #eeeef4;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+width: 8px;
+left: 2px;
+border-radius: 10px;
+}
+
+.jspDrag
+{
+	background: rgb(62, 62, 117);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+width: 10px;
+left: -2px;
+border-radius: 10px;
+}
+
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.jspDrag:hover
+{
+	background: #8B8B9F;
+}
+
+
+.jspArrow
+{
+	background: url(../img/ui-icons_222222_256x240.png) no-repeat;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.jspVerticalBar>.jspActive,
+.jspArrow:hover
+{
+	background-image: url('../img/ui-icons_cd0a0a_256x240.png');
+}
+
+.jspVerticalBar>.jspDisabled,
+.jspVerticalBar>.jspDisabled:hover,
+.jspHorizontalBar>.jspDisabled,
+.jspHorizontalBar>.jspDisabled:hover
+{
+	background-color: transparent;
+	background-image: url('../img/ui-icons_888888_256x240.png');
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 15px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 15px;
+}
+
+.jspArrowUp
+{
+	background-position: 0 0;
+}
+
+.jspArrowDown
+{
+	background-position: -64px 0 !important; 
+}
+
+.jspArrowLeft
+{
+	background-position: -96px 0 !important;
+}
+
+.jspArrowRight
+{
+	background-position: -32px 0 !important;
+}
+.jspContainer{position: relative;}

@@ -24,7 +24,11 @@
 ############################################
 ## default index file
 
-    DirectoryIndex index.php
+  ##  DirectoryIndex index.php
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule .* index.php/$0 [PT,L] 
 
 <IfModule mod_php5.c>
 
@@ -121,7 +125,7 @@
 ## path relative to web root
 
     #RewriteBase /magento/
-	
+
 Options +FollowSymLinks -MultiViews
 # Turn mod_rewrite on
 RewriteEngine On

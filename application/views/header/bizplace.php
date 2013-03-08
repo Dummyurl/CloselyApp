@@ -27,6 +27,13 @@
 									<p><?php echo $fb_data['me']['name']; ?> ,הי<br />
 								הודעות חדשות<a href="<?php echo $fb_data['logoutUrl']; ?>">7</a>יש לך
 								</p>
+								<div class="mypanel_buttons">
+									<img src="<?php echo base_url();?>asset/img/buttons/mysetting.png" alt="Post" class="panel_btn" />
+									<img src="<?php echo base_url();?>asset/img/buttons/myfav.png" alt="Post" class="panel_btn" />
+									<img src="<?php echo base_url();?>asset/img/buttons/myclubs.png" alt="Post" class="panel_btn" />
+									<img src="<?php echo base_url();?>asset/img/buttons/mycoupons.png" alt="Post" class="panel_btn" />
+									<img src="<?php echo base_url();?>asset/img/buttons/myshops.png" alt="Post" class="panel_btn" />
+								</div>
 								<!-- <a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p> -->
 								</div>
 								<?php endif; ?>

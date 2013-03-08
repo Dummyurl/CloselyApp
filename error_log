@@ -63,3 +63,46 @@
 [04-Mar-2013 01:47:10] CSRF state token does not match one provided.
 [04-Mar-2013 08:52:21] CSRF state token does not match one provided.
 [04-Mar-2013 09:38:59] CSRF state token does not match one provided.
+[05-Mar-2013 11:11:50] CSRF state token does not match one provided.
+[06-Mar-2013 12:36:11] CSRF state token does not match one provided.
+[07-Mar-2013 09:08:53] PHP Fatal error:  Class 'Model' not found in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 3
+[07-Mar-2013 09:11:22] PHP Fatal error:  Call to a member function get() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
+[07-Mar-2013 09:53:48] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
+[07-Mar-2013 09:53:49] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
+[07-Mar-2013 09:56:00] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
+[07-Mar-2013 09:56:21] PHP Fatal error:  Call to a member function get() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
+[07-Mar-2013 09:56:23] PHP Fatal error:  Call to a member function get() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
+[07-Mar-2013 10:05:51] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 55
+[07-Mar-2013 10:06:55] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 55
+[07-Mar-2013 10:06:56] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 55
+[07-Mar-2013 10:07:33] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 47
+[07-Mar-2013 10:07:54] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 57
+[07-Mar-2013 10:07:56] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 57
+[07-Mar-2013 10:08:04] PHP Fatal error:  Class 'Model' not found in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 3
+[07-Mar-2013 10:08:20] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
+[07-Mar-2013 10:08:35] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 8
+[07-Mar-2013 10:08:38] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 8
+[07-Mar-2013 11:00:04] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 8
+[07-Mar-2013 11:00:26] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
+[07-Mar-2013 11:01:49] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::select() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
+[07-Mar-2013 11:33:08] PHP Fatal error:  Class 'Model' not found in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 3
+[07-Mar-2013 14:25:46] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
+[07-Mar-2013 14:25:48] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
+[07-Mar-2013 14:25:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
+[07-Mar-2013 14:25:53] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
+[07-Mar-2013 14:25:55] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
+[07-Mar-2013 14:25:55] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
+[07-Mar-2013 15:09:37] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 16
+[07-Mar-2013 15:09:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 16
+[07-Mar-2013 15:09:40] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 16
+[07-Mar-2013 15:33:09] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 30
+[07-Mar-2013 15:33:45] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 30
+[08-Mar-2013 04:18:54] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 33
+[08-Mar-2013 04:20:19] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 29
+[08-Mar-2013 04:20:20] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 29
+[08-Mar-2013 04:44:36] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
+[08-Mar-2013 04:44:37] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
+[08-Mar-2013 04:44:39] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
+[08-Mar-2013 04:44:51] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
+[08-Mar-2013 04:46:52] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
+[08-Mar-2013 04:46:59] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1

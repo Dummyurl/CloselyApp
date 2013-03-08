@@ -20,7 +20,7 @@
 				<div id="slider-holder" class="clearfix">
 					<div class="home-slider-clearfix "></div>
 		        	<!-- Headline -->
-					<?php $this->load->view('side/buttons'); ?>
+					<?php $this->load->view('side/buttons',$records); ?>
 		        	<!-- ENDS headline -->
 					<!-- slider -->
 					<div id="content-block">

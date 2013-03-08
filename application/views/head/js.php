@@ -38,7 +38,9 @@
 		<script src="<?php echo base_url();?>asset/js/jquery.hoverIntent.js"></script>
 		<!-- tiny scrollbar-->
 		<script src="<?php echo base_url();?>asset/js/jquery.mCustomScrollbar.concat.min.js"></script>
-
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.mousewheel.js"></script>
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.jscrollpane.min.js"></script>
 		<script>
 			(function($){
 				$(window).load(function(){
@@ -86,11 +88,7 @@
 				$('.infobox-container .triangle-l').css('left',triangleLeft.left) ;
 			}
 
-			$("a.button").hoverIntent({
-				over: openMenu, 
-				timeout: 200, 
-				out: closMenu
-			});
+
 			
 			<?php if($fb_data['me']): ?>
 			 $('#panel').hoverIntent(openpanel,closepanel);
@@ -98,23 +96,15 @@
 			function closepanel(){ $(this).animate({height:44},200);$('.panel_contant').css('display','none');}
 			<?php endif; ?>
 		
+			$(function(){
+				$('.contant-box ul').jScrollPane({
 
+				});
+			});
 	
 		}); 
 
-		
-		function openMenu(){ 
-			prev = $('.navigation-bubble').html();
-			var position = $(this).position();
-			var id = $(this).attr('id');
-			$('.navigation-bubble').fadeIn('slow');
-			$(".navigation-bubble").css("top",position.top)
-			$(".navigation-bubble").css("left",position.left-340)
-			$('.bubble-top .btn_txt').text($("#"+id+' p').text());
-		}
-		function closMenu(){ 
-			$('.navigation-bubble').hide();
-		}
+
 	</script>
 		
 <script type="text/javascript">

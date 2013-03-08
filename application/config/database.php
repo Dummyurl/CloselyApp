@@ -45,12 +45,12 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'nmazuz_shoppix';
-$db['default']['password'] = 'G*3FWei3TwOJ';
+$db['default']['username'] = 'nmazuz';
+$db['default']['password'] = '3fyp-Uq4joSy';
 $db['default']['database'] = 'nmazuz_shoppix';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
