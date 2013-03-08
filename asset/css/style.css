@@ -1141,15 +1141,18 @@ font-size: 13px;
 font-family: gisha;
 	}
 
-.btn_txt{margin: 0px 66px;font-size: 23px;
+.btn_txt{margin: 0px 0px 0px 145px;
+font-size: 25px;
+background: url(../img/double-dash-x-grey.png) repeat-x bottom;
+width: 161px;
 color: rgb(207, 96, 21);}
+p.btn_txt {padding: 12px 0px;}
 .navigation-bubble{
 position: absolute;
 right: 94px;
 z-index: 100;
 top: 28px;
 display:none;
-
 }
 
 .bubble-top{background: url(../img/bubble-top2.png) no-repeat;
