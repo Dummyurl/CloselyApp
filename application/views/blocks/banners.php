@@ -2,13 +2,17 @@
 <div class="block_title_container">
 	<div class="double_grey_single_divider"></div>	
 	<div class="block_title">...קופונים אחרונים</div>
+	<div class="triangle_blocks "></div>
 	<div class="double_grey_double_divider"></div>
 </div>
 <div id="slider">	
 <?php $i = 0; ?>	
 			<ul>
 			<?php foreach ($coupons as $coupon) : ?>
-			<?php $i++; ?>		
+			<?php $storeInfo = $this->catalog_model->getStoreInfo($coupon->store_id) ?>
+			<?php $shopInfo = $this->catalog_model->getShopInfo($coupon->shop_id) ?>
+			<?php $userInfo = $this->coupons_model->getUserInfo	($coupon->user_id) ?>
+			<?php $i++; ?>	
 				<?php if ($i%3 == 1 ) :?>
 				<li>
 				<?php endif ?>		
@@ -23,15 +27,21 @@
 								<div class="sale_description"><?php echo $coupon->description ?></div>
 							</div>
 							<div class="clearfix"></div>
-							<div class="sale_store_logo"><img src="<?php echo base_url();?>asset/img/cupons/co1.jpg"/></div>
+							<div class="sale_store_logo"><img src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?>"/></div>
 							<div class="sale_status">
 								<div class="state"><?php echo $coupon->expierement ?> :עד</div>
 								<div class="triangle"></div>
 							</div>
 							<div class="cutoff"><img src="<?php echo base_url();?>asset/img/cutoff.png"/></div>
 						</div>
-							<h3>The Nonsense Society</h3>
-							<p>Art, Music, Word<br/><a href="http://www.nonsensesociety.com" target="_BLANK">Website</a></p>	
+						<div class="coupon_over">
+							<img src="https://graph.facebook.com/<?php echo $coupon->user_id ?>/picture"/>
+							<div class="coupon_shop"><?php echo ':הקנייה </br>' .  $shopInfo[0]->shop_title ?></div>
+							<div class="clearfix"></div>
+							<p class="coupon_adder"><?php echo $userInfo[0]->user_name  . ' :נוסף ע"י'?></p>
+							<div class="ask_for_coupon">בקש קופון</div>
+							<div class="shop_info">פרטי הקנייה</div>
+						</div>
 					</div>	
 				<?php if ($i%3 == 0 ) :?>
 				</li>

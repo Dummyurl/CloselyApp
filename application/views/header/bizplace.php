@@ -101,6 +101,9 @@
 						</div>
 					</div>
 					<div class="side-top-img">
+					<div class="feed">
+						<div class="gradient_bg">
+					</div>
 					<img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" />
 					<div class="find">חפש</div><input type="text" value="הזן קוד קופון"></div>
 				</div>

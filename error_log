@@ -106,3 +106,7 @@
 [08-Mar-2013 04:44:51] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
 [08-Mar-2013 04:46:52] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
 [08-Mar-2013 04:46:59] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
+[09-Mar-2013 09:40:02] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/catalog_model.php on line 24
+[09-Mar-2013 11:08:10] CSRF state token does not match one provided.
+[09-Mar-2013 11:49:35] CSRF state token does not match one provided.
+[10-Mar-2013 12:38:49] CSRF state token does not match one provided.

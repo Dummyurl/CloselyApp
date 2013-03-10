@@ -41,23 +41,11 @@
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.mousewheel.js"></script>
 		<!-- the jScrollPane script -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.jscrollpane.min.js"></script>
-		<script>
-			(function($){
-				$(window).load(function(){
-					$("#content_1").mCustomScrollbar({
-						autoHideScrollbar:true,
-						theme:"light-thin"
-					});
-				});
-			})(jQuery);
-		</script>
-	
+
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){	
 		
-			$('.shop_image').hoverIntent(overimg,outimg);
-			 function overimg(){ $(this).addClass('over-img-photo')}
-			 function outimg(){ $(this).removeClass('over-img-photo')}
+
 			
 			$('.navigation-bubble').hoverIntent(overme,outme);
 			function overme(){ $(this).css('display','block');}

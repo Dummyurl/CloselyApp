@@ -13,4 +13,10 @@ class coupons_model extends ci_Model {
 		}
 	}
 	
+	function getUserInfo($id) {
+		$this->db->where('user_id', $id); 
+		$q = $this->db->get('fusers');
+		return $q->result();	
+	}	
+	
 }

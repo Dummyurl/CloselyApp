@@ -31,6 +31,9 @@ class Main extends CI_Controller {
 		// Load model for coupons block
 		$this->load->model('coupons_model');
 		$data['content']['records']['coupons'] = $this->coupons_model->getAll();
+		// Load model for shops block		
+		$this->load->model('catalog_model');
+		$data['content']['records']['last_shops'] = $this->catalog_model->getAll();
 		
 		$fb_data = $this->session->userdata('fb_data');
 		 $data['content']['blocks'] = array('slider','banners','shops');
