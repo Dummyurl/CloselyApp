@@ -101,10 +101,15 @@
 						</div>
 					</div>
 					<div class="side-top-img">
-					<div class="feed">
-						<div class="gradient_bg">
-					</div>
-					<img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" />
+					<?php
+/* 					<div class="feed">
+						<div class="gradient_bg"></div>
+						<div class="feed_line"><img src="https://graph.facebook.com/1130160922/picture" alt="Post" /></div>
+						<div class="feed_line"><img src="https://graph.facebook.com/1130160922/picture" alt="Post" /></div>
+						<div class="feed_line"><img src="https://graph.facebook.com/1130160922/picture" alt="Post" /></div>
+					</div> */
+					?>
+					<?php /* <img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" /> */ ?>
 					<div class="find">חפש</div><input type="text" value="הזן קוד קופון"></div>
 				</div>
 				<a href="#" id="top-open">Menu</a>
