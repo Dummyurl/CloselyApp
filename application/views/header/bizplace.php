@@ -101,6 +101,7 @@
 						</div>
 					</div>
 					<div class="side-top-img">
+
 					<?php
 /* 					<div class="feed">
 						<div class="gradient_bg"></div>
