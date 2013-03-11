@@ -1,30 +1,4 @@
 				<!-- right side boxes -->	
-				
-			<div class="info_box">
-				<div class="infobox-container"> 
-				
-						<div class="infobox" style="height:300px">  
-							<h3><span>פעולות אחרונות</span></h3> 
-							<div class="triangle-l topfix"></div>
-							<div class="contant-box-feed">
-								<div class="contant-box-feed">
-								<ul>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								</ul>
-								</div>			
-							</div>	
-							<a href="" class="showswitch right_radius selected_switch" id="switch-1" onclick="return false;">החברים שלי</a>
-							<a href="" class="showswitch left_radius" id="switch-2" onclick="return false;">כולם</a>								
-
-						</div> 
-				</div>
-			</div>	
-			
 			<div class="info_box">
 				<div class="infobox-container"> 
 						<div class="infobox big">  
@@ -36,12 +10,12 @@
 							<div class="contant-box fix_box">
 								<div class="contant-box">
 								<ul>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
+								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
+								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
+								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
+								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
+								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
+								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
 								</ul>
 								</div>			
 							</div>	
@@ -52,7 +26,55 @@
 							</div>	
 						</div> 
 				</div>
+			</div>		
+			<div class="info_box">
+				<div class="infobox-container"> 
+				
+						<div class="infobox" style="height:300px">  
+							<h3><span>פעולות אחרונות</span></h3> 
+							<div class="triangle-l topfix"></div>
+							<div class="contant-box-feed">
+								<div class="contant-box-feed">
+								<ul>
+								<li class="box-row">
+									<div class="line-contant">
+										<img src="https://graph.facebook.com/1130160922/picture"/>
+										<div class="feed_text">Niso mazuz הוסיף קופון חדש בארומה</div>
+										<div class="feed_text title">מאפה חינם בכל קנייה של קפה בוקר</div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+										<img src="https://graph.facebook.com/1130160922/picture"/>
+										<div class="feed_text">Niso mazuz הוסיף קופון חדש בארומה</div>
+										<div class="feed_text title">מאפה חינם בכל קנייה של קפה בוקר</div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+										<img src="https://graph.facebook.com/1130160922/picture"/>
+										<div class="feed_text">Niso mazuz הוסיף קופון חדש בארומה</div>
+										<div class="feed_text title">מאפה חינם בכל קנייה של קפה בוקר</div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+										<img src="https://graph.facebook.com/1130160922/picture" />
+										<div class="feed_text">Niso mazuz הוסיף קופון חדש בארומה</div>
+										<div class="feed_text title">מאפה חינם בכל קנייה של קפה בוקר</div>
+									</div>
+								</li>
+								</ul>
+								</div>			
+							</div>	
+							<a href="" class="showswitch right_radius selected_switch" id="switch-1" onclick="return false;">החברים שלי</a>
+							<a href="" class="showswitch left_radius" id="switch-2" onclick="return false;">כולם</a>								
+
+						</div> 
+				</div>
 			</div>	
+			
+			
 			
 			<div class="info_box">
 				<div class="infobox-container"> 
@@ -69,12 +91,12 @@
 							</div>	
 							<div class="contant-box">
 							<ul>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture" width="50" height="50" /></div></li>
+							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
+							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
+							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
+							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
+							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
+							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
 							</ul>
 							</div>			
 						</div> 

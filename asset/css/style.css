@@ -1933,6 +1933,11 @@ margin: 8px 4px;
 .freinds_button img{position: absolute;
 top: 8px;
 right: 8px;}
+.freind_name{color: rgb(90, 90, 90);
+position: absolute;
+right: 58px;
+font-size: 15px;
+margin: 11px;}
 .button_triangle{
 border-color: rgba(216, 162, 46, 0) rgb(184, 184, 184) transparent rgba(3, 129, 177, 0);
 border-style: solid;
@@ -1965,7 +1970,6 @@ border-bottom: rgba(0, 0, 0, .4) 1px solid;
 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 box-shadow: 0 1px 2px rgba(0,0,0,.2);
 background: -moz-linear-gradient( center top, rgba(255, 255, 255, .1) 0%, rgba(0, 0, 0, .1) 100% );
-background: -webkit-gradient( linear, center bottom, center top, from(rgba(0, 0, 0, .1)), to(rgba(255, 255, 255, .1)) );
 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
 -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";
 -moz-user-select: none;
@@ -2039,6 +2043,12 @@ box-shadow: none;
 .contant-box-feed{margin: 9px 2px;
 overflow: hidden;
 height: 200px;}
+.feed_text{color: black;
+padding: 0px 63px 0px 0px;
+font-size: 13px;}
+.title{color: rgb(230, 17, 17);
+font-weight: bold;
+}
 .contant-box ul {
 				width: 100%;
 				height: 187px;
@@ -2060,7 +2070,8 @@ padding: 6px 1px;
 }
 
 .box-row img{float:right}
-.box-row .line-contant{height:50px;}
+.box-row .line-contant{height: 40px;}
+.box-row .line-contant img{height: 40px; width: 40px;}
 .summery-type{float: right;
 margin-right: -1px;
 width: 93px;
