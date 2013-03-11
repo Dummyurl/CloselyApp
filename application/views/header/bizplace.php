@@ -101,7 +101,7 @@
 						</div>
 					</div>
 					<div class="side-top-img">
-					<div class="feed">
+					<div class="feed"></div>
 						<div class="gradient_bg">
 					</div>
 					<img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" />

@@ -84,11 +84,7 @@
 			function closepanel(){ $(this).animate({height:44},200);$('.panel_contant').css('display','none');}
 			<?php endif; ?>
 		
-			$(function(){
-				$('.contant-box ul').jScrollPane({
 
-				});
-			});
 	
 		}); 
 
