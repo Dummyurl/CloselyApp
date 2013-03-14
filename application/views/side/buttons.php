@@ -2,6 +2,7 @@
 						<div class="navigation-bubble">
 							<div class="bubble-top"><p class="btn_txt"></p></div>
 							<div class="bubble-center">
+							<img id="loading-image" src="<?php echo base_url();?>asset/img/ajax-loader.gif" />
 							</div>	
 							<div class="bubble-bottom"></div>	
 						</div>	
@@ -45,8 +46,12 @@ jQuery(document).ready(function($){
 		$.ajax({
 			type: 'POST',    
 			url:url,
+			beforeSend: function() {
+              $("#loading-image").show();
+           },
 			success: function(msg){	
-				$('.bubble-center').html(msg);
+				 $("#loading-image").hide();
+				 $('.bubble-center').html(msg);
 			}
 		});
 
@@ -54,7 +59,7 @@ jQuery(document).ready(function($){
 
 		}
 		$('.navigation-bubble').fadeIn('slow');
-		$('.bubble-center').html('');
+		$('.bubble-center').html('<img id="loading-image" src="' + '<?php echo base_url();?>' + 'asset/img/ajax-loader.gif" />');
 		$(".navigation-bubble").css("top",position.top)
 		$(".navigation-bubble").css("left",position.left-340)
 	    $('.bubble-top .btn_txt').text($("#"+id+' p').text());
@@ -62,7 +67,6 @@ jQuery(document).ready(function($){
 	function closMenu(){ 
 		$('.navigation-bubble').hide();
 	}
-	
 
 });
 </script>

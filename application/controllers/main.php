@@ -24,6 +24,7 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
+		
 		//$this->load->model('Categories');
         // $data['query'] = $this->Categories->get_parents();
 		$this->load->model('categories_model');
@@ -34,8 +35,8 @@ class Main extends CI_Controller {
 		// Load model for shops block		
 		$this->load->model('catalog_model');
 		$data['content']['records']['last_shops'] = $this->catalog_model->getAll();
-		
 		$fb_data = $this->session->userdata('fb_data');
+		// Load model for USERS	
 		 $data['content']['blocks'] = array('slider','banners','shops');
 		 $data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);

@@ -80,8 +80,8 @@
 			
 			<?php if($fb_data['me']): ?>
 			 $('#panel').hoverIntent(openpanel,closepanel);
-			function openpanel(){$(this).animate({height:180},200);$('.panel_contant').css('display','block');}
-			function closepanel(){ $(this).animate({height:44},200);$('.panel_contant').css('display','none');}
+			function openpanel(){$(this).animate({top:6},600);$('.panel_contant').css('display','block');}
+			function closepanel(){ $(this).animate({top:-135},600);$('.panel_contant').css('display','none');}
 			<?php endif; ?>
 		
 

@@ -10,12 +10,60 @@
 							<div class="contant-box fix_box">
 								<div class="contant-box">
 								<ul>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
-								<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /><div class="freind_name">Nisim Mazuz</div></div></li>
+								<li class="box-row">
+									<div class="line-contant">
+									<img src="https://graph.facebook.com/1130160922/picture"  />
+									<div class="freind_name">Nisim Mazuz</div>
+										<div class="freind_cnt"><div class="cnt_bubble">55</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">1</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+									<img src="https://graph.facebook.com/1130160922/picture"  />
+									<div class="freind_name">Nisim Mazuz</div>
+										<div class="freind_cnt"><div class="cnt_bubble">5</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">1</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+									<img src="https://graph.facebook.com/1130160922/picture"  />
+									<div class="freind_name">Nisim Mazuz</div>
+										<div class="freind_cnt"><div class="cnt_bubble">5</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">765</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+									<img src="https://graph.facebook.com/1130160922/picture"  />
+									<div class="freind_name">Nisim Mazuz</div>
+										<div class="freind_cnt"><div class="cnt_bubble">53</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">111</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+									<img src="https://graph.facebook.com/1130160922/picture"  />
+									<div class="freind_name">Nisim Mazuz</div>
+										<div class="freind_cnt"><div class="cnt_bubble">0</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">0</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">0</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+									</div>
+								</li>
+								<li class="box-row">
+									<div class="line-contant">
+									<img src="https://graph.facebook.com/1130160922/picture"  />
+									<div class="freind_name">Nisim Mazuz</div>
+										<div class="freind_cnt"><div class="cnt_bubble">5</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">234</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+										<div class="freind_cnt"><div class="cnt_bubble">18</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+									</div>
+								</li>
 								</ul>
 								</div>			
 							</div>	

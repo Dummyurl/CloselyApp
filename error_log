@@ -113,3 +113,38 @@
 [11-Mar-2013 13:41:19] CSRF state token does not match one provided.
 [11-Mar-2013 13:41:19] CSRF state token does not match one provided.
 [11-Mar-2013 13:47:35] CSRF state token does not match one provided.
+[13-Mar-2013 02:11:07] CSRF state token does not match one provided.
+[13-Mar-2013 02:24:38] PHP Fatal error:  Can't use method return value in write context in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 54
+[13-Mar-2013 02:26:07] PHP Fatal error:  Can't use method return value in write context in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 54
+[13-Mar-2013 02:26:37] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 55
+[13-Mar-2013 11:15:13] CSRF state token does not match one provided.
+[13-Mar-2013 11:29:03] CSRF state token does not match one provided.
+[13-Mar-2013 12:05:59] CSRF state token does not match one provided.
+[13-Mar-2013 12:13:27] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
+[13-Mar-2013 12:14:43] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
+[13-Mar-2013 12:15:27] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
+[13-Mar-2013 12:19:47] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
+[13-Mar-2013 12:19:49] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
+[13-Mar-2013 12:23:34] PHP Fatal error:  Cannot redeclare class Main in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 66
+[13-Mar-2013 12:25:00] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
+[13-Mar-2013 12:35:57] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
+[13-Mar-2013 12:42:56] PHP Fatal error:  Can't use method return value in write context in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 8
+[13-Mar-2013 12:55:01] PHP Fatal error:  Call to a member function api() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 29
+[13-Mar-2013 13:03:00] OAuthException: Error validating access token: User 1130160922 has not authorized application 233297683465645.
+[13-Mar-2013 13:04:16] CSRF state token does not match one provided.
+[13-Mar-2013 13:04:16] CSRF state token does not match one provided.
+[13-Mar-2013 13:16:21] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 30
+[13-Mar-2013 13:16:21] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 30
+[13-Mar-2013 13:34:04] CSRF state token does not match one provided.
+[13-Mar-2013 13:34:21] CSRF state token does not match one provided.
+[13-Mar-2013 13:34:22] CSRF state token does not match one provided.
+[13-Mar-2013 13:34:42] CSRF state token does not match one provided.
+[13-Mar-2013 13:34:44] CSRF state token does not match one provided.
+[13-Mar-2013 13:47:33] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
+[13-Mar-2013 13:48:19] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
+[13-Mar-2013 13:48:20] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
+[13-Mar-2013 13:48:21] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
+[13-Mar-2013 13:48:40] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
+[13-Mar-2013 15:34:10] PHP Parse error:  syntax error, unexpected '{' in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 17
+[13-Mar-2013 15:34:29] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 13
+[13-Mar-2013 15:35:26] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 13
