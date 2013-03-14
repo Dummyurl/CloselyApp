@@ -148,3 +148,11 @@
 [13-Mar-2013 15:34:10] PHP Parse error:  syntax error, unexpected '{' in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 17
 [13-Mar-2013 15:34:29] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 13
 [13-Mar-2013 15:35:26] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 13
+[14-Mar-2013 11:11:36] CSRF state token does not match one provided.
+[14-Mar-2013 11:34:44] PHP Parse error:  syntax error, unexpected T_RETURN in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 50
+[14-Mar-2013 11:57:06] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/nmazuz/public_html/getlike.net/application/views/side/sidebar.php on line 29
+[14-Mar-2013 12:00:30] CSRF state token does not match one provided.
+[14-Mar-2013 12:00:32] CSRF state token does not match one provided.
+[14-Mar-2013 12:03:44] PHP Parse error:  syntax error, unexpected T_IF in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 63
+[14-Mar-2013 12:09:53] CSRF state token does not match one provided.
+[14-Mar-2013 12:09:55] CSRF state token does not match one provided.

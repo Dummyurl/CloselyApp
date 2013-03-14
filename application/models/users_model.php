@@ -43,4 +43,46 @@ class users_model extends ci_Model {
 		return true;
 	}
 	
+	function getFreinds($id) {
+		$this->db->where('user_id', $id); 
+		$q = $this->db->get('fusers');
+		$res = $q->result();
+		$freindsArr = unserialize($res[0]->freinds);
+		$freindsList = array();
+ 		foreach($freindsArr['data'] as $freind){
+			$freindsList[$freind['id']]	= $freind['name'];
+		} 
+		return $freindsList;
+	}
+	
+	function isUserExist($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('fusers');
+		if ($q->result()){
+			return true;
+		}
+		return false;
+	}
+	
+	function countCoupons($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('coupons');
+		$rowcount = $q->num_rows();
+		return $rowcount;
+	}
+	
+	function countShops($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('shopping');
+		$rowcount = $q->num_rows();
+		return $rowcount;
+	}
+	
+	function countComments($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('comments');
+		$rowcount = $q->num_rows();
+		return $rowcount;
+	}
+	
 }

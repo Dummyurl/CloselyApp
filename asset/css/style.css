@@ -2194,6 +2194,12 @@ background-position: left bottom;
 -webkit-box-shadow: 0px 20px 20px -18px rgba(0, 0, 0, 0.84);
 
 }
+
+.panel_line{position: absolute;
+bottom: 4px;
+right: 10px;
+}
+
 .face-text{float: left;
 color: rgb(15, 26, 148);
 font-size: 13px;

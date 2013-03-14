@@ -1,4 +1,12 @@
 				<!-- right side boxes -->	
+			<?php if($fb_data['me']): ?>
+			<?php $id = $fb_data['me']['id'] ?>
+			<?php $this->load->model('users_model'); ?>
+			<?php $freinds = $this->users_model->getFreinds($id); ?>
+			<?php $freinds_shops_cnt = 0; ?>
+			<?php $freinds_coupons_cnt = 0; ?>
+			<?php $freinds_comments_cnt = 0; ?>
+			
 			<div class="info_box">
 				<div class="infobox-container"> 
 						<div class="infobox big">  
@@ -10,71 +18,34 @@
 							<div class="contant-box fix_box">
 								<div class="contant-box">
 								<ul>
-								<li class="box-row">
-									<div class="line-contant">
-									<img src="https://graph.facebook.com/1130160922/picture"  />
-									<div class="freind_name">Nisim Mazuz</div>
-										<div class="freind_cnt"><div class="cnt_bubble">55</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">1</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-									</div>
-								</li>
-								<li class="box-row">
-									<div class="line-contant">
-									<img src="https://graph.facebook.com/1130160922/picture"  />
-									<div class="freind_name">Nisim Mazuz</div>
-										<div class="freind_cnt"><div class="cnt_bubble">5</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">1</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-									</div>
-								</li>
-								<li class="box-row">
-									<div class="line-contant">
-									<img src="https://graph.facebook.com/1130160922/picture"  />
-									<div class="freind_name">Nisim Mazuz</div>
-										<div class="freind_cnt"><div class="cnt_bubble">5</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">765</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-									</div>
-								</li>
-								<li class="box-row">
-									<div class="line-contant">
-									<img src="https://graph.facebook.com/1130160922/picture"  />
-									<div class="freind_name">Nisim Mazuz</div>
-										<div class="freind_cnt"><div class="cnt_bubble">53</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">23</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">111</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-									</div>
-								</li>
-								<li class="box-row">
-									<div class="line-contant">
-									<img src="https://graph.facebook.com/1130160922/picture"  />
-									<div class="freind_name">Nisim Mazuz</div>
-										<div class="freind_cnt"><div class="cnt_bubble">0</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">0</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">0</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-									</div>
-								</li>
-								<li class="box-row">
-									<div class="line-contant">
-									<img src="https://graph.facebook.com/1130160922/picture"  />
-									<div class="freind_name">Nisim Mazuz</div>
-										<div class="freind_cnt"><div class="cnt_bubble">5</div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">234</div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-										<div class="freind_cnt"><div class="cnt_bubble">18</div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-									</div>
-								</li>
+								<?php foreach ($freinds as $uid=>$name) : ?>
+									<?php if ($this->users_model->isUserExist($uid)) : ?>
+										<li class="box-row">
+											<div class="line-contant">
+											<img src="https://graph.facebook.com/<?php echo $uid ?>/picture"  />
+											<div class="freind_name"><?php echo $name ?></div>
+												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $shopsCnt = $this->users_model->countShops($uid); ?></div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $couponsCnt = $this->users_model->countCoupons($uid); ?></div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $commentsCnt = $this->users_model->countComments($uid); ?></div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+											</div>
+										</li>
+										<?php $freinds_shops_cnt += $shopsCnt; ?>
+										<?php $freinds_coupons_cnt += $couponsCnt; ?>
+										<?php $freinds_comments_cnt += $commentsCnt; ?>
+									<?php endif ?>
+								<?php endforeach ?>
 								</ul>
 								</div>			
 							</div>	
 							<div class="buttons_container">
-								<div class="freinds_button"><div class = "button_triangle"></div>[<span class="counter">55</span>] קניות של חברים<img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-								<div class="freinds_button"><div class = "button_triangle"></div>[<span class="counter">55</span>] המלצות של חברים<img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
-								<div class="freinds_button"><div class = "button_triangle"></div>[<span class="counter">55</span>] קופונים של חברים<img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
+								<div class="freinds_button"><div class = "button_triangle"></div>[<span class="counter"><?php echo $freinds_shops_cnt ?></span>] קניות של חברים<img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
+								<div class="freinds_button"><div class = "button_triangle"></div>[<span class="counter"><?php echo $freinds_comments_cnt ?></span>] המלצות של חברים<img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+								<div class="freinds_button"><div class = "button_triangle"></div>[<span class="counter"><?php echo $freinds_coupons_cnt ?></span>] קופונים של חברים<img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
 							</div>	
 						</div> 
 				</div>
-			</div>		
+			</div>	
+			<?php endif ?>			
 			<div class="info_box">
 				<div class="infobox-container"> 
 				
