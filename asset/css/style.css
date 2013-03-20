@@ -1820,6 +1820,13 @@ right: 20px;
 top: 49px;
 z-index: 1000;}
 
+.please_log{
+color: rgb(207, 17, 17);
+margin: 0px 8px 0px 0px;
+font-weight: bold;
+clear: both;
+padding: 5px 2px 0px 0px;
+}
 .addon_icons{position: absolute;top:-9px;left:0px;}
 .addon_icons li{display: inline;
 border-style: none;
@@ -2081,7 +2088,7 @@ overflow: hidden;
 height: 200px;}
 .feed_text{color: black;
 padding: 0px 63px 0px 0px;
-font-size: 13px;}
+font-size: 12px;}
 .title{color: rgb(230, 17, 17);
 font-weight: bold;
 }
@@ -2092,7 +2099,7 @@ overflow: auto;
 border-style: solid;
 border-width: 2px;
 border-radius: 7px;
-border-color: rgb(226, 163, 67);
+border-color: rgb(213, 213, 213);
 			}
 .box-row{
 background: url(../img/dash-x-grey.png) left bottom repeat-x rgb(247, 246, 240);
@@ -2110,7 +2117,7 @@ background-image: -webkit-linear-gradient(top, rgb(101, 160, 202), rgb(97, 143, 
 }
 
 .box-row img{float:right; margin: 0px 10px;}
-.box-row .line-contant{height: 40px;}
+.box-row .line-contant{min-height: 40px;}
 .box-row .line-contant img{height: 40px; width: 40px;}
 .summery-type{float: right;
 margin-right: -1px;

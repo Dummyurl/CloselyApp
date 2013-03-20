@@ -4,45 +4,8 @@ class users_model extends ci_Model {
 	public function __construct()
 	{
 		parent::__construct();
-	}	
-
-	function getAllUsersId() {
-		$this->db->select('user_id'); 
-		$q = $this->db->get('fusers');
-		$users = $q->result();
-		foreach($users as $user){
-			$userIdArr[] = $user->user_id;
-		} 
-		return $userIdArr;
-	}
-	
-	function getFreindsId($uid) {
-		$this->db->where('user_id', $uid); 
-		$q = $this->db->get('fusers');
-		$res = $q->result();
-		$freindsArr = unserialize($res[0]->reg_freinds);
-		foreach($freindsArr as $uid=>$name){
-			$userIdArr[] = $uid;
-		}
-		return $userIdArr;
-	}
-	
-	function countUserActions($data) {
-		if ($data['view']){
-			$uidList = $this->getFreindsId($data['uid']);
-		} else {
-			$uidList = $this->getAllUsersId();
-		}
-		foreach($uidList as $uid){
-			$this->db->select('user_id'); 
-			$this->db->where('user_id', $uid);
-			$q = $this->db->get($data['table']);
-			$actionCount[$uid] = $q->num_rows();
-		} 
-		arsort($actionCount);
-		return $actionCount;
-	}
-	
+		$_LASTTIME = '';
+	}		
 	function updateMembers($info) {
 		$id = $info['info']['id'];
 		$freinds = $info['freinds'];
@@ -113,10 +76,6 @@ class users_model extends ci_Model {
 		}
 		return false;
 	}
-	
-
-	
-	
 	
 	function getUserName($uid) {
 		$this->db->where('user_id', $uid); 

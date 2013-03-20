@@ -1,158 +1,25 @@
-[28-Feb-2013 10:18:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 4
-[28-Feb-2013 10:26:26] CSRF state token does not match one provided.
-[28-Feb-2013 10:26:42] PHP Fatal error:  Call to undefined function  site_url() in /home/nmazuz/public_html/getlike.net/application/views/topsecret.php on line 10
-[28-Feb-2013 10:27:36] PHP Fatal error:  Call to undefined function  site_url() in /home/nmazuz/public_html/getlike.net/application/views/topsecret.php on line 10
-[28-Feb-2013 10:28:18] PHP Fatal error:  Call to undefined function  redirect() in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
-[28-Feb-2013 10:29:00] PHP Fatal error:  Call to undefined function  redirect() in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
-[28-Feb-2013 10:29:02] PHP Fatal error:  Call to undefined function  redirect() in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
-[28-Feb-2013 10:34:47] CSRF state token does not match one provided.
-[28-Feb-2013 10:40:37] CSRF state token does not match one provided.
-[28-Feb-2013 10:57:23] CSRF state token does not match one provided.
-[28-Feb-2013 10:57:24] CSRF state token does not match one provided.
-[28-Feb-2013 10:58:46] CSRF state token does not match one provided.
-[28-Feb-2013 11:13:31] CSRF state token does not match one provided.
-[28-Feb-2013 11:13:31] CSRF state token does not match one provided.
-[28-Feb-2013 11:29:14] CSRF state token does not match one provided.
-[28-Feb-2013 11:29:14] CSRF state token does not match one provided.
-[28-Feb-2013 11:30:20] CSRF state token does not match one provided.
-[28-Feb-2013 11:30:20] CSRF state token does not match one provided.
-[28-Feb-2013 11:30:38] CSRF state token does not match one provided.
-[28-Feb-2013 11:30:38] CSRF state token does not match one provided.
-[28-Feb-2013 15:15:42] CSRF state token does not match one provided.
-[28-Feb-2013 15:21:00] CSRF state token does not match one provided.
-[28-Feb-2013 15:21:00] CSRF state token does not match one provided.
-[28-Feb-2013 15:24:45] CSRF state token does not match one provided.
-[28-Feb-2013 15:24:46] CSRF state token does not match one provided.
-[28-Feb-2013 15:29:25] CSRF state token does not match one provided.
-[28-Feb-2013 15:29:25] CSRF state token does not match one provided.
-[28-Feb-2013 15:35:25] CSRF state token does not match one provided.
-[28-Feb-2013 15:35:25] CSRF state token does not match one provided.
-[28-Feb-2013 15:38:41] CSRF state token does not match one provided.
-[28-Feb-2013 15:38:42] CSRF state token does not match one provided.
-[28-Feb-2013 15:49:04] CSRF state token does not match one provided.
-[01-Mar-2013 04:36:54] CSRF state token does not match one provided.
-[01-Mar-2013 13:42:06] CSRF state token does not match one provided.
-[01-Mar-2013 13:42:06] CSRF state token does not match one provided.
-[01-Mar-2013 13:46:38] CSRF state token does not match one provided.
-[01-Mar-2013 13:46:38] CSRF state token does not match one provided.
-[02-Mar-2013 01:58:59] CSRF state token does not match one provided.
-[02-Mar-2013 02:00:36] CSRF state token does not match one provided.
-[02-Mar-2013 02:00:36] CSRF state token does not match one provided.
-[02-Mar-2013 02:01:36] CSRF state token does not match one provided.
-[02-Mar-2013 02:01:36] CSRF state token does not match one provided.
-[02-Mar-2013 02:02:09] CSRF state token does not match one provided.
-[02-Mar-2013 02:05:30] CSRF state token does not match one provided.
-[02-Mar-2013 02:05:31] CSRF state token does not match one provided.
-[02-Mar-2013 02:06:09] CSRF state token does not match one provided.
-[02-Mar-2013 02:06:09] CSRF state token does not match one provided.
-[02-Mar-2013 02:09:50] CSRF state token does not match one provided.
-[02-Mar-2013 02:09:50] CSRF state token does not match one provided.
-[02-Mar-2013 02:10:50] CSRF state token does not match one provided.
-[02-Mar-2013 02:10:50] CSRF state token does not match one provided.
-[02-Mar-2013 02:12:15] CSRF state token does not match one provided.
-[02-Mar-2013 02:12:15] CSRF state token does not match one provided.
-[02-Mar-2013 03:19:58] CSRF state token does not match one provided.
-[02-Mar-2013 03:19:59] CSRF state token does not match one provided.
-[02-Mar-2013 03:20:23] CSRF state token does not match one provided.
-[02-Mar-2013 03:20:23] CSRF state token does not match one provided.
-[02-Mar-2013 03:39:48] CSRF state token does not match one provided.
-[02-Mar-2013 03:39:48] CSRF state token does not match one provided.
-[02-Mar-2013 06:17:03] CSRF state token does not match one provided.
-[02-Mar-2013 08:46:32] CSRF state token does not match one provided.
-[02-Mar-2013 11:56:55] CSRF state token does not match one provided.
-[04-Mar-2013 01:47:10] CSRF state token does not match one provided.
-[04-Mar-2013 08:52:21] CSRF state token does not match one provided.
-[04-Mar-2013 09:38:59] CSRF state token does not match one provided.
-[05-Mar-2013 11:11:50] CSRF state token does not match one provided.
-[06-Mar-2013 12:36:11] CSRF state token does not match one provided.
-[07-Mar-2013 09:08:53] PHP Fatal error:  Class 'Model' not found in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 3
-[07-Mar-2013 09:11:22] PHP Fatal error:  Call to a member function get() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
-[07-Mar-2013 09:53:48] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
-[07-Mar-2013 09:53:49] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
-[07-Mar-2013 09:56:00] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
-[07-Mar-2013 09:56:21] PHP Fatal error:  Call to a member function get() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
-[07-Mar-2013 09:56:23] PHP Fatal error:  Call to a member function get() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 7
-[07-Mar-2013 10:05:51] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 55
-[07-Mar-2013 10:06:55] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 55
-[07-Mar-2013 10:06:56] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 55
-[07-Mar-2013 10:07:33] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 47
-[07-Mar-2013 10:07:54] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 57
-[07-Mar-2013 10:07:56] PHP Fatal error:  Call to a member function database() on a non-object in /home/nmazuz/public_html/getlike.net/application/config/autoload.php on line 57
-[07-Mar-2013 10:08:04] PHP Fatal error:  Class 'Model' not found in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 3
-[07-Mar-2013 10:08:20] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
-[07-Mar-2013 10:08:35] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 8
-[07-Mar-2013 10:08:38] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 8
-[07-Mar-2013 11:00:04] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 8
-[07-Mar-2013 11:00:26] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
-[07-Mar-2013 11:01:49] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::select() in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 6
-[07-Mar-2013 11:33:08] PHP Fatal error:  Class 'Model' not found in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 3
-[07-Mar-2013 14:25:46] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
-[07-Mar-2013 14:25:48] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
-[07-Mar-2013 14:25:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
-[07-Mar-2013 14:25:53] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
-[07-Mar-2013 14:25:55] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
-[07-Mar-2013 14:25:55] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 15
-[07-Mar-2013 15:09:37] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 16
-[07-Mar-2013 15:09:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 16
-[07-Mar-2013 15:09:40] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/views/side/buttons.php on line 16
-[07-Mar-2013 15:33:09] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 30
-[07-Mar-2013 15:33:45] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 30
-[08-Mar-2013 04:18:54] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 33
-[08-Mar-2013 04:20:19] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 29
-[08-Mar-2013 04:20:20] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/categories_model.php on line 29
-[08-Mar-2013 04:44:36] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
-[08-Mar-2013 04:44:37] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
-[08-Mar-2013 04:44:39] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
-[08-Mar-2013 04:44:51] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
-[08-Mar-2013 04:46:52] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
-[08-Mar-2013 04:46:59] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/catalog/categories/subcategories.php on line 1
-[09-Mar-2013 09:40:02] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/catalog_model.php on line 24
-[09-Mar-2013 11:08:10] CSRF state token does not match one provided.
-[09-Mar-2013 11:49:35] CSRF state token does not match one provided.
-[10-Mar-2013 12:38:49] CSRF state token does not match one provided.
-[11-Mar-2013 13:41:19] CSRF state token does not match one provided.
-[11-Mar-2013 13:41:19] CSRF state token does not match one provided.
-[11-Mar-2013 13:47:35] CSRF state token does not match one provided.
-[13-Mar-2013 02:11:07] CSRF state token does not match one provided.
-[13-Mar-2013 02:24:38] PHP Fatal error:  Can't use method return value in write context in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 54
-[13-Mar-2013 02:26:07] PHP Fatal error:  Can't use method return value in write context in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 54
-[13-Mar-2013 02:26:37] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 55
-[13-Mar-2013 11:15:13] CSRF state token does not match one provided.
-[13-Mar-2013 11:29:03] CSRF state token does not match one provided.
-[13-Mar-2013 12:05:59] CSRF state token does not match one provided.
-[13-Mar-2013 12:13:27] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
-[13-Mar-2013 12:14:43] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 39
-[13-Mar-2013 12:15:27] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
-[13-Mar-2013 12:19:47] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
-[13-Mar-2013 12:19:49] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
-[13-Mar-2013 12:23:34] PHP Fatal error:  Cannot redeclare class Main in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 66
-[13-Mar-2013 12:25:00] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
-[13-Mar-2013 12:35:57] PHP Fatal error:  Call to a member function addNewMembers() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/main.php on line 40
-[13-Mar-2013 12:42:56] PHP Fatal error:  Can't use method return value in write context in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 8
-[13-Mar-2013 12:55:01] PHP Fatal error:  Call to a member function api() on a non-object in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 29
-[13-Mar-2013 13:03:00] OAuthException: Error validating access token: User 1130160922 has not authorized application 233297683465645.
-[13-Mar-2013 13:04:16] CSRF state token does not match one provided.
-[13-Mar-2013 13:04:16] CSRF state token does not match one provided.
-[13-Mar-2013 13:16:21] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 30
-[13-Mar-2013 13:16:21] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/facebook_model.php on line 30
-[13-Mar-2013 13:34:04] CSRF state token does not match one provided.
-[13-Mar-2013 13:34:21] CSRF state token does not match one provided.
-[13-Mar-2013 13:34:22] CSRF state token does not match one provided.
-[13-Mar-2013 13:34:42] CSRF state token does not match one provided.
-[13-Mar-2013 13:34:44] CSRF state token does not match one provided.
-[13-Mar-2013 13:47:33] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
-[13-Mar-2013 13:48:19] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
-[13-Mar-2013 13:48:20] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
-[13-Mar-2013 13:48:21] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
-[13-Mar-2013 13:48:40] PHP Fatal error:  Class 'Facebook_model' not found in /home/nmazuz/public_html/getlike.net/system/core/Loader.php on line 303
-[13-Mar-2013 15:34:10] PHP Parse error:  syntax error, unexpected '{' in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 17
-[13-Mar-2013 15:34:29] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 13
-[13-Mar-2013 15:35:26] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 13
-[14-Mar-2013 11:11:36] CSRF state token does not match one provided.
-[14-Mar-2013 11:34:44] PHP Parse error:  syntax error, unexpected T_RETURN in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 50
-[14-Mar-2013 11:57:06] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/nmazuz/public_html/getlike.net/application/views/side/sidebar.php on line 29
-[14-Mar-2013 12:00:30] CSRF state token does not match one provided.
-[14-Mar-2013 12:00:32] CSRF state token does not match one provided.
-[14-Mar-2013 12:03:44] PHP Parse error:  syntax error, unexpected T_IF in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 63
-[14-Mar-2013 12:09:53] CSRF state token does not match one provided.
-[14-Mar-2013 12:09:55] CSRF state token does not match one provided.
+[20-Mar-2013 12:16:11] CSRF state token does not match one provided.
+[20-Mar-2013 13:54:06] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:54:41] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:55:07] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:55:39] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:56:02] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:56:37] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:57:00] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:57:35] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:57:59] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:58:33] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:58:56] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:59:31] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 13:59:54] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:00:30] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:00:55] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:01:27] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:01:50] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:02:25] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:02:48] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:02:55] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:03:36] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:03:41] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:03:46] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_FUNCTION in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 36
+[20-Mar-2013 14:07:57] PHP Parse error:  syntax error, unexpected $end in /home/nmazuz/public_html/getlike.net/application/views/side/sidebar.php on line 84

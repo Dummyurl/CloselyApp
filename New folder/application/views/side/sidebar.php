@@ -1,12 +1,11 @@
 				<!-- right side boxes -->
-			<?php $userLogggin = isset($fb_data['me']['id']) ? $fb_data['me']['id'] : '' ; ?>	
+			<?php $userLogggin = $fb_data['me'] ?>	
 			<?php
 			/* 			
 			viewcode = 1 view only freinds
 			viewcode = 0 view all memmbers
 			*/
-			?>
-
+			?>	
 			<?php $viewcode = empty($userLogggin) ? 1 : 0 ;	?>
 			<?php $this->load->model('users_model'); ?>			
 			<?php $news = json_encode(array('time' => date('Y-m-d H:i:s'),'view'=>$viewcode,'uid'=> $fb_data['me']['id'])); ?>
@@ -68,7 +67,7 @@
 			
 			<div class="info_box">
 				<div class="infobox-container"> 	
-						<div class="infobox" style="height:310px">  
+						<div class="infobox" style="height:300px">  
 							<h3><span>פעולות אחרונות</span></h3> 
 							<div class="triangle-l topfix"></div>
 							<div class="contant-box-feed">
@@ -97,9 +96,8 @@
 							</div>	
 							<a href="" class="showswitch right_radius selected_switch" id="switch-1" onclick="return false;">החברים שלי</a>
 							<a href="" class="showswitch left_radius" id="switch-2" onclick="return false;">כולם</a>								
-							<div class="please_log"></div>
+
 						</div> 
-						
 				</div>
 			</div>	
 			
@@ -167,17 +165,16 @@
 			$('.contant-box ul').jScrollPane({
 			});
 		});
-		/* console.log('<?php echo $userLogggin ?>');		 */
+		//freinds
+		
 		$('#switch-1').click(function(){
 		if ('<?php echo $userLogggin ?>'){
 			if (!$(this).hasClass("selected_switch")) {
 				$(this).addClass("selected_switch");
 				$('#switch-2').removeClass("selected_switch");
-				 getFreindsFeed();
+				// getFreindsFeed();
 			}	
-		} else {
-			$('.please_log').html('התחבר עם פייסבוק כדי לצפות בפעולות של חברים');//do stuff
-		}
+		}			//do stuff
 		});
 		
 		// evreyone
@@ -185,16 +182,15 @@
 			if (!$(this).hasClass("selected_switch")) {
 				$(this).addClass("selected_switch");
 				$('#switch-1').removeClass("selected_switch");
-				 getAllFeed();	
+				// getAllFeed();	
 			}		//do stuff
 
 		});
-		
- 	if (!'<?php echo $userLogggin ?>'){
+
+	if (!'<?php echo $userLogggin ?>'){
 		$('#switch-2').trigger('click');
-		
 	}
-	 
+	
 	getNewUpdates();	
 	function getNewUpdates(){
 		url = "<?php echo base_url();?>" + 'feed/getnews';
@@ -205,12 +201,12 @@
 				data: <?php echo $news ?>,  
 				success: function(msg) {
 					var result = msg;
-
 					if(result != ''){
 					$.each(result, function (key, data) {
 					var newFeed = '<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/' + data.user_id +
-							  '/picture"/><div class="feed_text"> ' + ' הוסיף ' + data.feed + ' ' +  data.user_name +
-						      '</div><div class="feed_text title">' + data.title + '</div></div></li>';	  
+							  '/picture"/><div class="feed_text"> ' + (data.gender == 'male') ? ' הוסיף ' : 'הוסיפה' + data.feed + ' ' +  data.user_name +
+						      '</div><div class="feed_text title">' + data.title + '</div></div></li>';
+							  
 						 $('.contant-box-feed ul li:first').before($(newFeed).fadeIn('slow'));
 					});
 					
@@ -220,32 +216,34 @@
 		setTimeout(function(){getNewUpdates();}, 58000);
     }
 	
+/* 	function getAllFeed(){
+		url = "<?php echo base_url();?>" + 'feed/getfeed';
+		$.ajax({  
+				type: "POST",  
+				url: url,  
+				dataType: 'json',
+				data: <?php echo json_encode(array('view'=>0)) ?>,  
+				success: function(msg) {
+				console.log(msg);
+					// $('.contant-box-feed').html(msg);
+					}	 
+				});		
+    }
+	
 	function getFreindsFeed(){
 		url = '<?php echo base_url();?>' + 'feed/getfeed';
 		$.ajax({  
 				type: "POST",  
 				url: url,  
-				data:  'view=1&' + 'uid=' + '<?php echo $fb_data['me']['id'] ?>',  
+				dataType: 'json',
+				data: <?php echo json_encode(array('view'=>'1','uid'=> $fb_data['me']['id'])) ?>,  
 				success: function(msg) {
-					 $('.contant-box-feed ul').html(msg);
+				console.log('dsfsdfsdf');
+					// $('.contant-box-feed').html(msg);
 					}
 					 
 				});		
-    }
-	
-	function getAllFeed(){
-		url = '<?php echo base_url();?>' + 'feed/getfeed';
-		$.ajax({  
-				type: "POST",  
-				url: url,  
-				data:  'view=0',  
-				success: function(msg) {
-					 $('.contant-box-feed ul').html(msg);
-					}
-					 
-				});		
-    }
-	
+    } */
 	
 	}); 
 </script>
