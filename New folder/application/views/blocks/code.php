@@ -1,1 +1,0 @@
-﻿<div class="entercode"><div class="codetitle">:קוד קנייה</div><div class="codeinput"> <input type="text" name="cpassword" id="cpassword" value="הזן כאן את הקוד שקיבלת מבית העסק" /></div><div class="codebutton"><div class="buttontext">הצג</div></div></div>
