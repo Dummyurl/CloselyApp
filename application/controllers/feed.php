@@ -47,6 +47,17 @@ class Feed extends CI_Controller {
     }
 	
 	
+	function topshoppers()
+    {
+	$data = array('view'=>$this->input->post('view'),'table'=>$this->input->post('table'));
+	if($this->input->post('view')){
+		$data['uid'] = $this->input->post('uid');
+	}
+	$topCntArr = $this->users_model->countUserActions($data);
+	$listArr['topusers'] = $topCntArr;
+	$this->load->view('side/topusers',$listArr);
+    }
+	
 	function getfeed()
     {
 	$onlyfreinds = '';
@@ -64,14 +75,8 @@ class Feed extends CI_Controller {
 			 } else {
 				 $addText = ' הוסיפה ' ;
 			 }
-			 
-			echo '<li class="box-row">
-				<div class="line-contant">
-					<img src="https://graph.facebook.com/' . $lastType['user_id'] . '/picture"/>
-					<div class="feed_text">' .  $addText . ' ' . $lastType['feed'] . ' ב' . $store . ' ' .  $user_name .'</div>
-					<div class="feed_text title"> ' .  $lastType['title'].'</div>
-				</div>
-			</li>';
+			 $data = array('uname'=>$user_name,'gender'=>$gender,'store'=>$store,'lasttype'=>$lastType,'text'=>$addText);
+			 $this->load->view('side/lastactions',$data);
 		}
     }
 	

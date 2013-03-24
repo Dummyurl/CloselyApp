@@ -108,24 +108,23 @@
 			<div class="info_box">
 				<div class="infobox-container"> 
 					
-						<div class="infobox" style="height:284px"> 
+						<div class="infobox" style="height:300px"> 
 							<h3><span>המבזבזים המובילים</span></h3> 
 							<div class="top-buttons">
-								<div class="triangle-l"></div>
+								<div class="triangle-l" id="topTraiangle"></div>
 								<ul>
-									<li class="summery-type" rel="1"><a href="#" onClick="return false;">קניות</a></li>
-									<li class="summery-type" rel="2"><a href="#" onClick="return false;">קופונים</a></li>
-									<li class="summery-type" rel="3"><a href="#" onClick="return false;">המלצות</a></li>
-								</ul>
+									<li class="summery-type" rel="1" id="shopping">קניות</li>
+									<li class="summery-type" rel="2" id="coupons">קופונים</li>
+									<li class="summery-type" rel="3" id="recommands">המלצות</li>								</ul>
 							</div>	
 							<div class="contant-box">
-							<ul>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
-							<li class="box-row"><div class="line-contant"><img src="https://graph.facebook.com/1130160922/picture"  /></div></li>
+							<ul id="topshopper">
+							<li class="box-row"><div class="line-contant"></div></li>
+							<li class="box-row"><div class="line-contant"></div></li>
+							<li class="box-row"><div class="line-contant"></div></li>
+							<li class="box-row"><div class="line-contant"></div></li>
+							<li class="box-row"><div class="line-contant"></div></li>
+							<li class="box-row"><div class="line-contant"></div></li>
 							</ul>
 							</div>			
 						</div> 
@@ -163,11 +162,11 @@
 				<!-- ENDS slider holder -->
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
-		$(function(){
-			$('.contant-box ul').jScrollPane({
-			});
-		});
-		/* console.log('<?php echo $userLogggin ?>');		 */
+
+	$('.summery-type[rel=1]').addClass('overli');
+	getAllTopShoppers('shopping');
+	getNewUpdates();
+	
 		$('#switch-1').click(function(){
 		if ('<?php echo $userLogggin ?>'){
 			if (!$(this).hasClass("selected_switch")) {
@@ -192,10 +191,9 @@
 		
  	if (!'<?php echo $userLogggin ?>'){
 		$('#switch-2').trigger('click');
-		
 	}
-	 
-	getNewUpdates();	
+	
+	
 	function getNewUpdates(){
 		url = "<?php echo base_url();?>" + 'feed/getnews';
 		$.ajax({  
@@ -246,6 +244,82 @@
 				});		
     }
 	
+	function getAllTopShoppers(table){
+		url = '<?php echo base_url();?>' + 'feed/topshoppers';
+		$.ajax({  
+				type: "POST",  
+				url: url,  
+				data:  'view=0&table=' + table,  
+				success: function(msg) {
+					 $('#topshopper .jspPane').html(msg);
+					}
+				});		
+    }
+	
+	function getFreindsTopShoppers(table){
+		url = '<?php echo base_url();?>' + 'feed/topshoppers';
+		$.ajax({  
+				type: "POST",  
+				url: url,  
+				data:  'view=1&table=' + table + 'uid=' + '<?php echo $fb_data['me']['id'] ?>', 
+				success: function(msg) {
+					 $('#topshopper .').html(msg);
+					}
+				});		
+    }
+
+
+
+
+		
+ 			$('.summery-type').hoverIntent(overli,outli);
+			var triangleLeft = {};
+			triangleLeft = $('.infobox-container #topTraiangle').position();
+			
+			function overli(){
+				
+				var triangle = $(this).attr('rel');
+				switch(triangle)
+				{
+					case "1": $('.infobox-container #topTraiangle').css('left','223px') ;
+					break;
+					case "2": $('.infobox-container #topTraiangle').css('left','127px');
+					break;
+					case "3": $('.infobox-container #topTraiangle').css('left','32px');
+					break;
+				}
+        
+			 }
+	 
+			function outli(){
+				
+				$('.infobox-container #topTraiangle').css('left',triangleLeft.left) ;
+			}
+			
+		$('.summery-type').click(function(){
+			$(this).addClass('overli');
+			var triangle = $(this).attr('rel');
+			
+			switch(triangle)
+			{
+				case "1": triangleLeft.left = '223px' ;
+				break;
+				case "2": triangleLeft.left = '127px' ;
+				break;
+				case "3": triangleLeft.left = '32px' ;
+				break;
+			}
+			$.each($('.summery-type'), function () {
+				$(this).removeClass('overli');
+			});
+			$(this).addClass('overli');
+			getAllTopShoppers($(this).attr('id'));
+		});
+
+		$(function(){
+			$('.contant-box ul').jScrollPane({
+			});
+		});
 	
 	}); 
 </script>

@@ -97,6 +97,7 @@ class users_model extends ci_Model {
 		$this->db->where('user_id', $id); 
 		$q = $this->db->get('fusers');
 		$res = $q->result();
+		// print_r($res);
 		$freindsArr = unserialize($res[0]->freinds);
 		$freindsList = array();
  		foreach($freindsArr['data'] as $freind){

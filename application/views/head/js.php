@@ -2,11 +2,12 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<!-- JS -->
-		<script src="<?php echo base_url();?>asset/js/jquery-1.6.4.min.js"></script>
+
 		<script src="<?php echo base_url();?>asset/js/css3-mediaqueries.js"></script>
 		<script src="<?php echo base_url();?>asset/js/tabs.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 		<!-- include Cycle plugin -->
+		<script src="<?php echo base_url();?>asset/js/jquery-1.8.2.min.js"></script>
 		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 		 <script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.oembed.js"></script>
 		<!-- Tweet -->
@@ -41,7 +42,9 @@
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.mousewheel.js"></script>
 		<!-- the jScrollPane script -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.jscrollpane.min.js"></script>
-
+		<!-- Fancybox -->
+		<script type="text/javascript" src="<?php echo base_url();?>asset/fancybox/jquery.fancybox.pack.js"></script>
+		
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){	
 		
@@ -51,31 +54,7 @@
 			function overme(){ $(this).css('display','block');}
 			function outme(){ $(this).css('display','none');}
 			
-			$('.summery-type[rel=1]').addClass('overli');
- 			$('.summery-type').hoverIntent(overli,outli);
-			var triangleLeft = {};
-			triangleLeft = $('.infobox-container .triangle-l').position();
 			
-			function overli(){
-				$(this).addClass('overli')
-				var triangle = $(this).attr('rel');
-				switch(triangle)
-				{
-					case "1": $('.infobox-container .triangle-l').css('left','223px') ;
-					break;
-					case "2": $('.infobox-container .triangle-l').css('left','127px');
-					break;
-					case "3": $('.infobox-container .triangle-l').css('left','32px');
-					break;
-				}
-        
-			 }
-	 
-			function outli(){
-				$(this).removeClass('overli');
-				$('.infobox-container .triangle-l').css('left',triangleLeft.left) ;
-			}
-
 
 			
 			<?php if($fb_data['me']): ?>
@@ -84,6 +63,8 @@
 			function closepanel(){ $(this).animate({top:-135},600);$('.panel_contant').css('display','none');}
 			<?php endif; ?>
 		
+
+		$(".fancybox").fancybox();
 
 	
 		}); 

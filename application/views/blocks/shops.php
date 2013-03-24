@@ -25,12 +25,12 @@
 				<p class="shop_adder"><?php echo '66'  . '<span class = "subject"> :שיתפו בעסק זה </span>' ?></p>
 				<p class="shop_adder"><?php echo '5 כוגבים'  . '<span class = "subject"> :דירוג העסק </span>' ?></p>
 			</div>
-				<div class="shop_header"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></div>
+				<div class="shop_header">
+				<img src="https://graph.facebook.com/<?php echo $shop->user_id ?>/picture"/>
+				<div class="my_barcode">665111543</div>
+				<div class="triangle"></div>
+				</div>
 				<div class="shop_contant">
-					<div class="shop_head">
-						<div class="shop_buyer"><img src="https://graph.facebook.com/<?php echo $shop->user_id ?>/picture"/></div>
-						<div class="shop_title"><?php echo $shop->shop_title ?></div>
-					</div>
 					<div class="clearfix"></div>
 					<div class="shop_image">
 					<div class="addon_icons">
@@ -41,14 +41,16 @@
 						</ul>
 					</div>
 						<img class="shop-photo" src="<?php echo base_url();?>asset/img/shops/<?php echo $shop->shop_image ?>"/>
+					
 					</div>
 				</div>
 				<div class="shop_footer">
-				<div class="shop_detials">פרטי הקנייה</div>
-				<div class="shop_like">like</div>
-				<div class="clearfix"></div>
-				<div class="show_coupon">הצג את הקופון שלי</div>
-				<div class="my_barcode">665111543</div>
+<div class="triangle-up"></div>
+<div class="shop_title"><?php echo $shop->shop_title ?></div>
+<div class="stars-rate"></div>
+<div class="clearfix"></div>
+<div class="brandlogo"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></div>
+<div class="shop_detials fancybox" >פרטי הקנייה</div>
 				</div>
 			</div>			
 		</li>
