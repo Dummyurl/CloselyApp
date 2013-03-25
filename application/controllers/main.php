@@ -34,7 +34,8 @@ class Main extends CI_Controller {
 		$data['content']['records']['coupons'] = $this->coupons_model->getAll();
 		// Load model for shops block		
 		$this->load->model('catalog_model');
-		$data['content']['records']['last_shops'] = $this->catalog_model->getAll();
+		$data['content']['records']['last_shops'] = $this->catalog_model->fetch_shops(0,9);
+		$data['content']['records']['last_shops_cnt'] = $this->catalog_model->countAll();
 		$fb_data = $this->session->userdata('fb_data');
 		// Load model for USERS	
 		$this->load->model('users_model');

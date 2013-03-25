@@ -1,4 +1,5 @@
-﻿<div class="wrapper">
+<div id = "loading">טוען קניות נוספות</div>
+<div class="wrapper">
 	<ul  class="widget-cols clearfix">
 		<li class="first-col">
 			<div class="widget-block">

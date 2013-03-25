@@ -50,11 +50,13 @@
 <div class="stars-rate"></div>
 <div class="clearfix"></div>
 <div class="brandlogo"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></div>
-<div class="shop_detials fancybox" >פרטי הקנייה</div>
+<div class="shop_detials" >פרטי הקנייה</div>
 				</div>
 			</div>			
 		</li>
 	<?php endforeach ?>
+	<div class = "more_result"></div>
+	
 	</ul>
 </div>
 
@@ -67,3 +69,60 @@
 		 function outimg(){ $(this).children('.over-img-photo').css('display','none')}
 	});
 </script>
+
+ <script type="text/javascript">
+            var page = 1;
+			function loading() { /* $('#more').hide(); */ }
+			
+			
+
+            $(window).scroll(function () {
+               // $('#more').hide();
+              //  $('#no-more').hide();
+			  console.log($(window).scrollTop() + $(window).height());
+
+                if($(window).scrollTop() + $(window).height() > $(document).height() - 600) {
+					
+                  //  $('#more').show();
+                }
+				
+				var scrolling = $(window).scrollTop() + $(window).height();
+				var winh = $(document).height();
+                if((winh - scrolling)<600) {
+                  //  $('#more').show();
+					window.setInterval(loading, 2000);
+                  //  $('#no-more').hide();
+
+                    page++;
+
+                    var actual_count = "<?php echo $last_shops_cnt; ?>";
+
+                    if((page-1)* 9 > actual_count){
+					 
+                      //  $('#no-more').css("top","400");
+                      //  $('#no-more').show();
+                    }else{
+					url = '<?php echo base_url();?>' + 'shops/index/' + page;
+                        $.ajax({
+                            type: "POST",
+                            url: url,
+							beforeSend:  function(){
+								$("#loading").show();
+								setTimeout(function(){getNewUpdates();}, 58000);
+							},
+                            success: function(res) {
+							setTimeout(function(){
+								$(".more_result").append($(res).fadeIn('slow'));
+								$("#loading").hide();
+							}, 1500);
+										
+                            }
+                        });
+                    }
+
+                }
+
+
+            });
+
+        </script>
