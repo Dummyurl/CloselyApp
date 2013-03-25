@@ -41,6 +41,8 @@ class Main extends CI_Controller {
 		$this->load->model('users_model');
 		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
+		$this->load->model('stores_model');
+		$data['feed']['stores'] = $this->stores_model->getAll();
 		 $data['content']['blocks'] = array('slider','banners','shops');
 		 $data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);

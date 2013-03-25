@@ -119,12 +119,6 @@
 							</div>	
 							<div class="contant-box">
 							<ul id="topshopper">
-							<li class="box-row"><div class="line-contant"></div></li>
-							<li class="box-row"><div class="line-contant"></div></li>
-							<li class="box-row"><div class="line-contant"></div></li>
-							<li class="box-row"><div class="line-contant"></div></li>
-							<li class="box-row"><div class="line-contant"></div></li>
-							<li class="box-row"><div class="line-contant"></div></li>
 							</ul>
 							</div>			
 						</div> 
@@ -153,7 +147,14 @@
 							<h3><span>עסקים מובילים</span></h3> 
 							<div class="triangle-l topfix"></div>
 							<div class="contant-box">
-							<img class="cover" src="<?php echo base_url();?>asset/img/logobiz.png"/>
+							<ul>
+								<?php foreach ($stores as $store ) :?>
+									<?php $user_name = $this->stores_model->getAll() ?>
+									<li class="brands_list">
+										<img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $store->store_logo;?>"  />
+									</li>
+								<?php endforeach ?>
+							</ul>
 							</div>										
 						</div> 
 				</div>
@@ -252,6 +253,7 @@
 				data:  'view=0&table=' + table,  
 				success: function(msg) {
 					 $('#topshopper .jspPane').html(msg);
+					 		$(function(){$('.contant-box ul').jScrollPane();});
 					}
 				});		
     }
