@@ -32,7 +32,7 @@
 							</div>
 							<div class="contant-box fix_box">
 								<div class="contant-box">
-								<ul>
+								<ul id="freindsarea">
 								<?php foreach ($freinds as $uid=>$name) : ?>
 									<?php if ($this->users_model->isUserExist($uid)) : ?>
 									<?php $regFreinds[] = $uid  ?>
@@ -253,7 +253,7 @@
 				data:  'view=0&table=' + table,  
 				success: function(msg) {
 					 $('#topshopper .jspPane').html(msg);
-					 		$(function(){$('.contant-box ul').jScrollPane();});
+					 		$(function(){$('.contant-box #topshopper').jScrollPane();});
 					}
 				});		
     }
@@ -317,11 +317,8 @@
 			$(this).addClass('overli');
 			getAllTopShoppers($(this).attr('id'));
 		});
-
-		$(function(){
-			$('.contant-box ul').jScrollPane({
-			});
-		});
+		$(function(){$('.contant-box #topshopper').jScrollPane();});
+		$(function(){$('.contant-box #freindsarea').jScrollPane();});
 	
 	}); 
 </script>
