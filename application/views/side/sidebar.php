@@ -72,6 +72,7 @@
 							<h3><span>פעולות אחרונות</span></h3> 
 							<div class="triangle-l topfix"></div>
 							<div class="contant-box-feed">
+							<img id="loading-feed" src="<?php echo base_url();?>asset/img/ajax-loader.gif" />
 							
 								<div class="contant-box-feed">
 								<ul>
@@ -118,6 +119,7 @@
 									<li class="summery-type" rel="3" id="recommands">המלצות</li>								</ul>
 							</div>	
 							<div class="contant-box">
+							<img id="loading-content" src="<?php echo base_url();?>asset/img/ajax-loader.gif" />
 							<ul id="topshopper">
 							</ul>
 							</div>			
@@ -225,8 +227,12 @@
 				type: "POST",  
 				url: url,  
 				data:  'view=1&' + 'uid=' + '<?php echo $fb_data['me']['id'] ?>',  
+				beforeSend: function() {
+					$("#loading-feed").show();
+				},	
 				success: function(msg) {
 					 $('.contant-box-feed ul').html(msg);
+					 $("#loading-feed").hide();
 					}
 					 
 				});		
@@ -237,9 +243,13 @@
 		$.ajax({  
 				type: "POST",  
 				url: url,  
-				data:  'view=0',  
+				data:  'view=0',
+				beforeSend: function() {
+					$("#loading-feed").show();
+				},				
 				success: function(msg) {
 					 $('.contant-box-feed ul').html(msg);
+					 $("#loading-feed").hide();
 					}
 					 
 				});		
@@ -251,9 +261,13 @@
 				type: "POST",  
 				url: url,  
 				data:  'view=0&table=' + table,  
+				beforeSend: function() {
+					$("#loading-content").show();
+				},
 				success: function(msg) {
 					 $('#topshopper .jspPane').html(msg);
-					 		$(function(){$('.contant-box #topshopper').jScrollPane();});
+					  $("#loading-content").hide();
+					 $(function(){$('.contant-box #topshopper').jScrollPane();});
 					}
 				});		
     }

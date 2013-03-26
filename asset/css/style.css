@@ -1875,6 +1875,20 @@ width: 5px;}
 
 #loading-image{margin: 12px 151px;
 }
+#loading-content{position: absolute;
+z-index: 44;
+top: 111px;
+left: 12px;
+background: rgba(252, 252, 252, 0.41);
+padding: 78px 121px;
+}
+#loading-feed{position: absolute;
+z-index: 44;
+top: 67px;
+left: 9px;
+background: rgba(252, 252, 252, 0.75);
+padding: 80px 124px;
+}
 .more_result{}
 #loading{display: none;
 background: url(../img/ajax-loader.gif) no-repeat rgba(0, 0, 0, 0.28);
