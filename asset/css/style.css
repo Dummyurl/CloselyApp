@@ -1934,7 +1934,13 @@ z-index: -1; /* displayed under bubble */
 }
 
 .overli {
-background:rgb(100, 121, 148)!important;
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3e3fa), color-stop(100%, #a5defb))!important;
+ background-image: -webkit-linear-gradient(top, #c3e3fa, #a5defb) !important;
+ background-image: -moz-linear-gradient(top, #c3e3fa, #a5defb) !important;
+ background-image: -ms-linear-gradient(top, #c3e3fa, #a5defb) !important;
+ background-image: -o-linear-gradient(top, #c3e3fa, #a5defb)!important;
+ background-image: linear-gradient(top, #c3e3fa, #a5defb);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c3e3fa, endColorstr=#a5defb) !important;
+
 }
 
 
@@ -2121,6 +2127,20 @@ box-shadow: none;
 -moz-box-shadow: none;
 -webkit-box-shadow: none;
 }
+
+.please_log{
+color: rgb(207, 17, 17);
+margin: 0px 8px 0px 0px;
+font-weight: bold;
+clear: both;
+padding: 5px 2px 0px 0px;
+}
+.addon_icons{position: absolute;top:210px;left:0px;}
+.addon_icons li{display: inline;
+border-style: none;
+border-width: 0px;
+width: 5px;}
+
 .right_radius{border-top-right-radius: 10px 5px;border-bottom-right-radius: 10px 5px;}
 .left_radius{border-top-left-radius: 10px 5px;border-bottom-left-radius: 10px 5px;}	
 .contant-box-feed{margin: 9px 2px;
@@ -2143,7 +2163,6 @@ padding: 6px 1px;
 }
 
 .box-row:hover{
- border:1px solid #93cdf7; background-color: #c3e3fa;
  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3e3fa), color-stop(100%, #a5defb));
  background-image: -webkit-linear-gradient(top, #c3e3fa, #a5defb);
  background-image: -moz-linear-gradient(top, #c3e3fa, #a5defb);
@@ -2153,7 +2172,38 @@ padding: 6px 1px;
 }
 
 .box-row img{float:right}
-.box-row .line-contant{height: 40px;}
+.box-row .line-contant{min-height: 40px;position: relative;}
+.topusername{float:right;color:black;}
+.shopper_line{
+position: absolute;
+color: black;
+top: 21px;
+right: 63px;}
+.shopper_more_info{float: left;
+color: black;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3e3fa), color-stop(100%, #a5defb))!important;
+background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(235, 235, 235))!important;
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(235, 235, 235))!important;
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255), rgb(235, 235, 235))!important;
+background-image: -o-linear-gradient(top, rgb(255, 255, 255), rgb(235, 235, 235))!important;
+background-image: linear-gradient(top, rgb(255, 255, 255), rgb(235, 235, 235));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c3e3fa, endColorstr=#a5defb)!important;border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.4);
+border-image: none;
+border-style: solid;
+border-width: 1px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+color: #616161;
+cursor: pointer;
+font-size: 12px;
+font-weight: bold;
+line-height: 1em;
+margin: 13px 4px 5px 5px;
+outline: medium none;
+overflow: hidden;
+padding: 6px 13px 6px 8px;
+position: relative;
+text-align: right;
+white-space: nowrap;}
 .box-row .line-contant img{height: 40px; width: 40px;}
 .summery-type{float: right;
 margin-right: -1px;
@@ -2167,6 +2217,12 @@ display: inline;
 text-align: center;
 border-right: 1px dashed white;}
 .top-buttons a{}
+
+
+.brands_list{display: inline;
+float: right;
+padding: 5px;}
+.brands_list img{height:30px}
 	/* infinity scroll*/
 
 	    #more{
