@@ -1879,12 +1879,14 @@ width: 5px;}
 z-index: 44;
 top: 111px;
 left: 12px;
+display:none;
 background: rgba(252, 252, 252, 0.41);
 padding: 78px 121px;
 }
 #loading-feed{position: absolute;
 z-index: 44;
 top: 67px;
+display:none;
 left: 9px;
 background: rgba(252, 252, 252, 0.75);
 padding: 80px 124px;
