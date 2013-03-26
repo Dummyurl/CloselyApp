@@ -2027,6 +2027,22 @@ position: absolute;
 right: 58px;
 font-size: 15px;
 margin: 11px;}
+.freind_cnt{float:left;}
+.freind_cnt img{height: 25px !important;
+width: 25px !important;
+margin: 16px -4px 0px 5px !important;
+position: relative;}
+.cnt_bubble{position: absolute;
+min-width: 16px;
+height: 17px;
+text-align: center;
+font-size: 10px;
+font-weight: bold;
+border-radius: 2px;
+border: rgb(184, 184, 184) 1px solid;
+background: rgb(235, 169, 70);
+margin: 6px 17px;
+z-index: 1;}
 .button_triangle{
 border-color: rgba(216, 162, 46, 0) rgb(184, 184, 184) transparent rgba(3, 129, 177, 0);
 border-style: solid;
@@ -2303,7 +2319,7 @@ margin: 10px 0px 0px -8px;}
 .facebook-connect-text{}
 .top-panel{float: right;
 z-index: 1000;
-margin: 1px 0px 0px 0px;
+margin: -2px 0px 0px 0px;
 width: 303px}
 .panel_contant{display: none;}
 .panel_contant img.pic{float:right; margin: 0px 11px 0px 0px;}
