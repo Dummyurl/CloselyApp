@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Coupons extends CI_Controller {
+class Product extends CI_Controller {
 
     function __construct()
     {
@@ -8,11 +8,19 @@ class Coupons extends CI_Controller {
         $this->load->model('Facebook_model');
     }
 
-	function view($userId)
+    function popup($productId)
+    {
+
+    }
+	
+	function index()
+    {
+
+    }
+
+	function view($productId)
     {
 
 	}
-
-
 	
 }

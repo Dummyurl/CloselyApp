@@ -17,5 +17,10 @@ class Catalog extends CI_Controller {
 		 $this->load->view('catalog/categories/subcategories',$data);
 	}
 	
+		function category($id)
+	{
+
+	}
+	
 	
 }

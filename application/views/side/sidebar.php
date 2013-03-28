@@ -1,4 +1,5 @@
 				<!-- right side boxes -->
+
 			<?php $userLogggin = isset($fb_data['me']['id']) ? $fb_data['me']['id'] : '' ; ?>	
 			<?php
 			/* 			
@@ -38,7 +39,7 @@
 									<?php $regFreinds[] = $uid  ?>
 										<li class="box-row">
 											<div class="line-contant">
-											<img src="https://graph.facebook.com/<?php echo $uid ?>/picture"  />
+											<a href="<?php echo base_url();?>user/popup/<?php echo $uid ?>" class="fancybox"><img src="https://graph.facebook.com/<?php echo $uid ?>/picture"  /></a>
 											<div class="freind_name"><?php echo $name ?></div>
 												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $shopsCnt = $this->users_model->countShops($uid); ?></div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
 												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $couponsCnt = $this->users_model->countCoupons($uid); ?></div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
@@ -87,7 +88,7 @@
 								<?php endif ?>
 								<li class="box-row">
 									<div class="line-contant">
-										<img src="https://graph.facebook.com/<?php echo $lastType['user_id'] ?>/picture"/>
+									<a href="<?php echo base_url();?>user/popup/<?php echo $lastType['user_id'] ?>" class="fancybox"><img src="https://graph.facebook.com/<?php echo $lastType['user_id'] ?>/picture"/></a>
 										<div class="feed_text"><?php echo $addText . ' ' . $lastType['feed'] . ' ב' . $store . ' ' .  $user_name  ?></div>
 										<div class="feed_text title"><?php echo $lastType['title'] ?></div>
 									</div>
@@ -126,7 +127,6 @@
 						</div> 
 				</div>
 			</div>	
-	
 			<!-- 
 		    <div class="info_box">
 				<div class="infobox-container"> 
@@ -248,8 +248,9 @@
 					$("#loading-feed").show();
 				},				
 				success: function(msg) {
+					$("#loading-feed").hide();
 					 $('.contant-box-feed ul').html(msg);
-					 $("#loading-feed").hide();
+					 
 					}
 					 
 				});		

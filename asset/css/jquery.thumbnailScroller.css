@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*
+Thumbnail scroller jQuery plugin
+scrollers styling
+*/
+.jThumbnailScroller{position:relative; background:#fff; padding:0; overflow:hidden;}
+.jThumbnailScroller .jTscrollerContainer{position:absolute;}
+.jThumbnailScroller .jTscroller{position:relative; height:100%; margin: 5px 0; left:0; top:0; display:inline-block; *display:inline;}
+.jThumbnailScroller .jTscroller a:first-child{margin-left:10px;}
+.jThumbnailScroller .jTscroller a img{border:none;}
+/* different styled scrollers */
+/* liquid width scroller */
+.jThumbnailScroller#slider{width:95%;}
+.jThumbnailScroller#slider{margin:0px auto;}
+.jThumbnailScroller#slider .jTscroller a{opacity:0.7;}
+.jThumbnailScroller#slider .jTscroller a:hover{opacity:1;}
+
