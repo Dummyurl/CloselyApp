@@ -16,4 +16,14 @@ class Shops extends CI_Controller {
 		$data['shops'] = $this->catalog_model->fetch_shops($offset , 9) ;
 		$this->load->view('catalog/shopscroll',$data);
 	}
+	
+	function view($userId)
+    {
+
+	}
+	
+	function popup($shopId)
+    {
+		$this->load->view('popups/shop',$data);
+	}
 }
