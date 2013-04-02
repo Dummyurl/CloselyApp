@@ -22,7 +22,7 @@
 			
 			
 			
-			
+		<div class="box-block">
 			<div class="info_box">
 				<div class="infobox-container"> 
 						<div class="infobox big">  
@@ -65,8 +65,9 @@
 						</div> 
 				</div>
 			</div>	
+		</div>
 			<?php endif ?>	
-			
+		<div class="box-block">
 			<div class="info_box">
 				<div class="infobox-container"> 	
 						<div class="infobox" style="height:310px">  
@@ -104,9 +105,9 @@
 						
 				</div>
 			</div>	
+		</div>		
 			
-			
-			
+		<div class="box-block">			
 			<div class="info_box">
 				<div class="infobox-container"> 
 					
@@ -127,6 +128,7 @@
 						</div> 
 				</div>
 			</div>	
+		</div>	
 			<!-- 
 		    <div class="info_box">
 				<div class="infobox-container"> 
@@ -141,7 +143,7 @@
 				</div>
 			</div>
 			 -->				
-			
+		<div class="box-block">		
 			<div class="info_box">
 				<div class="infobox-container"> 
 				
@@ -161,7 +163,7 @@
 						</div> 
 				</div>
 			</div>	
-
+		</div>
 				<!-- ENDS slider holder -->
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
