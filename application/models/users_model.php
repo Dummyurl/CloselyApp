@@ -133,6 +133,12 @@ class users_model extends ci_Model {
 		return $user[0]->gender;
 	}
 	
+	function getShops($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('shopping');
+		return $q->result();
+	}
+	
 	function getStoreName($sid) {
 		$this->db->where('store_id', $sid); 
 		$q = $this->db->get('stores');
@@ -151,6 +157,13 @@ class users_model extends ci_Model {
 	function countShops($uid) {
 		$this->db->where('user_id', $uid); 
 		$q = $this->db->get('shopping');
+		$rowcount = $q->num_rows();
+		return $rowcount;
+	}
+	
+	function countRecommands($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('recommands');
 		$rowcount = $q->num_rows();
 		return $rowcount;
 	}
