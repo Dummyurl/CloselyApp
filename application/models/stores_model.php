@@ -13,4 +13,10 @@ class stores_model extends ci_Model {
 		}
 	}
 	
+	function getStoreInfo($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores');
+		return $q->result();	
+	}
+	
 }

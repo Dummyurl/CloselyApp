@@ -7,6 +7,7 @@
 		<a href="<?php echo base_url();?>user/popup/<?php echo $uid ?>" class="fancybox"><img src="https://graph.facebook.com/<?php echo $uid ?>/picture"  /></a>
 		<div class="shopper_more_info fancybox"><?php echo $cnt ?></div>
 		<div class="topusername"><?php echo $user_name ?></div>
+		<div class="showallactions"><a href="<?php echo base_url();?>user/page/<?php echo $uid ?>">צפה בהכל</a></div>
 		</div>
 		</li>
 <?php endforeach ?>

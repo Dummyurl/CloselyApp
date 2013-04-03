@@ -33,9 +33,9 @@
 					</div>
 				</div>
 				<div class="user_info">
-					<div class="block"><?php $this->load->view('blocks/user_clubs'); ?></div>
-					<div class="block"><?php $this->load->view('blocks/user_last_coupons'); ?></div>
-					<div class="block"><?php $this->load->view('blocks/user_last_recommands'); ?></div>
+					<div class="block"><?php $this->load->view('blocks/user_clubs',$userId); ?></div>
+					<div class="block"><?php $this->load->view('blocks/user_last_coupons',$userId); ?></div>
+					<div class="block"><?php $this->load->view('blocks/user_last_recommands',$userId); ?></div>
 				</div>
 			</div>
 		</div>	

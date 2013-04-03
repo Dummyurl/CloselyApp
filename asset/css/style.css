@@ -1249,7 +1249,10 @@ z-index: 1000;}
 .popup .content  .user .picture{float: right;
 margin: 16px 1px;}
 .popup .content  .user .picture img{width: 180px;
-height: 178px;}
+height: 176px;
+-moz-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+border: 1px rgb(194, 194, 194) solid;}
 
 .popup .content  .user #slider{float: left;
 margin: 12px 1px;
@@ -1257,32 +1260,79 @@ height: 184px;
 width: 562px;}
 .popup .content  .user #slider img{width:170px;height:180px}	
 .popup .content  .user .user_info	{clear:both}
-.popup .content  .user .user_info .block{float:right;width:230px;padding: 0px 0px 0px 6px;}
+.popup .content  .user .user_info .block{float: right;
+width: 230px;
+position: relative;
+margin: 0px 5px 0px 5px;
+padding: 3px 10px 0px 10px;
+height: 230px;
+-webkit-box-shadow: -1px -1px 13px -5px rgba(0,0,0,.8);
+-moz-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
+box-shadow: 1px -1px 13px -5px rgba(0,0,0,.8);
+}
 /* popup_blocks */	
+
+
+
 .block .header {width: 100%;
 height: 50px;
 margin: 4px 0px 0px 0px;
 position: relative;
-background: rgb(84, 142, 204);
 -webkit-border-radius: 3px 3px 3px 3px;
 -moz-border-radius: 3px 3px 3px 3px;
 border-radius: 3px 3px 3px 3px;}
+
+
+
 .block .header .title{text-align: right;
 padding: 11px 12px 11px 43px;
 float: right;
 font-weight: bold;
 font-size: 24px;
 color: white;}
-.block .header .triangle{border-color: rgba(90, 145, 204, 0.97) rgba(182, 126, 41, 0) transparent transparent;
+.block .header .triangle{border-color: rgba(255, 173, 0, 1) rgba(182, 126, 41, 0) transparent transparent;
 border-style: solid;
 border-width: 13px;
 position: absolute;
 left: 166px;
 top: 47px;
 z-index: 1002;}	
+
+.block  .contant{margin:10px 0px}
+.clubs li{display: inline;
+float: right;
+padding: 5px;}
 	
-	
-	
+.block  .footer{position: absolute;
+bottom: 0px;
+padding: 10px;
+width: 85%;}
+.block  .footer a{color: rgb(143, 3, 3);
+font-weight: bold;}
+
+.block .coupons .coupon{padding: 4px 0px 4px 0px;
+width: 100%;
+height: 60px;
+border-bottom: 1px rgb(206, 206, 206) solid;}
+.block .coupons .coupon .store{float:left}
+.block .coupons .coupon .title{clear:both;float:right;color: rgb(230, 17, 17);
+font-weight: bold;
+padding: 6px;}
+.block .coupons .coupon .discaunt{float: right;
+color: rgb(30, 148, 25);
+font-weight: bold;
+font-size: 20px;
+padding: 7px 10px;}
+.block .coupons .coupon .store img{width: 100px;
+height: 30px;}
+
+.block .clubs img{height: 30px;}	
+.block .recommands{}
+.block  .noinfo{color: rgb(134, 134, 134);
+font-weight: bold;
+margin: 63px 0px;
+text-align: center;
+font-size: 15px;}
 	.login img{
 		width:238px;
 	}
@@ -2299,9 +2349,12 @@ margin: 0px -4px 0px 0px;
 .box-row  #topusersli{min-height: 48px;position: relative;background: url(../img/topbg.png) no-repeat;width: 265px;}
 .topusername{float: right;
 color: rgb(202, 64, 64);
-font-size: 17px;
-margin: 11px 7px 0px 0px;
+font-size: 14px;
+margin: 6px 7px 0px 0px;
 font-weight: bold;}
+.showallactions{position: absolute;
+right: 67px;
+top: 23px;}
 .shopper_line{
 position: absolute;
 color: black;

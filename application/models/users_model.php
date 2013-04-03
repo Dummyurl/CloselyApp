@@ -43,6 +43,25 @@ class users_model extends ci_Model {
 		return $actionCount;
 	}
 	
+	function getStoreInfo($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores');
+		return $q->result();	
+	}
+	
+	function getClubs($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('clubs',4);
+		return $q->result();
+	}
+	
+	function getLastCoupons($uid) {
+		$this->db->where('user_id', $uid); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('coupons',2);
+		return $q->result();
+	}
+	
 	function updateMembers($info) {
 		$id = $info['info']['id'];
 		$freinds = $info['freinds'];
@@ -251,7 +270,7 @@ class users_model extends ci_Model {
 				$this->db->where_in('user_id',$this->getFreindsOnSite($onlyfreinds));				
 			}
 			$this->db->order_by("create_time", "desc");
-			$q = $this->db->get($table,3);
+			$q = $this->db->get($table,6);
 			$res = $q->result_array();
 			foreach ($res as $row){
 				$result[strtotime($row['create_time'])] = $row;

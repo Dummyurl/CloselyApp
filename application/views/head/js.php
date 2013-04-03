@@ -70,7 +70,7 @@
 
 
 			$(".fancybox").fancybox({
-				'width':'60%',
+				'width':800,
 				 'minHeight':500,
 				 'autoHeight':true,
 				 'scrolling':'no',
