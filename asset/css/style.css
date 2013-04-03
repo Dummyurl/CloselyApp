@@ -164,6 +164,9 @@ display:none;
 height: 133px;}
 .feed{width: 300px;}
 .feed .gradient_bg{width: 300px;}
+.addbold{font-weight: bold;
+font-size: 12px;
+color: rgb(4, 18, 172);}
 .find{border-radius: 6px;
 -moz-border-radius: 6px;
 -webkit-border-radius: 6px;
@@ -2293,11 +2296,11 @@ margin: 0px -4px 0px 0px;
 
 .box-row img{float:right; margin: 0px 10px;}
 .box-row .line-contant{min-height: 40px;position: relative;}
-.box-row  #topusersli{min-height: 48px;position: relative;background: url(../img/topbg.png) no-repeat;}
+.box-row  #topusersli{min-height: 48px;position: relative;background: url(../img/topbg.png) no-repeat;width: 265px;}
 .topusername{float: right;
 color: rgb(202, 64, 64);
 font-size: 17px;
-margin: 11px 15px;
+margin: 11px 7px 0px 0px;
 font-weight: bold;}
 .shopper_line{
 position: absolute;
