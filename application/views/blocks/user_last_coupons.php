@@ -12,14 +12,14 @@
 			<?php $storeInfo = $this->users_model->getStoreInfo($coupon->store_id); ?>
 				<li class="coupon">
 					<div class="store">
-						<a href="<?php echo base_url();?>store/page/<?php echo $coupon->store_id ?>"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $storeInfo[0]->store_logo?>"  /></a>
+						<a href="<?php echo base_url();?>store/page/<?php echo $coupon->store_id ?>" target="_parent"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $storeInfo[0]->store_logo?>"  /></a>
 					</div>
 					<div class="discaunt"><?php echo $coupon->type ?></div>
 					<div class="title"><?php echo $coupon->coupon_name ?></div>
 				</li>
 		<?php endforeach ?>
 		<div class="footer">
-			<a href="<?php echo base_url();?>user/page/<?php echo $userId ?>/coupons">צפה בכל הקופונים שלי</a>
+			<a href="<?php echo base_url();?>user/page/<?php echo $userId ?>/coupons" target="_parent">צפה בכל הקופונים שלי</a>
 		</div>
 	<?php else : ?>
 		<div class= "noinfo">לא קיימים קופונים</div>

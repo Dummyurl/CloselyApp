@@ -1,46 +1,53 @@
 
 	<div id="top-widget-holder">
+		<img src="<?php echo base_url();?>asset/img/social/twitter.png" alt="Post" class="fbicon" />
+		<img src="<?php echo base_url();?>asset/img/social/facebook.png" alt="Post" class="fbicon" />
+		<img src="<?php echo base_url();?>asset/img/social/google.png" alt="Post" class="fbicon" />
 				<div class="wrapper">
-					<div class="top-panel">
-						<span class="thispro">
-						<input type="text" value="הזן קוד קופון">
-						<div class="searchbutton search"><span class="search_text">קבל</span></div>
-						</span>
-						<div class="user-panel" id="panel">
-							<div class="face-text">
-								<div class="user-panel-contant">
-								<?php if(!$fb_data['me']): ?>
-								<div class="panel_line">
-									<img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" class="fbicon" /><a href="<?php echo $fb_data['loginUrl']; ?>"  class="fbconnect" onclick = "facebookPopup(this.href); return false"><?php echo ' התחבר עם פייסבוק '; ?></a>
-									<img class="biz-icon" src="<?php echo base_url();?>asset/img/bizicon.png" alt="Post" /><a href="#"><?php echo ' בעל עסק? לחץ כאן '; ?></a>	
+					
+						<div class="top-panel">
+							<span class="thispro">
+							<input type="text" value="הזן קוד קופון">
+							<div class="searchbutton search"><span class="search_text">שתף</span></div>
+							</span>
+							<div class="panel-shadow">
+								<div class="user-panel" id="panel">
+									<div class="face-text">
+										<div class="user-panel-contant">
+										<?php if(!$fb_data['me']): ?>
+										<div class="panel_line">
+											<img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" class="fbicon" /><a href="<?php echo $fb_data['loginUrl']; ?>"  class="fbconnect" onclick = "facebookPopup(this.href); return false"><?php echo ' התחבר עם פייסבוק '; ?></a>
+											<img class="biz-icon" src="<?php echo base_url();?>asset/img/bizicon.png" alt="Post" /><a href="#"><?php echo ' בעל עסק? לחץ כאן '; ?></a>	
+										</div>
+										<?php else: ?>
+										<a href="#" class="open_panel"><img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="smallpic" /><div class="user_text">פאנל משתמש</div></a>
+										<div class="notification_icons">
+										<img src="<?php echo base_url();?>asset/img/comment.png" alt="Post" class="fbicon" />
+										<img src="<?php echo base_url();?>asset/img/cart.png" alt="Post" class="fbicon" style="margin:-3px 0px;" />
+										<img src="<?php echo base_url();?>asset/img/request.png" alt="Post" class="fbicon" />
+										<img src="<?php echo base_url();?>asset/img/coupons.png" alt="Post" class="fbicon" />
+										</div>
+										<div class="panel_contant">
+										<img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="pic" />
+											<p><?php echo $fb_data['me']['name']; ?> ,הי<br />
+										הודעות חדשות<a href="<?php echo $fb_data['logoutUrl']; ?>">7</a>יש לך
+										</p>
+										<div class="mypanel_buttons">
+											<img src="<?php echo base_url();?>asset/img/buttons/mysetting.png" alt="Post" class="panel_btn" />
+											<img src="<?php echo base_url();?>asset/img/buttons/myfav.png" alt="Post" class="panel_btn" />
+											<img src="<?php echo base_url();?>asset/img/buttons/myclubs.png" alt="Post" class="panel_btn" />
+											<img src="<?php echo base_url();?>asset/img/buttons/mycoupons.png" alt="Post" class="panel_btn" />
+											<img src="<?php echo base_url();?>asset/img/buttons/myshops.png" alt="Post" class="panel_btn" />
+										</div>
+										<!-- <a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p> -->
+										</div>
+										<?php endif; ?>
+										</div>	
+									</div>
 								</div>
-								<?php else: ?>
-								<a href="#" class="open_panel">פאנל משתמש</a>
-								<div class="notification_icons">
-								<img src="<?php echo base_url();?>asset/img/comment.png" alt="Post" class="fbicon" />
-								<img src="<?php echo base_url();?>asset/img/cart.png" alt="Post" class="fbicon" style="margin:-3px 0px;" />
-								<img src="<?php echo base_url();?>asset/img/request.png" alt="Post" class="fbicon" />
-								<img src="<?php echo base_url();?>asset/img/coupons.png" alt="Post" class="fbicon" />
-								</div>
-								<div class="panel_contant">
-								<img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="pic" />
-									<p><?php echo $fb_data['me']['name']; ?> ,הי<br />
-								הודעות חדשות<a href="<?php echo $fb_data['logoutUrl']; ?>">7</a>יש לך
-								</p>
-								<div class="mypanel_buttons">
-									<img src="<?php echo base_url();?>asset/img/buttons/mysetting.png" alt="Post" class="panel_btn" />
-									<img src="<?php echo base_url();?>asset/img/buttons/myfav.png" alt="Post" class="panel_btn" />
-									<img src="<?php echo base_url();?>asset/img/buttons/myclubs.png" alt="Post" class="panel_btn" />
-									<img src="<?php echo base_url();?>asset/img/buttons/mycoupons.png" alt="Post" class="panel_btn" />
-									<img src="<?php echo base_url();?>asset/img/buttons/myshops.png" alt="Post" class="panel_btn" />
-								</div>
-								<!-- <a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p> -->
-								</div>
-								<?php endif; ?>
-								</div>	
 							</div>
 						</div>
-					</div>
+					
 					<div id="top-widget">
 						<div class="padding">
 						<ul  class="widget-cols clearfix">

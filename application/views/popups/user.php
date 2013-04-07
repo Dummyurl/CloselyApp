@@ -1,5 +1,6 @@
 
 <?php $this->load->helper('url'); ?>
+<?php $this->load->model('users_model'); ?>	
 <!doctype html>
 <html class="no-js">	
 	<head>
@@ -13,9 +14,17 @@
 	<body>
 	<div class="popup">
 		<div class="header">
-		<div class="freind_cnt"><div class="cnt_bubble"><?php echo $actions['shops'] ?></div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
-		<div class="freind_cnt"><div class="cnt_bubble"><?php echo $actions['coupons'] ?></div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-		<div class="freind_cnt"><div class="cnt_bubble"><?php echo $actions['recommands'] ?></div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+		
+		<div class="useractions"><img src="<?php echo base_url();?>asset/img/useractioncount.png" /></div>
+		<div class="freind_cnt"><div class="cnt_bubble popup_bubble" id="coupons"><?php echo $actions['coupons'] ?></div></div>
+		<div class="freind_cnt"><div class="cnt_bubble popup_bubble" id="shops"><?php echo $actions['shops'] ?></div></div>
+		<div class="freind_cnt"><div class="cnt_bubble popup_bubble" id="recommands"><?php echo $actions['recommands'] ?></div></div>
+		
+		<div class="buttons_collection">
+			<div class="userbutton"><img src="<?php echo base_url();?>asset/img/sendmessage.png" /></div>
+			<div class="userbutton"><img src="<?php echo base_url();?>asset/img/addfreind.png" /></div>
+			<div class="userbutton"><img src="<?php echo base_url();?>asset/img/followme.png" /></div>
+		</div>
 		<div class="fav"></div>
 		<div class="title"><?php echo $userName ?></div>
 		<div class="triangle"></div>
@@ -23,6 +32,7 @@
 		<div class="content">
 			<div class="user">
 				<div class="picture"><img src="https://graph.facebook.com/<?php echo $userId; ?>/picture?type=large"  /></div>
+				<?php if ($shops) : ?>
 				<div id="slider" class="jThumbnailScroller">
 					<div class="jTscrollerContainer">
 						<div class="jTscroller">
@@ -32,9 +42,14 @@
 						</div>
 					</div>
 				</div>
+				<?php else : ?>
+				<div class="noshops">טרם שותפו קניות באתר</div>
+				<?php endif ; ?>
 				<div class="user_info">
 					<div class="block"><?php $this->load->view('blocks/user_clubs',$userId); ?></div>
+					<div class="verical_divider"><?php echo '' ?></div>
 					<div class="block"><?php $this->load->view('blocks/user_last_coupons',$userId); ?></div>
+					<div class="verical_divider"><?php echo '' ?></div>
 					<div class="block"><?php $this->load->view('blocks/user_last_recommands',$userId); ?></div>
 				</div>
 			</div>

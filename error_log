@@ -79,3 +79,8 @@
 [03-Apr-2013 00:57:25] PHP Parse error:  syntax error, unexpected ';' in /home/nmazuz/public_html/getlike.net/application/views/side/lastactions.php on line 4
 [03-Apr-2013 00:58:42] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/side/lastactions.php on line 3
 [03-Apr-2013 00:59:54] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/side/lastactions.php on line 3
+[04-Apr-2013 11:08:52] CSRF state token does not match one provided.
+[05-Apr-2013 11:52:11] CSRF state token does not match one provided.
+[06-Apr-2013 00:10:41] CSRF state token does not match one provided.
+[06-Apr-2013 06:53:04] CSRF state token does not match one provided.
+[07-Apr-2013 13:43:47] CSRF state token does not match one provided.

@@ -63,7 +63,7 @@
 			
 			<?php if($fb_data['me']): ?>
 			 $('#panel').hoverIntent(openpanel,closepanel);
-			function openpanel(){$(this).animate({top:6},600);$('.panel_contant').css('display','block');}
+			function openpanel(){$(this).animate({top:5},600);$('.panel_contant').css('display','block');}
 			function closepanel(){ $(this).animate({top:-135},600);$('.panel_contant').css('display','none');}
 			<?php endif; ?>
 		
