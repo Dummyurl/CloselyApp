@@ -49,9 +49,9 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'nmazuz';
-$db['default']['password'] = '3fyp-Uq4joSy';
-$db['default']['database'] = 'nmazuz_shoppix';
+$db['default']['username'] = 'shoppix';
+$db['default']['password'] = 'niso7265';
+$db['default']['database'] = 'shoppix';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

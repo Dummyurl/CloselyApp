@@ -2,7 +2,7 @@
 <?php $this->load->model('users_model'); ?>		
 <?php $coupons = $this->users_model->getLastCoupons($userId) ?>
 <div class="coupons">
-	<div class="header">
+	<div class="header header_orange">
 		<div class="title">הקופונים שלי</div>
 		<div class="triangle"></div>
 	</div>
