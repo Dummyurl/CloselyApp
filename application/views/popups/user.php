@@ -13,12 +13,12 @@
 	</head>	
 	<body>
 	<div class="popup">
-		<div class="header">
+		<div class="header header_orange" >
 		
 		<div class="useractions"><img src="<?php echo base_url();?>asset/img/useractioncount.png" /></div>
-		<div class="freind_cnt"><div class="cnt_bubble popup_bubble" id="coupons"><?php echo $actions['coupons'] ?></div></div>
-		<div class="freind_cnt"><div class="cnt_bubble popup_bubble" id="shops"><?php echo $actions['shops'] ?></div></div>
-		<div class="freind_cnt"><div class="cnt_bubble popup_bubble" id="recommands"><?php echo $actions['recommands'] ?></div></div>
+		<div class="freind_cnt"><div class="cnt_bubble popup_bubble header_red" id="coupons"><?php echo $actions['coupons'] ?></div></div>
+		<div class="freind_cnt"><div class="cnt_bubble popup_bubble header_red" id="shops"><?php echo $actions['shops'] ?></div></div>
+		<div class="freind_cnt"><div class="cnt_bubble popup_bubble header_red" id="recommands"><?php echo $actions['recommands'] ?></div></div>
 		
 		<div class="buttons_collection">
 			<div class="userbutton"><img src="<?php echo base_url();?>asset/img/sendmessage.png" /></div>

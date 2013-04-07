@@ -25,8 +25,8 @@
 		<div class="box-block">
 			<div class="info_box">
 				<div class="infobox-container"> 
-						<div class="infobox big">  
-							<h3><span>אזור חברים</span></h3> 
+						<div class="infobox big header_gray">  
+							<h3 class="header_orange"><span>אזור חברים</span></h3> 
 							<div class="triangle-l topfix"></div>
 							<div class="search_freinds">
 								<input type="text" value="...חפש חבר" />
@@ -70,8 +70,8 @@
 		<div class="box-block">
 			<div class="info_box">
 				<div class="infobox-container"> 	
-						<div class="infobox" style="height:310px">  
-							<h3><span>פעולות אחרונות</span></h3> 
+						<div class="infobox header_gray" style="height:310px">  
+							<h3 class="header_orange"><span>פעולות אחרונות</span></h3> 
 							<div class="triangle-l topfix"></div>
 							<div class="contant-box-feed">
 							<img id="loading-feed" src="<?php echo base_url();?>asset/img/ajax-loader.gif" />
@@ -111,8 +111,8 @@
 			<div class="info_box">
 				<div class="infobox-container"> 
 					
-						<div class="infobox" style="height:300px"> 
-							<h3><span>המבזבזים המובילים</span></h3> 
+						<div class="infobox header_gray" style="height:300px"> 
+							<h3 class="header_orange"><span>המבזבזים המובילים</span></h3> 
 							<div class="top-buttons">
 								<div class="triangle-l" id="topTraiangle"></div>
 								<ul>
@@ -147,8 +147,8 @@
 			<div class="info_box">
 				<div class="infobox-container"> 
 				
-						<div class="infobox" style="height:300px">  
-							<h3><span>עסקים מובילים</span></h3> 
+						<div class="infobox header_gray" style="height:300px">  
+							<h3 class="header_orange"><span>עסקים מובילים</span></h3> 
 							<div class="triangle-l topfix"></div>
 							<div class="contant-box">
 							<ul>

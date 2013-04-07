@@ -1093,8 +1093,8 @@ font-weight: bold;
 display: block;
 text-align: center;
 position: relative;
-background: rgba(172, 241, 26, 0.97);
-background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+background:rgb(248, 172, 2);
+background: -moz-linear-gradient(top,rgb(248, 172, 2), rgb(248, 172, 2) 0%, rgb(248, 172, 2) 51%, rgb(248, 172, 2));
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(248, 172, 2)), color-stop(.5, rgb(248, 172, 2)), to(rgb(248, 199, 2)));
 }	
 	/* WHILE HOVERED */
@@ -1221,10 +1221,7 @@ box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
 font-size: 160%;
 text-align: right;
 font-weight: bold;
-background: background: -moz-linear-gradient( center top, rgb(255, 173, 0) 0%, rgb(255, 153, 0) 41% );
-background: -webkit-gradient( linear, center bottom, center top, from(rgb(255, 173, 0)), to(rgba(255, 122, 0, 0.41)) );
-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";}
+}
 .popup .header .freind_cnt img{}
 .popup .header .freind_cnt .cnt_bubble{}
 .popup .header .fav{background: url(../img/fav2.png) no-repeat scroll 50% -20px transparent;
@@ -1589,11 +1586,7 @@ left: 20px;
 top: 24px;
 text-align: center;
 border: 1px solid rgba(0, 48, 80, 0.4);
-font-weight: font-weight: bold;
-background: -moz-linear-gradient( center top, rgb(255, 173, 0) 0%, rgb(255, 153, 0) 41% );
-background: -webkit-gradient( linear, center bottom, center top, from(rgb(255, 173, 0)), to(rgba(255, 122, 0, 0.41)) );
-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";
+font-weight: bold;
 }
 
 .buttontext{
@@ -2128,9 +2121,6 @@ z-index: 90;
 -webkit-box-shadow: -1px -1px 13px -5px rgba(0,0,0,.8);
 -moz-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
 box-shadow: 1px -1px 13px -5px rgba(0,0,0,.8);
-background: -webkit-gradient( linear, center bottom, center top, from(rgb(250, 250, 250)), to(rgb(255, 255, 255)) );
-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";
 color: #fff;
 font-size: 90%;
 }
@@ -2148,11 +2138,31 @@ box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
 font-size: 160%;
 text-align: right;
 font-weight: bold;
-background: background: -moz-linear-gradient( center top, rgb(255, 173, 0) 0%, rgb(255, 153, 0) 41% );
+}
+
+.header_red{
+background:rgb(218, 51, 51);
+background: -moz-linear-gradient( center top, rgb(218, 51, 51) 100%, rgb(255, 139, 139) 100% ) !important;
+background: -webkit-gradient( linear, center bottom, center top, from(rgb(218, 51, 51)), to(rgb(255, 139, 139)) ) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";}
+
+.header_orange{
+background:rgb(248, 172, 2);
+background: -moz-linear-gradient( center top, rgb(255, 173, 0) 0%, rgb(255, 153, 0) 41% );
 background: -webkit-gradient( linear, center bottom, center top, from(rgb(255, 173, 0)), to(rgba(255, 122, 0, 0.41)) );
 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";
-}
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";}
+
+.header_gray{
+background:rgb(250, 250, 250);
+background: -moz-linear-gradient( center top, rgb(250, 250, 250) 100%, rgb(255, 255, 255) 100% );
+background: -webkit-gradient( linear, center bottom, center top, from(rgb(250, 250, 250)), to(rgb(255, 255, 255)) );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";}
+
+
+
 
 .big{
 min-height: 450px;
@@ -2232,9 +2242,6 @@ text-align: center;
 font-size: 10px;
 font-weight: bold;
 border-radius: 2px;
-background: -webkit-gradient( linear, center bottom, center top, from(rgb(218, 51, 51)), to(rgb(255, 139, 139)) );
-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";
 margin: 4px 17px;
 z-index: 1;}
 
@@ -2524,7 +2531,7 @@ width: 300px;
 margin: 10px 0px 0px -8px;}
 .face-logo{float: right;margin: 10px 6px 1px 0px;}
 .biz-icon{}
-.panel_line img.fbicon , img.biz-icon {width:18px;float: float: right !important;}
+.panel_line img.fbicon , img.biz-icon {width:18px;float: right !important;}
 .panel_line a{float: right;padding: 4px 6px 0px 8px;}
 .user-panel-contant{}
 .facebook-connect-text{}
@@ -2558,16 +2565,6 @@ left: 6px;}
 margin: 12px 2px 12px 6px;}
 .mypanel_buttons img {float: left;
 padding: 0px 2px 0px 4px;}
-
-
-
-
-*
- * CSS Styles that are needed by jScrollPane for it to operate correctly.
- *
- * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
- * may not operate correctly without them.
- */
 
 .jspContainer
 {
