@@ -8,7 +8,7 @@
 						<div class="top-panel">
 							<span class="thispro">
 							<input type="text" value="הזן קוד קופון">
-							<div class="searchbutton search"><span class="search_text">שתף</span></div>
+							<div class="searchbutton search header_orange"><span class="search_text">שתף</span></div>
 							</span>
 							<div class="panel-shadow">
 								<div class="user-panel" id="panel">

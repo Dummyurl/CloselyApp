@@ -2513,7 +2513,7 @@ background: url(../img/boxbg.png) left 640% no-repeat rgba(247, 246, 240, 0);
 
 .panel_line{position: absolute;
 bottom: 4px;
-right: 10px;
+right: 4px;
 }
 
 .face-text{float: left;
@@ -2524,7 +2524,7 @@ width: 300px;
 margin: 10px 0px 0px -8px;}
 .face-logo{float: right;margin: 10px 6px 1px 0px;}
 .biz-icon{}
-.panel_line img.fbicon , img.biz-icon {width:18px;float: right;}
+.panel_line img.fbicon , img.biz-icon {width:18px;float: float: right !important;}
 .panel_line a{float: right;padding: 4px 6px 0px 8px;}
 .user-panel-contant{}
 .facebook-connect-text{}
