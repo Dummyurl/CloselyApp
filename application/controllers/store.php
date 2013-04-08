@@ -6,10 +6,13 @@ class Store extends CI_Controller {
     {
         parent::__construct();
         $this->load->model('Facebook_model');
+		$this->load->model('stores_model');
     }
 
     function popup($storeId)
     {
+		$store = $this->stores_model->getStoreInfo($storeId);
+		$data['store']= $store[0];
 		$this->load->view('popups/store',$data);
     }
 	
