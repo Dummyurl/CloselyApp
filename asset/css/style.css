@@ -1246,12 +1246,12 @@ z-index: 1000;}
 .noshops{
 float: left;
 margin: 12px 1px;
-width: 560px;
+width: 533px;
 color: rgb(134, 134, 134);
 font-size: 16px;
 font-weight: bold;
 text-align: center;
-padding: 72px 0px;
+padding: 45px 0px;
 }
 
 .popup .content {}
@@ -1260,17 +1260,37 @@ padding: 72px 0px;
 .popup .content  .user{}
 .popup .content  .user .picture{float: right;margin: 16px 15px;}
 .popup .content  .user .picture img{width: 180px;height: 176px;-moz-border-radius: 7px 7px 7px 7px;border-radius: 7px 7px 7px 7px;border: 1px rgb(194, 194, 194) solid;}
-.popup .content  .user #slider{float: left;margin: 12px 1px;height: 184px;width: 562px;}
-.popup .content  .user #slider img{width:170px;height:180px}	
+.popup .content  .user .shops {float:left;border: 1px rgb(209, 209, 209) solid;margin: 17px 0px;position: relative;}
+.popup .content  .user .headerblock {background: rgb(11, 144, 177);
+text-align: right;
+font-size: 21px;
+padding: 5px 11px;
+color: white;}
+.popup .content  .user .triangle {border-color: rgba(11, 144, 177, 1) rgba(182, 126, 41, 0) transparent transparent;
+border-style: solid;
+border-width: 7px;
+position: absolute;
+right: 20px;
+z-index: 1002;}
+.popup .content  .user .contentblock{text-align: right;padding: 10px 12px;}
+.popup .content  .user #slider{float: left;
+margin: 0px 5px;
+height: 131px;
+width: 530px;}
+.popup .content  .user #slider img{width: 130px;
+height: 123px;}	
 .popup .content  .user .user_info	{clear: both;width: 100%;float: right;}
-.popup .content  .user .user_info .block{float: right;width: 233px;overflow: hidden;position: relative;padding: 3px 10px 0px 10px;height: 230px;-webkit-box-shadow: -1px -1px 13px -5px rgba(0,0,0,.8);-moz-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);box-shadow: 1px -1px 13px -5px rgba(0,0,0,.8);}
+.popup .content  .user .user_info .block{float: right;
+width: 250px;
+overflow: hidden;
+border: 1px rgb(219, 219, 219) solid;
+position: relative;
+height: 230px;}
 
 /* popup_user_blocks */	
 .popup .content  .store{}
 .popup .content  .store .picture{float: right;margin: 16px 0px 16px 20px;}
 .popup .content  .store .picture img{width: 190px;height: 178px;-moz-border-radius: 7px 7px 7px 7px;border-radius: 7px 7px 7px 7px;border: 1px rgb(194, 194, 194) solid;}
-.popup .content  .store #slider{float: left;margin: 12px 1px;height: 184px;width: 562px;}
-.popup .content  .store #slider img{width:170px;height:180px}	
 .popup .content  .store .info	{float: right;
 border: 1px rgb(209, 209, 209) solid;
 width: 280px;
@@ -1329,29 +1349,22 @@ z-index: 1002;}
 
 
 /* popup_blocks */	
-.block .header {width: 100%;
-height: 50px;
-margin: 4px 0px 0px 0px;
+.block .headerblock {width: 100%;
+height: 21px;
 position: relative;
--webkit-border-radius: 3px 3px 3px 3px;
--moz-border-radius: 3px 3px 3px 3px;
-border-radius: 3px 3px 3px 3px;}
+}
 
 
 
-.block .header .title{text-align: right;
-padding: 11px 12px 11px 43px;
+.block .headerblock .title{text-align: right;
+text-align: right;
+padding: 1px 22px;
 float: right;
 font-weight: bold;
-font-size: 24px;
+font-size: 16px;
 color: white;}
-.block .header .triangle{border-color: rgba(255, 173, 0, 1) rgba(182, 126, 41, 0) transparent transparent;
-border-style: solid;
-border-width: 13px;
-position: absolute;
-left: 166px;
-top: 47px;
-z-index: 1002;}	
+.block .headerblock .triangle{right: 40px !important;
+top: 31px;}	
 
 .block  .contant{margin:10px 0px}
 .verical_divider{height: 100px;

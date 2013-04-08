@@ -2,7 +2,7 @@
 <?php $this->load->model('users_model'); ?>	
 <?php $clubs = $this->users_model->getClubs($userId) ?>
 <div class="clubs">
-	<div class="header header_orange">
+	<div class="headerblock">
 		<div class="title">המועדונים שלי</div>
 		<div class="triangle"></div>
 	</div>

@@ -2,7 +2,7 @@
 <?php $this->load->model('users_model'); ?>		
 <?php $recommands = '' ?>	
 <div class="recommands">
-	<div class="header header_orange">
+	<div class="headerblock">
 		<div class="title">ההמלצות שלי</div>
 		<div class="triangle"></div>
 	</div>
