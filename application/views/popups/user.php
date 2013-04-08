@@ -32,19 +32,25 @@
 		<div class="content">
 			<div class="user">
 				<div class="picture"><img src="https://graph.facebook.com/<?php echo $userId; ?>/picture?type=large"  /></div>
-				<?php if ($shops) : ?>
-				<div id="slider" class="jThumbnailScroller">
-					<div class="jTscrollerContainer">
-						<div class="jTscroller">
-						<?php foreach($shops as $shop) : ?>
-							<a href="#"><img src="<?php echo base_url() . 'asset/img/shops/' . $shop->shop_image;?>" /></a>
-						<?php endforeach ?>
-						</div>
+					<div class="shops">
+						<div class="headerblock">הקניות שלי</div>
+						<div class="triangle"></div>
+							<div class="contentblock">
+							<?php if ($shops) : ?>
+								<div id="slider" class="jThumbnailScroller">
+									<div class="jTscrollerContainer">
+										<div class="jTscroller">
+										<?php foreach($shops as $shop) : ?>
+											<a href="#"><img src="<?php echo base_url() . 'asset/img/shops/' . $shop->shop_image;?>" /></a>
+										<?php endforeach ?>
+										</div>
+									</div>
+								</div>
+								<?php else : ?>
+								<div class="noshops">טרם שותפו קניות באתר</div>
+							<?php endif ; ?>
+							</div>
 					</div>
-				</div>
-				<?php else : ?>
-				<div class="noshops">טרם שותפו קניות באתר</div>
-				<?php endif ; ?>
 				<div class="user_info">
 					<div class="block"><?php $this->load->view('blocks/user_clubs',$userId); ?></div>
 					<div class="verical_divider"><?php echo '' ?></div>

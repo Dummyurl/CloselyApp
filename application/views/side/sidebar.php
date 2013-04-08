@@ -155,7 +155,7 @@
 								<?php foreach ($stores as $store ) :?>
 									<?php $user_name = $this->stores_model->getAll() ?>
 									<li class="brands_list">
-										<img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $store->store_logo;?>"  />
+										<a href="<?php echo base_url();?>store/popup/<?php echo $store->store_id ?>" class = "fancybox"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $store->store_logo;?>"  /></a>
 									</li>
 								<?php endforeach ?>
 							</ul>
