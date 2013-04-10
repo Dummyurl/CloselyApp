@@ -43,7 +43,7 @@
 											<div class="freind_name"><?php echo $name ?></div>
 												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $shopsCnt = $this->users_model->countShops($uid); ?></div><img src="<?php echo base_url();?>asset/img/cart.png"  /></div>
 												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $couponsCnt = $this->users_model->countCoupons($uid); ?></div><img src="<?php echo base_url();?>asset/img/coupons.png"  /></div>
-												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $commentsCnt = $this->users_model->countComments($uid); ?></div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
+												<div class="freind_cnt"><div class="cnt_bubble"><?php echo $commentsCnt = $this->users_model->countRecommands($uid); ?></div><img src="<?php echo base_url();?>asset/img/comment.png"  /></div>
 											</div>
 										</li>
 										<?php $freinds_shops_cnt += $shopsCnt; ?>

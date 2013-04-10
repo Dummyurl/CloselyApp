@@ -18,5 +18,34 @@ class stores_model extends ci_Model {
 		$q = $this->db->get('stores');
 		return $q->result();	
 	}
-	
+
+	function getlocation($id) {
+		$this->db->select('location'); 
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores');
+		$res = $q->result();
+		 $locationArr = explode(',' , $res[0]->location);
+		return $locationArr;	
+	}
+
+	function getLastCustomers($id) {
+		$this->db->where('store_id', $id); 
+		$this->db->select('user_id'); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('shopping',18);
+		$customerArr = array();
+		foreach ($q->result() as $user ){
+			$customerArr[] = $user->user_id;	
+		}
+		$allShops = array_unique($customerArr);
+		$uniqeCustomers = array_slice($allShops, 0, 18);
+		return $uniqeCustomers;	
+	}
+
+	function getLastRecommands($id) {
+		$this->db->where('store_id', $id); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('recommands',3);
+		return $q->result();	
+	}	
 }

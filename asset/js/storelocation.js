@@ -3,7 +3,7 @@
   var autocomplete;
   
   function initialize() {
-    var myLatlng = new google.maps.LatLng(32.00548300000001,34.77102100000002);
+    var myLatlng = new google.maps.LatLng(<?php echo $point[0] ?>,<?php echo $point[1] ?>);
     var myOptions = {
       zoom: 16,
       center: myLatlng,
@@ -18,11 +18,10 @@
     google.maps.event.addListener(autocomplete, 'place_changed', function() {
       showSelectedPlace();
     });
-	
 	new google.maps.Marker({
 		position: myLatlng,
 		map: map,
-		title: 'Your GPS Location',
+		title: '<?php echo $info->store_name ?>',
 		animation: google.maps.Animation.DROP
 	});
 	// google.maps.event.addListener(markers[i], 'click', getDetails(results[i], i));
