@@ -1289,72 +1289,61 @@ height: 230px;}
 
 /* popup_user_blocks */	
 .popup .content  .store{}
-.popup .content  .store .picture{float: right;margin: 16px 0px 16px 20px;}
-.popup .content  .store .picture img{width: 190px;height: 178px;-moz-border-radius: 7px 7px 7px 7px;border-radius: 7px 7px 7px 7px;border: 1px rgb(194, 194, 194) solid;}
-.popup .content  .store .info	{float: right;
-border: 1px rgb(209, 209, 209) solid;
-width: 280px;
-position: relative;
-height: 180px;
-margin: 16px -6px;}
-.popup .content  .store .recommands{clear: both;
-float: right;
-border: 1px rgb(209, 209, 209) solid;
-width: 488px;
-position: relative;
-height: 230px;}
-.popup .content  .store .sales{
+.popup .content   .picture{float: right;margin: 16px 0px 16px 20px;}
+.popup .content   .picture img{width: 190px;height: 178px;-moz-border-radius: 7px 7px 7px 7px;border-radius: 7px 7px 7px 7px;border: 1px rgb(194, 194, 194) solid;}
+.popup .content   .info	{float: right;border: 1px rgb(209, 209, 209) solid;width: 280px;position: relative;height: 180px;margin: 16px -6px;}
+.popup .content   .recommands{clear: both;float: right;border: 1px rgb(209, 209, 209) solid;width: 488px;position: relative;height: 230px;}
+.popup .content   .sales{float: left;border: 1px rgb(209, 209, 209) solid;width: 290px;position: relative;height: 113px;margin: 116px 0px 0px 0px;}
+.popup .content    .headerblock{background: rgb(11, 144, 177);text-align: right;font-size: 21px;padding: 5px 11px;color: white;}
+.popup .content   .contentblock{text-align: right;padding: 10px 12px;}
+.popup .content    .triangle{border-color: rgba(11, 144, 177, 1) rgba(182, 126, 41, 0) transparent transparent;border-style: solid;border-width: 7px;position: absolute;right: 20px;z-index: 1002;}
+.popup .content    .info ul{list-style-type: none;float: right;}
+.popup .content   .info li{text-align: right;padding: 10px 0px;}
+.popup .content    .info li .tag{font-weight: bold;float: right;width: 75px;color: rgb(0, 0, 117);}
+.popup .content    .info li .detial{float: right;color: black;width: 100px;}
+.popup .content    .recommands ul{list-style-type: none;float: right;}
+.popup .content    .recommands li{text-align: right;width: 474px;height: 50px;}
+.popup .content    .recommands .more_recommands p{float: left;color:black;padding: 8px 8px;}
+.popup .content    .recommands li .user_image img{float: right;height: 40px;width: 40px;}
+.popup .content    .recommands li .comment_bubble{float: right;background: url(../img/rc_bubble_store.png) no-repeat;height: 50px;width: 434px;}
+.popup .content    .recommands li .comment_bubble .rating{float: left;background: url(../img/handrating_none.png) no-repeat;width: 114px;height: 43px;background-position: 5px 7px;}
+.popup .content    .recommands li .comment_bubble .rating .auto{float: left;background: url(../img/handrating_full.png) no-repeat;width: 114px;height: 43px;background-position: 5px 7px;}
+.popup .content   .recommands li .comment_bubble .user_recommend{float: right;color:black}
+.popup .content    .recommands li .comment_bubble .user_recommend .user_name{float: right;margin: 6px 13px;font-weight: bold;color: rgb(0, 13, 78);}
+.popup .content    .recommands li .comment_bubble .user_recommend .text_recommand{clear:both;margin: 6px 13px;}
+.popup .content    .sales ul{list-style-type: none;float: right;}
+.popup .content    .sales li{text-align: right;padding: 10px 0px;display:inline;}
+.popup .content    .sales li img{height: 25px;width: 25px;padding: 2px 0px 0px 0px;}
+.popup .content .boxgrid{width: 295px;
+height: 130px;
+margin: 99px 0px 0 0px;
 float: left;
-border: 1px rgb(209, 209, 209) solid;
-width: 290px;
-position: relative;
-height: 113px;
-margin: 116px 0px 0px 0px;}
-
-.popup .content  .store  .headerblock{
-background: rgb(11, 144, 177);
-text-align: right;
-font-size: 21px;
-padding: 5px 11px;
-color: white;}
-.popup .content  .store  .contentblock{
-text-align: right;padding: 10px 12px;}
-
-.popup .content  .store  .triangle{
-border-color: rgba(11, 144, 177, 1) rgba(182, 126, 41, 0) transparent transparent;
-border-style: solid;
-border-width: 7px;
+border-style: dashed;
+border-width: 1px;
+border-color: rgb(145, 145, 145);
 position: absolute;
-right: 20px;
-z-index: 1002;}
+top: 247px;}
 
-.popup .content  .store  .info ul{list-style-type: none;float: right;}
-.popup .content  .store  .info li{text-align: right;padding: 10px 0px;}
-.popup .content  .store  .info li .tag{font-weight: bold;float: right;width: 75px;color: rgb(0, 0, 117);}
-.popup .content  .store  .info li .detial{float: right;color: black;width: 100px;}
+.popup .content .boxgrid .cover{
+height: 130px;
+width: 295px;
+position: absolute;
+top: 0;
+left: 0;
+border: 0;
+color: black;
+background: white;}
 
-.popup .content  .store  .recommands ul{list-style-type: none;float: right;}
-.popup .content  .store  .recommands li{text-align: right;width: 474px;height: 50px;}
-.popup .content  .store  .recommands .more_recommands p{float: left;color:black;padding: 8px 8px;}
-.popup .content  .store  .recommands li .user_image img{float: right;height: 40px;width: 40px;}
-.popup .content  .store  .recommands li .comment_bubble{float: right;background: url(../img/rc_bubble_store.png) no-repeat;height: 50px;width: 434px;}
-.popup .content  .store  .recommands li .comment_bubble .rating{float: left;
-background: url(../img/handrating_none.png) no-repeat;
-width: 114px;
-height: 43px;
-background-position: 5px 7px;}
-.popup .content  .store  .recommands li .comment_bubble .rating .auto{float: left;
-background: url(../img/handrating_full.png) no-repeat;
-width: 114px;
-height: 43px;
-background-position: 5px 7px;}
-.popup .content  .store  .recommands li .comment_bubble .user_recommend{float: right;color:black}
-.popup .content  .store  .recommands li .comment_bubble .user_recommend .user_name{float: right;margin: 6px 13px;font-weight: bold;color: rgb(0, 13, 78);}
-.popup .content  .store  .recommands li .comment_bubble .user_recommend .text_recommand{clear:both;margin: 6px 13px;}
+.popup .content .shop #map_canvas{
+float: left;
+width: 297px;
+height: 265px;
+z-index: 100;
+}
 
-.popup .content  .store  .sales ul{list-style-type: none;float: right;}
-.popup .content  .store  .sales li{text-align: right;padding: 10px 0px;display:inline;}
-.popup .content  .store  .sales li img{height: 25px;width: 25px;padding: 2px 0px 0px 0px;}
+.popup .content .shop .cover .triangle-l{border-width: 28px;}
+.popup .content .shop .sale_status .state{width: 76px;height: 14px;margin: 0px -4px;padding: 6px 4px;}
+.popup .content .shop .sale_status .triangle{border-width: 13px;right: 80px;}
 
 
 /* popup_blocks */	

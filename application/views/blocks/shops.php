@@ -50,7 +50,7 @@
 <div class="stars-rate"></div>
 <div class="clearfix"></div>
 <div class="brandlogo"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></div>
-<div class="shop_detials fancybox" >פרטי הקנייה</div>
+<div class="shop_detials"><a href="/shops/popup/<?php echo $shop->shop_id ?>" class="fancybox">פרטי הקנייה</a></div>
 				</div>
 			</div>			
 		</li>

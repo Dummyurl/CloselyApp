@@ -49,4 +49,17 @@ class catalog_model extends ci_Model {
 		return $q->result();	
 	}	
 	
+
+	function getCategory($id) {
+		$this->db->where('category_id', $id); 
+		$q = $this->db->get('categories');
+		return $q->result();	
+	}
+	
+	function getCoupon($id) {
+		$this->db->where('coupon_id', $id); 
+		$q = $this->db->get('coupons');
+		return $q->result();	
+	}	
+	
 }

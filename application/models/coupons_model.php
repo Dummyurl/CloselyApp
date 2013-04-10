@@ -19,4 +19,6 @@ class coupons_model extends ci_Model {
 		return $q->result();	
 	}	
 	
+
+	
 }
