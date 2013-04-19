@@ -40,6 +40,8 @@
 
 $route['default_controller'] = "main";
 $route['404_override'] = '';
+$route['user/(:num)'] = "user/page/$1";
+$route['(:num)'] = "store/page/$1";
 
 
 /* End of file routes.php */

@@ -89,3 +89,36 @@
 [08-Apr-2013 15:37:50] CSRF state token does not match one provided.
 [08-Apr-2013 15:38:18] CSRF state token does not match one provided.
 [10-Apr-2013 14:18:11] CSRF state token does not match one provided.
+[11-Apr-2013 09:28:25] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home/nmazuz/public_html/getlike.net/application/views/popups/shop.php on line 22
+[12-Apr-2013 11:28:56] PHP Fatal error:  Call to a member function getShopComments() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/shops.php on line 44
+[13-Apr-2013 10:16:32] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 25
+[13-Apr-2013 10:17:21] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 25
+[13-Apr-2013 10:18:18] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 25
+[13-Apr-2013 10:18:55] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 28
+[16-Apr-2013 23:46:45] PHP Fatal error:  Call to a member function getLatestfeed() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/catalog.php on line 27
+[19-Apr-2013 00:10:58] CSRF state token does not match one provided.
+[19-Apr-2013 10:24:15] PHP Fatal error:  Call to a member function get_store_coupons() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/store.php on line 34
+[19-Apr-2013 10:27:22] PHP Fatal error:  Call to a member function fetch_store_shops() on a non-object in /home/nmazuz/public_html/getlike.net/application/controllers/store.php on line 36
+[19-Apr-2013 10:28:14] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:29:19] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:31:58] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:33:48] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:36:36] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:37:14] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:38:06] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 38
+[19-Apr-2013 10:39:39] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 40
+[19-Apr-2013 10:41:39] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
+[19-Apr-2013 10:42:43] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 40
+[19-Apr-2013 10:43:33] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 40
+[19-Apr-2013 10:43:33] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 40
+[19-Apr-2013 10:47:03] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
+[19-Apr-2013 10:47:54] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
+[19-Apr-2013 10:48:35] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
+[19-Apr-2013 10:49:47] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 42
+[19-Apr-2013 10:50:28] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 43
+[19-Apr-2013 10:53:00] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
+[19-Apr-2013 10:54:11] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 42
+[19-Apr-2013 10:54:12] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 42
+[19-Apr-2013 10:55:41] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
+[19-Apr-2013 11:07:35] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 21
+[19-Apr-2013 11:11:54] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 21

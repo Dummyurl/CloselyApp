@@ -20,9 +20,19 @@ class User extends CI_Controller {
 		$this->load->view('popups/user',$data);
     }
 	
-	function index()
+	function page($userId)
     {
-
+		$fb_data = $this->session->userdata('fb_data');
+		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
+		$this->load->model('categories_model');
+		$this->load->model('stores_model');
+		$data['records']['categories'] = $this->categories_model->getAll();
+		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
+		$data['feed']['stores'] = $this->stores_model->getAll();
+		$data['content']['page'] = 'user';
+		$data['content']['user'] = 'user';
+		$data['fb_data'] = $fb_data;
+		$this->load->view('home',$data);
     }
 
 	

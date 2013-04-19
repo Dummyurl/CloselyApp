@@ -6,18 +6,12 @@
 		<?php $this->load->view('head/css'); ?>
 		<script src="<?php echo base_url();?>asset/js/jquery-1.8.2.min.js"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=he&libraries=places"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.jscrollpane.min.js"></script>
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/jquery.thumbnailScroller.css"/>
 		<?php $this->load->view('head/storelocation',$location); ?>
 	</head>	
 	<body onload="initialize()">
 	<div class="popup">
 		<div class="header header_orange" >
-		<div class="buttons_collection">
-			<div class="userbutton"><img src="<?php echo base_url();?>asset/img/likestore.png" /></div>
-			<div class="userbutton"><a href="/shop/page/<?php echo $shop->shop_id ?>"><img src="<?php echo base_url();?>asset/img/shoppage.png" /></a></div>
-			<div class="userbutton"><a href="/user/page/<?php echo $shop->user_id ?>/shops"><img src="<?php echo base_url();?>asset/img/mypage.png" /></a></div>
-		</div>
 		<div class="fav"></div>
 		<div class="title"><?php echo $shop->shop_title;?></div>
 		<div class="triangle"></div>
@@ -25,11 +19,14 @@
 		<div class="content">
 			<div class="shop">
 				<div class="picture">
-				<img src="<?php echo base_url();?>asset/img/shops/<?php echo $shop->shop_image;?>"  />
-				<?php if (!empty($shop->shop_price)) : ?>
-					<div class="price_tag"><?php echo $shop->shop_price . ' ₪ ' ?></div>
-				<?php endif ?>
+					<?php if (!empty($shop->price)) : ?>
+						<div class="price_tag"><?php echo $shop->price ?></div>
+					<?php else : ?>	
+						<div class="price_tag">לא צויין מחיר</div>
+					<?php endif ?>	
+					<img src="<?php echo base_url();?>asset/img/shops/<?php echo $shop->shop_image;?>"  />
 				</div>
+				
 				<div class="info">
 					<div class="headerblock">פרטי הקנייה</div>
 					<div class="triangle"></div>
@@ -59,7 +56,32 @@
 
 					</div>
 				</div>
-					<?php $this->load->view('blocks/comments_template',$comments); ?>
+				<div class="recommands">
+					<div class="headerblock">המלצות על בית העסק</div>
+					<div class="triangle"></div>
+					<div class="contentblock">
+					<ul class="store_recommand_list">
+					<?php foreach($lastRecommands as $recommand) : ?>
+					<?php $username = $this->users_model->getUserName($recommand->user_id); ?>
+						<li class="recommand_row">
+							<div class="user_image"><img src="https://graph.facebook.com/<?php echo $recommand->user_id ?>/picture"/></div>
+							<div class="comment_bubble">
+								<div class="rating"><div class="auto" style="width:<?php echo 21.2*$recommand->rating ?>px"></div></div>
+								<div class="user_recommend">
+									<div class="user_name"><?php echo $username ?></div>
+									<div class="text_recommand"><?php echo $recommand->description ?></div>
+								</div>
+							</div>
+							
+						</li>
+					<?php endforeach ?>
+
+					</ul>
+				<div class="more_recommands">
+					<p>קרא עוד המלצות</p>
+				</div>
+					</div>
+				</div>
 				<div class="mycoupon">
 					<?php $this->load->view('blocks/singlebanner',$coupon); ?>
 				</div>
@@ -73,6 +95,4 @@
 	</div>
 	</body>
 </html>
-<script type="text/javascript" charset="utf-8">
-		$(function(){$('#commentsList').jScrollPane();});
-</script>
+

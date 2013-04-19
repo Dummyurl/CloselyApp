@@ -36,6 +36,25 @@ class catalog_model extends ci_Model {
         return false;
    }
 
+	function fetch_store_shops ($storeId , $start,$limit) {
+		$this->db->limit($limit, $start);
+		$this->db->order_by("create_time", "asc");
+		$this->db->where('store_id', $storeId);
+		$query = $this->db->get("shopping"); 
+		if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+	}
+	
+	function count_store_shops($storeId){
+		$this->db->where('store_id', $storeId);
+		$query = $this->db->get("shopping");
+		return $query->num_rows();
+	}
 
 	function getShopInfo($id) {
 		$this->db->where('shop_id', $id); 
@@ -61,5 +80,13 @@ class catalog_model extends ci_Model {
 		$q = $this->db->get('coupons');
 		return $q->result();	
 	}	
+	
+	function getShopComments($id) {
+		$this->db->where('shop_id', $id); 
+		$this->db->order_by("create_time", "asc");
+		$q = $this->db->get('comments');
+		return $q->result();	
+	}	
+
 	
 }

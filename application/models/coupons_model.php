@@ -19,6 +19,12 @@ class coupons_model extends ci_Model {
 		return $q->result();	
 	}	
 	
+	function get_store_coupons ($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('coupons');
+		return $q->result();	
+	}
+	
 
 	
 }

@@ -41,6 +41,7 @@ class Shops extends CI_Controller {
 		$data['coupon']['shop'] =  $info[0];
 		$data['coupon']['userId'] =  $userId;
 		$data['coupon']['user'] =  $this->users_model->getUserName($userId);
+		$data['comments']['comments'] =  $this->catalog_model->getShopComments($shopId);
 		$data['category'] =  $this->catalog_model->getCategory($info[0]->shop_category);
 		$data['lastRecommands'] = $this->stores_model->getLastRecommands($storeId);
 		$this->load->view('popups/shop',$data);

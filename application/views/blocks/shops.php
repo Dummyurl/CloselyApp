@@ -1,4 +1,4 @@
-
+<?php $this->load->helper('url'); ?>
 <div class="wall-messages">	
 <div class="block_title_container">
 	<div class="double_grey_single_divider"></div>	
@@ -7,6 +7,9 @@
 	<div class="triangle_blocks "></div>
 </div>	
 	<ul>
+			
+		
+			
 		<?php foreach ($last_shops as $shop) : ?>
 		<?php $storeInfo = $this->catalog_model->getStoreInfo($shop->store_id) ?>
 		<?php $userInfo = $this->catalog_model->getUserInfo	($shop->user_id) ?>
@@ -49,10 +52,11 @@
 <div class="shop_title"><?php echo $shop->shop_title ?></div>
 <div class="stars-rate"></div>
 <div class="clearfix"></div>
-<div class="brandlogo"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></div>
+<div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
 <div class="shop_detials"><a href="/shops/popup/<?php echo $shop->shop_id ?>" class="fancybox">פרטי הקנייה</a></div>
 				</div>
-			</div>			
+			</div>	
+			
 		</li>
 	<?php endforeach ?>
 	<div class = "more_result"></div>
