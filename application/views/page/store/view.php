@@ -1,18 +1,32 @@
+<?php $this->load->helper('url'); ?>
+<?php $this->load->view('head/multilocation',$branches); ?>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=he&libraries=places"></script>		
+<div class="store_wall_image">
+<div class="headline"><?php echo $info->store_name;?></div>
+<div class="imageline"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $info->store_logo;?>" class="headimage"  /></div>
+<img src="<?php echo base_url();?>asset/img/bizwalls/<?php echo $info->wall_image;?>"  /></div>
 <div class="store_nav">
 	<ul class="store_buttons">
 		<li id="storeinfo" rel="1"><div class="button_text ">פרטי העסק</div></li>
-		<li id="freindsshop" rel="2"><div class="button_text">קנו כאן</div></li>
+		<li id="freindsshop" rel="2"><div class="button_text">?מי קנה פה</div></li>
 		<li id="storecoupons" rel="3"><div class="button_text">קופונים</div></li>
 		<li id="storesales" rel="4"><div class="button_text">מבצעים</div></li>
 		<li id="storeproducts"rel="5"><div class="button_text">מוצרים</div></li>
 		<li id="storerecommands" rel="6"><div class="button_text">המלצות</div></li>		
 	</ul>
-<div class="store_logo"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $info->store_logo;?>"  /></div>
+<div class="store_summery">
+	<img src="<?php echo base_url();?>asset/img/useractioncount.png" />
+	<div class="freind_cnt"><div class="cnt_bubble popup_bubble header_red store_bubble" id="coupons"><?php echo $couponsCnt;?></div></div>
+	<div class="freind_cnt"><div class="cnt_bubble popup_bubble header_red store_bubble" id="shops"><?php echo $shopsCnt;?></div></div>
+	<div class="freind_cnt"><div class="cnt_bubble popup_bubble header_red store_bubble" id="recommands"><?php echo $recommandsCnt;?></div></div>		
+</div>
 <div class="select_bar">פרטי העסק</div>
 </div>
 <div class="store_tab_page">
-		<?php $this->load->view('page/store/storeinfo'); ?>
+		<?php $this->load->view('page/store/storeinfo',$store); ?>
 </div>
+
+
 
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
@@ -33,7 +47,7 @@ $(".select_bar").css("right",322);
 		$.ajax({  
 				type: "POST",  
 				url: url,  
-				data:  'tab=' + tab + '&store=' + '<?php echo $store ?>',
+				data:  'tab=' + tab + '&store=' + '<?php echo $id ?>',
 				beforeSend: function() {
 					// $("#loading-feed").show();
 				},				

@@ -33,7 +33,10 @@ class Store extends CI_Controller {
 		$tab = $this->input->post('tab');
 		$storeId = $this->input->post('store');
 		$data['id'] = $storeId;
+		$storeInfo = $this->stores_model->getStoreInfo($storeId);
 		$data['records']['coupons'] = $this->coupons_model->get_store_coupons($storeId);
+		$data['records']['recommands'] = $this->stores_model->getRecommands($storeId);
+		$data['info'] = $storeInfo[0];
 		$data['records']['last_shops'] = $this->catalog_model->fetch_store_shops($storeId,0,9);
 		$data['records']['last_shops_cnt'] = $this->catalog_model->count_store_shops($storeId);
 		$this->load->view('page/store/'.$tab,$data);
@@ -49,9 +52,13 @@ class Store extends CI_Controller {
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
 		$data['feed']['stores'] = $this->stores_model->getAll();
 		$data['content']['page'] = 'store';
-		$data['content']['store'] = $storeId;
-		$store = $this->stores_model->getStoreInfo($storeId);
-		$data['content']['store']['info'] = $store[0];
+		$data['content']['store']['id'] = $storeId;
+		$storeInfo = $this->stores_model->getStoreInfo($storeId);
+		$data['content']['store']['info'] = $storeInfo[0];
+		$data['content']['store']['branches']['locations'] = $this->stores_model->getBranches($storeId);
+		$data['content']['store']['recommandsCnt'] = $this->stores_model->recommandsCnt($storeId);
+		$data['content']['store']['couponsCnt'] = $this->stores_model->couponsCnt($storeId);
+		$data['content']['store']['shopsCnt'] = $this->stores_model->shopsCnt($storeId);
 		if ($onlyfreinds){
 			$data['content']['records']['freinds'] = $this->users_model->getFreindsId($onlyfreinds);	
 		}

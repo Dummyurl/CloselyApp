@@ -18,6 +18,12 @@ class stores_model extends ci_Model {
 		$q = $this->db->get('stores');
 		return $q->result();	
 	}
+	
+	function getBranches($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('branches');
+		return $q->result();	
+	}
 
 	function getlocation($id) {
 		$this->db->select('location'); 
@@ -48,4 +54,30 @@ class stores_model extends ci_Model {
 		$q = $this->db->get('recommands',3);
 		return $q->result();	
 	}	
+	
+	function getRecommands($id) {
+		$this->db->where('store_id', $id); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('recommands');
+		return $q->result();	
+	}
+	
+	function recommandsCnt($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('recommands');
+		return $q->num_rows();	
+	}
+	
+	function shopsCnt($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('shopping');
+		return $q->num_rows();	
+	}	
+
+	function couponsCnt($id) {
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('coupons');
+		return $q->num_rows();	
+	}	
+	
 }

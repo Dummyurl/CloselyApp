@@ -9,7 +9,7 @@
 	<div class="content">
 		<div class="map"></div>
 		<div class="user_box">
-			<div class="user_info"></div>
+			<div class="user_info_page"></div>
 			<div class="user_adv"></div>
 		</div>
 		<div class="my_freinds"></div>
