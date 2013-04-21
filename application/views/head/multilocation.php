@@ -1,5 +1,6 @@
 	
 	<script type="text/javascript" charset="utf-8">
+	
 		 var map, places, iw;
 	  var markers = [];
 	  var latlng = [];
@@ -7,18 +8,22 @@
 	  var autocomplete;
 	  function initialize() {
 		var offset = 0;
+		var bounds  = new google.maps.LatLngBounds();
 		<?php foreach($locations as $location) : ?>
 			<?php $point = explode("," , $location->location) ?>
 			latlng[offset] = new google.maps.LatLng(<?php echo $point[0] ?>,<?php echo $point[1] ?>);
 			storeTitle[offset] = "<?php echo $location->title ?>";
+			bounds.extend(latlng[offset]);
 			offset++;
 		<?php endforeach ?>	
+		
+		
 		var myOptions = {
-		  zoom: 7,
+		  zoom: 24,
 		  center: latlng[0],
 		  mapTypeId: google.maps.MapTypeId.ROADMAP
 		}
-
+		
 		
 		map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 		places = new google.maps.places.PlacesService(map);
@@ -36,6 +41,8 @@
 				animation: google.maps.Animation.DROP
 			});
 		}
+		map.fitBounds(bounds);
+		// map.setCenter(bounds.getCenter(), map.getBoundsZoomLevel(bounds));
 		// google.maps.event.addListener(markers[i], 'click', getDetails(results[i], i));
 		
 	  }

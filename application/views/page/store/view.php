@@ -1,6 +1,12 @@
 <?php $this->load->helper('url'); ?>
 <?php $this->load->view('head/multilocation',$branches); ?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=he&libraries=places"></script>		
+<div class="store_add_buttons">
+
+	<div class="store_rating"><img src="<?php echo base_url();?>asset/img/handrating_full.png" /> :דירוג</div>
+	<div class="store_add">הוסף המלצה<img src="<?php echo base_url();?>asset/img/add.png" /></div>
+	<div class="store_add">הוסף קנייה<img src="<?php echo base_url();?>asset/img/add.png" /></div>
+</div>
 <div class="store_wall_image">
 <div class="headline"><?php echo $info->store_name;?></div>
 <div class="imageline"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $info->store_logo;?>" class="headimage"  /></div>
@@ -31,6 +37,7 @@
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
 $(".select_bar").css("right",322);
+
 	$('.store_buttons li').click(function(){
 /* 	$('.store_buttons li').each(function(){
 		$(this).removeClass('select_bar');

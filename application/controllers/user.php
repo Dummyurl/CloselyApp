@@ -26,11 +26,17 @@ class User extends CI_Controller {
 		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
 		$this->load->model('categories_model');
 		$this->load->model('stores_model');
+		$shopStores = $this->users_model->getUserShopStores($userId);
 		$data['records']['categories'] = $this->categories_model->getAll();
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
 		$data['feed']['stores'] = $this->stores_model->getAll();
 		$data['content']['page'] = 'user';
-		$data['content']['user'] = 'user';
+		$data['content']['user']['id'] = $userId;
+		$userInfo = $this->users_model->getUser($userId);
+		$data['content']['user']['info'] = $userInfo[0];
+		$data['content']['user']['freinds'] = $this->users_model->getFreindsId($userId);
+		$data['content']['user']['shopstores']['locations'] = $this->stores_model->getShopStoreLocation($shopStores);
+		
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
     }

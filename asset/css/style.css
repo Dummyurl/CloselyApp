@@ -1507,6 +1507,27 @@ font-weight: bold;
 width: 216px;
 text-align: center;
 padding: 20px 0px;}
+.user_page_container{}
+.user_page_container #map_canvas{margin-top: 23px;}
+.user_page_container #locationField{display:none;}
+.user_info_page .picture{margin: 10px;}
+.user_info_page .picture img{
+float:right;
+width: 180px;
+height: 176px;
+-moz-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+border: 1px rgb(194, 194, 194) solid;}
+
+.user_info_page .buttons{float:right;}
+.user_info_page li {color: rgb(0, 11, 95);
+text-align: center;
+border: 1px rgb(0, 11, 95) solid;
+width: 145px;
+height: 22px;
+font-weight: bold;
+margin: 0px 9px 9px 9px;}
+.user_adv  .jTscrollerContainer {position: relative !important;}
 
 .my_freinds{width: 685px;
 height: 77px;
@@ -1581,7 +1602,7 @@ font-weight: bold;
 height: 73px;
 text-align: center;
 padding: 27px 0px 27px 0px;
-top: 204px;
+top: 234px;
 color: white;}
 
 .store_tab_page .wall-messages .block_title_container {display:none !important}
@@ -1592,9 +1613,10 @@ display: inline;}
 .store_summery img{
 margin: 21px 0px 8px 35px;
 }
-.store_bubble{top: 220px !important;
+.store_bubble{top: 250px !important;
 margin: 4px 30px !important;
 border-radius: 10px !important;}
+.store_rating{float:left}
 
 
 /* store recommands tab */
@@ -1616,6 +1638,13 @@ position: absolute;
 right: 30px;
 z-index: 1002;
 }
+
+.store_add_recommand{float:right}
+.store_add_buttons{color: rgb(0, 6, 80);
+font-size: 15px;
+font-weight: bold;
+height: 30px;}
+.store_add{float:right;padding: 0px 10px;}
 
 .store_tab_page .store_block_header{background: rgb(11, 144, 177);
 text-align: right;
@@ -1651,15 +1680,18 @@ font-weight: bold;}
 .store_page_right{clear:both;float:right}
 .store_page_left{float:left}
 .store_page_about{border: 1px solid gray;position: relative;width: 410px;margin: 0px 10px 10px 10px;
-height: 200px;}
+height: 200px;color:black;}
+.store_page_about p{}
 .store_page_lastsales{border: 1px solid gray;position: relative;width: 410px;margin: 0px 10px 10px 10px;
 height: 262px;}
 .store_page_working{border: 1px solid gray;position: relative;width: 267px;margin: 0px 0px 10px 10px;
-height: 200px;}
+height: 200px;color: black;
+text-align: right;}
+.store_page_working p{}
 .store_page_map{border: 1px solid gray;width: 267px;margin: 0px 0px 10px 10px;
 height: 262px;}
 .store_page_map #map_canvas{position: relative;
-width: 265px;margin-top: 0px;
+width: 265px;margin-top: 0px;top: 0px !important;
 height: 260px;}
 .store_page_map #locationField{display:none}
 .store_page_map #listing{display:none}

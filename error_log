@@ -122,3 +122,12 @@
 [19-Apr-2013 10:55:41] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 41
 [19-Apr-2013 11:07:35] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 21
 [19-Apr-2013 11:11:54] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 21
+[21-Apr-2013 16:19:25] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 35
+[21-Apr-2013 16:20:56] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 35
+[21-Apr-2013 16:21:36] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 35
+[21-Apr-2013 16:24:34] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 35
+[21-Apr-2013 16:25:24] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 36
+[21-Apr-2013 16:26:29] PHP Parse error:  syntax error, unexpected '}' in /home/nmazuz/public_html/getlike.net/application/models/stores_model.php on line 30
+[21-Apr-2013 16:26:40] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 35
+[21-Apr-2013 17:01:52] PHP Fatal error:  Method name must be a string in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 37
+[21-Apr-2013 17:18:35] CSRF state token does not match one provided.

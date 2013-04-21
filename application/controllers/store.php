@@ -37,6 +37,8 @@ class Store extends CI_Controller {
 		$data['records']['coupons'] = $this->coupons_model->get_store_coupons($storeId);
 		$data['records']['recommands'] = $this->stores_model->getRecommands($storeId);
 		$data['info'] = $storeInfo[0];
+		$data['loadmap'] = 1;
+		$data['branches']['locations'] = $this->stores_model->getBranches($storeId);
 		$data['records']['last_shops'] = $this->catalog_model->fetch_store_shops($storeId,0,9);
 		$data['records']['last_shops_cnt'] = $this->catalog_model->count_store_shops($storeId);
 		$this->load->view('page/store/'.$tab,$data);

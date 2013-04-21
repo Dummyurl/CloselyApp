@@ -19,10 +19,6 @@
 							<div class="tag">:אתר</div>
 							<div class="detial"><?php echo $info->website; ?></div>
 						</li>
-						<li class="info_row">
-							<div class="tag">:תיאור</div>
-							<div class="detial"><?php echo $info->description; ?></div>
-						</li>
 					</ul>
 
 	</div>
@@ -38,6 +34,7 @@
 	<div class="store_page_about">
 		<div class="store_block_header">קצת עלינו</div>
 		<div class="triangle"></div>
+		<p><?php echo $info->description; ?></p>
 	</div>
 	<div class="store_page_lastsales">
 		<div class="store_block_header">המבצעים החמים</div>
@@ -48,6 +45,7 @@
 	<div class="store_page_working">
 		<div class="store_block_header">שעות פעילות</div>
 		<div class="triangle"></div>
+		<p><?php echo $info->time_working; ?></p>
 	</div>
 	<div class="store_page_map">
 		<div id="locationField">
@@ -60,5 +58,11 @@
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
  window.onload = initialize;
+
  }); 
+
+ if ('<?php echo isset($loadmap) ?>'){
+  initialize();
+ }
+
 </script>

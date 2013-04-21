@@ -22,7 +22,7 @@ class users_model extends ci_Model {
 		$res = $q->result();
 		$freindsArr = unserialize($res[0]->reg_freinds);
 		foreach($freindsArr as $uid=>$name){
-			$userIdArr[] = $uid;
+			$userIdArr[] = $name;
 		}
 		return $userIdArr;
 	}
@@ -60,6 +60,20 @@ class users_model extends ci_Model {
 		$this->db->order_by("create_time", "desc");
 		$q = $this->db->get('coupons',2);
 		return $q->result();
+	}
+	
+	function getUserShopStores($uid) {
+		$this->db->select('branch'); 
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('shopping');
+		$allShopsStores = $q->result();
+		$stores = array();
+		foreach($allShopsStores as $store){
+			if(!in_array($store->branch, $stores )){
+				$stores[] = $store->branch;
+			}
+		}
+		return $stores;
 	}
 	
 	function updateMembers($info) {
@@ -150,6 +164,12 @@ class users_model extends ci_Model {
 		$q = $this->db->get('fusers');
 		$user = $q->result();
 		return $user[0]->gender;
+	}
+	
+	function getUser($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('fusers');
+		return $q->result();
 	}
 	
 	function getShops($uid) {
