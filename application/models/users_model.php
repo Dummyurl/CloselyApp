@@ -178,6 +178,18 @@ class users_model extends ci_Model {
 		return $q->result();
 	}
 	
+	function getCoupons($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('coupons');
+		return $q->result();
+	}
+	
+	function getRecommands($uid) {
+		$this->db->where('user_id', $uid); 
+		$q = $this->db->get('recommands');
+		return $q->result();
+	}
+	
 	function getStoreName($sid) {
 		$this->db->where('store_id', $sid); 
 		$q = $this->db->get('stores');

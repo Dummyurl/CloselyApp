@@ -26,9 +26,13 @@ class stores_model extends ci_Model {
 	}
 	
 	function getShopStoreLocation($shopStores) {
-		$this->db->where_in('branch_id',$shopStores);
-		$q = $this->db->get('branches');
+		if ($shopStores){
+			$this->db->where_in('branch_id',$shopStores);
+			$q = $this->db->get('branches');
 		return $q->result();	
+		} else{
+			return null;
+		}
 	}
 	
 	

@@ -131,3 +131,14 @@
 [21-Apr-2013 16:26:40] PHP Fatal error:  Cannot use string offset as an array in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 35
 [21-Apr-2013 17:01:52] PHP Fatal error:  Method name must be a string in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 37
 [21-Apr-2013 17:18:35] CSRF state token does not match one provided.
+[22-Apr-2013 13:03:25] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 164
+[22-Apr-2013 13:03:25] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 164
+[22-Apr-2013 13:03:25] PHP Parse error:  syntax error, unexpected $end in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 164
+[22-Apr-2013 13:03:25] PHP Parse error:  syntax error, unexpected $end in /home/nmazuz/public_html/getlike.net/application/models/users_model.php on line 164
+[22-Apr-2013 13:17:21] PHP Fatal error:  Call to undefined method users_model::count_store_shops() in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 33
+[22-Apr-2013 13:18:40] PHP Fatal error:  Call to undefined method users_model::count_store_shops() in /home/nmazuz/public_html/getlike.net/application/controllers/user.php on line 33
+[22-Apr-2013 13:19:52] PHP Fatal error:  Call to a member function getStoreInfo() on a non-object in /home/nmazuz/public_html/getlike.net/application/views/blocks/shops.php on line 14
+[22-Apr-2013 13:35:16] PHP Fatal error:  Call to a member function getUserInfo() on a non-object in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 9
+[22-Apr-2013 14:14:03] PHP Fatal error:  Call to a member function getUserInfo() on a non-object in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 9
+[22-Apr-2013 15:08:18] PHP Fatal error:  Call to a member function getStoreInfo() on a non-object in /home/nmazuz/public_html/getlike.net/application/views/blocks/store_recommands.php on line 8
+[22-Apr-2013 15:09:24] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/store_recommands.php on line 12
