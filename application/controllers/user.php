@@ -37,7 +37,7 @@ class User extends CI_Controller {
 		$this->load->view('page/user/'.$tab,$data);
     }
 	
-	function page($userId)
+	function page($userId , $view = null)
     {
 		$fb_data = $this->session->userdata('fb_data');
 		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
@@ -54,7 +54,7 @@ class User extends CI_Controller {
 		$data['content']['user']['last_shops'] = $this->users_model->getShops($userId,0,9);
 		$data['content']['user']['freinds'] = $this->users_model->getFreindsId($userId);
 		$data['content']['user']['shopstores']['locations'] = $this->stores_model->getShopStoreLocation($shopStores);
-		
+		$data['content']['user']['view'] = $view;
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
     }

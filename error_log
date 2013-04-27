@@ -142,3 +142,13 @@
 [22-Apr-2013 14:14:03] PHP Fatal error:  Call to a member function getUserInfo() on a non-object in /home/nmazuz/public_html/getlike.net/application/views/blocks/bannerslist.php on line 9
 [22-Apr-2013 15:08:18] PHP Fatal error:  Call to a member function getStoreInfo() on a non-object in /home/nmazuz/public_html/getlike.net/application/views/blocks/store_recommands.php on line 8
 [22-Apr-2013 15:09:24] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/blocks/store_recommands.php on line 12
+[26-Apr-2013 10:12:11] CSRF state token does not match one provided.
+[26-Apr-2013 11:05:55] PHP Fatal error:  Call to undefined method stores_model::getFreindsOnSite() in /home/nmazuz/public_html/getlike.net/application/models/stores_model.php on line 97
+[27-Apr-2013 08:06:15] PHP Fatal error:  Call to undefined method stores_model::getFreindsOnSite() in /home/nmazuz/public_html/getlike.net/application/models/stores_model.php on line 97
+[27-Apr-2013 08:08:35] CSRF state token does not match one provided.
+[27-Apr-2013 08:09:03] PHP Fatal error:  Call to undefined method stores_model::getFreindsOnSite() in /home/nmazuz/public_html/getlike.net/application/models/stores_model.php on line 97
+[27-Apr-2013 08:11:39] PHP Fatal error:  Call to undefined method stores_model::getFreindsOnSite() in /home/nmazuz/public_html/getlike.net/application/models/stores_model.php on line 97
+[27-Apr-2013 08:13:12] PHP Fatal error:  Call to undefined method stores_model::getFreindsOnSite() in /home/nmazuz/public_html/getlike.net/application/models/stores_model.php on line 97
+[27-Apr-2013 10:34:10] PHP Parse error:  syntax error, unexpected ':' in /home/nmazuz/public_html/getlike.net/application/views/page/store/storecoupons.php on line 10
+[27-Apr-2013 11:51:39] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/page/store/storecoupons.php on line 1
+[27-Apr-2013 11:52:30] PHP Fatal error:  Call to undefined function  base_url() in /home/nmazuz/public_html/getlike.net/application/views/page/store/storecoupons.php on line 1

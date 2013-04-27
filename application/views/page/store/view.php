@@ -28,11 +28,12 @@
 </div>
 <div class="select_bar">פרטי העסק</div>
 </div>
+<div id ="load_store_tab" ><img src="<?php echo base_url();?>asset/img/ajax-loader.gif" /></br>טוען עמוד</div>
 <div class="store_tab_page">
 		<?php $this->load->view('page/store/storeinfo',$store); ?>
 </div>
 
-
+<?php $freinds = json_encode($freinds) ?>
 
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
@@ -54,17 +55,23 @@ $(".select_bar").css("right",322);
 		$.ajax({  
 				type: "POST",  
 				url: url,  
-				data:  'tab=' + tab + '&store=' + '<?php echo $id ?>',
+				data:  'tab=' + tab + '&store=' + '<?php echo $id ?>' + '&loggin=' + '<?php echo $isloggin ?>' + '&freinds=<?php echo $freinds ?>',
 				beforeSend: function() {
-					// $("#loading-feed").show();
-				},				
-				success: function(block) {
+					$("#load_store_tab").show();
+				},				success: function(block) {
 					// $("#loading-feed").hide();
 					 $('.store_tab_page').html(block);
+					 $("#load_store_tab").hide();
 					 
 					}
 					 
 				});		
 	});
+	
+		
+	
+
+
+
 }); 
 </script>

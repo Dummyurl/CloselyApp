@@ -2,6 +2,7 @@
 <?php if(!empty($shopstores['locations'])) : ?>
 <?php $this->load->view('head/multilocation',$shopstores); ?>
 <?php endif; ?>
+
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=he&libraries=places"></script>		
 <script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.thumbnailScroller.js"></script>
 <link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/jquery.thumbnailScroller.css"/>
@@ -66,13 +67,31 @@
 </div>	
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
-<?php if(!empty($shopstores['locations'])) : ?>
- window.onload = initialize;
- <?php endif; ?>
- 
+var tabsId = ['myshops','mycoupons','myrecommands'];
+	var view = '<?php echo $view ?>';
+	 var correctTab = jQuery.inArray(view,tabsId);	
+	if (correctTab != -1){
+		console.log('view' + '<?php echo $view ?>');
+		url = '<?php echo base_url();?>' + 'user/gettab';
+		$.ajax({  
+				type: "POST",  
+				url: url,  
+				data:  'tab=<?php echo $view ?>' + '&user=' + '<?php echo $id ?>',
+				beforeSend: function() {
+					$("#loadind_tab").show();
+				},				
+				success: function(block) {
+					 $("#loadind_tab").hide();
+					 $('.actions_grid').html(block);
+					 
+					}
+					 
+				});			
+	}
+
  window.onload = function() {
 	<?php if(!empty($shopstores['locations'])) : ?>
-	initialize;
+	initialize();
 	<?php endif; ?>
 	$("#slider").thumbnailScroller({ 
 			scrollerType:"hoverPrecise", 
@@ -90,7 +109,6 @@ $(document).ready(function(){
 		});
 };
  	$('.user_buttons li').click(function(){
-	console.log('niso');
 		var tab = $(this).attr('id');
 		url = '<?php echo base_url();?>' + 'user/gettab';
 		

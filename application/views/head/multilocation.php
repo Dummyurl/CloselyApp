@@ -7,6 +7,7 @@
 	  var storeTitle = [];
 	  var autocomplete;
 	  function initialize() {
+	  console.log('initialize map');
 		var offset = 0;
 		var bounds  = new google.maps.LatLngBounds();
 		<?php foreach($locations as $location) : ?>

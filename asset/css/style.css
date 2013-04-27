@@ -1554,6 +1554,12 @@ margin: 100px 0px 0px 0px;
 font-size: 18px;
 color: rgb(240, 103, 12);
 font-weight: bold;}
+#load_store_tab{display: none;
+text-align: center;
+margin: 40px 0px 0px 0px;
+font-size: 18px;
+color: rgb(240, 103, 12);
+font-weight: bold;}
 .actions_grid .wall-messages{margin: 8px 0px;}
 .actions_grid .wall-messages li{margin:2px}
 
@@ -1676,7 +1682,7 @@ margin: 0px 64px 0px 0px !important;}
 width: 621px;color:black;text-align: right;}
 .store_tab_page .recommands .contentblock .store_recommand_list li.recommand_row .recommand_bubble .user_recommend .text_recommand{ width: 538px;}
 .store_tab_page .triangle{
-border-color: rgba(11, 144, 177, 1) rgba(182, 126, 41, 0) transparent transparent;
+border-color: rgba(223, 223, 223, 1) rgba(182, 126, 41, 0) transparent transparent;
 border-style: solid;
 border-width: 7px;
 position: absolute;
@@ -1691,11 +1697,17 @@ font-weight: bold;
 height: 30px;}
 .store_add{float:right;padding: 0px 10px;}
 
-.store_tab_page .store_block_header{background: rgb(11, 144, 177);
+.store_tab_page .store_block_header{background: rgb(228, 228, 228);
 text-align: right;
 font-size: 21px;
+font-weight: bold;
 padding: 5px 11px;
-color: white;}
+height: 25px;
+color: rgb(1, 69, 133);}
+.tab_title{float:right}
+.view_switch{float: left;
+margin: -6px 9px;}
+.switch_header{width: 77px !important;}
 /* store info tab */
 .store_page_info{border: 1px solid gray;height: 180px;margin: 10px;}
 .store_page_image{float:right;width: 200px;

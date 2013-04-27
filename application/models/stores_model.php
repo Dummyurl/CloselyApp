@@ -92,4 +92,15 @@ class stores_model extends ci_Model {
 		return $q->num_rows();	
 	}	
 	
+	function getRecords($tab , $storeId ,$view , $freinds){
+		if (!empty($freinds) && $view == 2) {
+			$this->db->where_in('user_id',$freinds);				
+		}
+		$this->db->where('store_id', $storeId); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get($tab,9);
+		return $q->result();
+	}
+	
+	
 }
