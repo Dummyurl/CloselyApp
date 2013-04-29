@@ -1205,7 +1205,78 @@ text-align: right;}
 		background-color: rgba(255, 255, 255, 0.7);
 	}	 */
 	
-	
+	/* Categories Page */	
+.category_container{margin: 0px 15px 0px 0px;}	
+.category_container	.header{position: relative;}
+.category_container	.header .title{float: right;
+margin: 0px -7px;}
+.category_container	.header .title h1{font-weight: bold;
+font-size: 39px;
+color: rgb(243, 175, 0);}
+.category_container	.header .head_bar{border-bottom: 1px rgb(255, 153, 0) dashed;
+height: 36px;
+margin: 14px 3px 10px 0px;}
+.category_container	.header .view_state{float:left}
+.category_container	.header .sub_categories{}
+.category_container	.header .sub_categories ul{}
+.category_container	.header .sub_categories li{list-style: none;
+float: right;
+border: 1px rgb(255, 255, 255) solid;
+margin: 3px 2px 0px 2px;
+padding-bottom: 11px;
+height: 17px;
+padding-top: 12px;
+text-align: center;
+background: rgb(252, 191, 0);}
+.category_container	.header .sub_categories li h3{color: #fff;
+font-size: 18px;}
+.category_container	.header .main_picture{}
+.category_container	.header .description h2{position: absolute;
+top: 66px;
+color: #fff;
+font-weight: bold;}
+.category_container	.search {width: 100% !important;
+height: 40px;
+background: rgb(0, 4, 109);;
+margin: 4px 0px !important;}
+.category_container	.search .search_box{float: right;
+margin: 5px;
+width: 40%;}
+.category_container	.search .search_button{float: right;
+margin: 8px;
+padding: 0px 9px;
+border: 1px white solid;}
+
+.category_container	.search .search_box input{width: 100%;
+float: right;
+direction: rtl;
+color: rgb(189, 189, 189);
+padding: 2px 5px 2px 0px;}
+.category_container	.search .search_type{margin: 8px;float:left}
+.category_container	.search .search_type .type{float:right}
+.category_container	.stores_slider{}
+ #tabs{float:right;width:100%;background:#fff;font-size:93%;line-height:normal;margin: 20px 0px;}
+ #tabs ul{margin:0;padding:0;list-style:none;}
+ #tabs li{float: right;
+margin: 0;
+border: 1px rgb(190, 190, 190) solid;
+width: 16%;
+color: rgb(0, 30, 105);
+font-size: 22px;
+cursor: pointer;
+font-weight: bold;
+text-align: center;
+padding: 12px 0px;
+background: rgb(245, 245, 245);}
+.selected_tab{border-bottom: 2px rgb(255, 255, 255) solid !important;
+background: #fff!important;
+height: 30px!important;
+margin-top: -5px!important}
+#tabs .right_border{float: left;
+width: 35%;
+border-bottom: 1px rgb(190, 190, 190) solid;
+margin: -1px 0px;}
+
 	
 	/* Popups */
 	
@@ -1509,6 +1580,7 @@ font-weight: bold;
 width: 216px;
 text-align: center;
 padding: 20px 0px;}
+.user_tab_fix{margin: 0px 28px!important;}
 .user_page_container{}
 .user_page_container #map_canvas{margin-top: 23px;}
 .user_page_container #locationField{display:none;}

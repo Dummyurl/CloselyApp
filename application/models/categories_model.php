@@ -25,5 +25,39 @@ class categories_model extends ci_Model {
 		return $q->result();
 	}
 	
+	function getCategoryId($urlName) {
+	    $urlName = urldecode($urlName);
+		$this->db->select('category_id'); 
+		$this->db->where('url',$urlName); 
+		$q = $this->db->get('categories');
+		$res = $q->result();
+		return $res[0]->category_id;
+	}
+	
+	function getStoresInCategory($id) {
+		$this->db->select('store_id'); 
+		$this->db->where('category_id',$id); 
+		$q = $this->db->get('store_categories');;
+		return $q->result();
+	}
+	
+	function getCoupons($id) {
+		$this->db->where('category_id', $id); 
+		$q = $this->db->get('coupons');
+		return $q->result();
+	}
+
+	function getShops($id) {
+		$this->db->where('shop_category', $id); 
+		$q = $this->db->get('shopping');
+		return $q->result();
+	}
+
+	function getRecommands($id) {
+		$this->db->where('category_id', $id); 
+		$q = $this->db->get('recommands');
+		return $q->result();
+	}
+	
 	
 }
