@@ -121,7 +121,7 @@ aside{
     font-size: 12px;
     line-height: 1.5em;
 }
-#top-widget-holder img{float:left;margin: 1px 2px;}
+#top-widget-holder img{float:right;margin: 1px 2px;}
 
 .page-heading{
 	text-align: right;
@@ -2928,7 +2928,7 @@ right: 4px;
 color: rgb(15, 26, 148);
 font-size: 13px;
 font-weight: bold;
-width: 300px;
+width: 315px;
 margin: 10px 0px 0px -8px;}
 .face-logo{float: right;margin: 10px 6px 1px 0px;}
 .biz-icon{}
