@@ -52,11 +52,16 @@
 			</div>
 		</div>
 		<div class="my_freinds">פרסומת של חנות שקניתי בה</div>
-		<ul class="user_buttons">
-			<li id="myshops" class="header_gray">הקניות שלי</li>
-			<li id="mycoupons" class="header_gray">הקופונים שלי</li>
-			<li id="myrecommands" class="header_gray">ההמלצות שלי</li>
-		</ul>
+
+		<div id="tabs" class="user_tab_fix">
+			<ul class="user_buttons">
+				<li id="myshops" class="selected_tab">קניות</li>
+				<li id="mycoupons">קופונים</li>
+				<li id="myrecommands">המלצות</li>
+				<li id="myclubs">מועדונים</li>
+			</ul>
+			<div class="right_border"></div>
+		</div>
 		<div id="loadind_tab"><img src="<?php echo base_url();?>asset/img/ajax-loader.gif" /></br>טוען עמוד</div>
 		<div class="actions_grid">
 			<div class="store_block_header">הקניות שלי</div>
@@ -109,6 +114,13 @@ var tabsId = ['myshops','mycoupons','myrecommands'];
 		});
 };
  	$('.user_buttons li').click(function(){
+		$('.user_buttons li').each(function() {
+			$(this).removeClass("selected_tab");
+		});
+		$(this).addClass("selected_tab");
+
+
+	
 		var tab = $(this).attr('id');
 		url = '<?php echo base_url();?>' + 'user/gettab';
 		

@@ -1,3 +1,6 @@
+Redirect 301 /face/time-to-smooth/age-control-even-tone-moisturizer-broad-spectrum-spf-20 http://www.ahava.com/new-age-control-spf-20 
+
+
 ############################################
 ## uncomment these lines for CGI mode
 ## make sure to specify the correct cgi php binary file name
@@ -24,11 +27,7 @@
 ############################################
 ## default index file
 
-  ##  DirectoryIndex index.php
-	RewriteEngine on
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule .* index.php/$0 [PT,L] 
+    DirectoryIndex index.php
 
 <IfModule mod_php5.c>
 
@@ -42,7 +41,7 @@
 ############################################
 ## disable magic quotes for php request vars
 
-    php_flag magic_quotes_gpc off
+    php_flag magic_quotes_gpc Off
 
 ############################################
 ## disable automatic session start
@@ -58,7 +57,7 @@
 ###########################################
 # disable user agent verification to not break multiple image upload
 
-    php_flag suhosin.session.cryptua off
+    php_flag suhosin.session.cryptua Off
 
 ###########################################
 # turn off compatibility with PHP4 when dealing with objects
@@ -126,41 +125,11 @@
 
     #RewriteBase /magento/
 
-Options +FollowSymLinks -MultiViews
-# Turn mod_rewrite on
-RewriteEngine On
-RewriteBase /
-
-RewriteRule ^index\.php/?$ / [L,R=301,NC]
-
-############################################
-## uncomment next line to enable light API calls processing
-
-#    RewriteRule ^api/([a-z][0-9a-z_]+)/?$ api.php?type=$1 [QSA,L]
-
-############################################
-## rewrite API2 calls to api.php (by now it is REST only)
-
-    RewriteRule ^api/rest api.php?type=rest [QSA,L]
-
 ############################################
 ## workaround for HTTP authorization
 ## in CGI environment
 
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-
-############################################
-## TRACE and TRACK HTTP methods disabled to prevent XSS attacks
-
-    RewriteCond %{REQUEST_METHOD} ^TRAC[EK]
-    RewriteRule .* - [L,R=405]
-
-############################################
-## redirect for mobile user agents
-
-    #RewriteCond %{REQUEST_URI} !^/mobiledirectoryhere/.*$
-    #RewriteCond %{HTTP_USER_AGENT} "android|blackberry|ipad|iphone|ipod|iemobile|opera mobile|palmos|webos|googlebot-mobile" [NC]
-    #RewriteRule ^(.*)$ /mobiledirectoryhere/ [L,R=302]
 
 ############################################
 ## always send 404 on missing files in these folders
@@ -205,16 +174,26 @@ RewriteRule ^index\.php/?$ / [L,R=301,NC]
     Order allow,deny
     Allow from all
 
-###########################################
-## Deny access to release notes to prevent disclosure of the installed Magento version
-
-    <Files RELEASE_NOTES.txt>
-        order allow,deny
-        deny from all
-    </Files>
-
 ############################################
 ## If running in cluster environment, uncomment this
 ## http://developer.yahoo.com/performance/rules.html#etags
 
     #FileETag none
+
+# Hide .HG Folders
+RewriteRule ^(.*/)*\.hg/ / [F,L]
+
+# multiple stores
+
+SetEnvIf Host .*ahava.com MAGE_RUN_CODE=default
+SetEnvIf Host .*ahava.be* MAGE_RUN_CODE=belgium
+SetEnvIf Host .*ahava.de* MAGE_RUN_CODE=germany
+SetEnvIf Host .*ahava.com.au* MAGE_RUN_CODE=australia
+SetEnvIf Host .*ahava.co.il* MAGE_RUN_CODE=israel
+SetEnvIf Host .*russia* MAGE_RUN_CODE=russia
+SetEnvIf Host .*staging.ahava.com.sg* MAGE_RUN_CODE=singapore
+SetEnvIf Host .*ahavahongkong.com* MAGE_RUN_CODE=hongkong
+SetEnvIf Host .*www.ahava-fi.fi* MAGE_RUN_CODE=finland
+
+# RewriteCond %{HTTP_HOST} !^www\.
+# RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]

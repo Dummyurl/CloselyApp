@@ -16,7 +16,7 @@
 							<?php if ($i%2 == 1 ) :?>
 								<div class="mainbutton">
 							<?php endif ?>
-								<span class="left"><a href="#" class="button" id="<?php echo $catId ?>"><img src="<?php echo base_url();?>asset/img/buttons/<?php echo $catId ?>.png" alt="alt text" /><p><?php echo $catName ?></p></a></span>
+								<span class="left"><a href="<?php echo base_url();?>catalog/category/<?php echo $category->url ?>" class="button" id="<?php echo $catId ?>"><img src="<?php echo base_url();?>asset/img/buttons/<?php echo $catId ?>.png" alt="alt text" /><p><?php echo $catName ?></p></a></span>
 							<?php if ($i%2 == 0 ) :?>
 								</div>
 							<?php endif ?>
