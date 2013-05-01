@@ -47,47 +47,52 @@
 		<?php $this->load->view('blocks/shops',$shops); ?>
 	</div>
 </div>
+<?php echo print_r($freinds);	 ?>
 
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
-var tabsId = ['catshops','catcoupons','catrecommands','catproducts'];
-	var view = '<?php echo $view ?>';
-	 var correctTab = jQuery.inArray(view,tabsId);	
-	if (correctTab != -1){
-		console.log('view' + '<?php echo $view ?>');
-		url = '<?php echo base_url();?>' + 'catalog/gettab';
+	
+		var catalogview = 1;
+		var currenttab = 'catshops';
+	
+		$('#tab-switch-1').click(function(){
+			if ('<?php echo $isloggin ?>'){
+				if (!$(this).hasClass("selected_switch")) {
+					$(this).addClass("selected_switch");
+					$('#tab-switch-2').removeClass("selected_switch");
+					 catalogview = 2;
+					 changeView(2,currenttab);
+				}	
+			}
+		});
+		
+		// evreyone
+		$('#tab-switch-2').click(function(currenttab){
+			if (!$(this).hasClass("selected_switch")) {
+				$(this).addClass("selected_switch");
+				$('#tab-switch-1').removeClass("selected_switch");
+				 catalogview = 1;
+				 changeView(1,currenttab);
+			}		//do stuff
+
+		});
+
+		function changeView(view,currenttab){
+		url = '<?php echo base_url();?>' + 'catalog/getview';
 		$.ajax({  
 				type: "POST",  
 				url: url,  
-				data:  'tab=<?php echo $view ?>' + '&category=' + '<?php echo $id ?>',
+				data:  'view=' + view + '&tab=' + currenttab + '&category=<?php echo $id ?>' + '&freinds=<?php echo json_encode($freinds) ?>', 
 				beforeSend: function() {
-					$("#loadind_tab").show();
-				},				
-				success: function(block) {
-					 $("#loadind_tab").hide();
-					 $('.actions_grid').html(block);
-					 
+					$("#load_store_tab").show();
+				},
+				success: function(msg) {
+					$('.actions_grid').html(msg);
 					}
-					 
-				});			
-	}
+				});		
+		}	
 
- window.onload = function() {
-	$(".stores_slider").thumbnailScroller({ 
-			scrollerType:"hoverPrecise", 
-			scrollerOrientation:"horizontal", 
-			scrollSpeed:2, 
-			scrollEasing:"easeOutCirc", 
-			scrollEasingAmount:800, 
-			acceleration:2, 
-			scrollSpeed:800, 
-			noScrollCenterSpace:10, 
-			autoScrolling:0, 
-			autoScrollingSpeed:2000, 
-			autoScrollingEasing:"easeInOutQuad", 
-			autoScrollingDelay:500 
-		});
-};
+	
  	$('#tabs li').click(function(){
 		$('#tabs li').each(function() {
 			$(this).removeClass("selected_tab");
@@ -97,12 +102,13 @@ var tabsId = ['catshops','catcoupons','catrecommands','catproducts'];
 
 	
 		var tab = $(this).attr('id');
+		currenttab = tab ;
 		url = '<?php echo base_url();?>' + 'catalog/gettab';
 		
 		$.ajax({  
 				type: "POST",  
 				url: url,  
-				data:  'tab=' + tab + '&category=' + '<?php echo $id ?>',
+				data:  'view=' + catalogview + '&tab=' + tab + '&category=' + '<?php echo $id ?>' + '&freinds=<?php echo json_encode($freinds) ?>',
 				beforeSend: function() {
 					$("#loadind_tab").show();
 				},				

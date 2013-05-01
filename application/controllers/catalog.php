@@ -21,29 +21,65 @@ class Catalog extends CI_Controller {
 		 $this->load->view('catalog/categories/subcategories',$data);
 	}
 	
-	function gettab()
-    {
+	function getview()
+    {	
 		$tab = $this->input->post('tab');
-		$id = $this->input->post('category');
+		$categoryId = $this->input->post('category');	
+		$view = $this->input->post('view');	
+		$freinds = json_decode($this->input->post('freinds'));
+		
+		if ($view == 2){
+			$data['all_switch'] = '';
+			$data['freinds_switch'] = 'selected_switch';
+		} else {
+			$data['all_switch'] = 'selected_switch';
+			$data['freinds_switch'] = '';
+		}
 		switch ($tab) {
 			case 'catshops':
-				$data['last_shops'] = $this->categories_model->getShops($id);
+				$table = 'shopping';
+				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
 				$this->load->view('blocks/shops',$data);
 				break;
 			case 'catcoupons':
-				$data['coupons'] = $this->categories_model->getCoupons($id);
+				$table = 'coupons';
+				$data['coupons'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
 				$this->load->view('blocks/bannerslist',$data);
 				break;
 			case 'catrecommands':
-				$data['recommands'] = $this->categories_model->getRecommands($id);
+				$table = 'recommands';
+				$data['recommands'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
 				$this->load->view('blocks/store_recommands',$data);
 				break;
-			case 'catproducts':
-				$this->load->view('blocks/products',$data);
+		}	
+
+			
+	}
+	
+	function gettab()
+    {
+		$tab = $this->input->post('tab');
+		$categoryId = $this->input->post('category');	
+		$view = $this->input->post('view');	
+		$freinds = json_decode($this->input->post('freinds'));
+
+		switch ($tab) {
+			case 'catshops':
+				$table = 'shopping';
+				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$this->load->view('blocks/shops',$data);
 				break;
-			default:
-			   echo "i is not equal to 0, 1 or 2";
-		}
+			case 'catcoupons':
+				$table = 'coupons';
+				$data['coupons'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$this->load->view('blocks/bannerslist',$data);
+				break;
+			case 'catrecommands':
+				$table = 'recommands';
+				$data['recommands'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$this->load->view('blocks/store_recommands',$data);
+				break;
+		}	
     }
 	
 	
@@ -61,6 +97,7 @@ class Catalog extends CI_Controller {
 		$data['content']['category']['info'] = $this->categories_model->getCategoryInfo($id);
 		$data['content']['category']['all_switch'] = 'selected_switch';
 		$data['content']['category']['freinds_switch'] = '';
+		$data['content']['category']['isloggin'] = $onlyfreinds;
 		$data['content']['category']['subCategories'] = $this->categories_model->getSubCategories($id);
 		$data['content']['category']['stores'] = $this->categories_model->getStoresInCategory($id);
 		$data['content']['category']['view'] = $view;
@@ -68,6 +105,12 @@ class Catalog extends CI_Controller {
 		$data['content']['category']['recommands'] = $this->categories_model->getRecommands($id);
 		$data['content']['category']['shops']['last_shops'] = $this->categories_model->getShops($id);
 		$data['fb_data'] = $fb_data;
+		$data['content']['category']['freinds'] = null;
+		if ($onlyfreinds){
+			$freindslist = $this->users_model->getFreindsId($onlyfreinds);
+			$data['content']['category']['freinds'] = $freindslist;
+		
+		}
 		$this->load->view('home',$data);
 	}
 	

@@ -48,7 +48,7 @@ class categories_model extends ci_Model {
 	}
 
 	function getShops($id) {
-		$this->db->where('shop_category', $id); 
+		$this->db->where('category_id', $id); 
 		$q = $this->db->get('shopping');
 		return $q->result();
 	}
@@ -59,5 +59,14 @@ class categories_model extends ci_Model {
 		return $q->result();
 	}
 	
+	function getRecords($tab , $categoryId ,$view , $freinds){
+		if (!empty($freinds) && $view == 2) {
+			$this->db->where_in('user_id',$freinds);				
+		}
+		$this->db->where('category_id', $categoryId); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get($tab,9);
+		return $q->result();
+	}
 	
 }
