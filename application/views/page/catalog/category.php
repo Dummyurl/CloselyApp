@@ -16,7 +16,7 @@
 		<?php $sub_cnt = sizeof($subCategories) ?>
 			<ul>
 			<?php foreach ($subCategories as $category) : ?>
-				<li style="width:<?php echo (100-$sub_cnt)/$sub_cnt ?>%"><h3 style="font-size:<?php echo 90/$sub_cnt ?>px"><?php echo $category->category_name ?></h3></li>
+				<li><h3 style="font-size:<?php echo 90/$sub_cnt ?>px"><?php echo $category->category_name ?></h3></li>
 			<?php endforeach ?>
 			</ul>
 		</div>
@@ -50,8 +50,27 @@
 <?php echo print_r($freinds);	 ?>
 
 <script type="text/javascript" charset="utf-8">
-$(document).ready(function(){	
-	
+$(document).ready(function(){
+	var warpperWidth = $(".category_container ul").width();
+		var sumWidth = 0;
+		var lastBox;
+		var rel = 1;
+		$(".sub_categories li").each(function() {
+			$(this).attr("sub",rel);
+			var beforAdd = sumWidth;
+			sumWidth += $(this).outerWidth();
+			if(warpperWidth<sumWidth){
+				var adding = warpperWidth-beforAdd;
+				lastBox = $('.sub_categories li[sub="' +(rel-1)+'"]');
+				lastBox.width(lastBox.width()+adding);
+				sumWidth = $(this).outerWidth();
+			}
+			rel++;	
+		});
+		var last =$('.sub_categories li[sub="' +(rel-1)+'"]');
+		adding = warpperWidth-sumWidth;
+		var newLastWidth = last.outerWidth()
+		last.outerWidth(newLastWidth+adding);
 		var catalogview = 1;
 		var currenttab = 'catshops';
 	

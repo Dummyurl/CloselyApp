@@ -1228,6 +1228,7 @@ height: 17px;
 padding-top: 12px;
 text-align: center;
 background: rgb(252, 191, 0);}
+.category_container	.header .sub_categories li:hover{background:rgb(33, 145, 255);}
 .category_container	.header .sub_categories li h3{color: #fff;
 font-size: 18px;}
 .category_container	.header .main_picture{}
