@@ -121,8 +121,8 @@ aside{
     font-size: 12px;
     line-height: 1.5em;
 }
-#top-widget-holder img{float:left;margin: 1px 2px;}
-
+#top-widget-holder img{float:right;margin: 1px 2px;}
+#top-widget-holder .fbicon{float:left;margin: 1px 2px;}
 .page-heading{
 	text-align: right;
 margin: 27px 0px 24px 1px;
@@ -1222,12 +1222,13 @@ margin: 14px 3px 10px 0px;}
 .category_container	.header .sub_categories li{list-style: none;
 float: right;
 border: 1px rgb(255, 255, 255) solid;
-margin: 3px 2px 0px 2px;
+/* margin: 3px 2px 0px 2px; */
 padding-bottom: 11px;
 height: 17px;
 padding-top: 12px;
 text-align: center;
 background: rgb(252, 191, 0);}
+.category_container	.header .sub_categories li:hover{background:rgb(33, 145, 255);}
 .category_container	.header .sub_categories li h3{color: #fff;
 font-size: 18px;}
 .category_container	.header .main_picture{}
@@ -3000,7 +3001,7 @@ right: 4px;
 color: rgb(15, 26, 148);
 font-size: 13px;
 font-weight: bold;
-width: 300px;
+width: 315px;
 margin: 10px 0px 0px -8px;}
 .face-logo{float: right;margin: 10px 6px 1px 0px;}
 .biz-icon{}
