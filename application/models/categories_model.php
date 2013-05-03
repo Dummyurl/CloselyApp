@@ -48,7 +48,7 @@ class categories_model extends ci_Model {
 	}
 
 	function getShops($id) {
-		$this->db->where('shop_category', $id); 
+		$this->db->where('category_id', $id); 
 		$q = $this->db->get('shopping');
 		return $q->result();
 	}
