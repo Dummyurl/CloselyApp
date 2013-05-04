@@ -22,15 +22,24 @@
 		</div>
 	</div>
 	<div class="search">
-		<div class="search_box"><input type="text" value="מה את/ה מחפש/ת?"></div>
-		<div class="search_button">חפש</div>
-		<div class="search_type">
-		<div class="type"><input type="radio" name="group1" value="shopping"> קניות</div>
-		<div class="type"><input type="radio" name="group1" value="coupons" checked> קופונים</div>
-		<div class="type"><input type="radio" name="group1" value="recommands"> המלצות</div>
-		</div>
+		<form id="searchBar">
+			<div class="search_box"><input type="text" value="מה את/ה מחפש/ת?" id="category-search" name="searchData"></div>
+			<div id="divResult"></div>
+			<div class="search_button">חפש</div>
+			<div class="search_type">
+			<div class="type"><input type="radio" name="group1" value="shopping"> קניות</div>
+			<div class="type"><input type="radio" name="group1" value="coupons" checked> קופונים</div>
+			<div class="type"><input type="radio" name="group1" value="recommands"> המלצות</div>
+			</div>
+		</form>
 	</div>
-	<div class="stores_slider"></div>
+	<div class="stores_slider">
+		<ul>
+				<?php foreach ($stores as $store) : ?>
+					<li><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $store->store_id?>.jpg"  /></li>
+				<?php endforeach ?>
+		</ul>
+	</div>
 	<div class="content">
 		<div id="tabs">
 			<ul>
@@ -47,10 +56,29 @@
 		<?php $this->load->view('blocks/shops',$shops); ?>
 	</div>
 </div>
-<?php echo print_r($freinds);	 ?>
 
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){
+
+	var table = $("#searchBar input[type='radio']:checked").val();
+	
+	(function animate() {
+		$(".stores_slider li:first").each(function(){
+			$(this).animate({marginLeft:-$(this).outerWidth(true)},3000,function(){
+				$(this).insertAfter(".stores_slider li:last").fadeIn('slow');
+				$(this).css({marginLeft:0});
+				setTimeout(function(){animate()},2000);
+			});
+		});
+	})();
+
+	
+	$("#divResult").click(function(){
+	$(this).show();
+		var title = $(this).find('#res_title').text();
+		console.log(title);
+	});
+	
 	var warpperWidth = $(".category_container ul").width();
 		var sumWidth = 0;
 		var lastBox;
@@ -111,13 +139,25 @@ $(document).ready(function(){
 				});		
 		}	
 
+	// Remove search bar text on foucos
+	var Input = $('input[name=searchData]');
+	var default_value = Input.val();
+	Input.focus(function() {
+		if(Input.val() == default_value) Input.val("");
+	}).blur(function(){
+		// $('#divResult').hide();
+		if(Input.val().length == 0) Input.val(default_value);
+	});
+	
+	$('#searchBar input[type=radio]').click(function(){
+		table = $(this).val();
+	});
 	
  	$('#tabs li').click(function(){
 		$('#tabs li').each(function() {
 			$(this).removeClass("selected_tab");
 		});
 		$(this).addClass("selected_tab");
-
 
 	
 		var tab = $(this).attr('id');
@@ -140,6 +180,29 @@ $(document).ready(function(){
 				});		
 	});
 	
+	
+$("#category-search").keyup(function() 
+{ 
+var inputSearch = $(this).val();
+var dataString = 'word='+ encodeURI(inputSearch) + '&table='+ table + '&category=<?php echo $id ?>';
+var returl  = '<?php echo base_url();?>' + 'feed/getSearchResult';
+if(inputSearch!='')
+{
+	$.ajax({
+	type: "POST",
+	url: returl,
+	data: dataString,
+	cache: false,
+	success: function(html)
+	{
+	$("#divResult").html(html).show();
+	}
+	});
+} else {
+$("#divResult").hide();
+return false; 
+} 
+});
 
 	
  }); 

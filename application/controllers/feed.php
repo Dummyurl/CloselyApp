@@ -7,6 +7,7 @@ class Feed extends CI_Controller {
         parent::__construct();
         $this->load->model('Facebook_model');
 		$this->load->model('users_model');
+		$this->load->model('catalog_model');
     }
 
     function getnewsold()
@@ -26,8 +27,6 @@ class Feed extends CI_Controller {
 				}
 			}
 		}
-
-		print_r($newsCnt);
     }
 
 	function getnews()
@@ -80,6 +79,12 @@ class Feed extends CI_Controller {
 		}
     }
 	
-
+	function getSearchResult()
+    {
+	$data = array('word'=>$this->input->post('word'),'table'=>$this->input->post('table'),'category'=>$this->input->post('category'));
+	$info['searchResult'] = $this->catalog_model->searchKey($data);
+	// print_r($searchResult);
+	$this->load->view('page/search/search_block',$info);
+    }
 	
 }

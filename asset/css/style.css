@@ -244,6 +244,33 @@ background: orange;
   float: left;
 }
 
+/* AUTOCOMLETE SEARCH RESULT BOX ------------------------------------------------------------*/
+	#divResult
+	{
+		position: absolute;
+		width: 287px;
+		display: none;
+		right: 5px;
+		top: 31px;
+		margin-top: -1px;
+		overflow: hidden;
+		border: 1px rgb(162, 162, 162) solid;
+		background-color: white;
+	}
+	.display_box
+	{
+		padding:4px; border-top:solid 1px #dedede; 
+		font-size:12px; height:50px;
+	}
+	.display_box:hover
+	{
+		background:#3bb998;
+		color:#FFFFFF;
+		cursor:pointer;
+	}
+	
+	.search_addon{text-align: right;}
+
 /* NAVIGATION ------------------------------------------------------------*/
 
 
@@ -1255,7 +1282,15 @@ color: rgb(189, 189, 189);
 padding: 2px 5px 2px 0px;}
 .category_container	.search .search_type{margin: 8px;float:left}
 .category_container	.search .search_type .type{float:right}
+
 .category_container	.stores_slider{}
+.category_container	.stores_slider{
+overflow: hidden;
+padding: 10px 0px 10px 0px;
+border: 1px solid rgb(194, 194, 194);}
+.category_container	.stores_slider ul {width:200%;}
+.category_container	.stores_slider li {display:inline; margin-right:10px;}
+.category_container	.stores_slider li img{height:50px;}
  #tabs{float:right;width:100%;background:#fff;font-size:93%;line-height:normal;margin: 20px 0px;}
  #tabs ul{margin:0;padding:0;list-style:none;}
  #tabs li{float: right;
@@ -1615,7 +1650,7 @@ clear: both;}
 .user_adv  .jTscroller{margin: 8px 0px 0px 0px !important;}
 
 
-.actions_grid{width: 685px;
+.actions_grid{width: 703px;
 
 position: relative;
 margin: 93px 0px;
@@ -1658,10 +1693,6 @@ text-align: right;}
 height: 36px;
 margin: 5px 10px;
 max-width: 100px;}
-
-
-
-
 
 
 .store_wall_image{margin: 8px 8px 8px -6px;position:relative;}
