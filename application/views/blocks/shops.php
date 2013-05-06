@@ -12,6 +12,7 @@
 		<?php $shopProducts = $this->catalog_model->getShopProducts($shop->products) ?>
 		<?php $userInfo = $this->catalog_model->getUserInfo	($shop->user_id) ?>
 		<li class="listGrid">
+
 			<div class="product_grid">
 			<div class="over-img-photo">
 				<p class="shop_adder"><?php echo $userInfo[0]->user_name  . '<span class = "subject"> :שם הקונה </span>'?></p>
@@ -41,12 +42,15 @@
 						<li><img src="<?php echo base_url();?>asset/img/price.png"/></li>
 						</ul>
 					</div>
-
-					<ul class="bxslider2">
-						<?php foreach ($shopProducts as $product) : ?>
-							<li><img class="shop-photo" src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/></li>
-						<?php endforeach ?>
-					</ul>
+					<?php if (sizeof($shopProducts)>1) : ?>
+						<ul class="bxslider">
+							<?php foreach ($shopProducts as $product) : ?>
+								<li><img src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/></li>
+							<?php endforeach ?>
+						</ul>
+					<?php else : ?>
+						<img class="shop-photo" src="<?php echo base_url();?>asset/img/shops/<?php echo $shop->shop_image ?>"/>
+					<?php endif ?>
 					</div>
 				</div>
 				<div class="shop_footer">
@@ -63,19 +67,22 @@
 	<?php endforeach ?>
 	<div class = "more_result"></div>
 	
-	</ul>
+</ul>
+
 </div>
 
 
 
-
 <script type="text/javascript">
-	$(document).ready(function(){	
-		 $('.bxslider2').bxSlider();	
+	$(document).ready(function(){
+  $('.bxslider').bxSlider({
+   mode:'fade',
+   touchEnabled:true,
+   swipeThreshold:true
+  });	
 		$('.product_grid').hoverIntent(overimg,outimg);
 		 function overimg(){ $(this).children('.over-img-photo').css('display','block')}
 		 function outimg(){ $(this).children('.over-img-photo').css('display','none')}
-		
 	});
 </script>
 
