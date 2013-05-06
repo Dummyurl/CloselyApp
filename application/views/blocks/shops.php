@@ -6,14 +6,12 @@
 	<div class="double_grey_double_divider"></div>
 	<div class="triangle_blocks "></div>
 </div>	
-	<ul>
-			
-		
-			
+	<ul class="list_container">
 		<?php foreach ($last_shops as $shop) : ?>
 		<?php $storeInfo = $this->catalog_model->getStoreInfo($shop->store_id) ?>
+		<?php $shopProducts = $this->catalog_model->getShopProducts($shop->products) ?>
 		<?php $userInfo = $this->catalog_model->getUserInfo	($shop->user_id) ?>
-		<li>
+		<li class="listGrid">
 			<div class="product_grid">
 			<div class="over-img-photo">
 				<p class="shop_adder"><?php echo $userInfo[0]->user_name  . '<span class = "subject"> :שם הקונה </span>'?></p>
@@ -43,8 +41,12 @@
 						<li><img src="<?php echo base_url();?>asset/img/price.png"/></li>
 						</ul>
 					</div>
-						<img class="shop-photo" src="<?php echo base_url();?>asset/img/shops/<?php echo $shop->shop_image ?>"/>
-					
+
+					<ul class="bxslider2">
+						<?php foreach ($shopProducts as $product) : ?>
+							<li><img class="shop-photo" src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/></li>
+						<?php endforeach ?>
+					</ul>
 					</div>
 				</div>
 				<div class="shop_footer">
@@ -66,11 +68,14 @@
 
 
 
+
 <script type="text/javascript">
-	$(document).ready(function(){			 
+	$(document).ready(function(){	
+		 $('.bxslider2').bxSlider();	
 		$('.product_grid').hoverIntent(overimg,outimg);
 		 function overimg(){ $(this).children('.over-img-photo').css('display','block')}
 		 function outimg(){ $(this).children('.over-img-photo').css('display','none')}
+		
 	});
 </script>
 

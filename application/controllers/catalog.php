@@ -114,7 +114,7 @@ class Catalog extends CI_Controller {
 		$this->load->view('home',$data);
 	}
 	
-	function product($id)
+	function product($urlName)
 	{
 		$fb_data = $this->session->userdata('fb_data');
 		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
@@ -122,7 +122,9 @@ class Catalog extends CI_Controller {
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
 		$data['feed']['stores'] = $this->stores_model->getAll();
 		$data['content']['page'] = 'product';
+		$id = $this->product_model->getProductId($urlName);
 		$data['content']['product'] = $id;
+		$data['content']['product']['urlName'] = $urlName;
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}

@@ -118,7 +118,7 @@
 					</div> */
 					?>
 					<?php /* <img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" /> */ ?>
-					<div class="find">חפש</div><input type="text" value="הזן קוד קופון"></div>
+					<div class="find">חפש</div><input type="text" value="חפש כל דבר" name="findme"></div>
 				</div>
 				<a href="#" id="top-open">Menu</a>
 
@@ -136,5 +136,20 @@
         window.opener.location.href = window.opener.location.href;
         window.close();
     }
+	
+$(document).ready(function(){
+
+	// Remove search bar text on foucos
+	var Input = $('input[name=findme]');
+	var default_value = Input.val();
+	Input.focus(function() {
+		if(Input.val() == default_value) Input.val("");
+	}).blur(function(){
+		// $('#divResult').hide();
+		if(Input.val().length == 0) Input.val(default_value);
+	});
+
+	
+ }); 
 </script>			
 			

@@ -249,6 +249,7 @@ background: orange;
 	{
 		position: absolute;
 		width: 287px;
+		z-index: 20;
 		display: none;
 		right: 5px;
 		top: 31px;
@@ -1669,7 +1670,7 @@ font-size: 18px;
 color: rgb(240, 103, 12);
 font-weight: bold;}
 .actions_grid .wall-messages{margin: 8px 0px;}
-.actions_grid .wall-messages li{margin:2px}
+.actions_grid .wall-messages .listGrid{margin:2px}
 
 .actions_grid .wall-messages .block_title_container{margin:0px;display: none;}
 .actions_grid .store_block_header{background: rgb(11, 144, 177);text-align: right;font-size: 21px;padding: 5px 11px;color: white;}
@@ -2353,13 +2354,13 @@ overflow: hidden;
 color: black;
 	}
 	
-.wall-messages ul{
+.wall-messages .list_container{
 list-style-type:none;
 float: right;
 
 	}
 	
-	.wall-messages li{
+	.wall-messages .listGrid{
 display: inline;
 width: 222px;
 float: right;
@@ -2411,6 +2412,7 @@ height: 30px;
 width: 84px;}
 	.product_grid .shop_contant .shop_image{height: 200px;
 position: relative;
+width:100%;
 margin: 0px 8px;
 text-align: center;
 /* background: url(../img/shop_det_bg.png) no-repeat; */}

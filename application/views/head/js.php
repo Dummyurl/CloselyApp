@@ -5,7 +5,7 @@
 
 		<script src="<?php echo base_url();?>asset/js/css3-mediaqueries.js"></script>
 			<!-- <script src="<?php echo base_url();?>asset/js/tabs.js"></script> -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<!-- include Cycle plugin -->
 		<script src="<?php echo base_url();?>asset/js/jquery-1.8.2.min.js"></script>
 		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
@@ -48,7 +48,10 @@
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery-ui-1.8.13.custom.min.js"></script>
 		<!-- Fancybox slider -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.thumbnailScroller.js"></script>
+		<!-- Fancybox slider -->
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.bxslider.min.js"></script>
 
+		
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){	
 		

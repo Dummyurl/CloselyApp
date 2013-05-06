@@ -133,8 +133,7 @@ class catalog_model extends ci_Model {
 					$this->db->or_like($key,$val);
 				}
 				break;				
-		}
-		$this->db->where('category_id',$category); 	
+		}	
 		
 		$q = $this->db->get($table);	
 		// echo $this->db->last_query();
@@ -142,17 +141,23 @@ class catalog_model extends ci_Model {
 		$result = array();
 		foreach($collection as $key=>$row){
 			foreach($row as $attribute=>$value){
-				if(in_array($attribute,$title)){
-					$result[$key]['title'] = $value;
+				if (in_array($category , explode(",",$row['category_id']))){
+					if(in_array($attribute,$title)){
+						$result[$key]['title'] = $value;
+					}
+					if(in_array($attribute,$description)){
+						$result[$key]['description'] = $value;
+					}
+					if(in_array($attribute,$image)){
+						$result[$key]['image'] = $this->getImageUrl($table,$row);
+					}
+					$result[$key]['table'] = $table;
+					$result[$key]['id'] = $row['id'];
 				}
-				if(in_array($attribute,$description)){
-					$result[$key]['description'] = $value;
-				}
-				if(in_array($attribute,$image)){
-					$result[$key]['image'] = $this->getImageUrl($table,$row);
-				}
+
 			}
 		} 		
+		// echo $this->db->last_query();
 		return $result;	
 	}	
 
@@ -170,4 +175,10 @@ class catalog_model extends ci_Model {
 	return $image;
 	}
 	
+	function getShopProducts ($products){
+		$productsArr = explode("," , $products);
+		$this->db->where_in('product_id',$productsArr);
+		$q = $this->db->get('products');
+		return $q->result();
+	}
 }

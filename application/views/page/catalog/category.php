@@ -73,7 +73,7 @@ $(document).ready(function(){
 	})();
 
 	
-	$("#divResult").click(function(){
+	$(".box-row").click(function(){
 	$(this).show();
 		var title = $(this).find('#res_title').text();
 		console.log(title);
