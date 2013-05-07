@@ -35,6 +35,7 @@
 				<div class="shop_contant">
 					<div class="clearfix"></div>
 					<div class="shop_image">
+					<div class="product_title"><span><?php echo $product->product_name ?></span></div>
 					<div class="addon_icons">
 						<ul>
 						<li><img src="<?php echo base_url();?>asset/img/fav.png"/></li>
@@ -44,18 +45,36 @@
 					</div>
 					<?php if (sizeof($shopProducts)>1) : ?>
 						<ul class="bxslider">
+						<?php $i=1; ?>
 							<?php foreach ($shopProducts as $product) : ?>
-								<li><img src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/></li>
+								<li rel="<?php echo $i++ ?>">
+									<img src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/>
+									<div class="product_title"><span><?php echo $product->product_name ?></span></div>
+								</li>
 							<?php endforeach ?>
 						</ul>
+						<div class="tumb_image">
+							<ul>
+							<?php $i=1; ?>
+							<?php foreach ($shopProducts as $product) : ?>
+								<li rel="<?php echo $i++ ?>">
+									<img  src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/>
+								</li>
+							<?php endforeach ?>
+							</ul>
+						</div>						
 					<?php else : ?>
+					<?php $i=2; ?>
 						<img class="shop-photo" src="<?php echo base_url();?>asset/img/shops/<?php echo $shop->shop_image ?>"/>
+<?php /* 						<div class="top_title">
+						<div class="product_title"><span><?php echo $product->product_name ?></span></div>
+						</div>   */?>   
 					<?php endif ?>
 					</div>
 				</div>
 				<div class="shop_footer">
 <div class="triangle-up"></div>
-<div class="shop_title"><?php echo $shop->shop_title ?></div>
+<div class="shop_title">:בקנייה זו נרכשו </br><span><?php echo '. כ ' .  ($i-1) . ' פריטים '  ?></span></div>
 <div class="stars-rate"></div>
 <div class="clearfix"></div>
 <div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
@@ -80,17 +99,44 @@
    touchEnabled:true,
    swipeThreshold:true
   });	
-		$('.product_grid').hoverIntent(overimg,outimg);
-		 function overimg(){ $(this).children('.over-img-photo').css('display','block')}
-		 function outimg(){ $(this).children('.over-img-photo').css('display','none')}
-	});
+		$('.shop_footer , .tumb_image').hoverIntent(overimg,outimg);
+		 function overimg(){ /* $(this).children('.over-img-photo').css('display','block'); */	
+			$('.tumb_image').animate({opacity: 1,}, 200);
+			
+		 }
+		 function outimg(){ /* $(this).children('.over-img-photo').css('display','none'); */
+		 	$('.tumb_image').animate({opacity: 0,}, 200);			
+		}
+
+		$('.product_title').hoverIntent(pullTitle,pushTitle);
+		 function pullTitle(){ /* $(this).children('.over-img-photo').css('display','block'); */
+			$(this).animate({top: '0px',}, 200);
+			$('.bx-controls-direction').hide();
+		 }
+		 function pushTitle(){ /* $(this).children('.over-img-photo').css('display','none'); */
+		 	$(this).animate({top: '-133px'}, 200);
+			$('.bx-controls-direction').show();
+		 }
+		 
+		$('.tumb_image li').click(function(){
+			$('.bxslider li').each(function() {
+				$(this).css('z-index','0');	
+				$(this).hide();	
+			});
+			
+			$('.bxslider li[rel=' + $(this).attr('rel') + ']').css('z-index','50');	
+			$('.bxslider li[rel=' + $(this).attr('rel') + ']').fadeIn();	
+			
+		});
+		
+	 });
 </script>
 
  <script type="text/javascript">
             var page = 1;
 			function loading() { /* $('#more').hide(); */ }
 			
-			
+
 
             $(window).scroll(function () {
                // $('#more').hide();

@@ -2405,7 +2405,10 @@ font-size: 15px;
 text-align: right;
 width: 139px;
 float: right;}
-
+	.product_grid  .shop_title span{direction: rtl;
+text-align: right;
+color: orange;}
+	
 .brandlogo{float: right;}
 .brandlogo img{margin: 22px 7px 0px;
 height: 30px;
@@ -2427,6 +2430,45 @@ top: 60px;
 z-index: 1000;
 display: none;
 }
+
+.product_title{position: absolute;
+top: -131px;
+height: 157px;
+text-align: center;
+width: 222px;
+border-radius: 0px 0px 4px 4px;
+right: 0px;
+background: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: bold;
+color: rgb(0, 0, 116);
+cursor: pointer;}
+
+.product_title span{position: absolute;
+bottom: 3px;
+width: 203px;
+text-align: center;
+right: 0px;}
+.top_title{}
+.tumb_image img{width: 42px;
+height: 42px;
+opacity: 0.3;
+cursor: pointer;}
+.tumb_image img:hover{opacity:1;}
+.tumb_image{position: absolute;
+bottom: 0px;
+z-index: 400;
+opacity:0;
+left: 2px;
+max-width: 187px;
+background: white;
+border-radius: 6px;
+-webkit-box-shadow: 0px 0px 16px -5px rgba(0,0,0,.8);
+-moz-box-shadow: 0px 0px 16px -5px rgba(0,0,0,.8);
+box-shadow: 0px 0px 16px -5px rgba(0,0,0,.8);}
+.tumb_image li{float:right;height: 44px;margin: 2px 2px 2px 0px;}
+.tumb_image ul{list-style-type: none;margin: 4px;}
+
 
 .over-img-photo{top: 65px;
 z-index: 500;
