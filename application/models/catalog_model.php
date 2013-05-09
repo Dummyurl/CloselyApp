@@ -94,6 +94,24 @@ class catalog_model extends ci_Model {
 		$q = $this->db->get('comments');
 		return $q->result();	
 	}	
+	
+	function commentsForShop($id) {
+		$this->db->where('shop_id', $id); 
+		$q = $this->db->get('comments');
+		return $q->result();	
+	}
+	
+	function couponForShop($id) {
+		$this->db->where('shop_id', $id); 
+		$q = $this->db->get('coupons');
+		return $q->result();	
+	}
+	
+	function priceForShop($id) {
+		$this->db->where('shop_id', $id); 
+		$q = $this->db->get('shopping');
+		return $q->result();	
+	}
 
 	function searchKey($data) {
 		$value = $data['word'];
