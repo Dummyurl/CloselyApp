@@ -1,0 +1,27 @@
+﻿/**
+ * moslem Right To Left
+ *
+ * Right To Left Style For RTL Language
+ *
+ * @package    	moslem CRUD
+ * @author     	Moslem Mansouri <moslemir@gmail.com>
+ */
+.datatables , .dataTables_wrapper, .form-content , .form-div , .form-field-box
+{
+	font-family: Tahoma,Arial,sans-serif !important;
+	direction: rtl !important;
+}
+.form-display-as-box , .form-input-box
+{
+	float:right !important;
+}
+.chzn-container span
+{
+	margin-right : 40px !important;
+}
+.form-display-as-box .required
+{
+	display:inline-block;
+	color : red;
+	margin: auto 3px;
+}
