@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 .flexigrid {
 	font-family:Tahoma,Helvetica,sans-serif !important;
 	direction: rtl;
@@ -99,7 +99,7 @@ div.pGroup {
 }
 .flexigrid  .ftitle-left
 {
-	float: left;
+	float: right;
 }
 .flexigrid  .ftitle-right
 {

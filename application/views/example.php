@@ -25,48 +25,46 @@ a:hover
 	text-decoration: underline;
 }
 </style>
-<script type="text/javascript" charset="utf-8">
-$(document).ready(function(){
 
-	var warpperWidth = $("#tabs ul").width();
-	console.log(warpperWidth);
-		var sumWidth = 0;
-		var lastBox;
-		var rel = 1;
-		$("#tabs li").each(function() {
-			$(this).attr("sub",rel);
-			var beforAdd = sumWidth;
-			sumWidth += $(this).outerWidth();
-			if(warpperWidth<sumWidth){
-				var adding = warpperWidth-beforAdd;
-				lastBox = $('#tabs li[sub="' +(rel-1)+'"]');
-				lastBox.width(lastBox.width()+adding);
-				sumWidth = $(this).outerWidth();
-			}
-			rel++;	
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
 		});
-		var last =$('#tabs li[sub="' +(rel-1)+'"]');
-		adding = warpperWidth-sumWidth;
-		var newLastWidth = last.outerWidth()
-		last.outerWidth(newLastWidth+adding);
- }); 
-</script>
+	</script>
 </head>
 <body>
+<div>
 <div class="header">
-<div id="logo"><img src="http://shoppix.co.il/asset/img/logo2.png" alt="Zeni" id="imglogo"><div>
-		<div id="tabs">
-			<ul>
-				<li id="info">פרטי העסק</li>
-				<li id="products">מוצרים</li>
-				<li id="discounts">הנחות ומבצעים</li>
-				<li id="banners">ניהול באנרים</li>
-				<li id="settings">הגדרות</li>
-				<li id="reports">דוחות</li>
-				<li id="messages">הודעות</li>
-			</ul>
-		</div> 
+	<div id="logo"><img src="http://shoppix.co.il/asset/img/logo2.png" alt="Zeni" id="imglogo"></div>
+</div>
+	<nav class="clearfix">
+		<ul class="clearfix">
+			<li><a href="#">פרטי העסק</a></li>
+			<li><a href="#">מוצרים</a></li>
+			<li><a href="#">הנחות ומבצעים</a></li>
+			<li><a href="#">ניהול באנרים</a></li>
+			<li><a href="#">הגדרות</a></li>
+			<li><a href="#">דוחות</a></li>	
+			<li><a href="#">הודעות</a></li>
+		</ul>
+		<a href="#" id="pull">תפריט</a>
+	</nav>
 		<?php echo $output; ?>
-    </div>
+</div>
+
 </body>
 </html>
