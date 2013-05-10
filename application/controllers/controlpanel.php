@@ -8,32 +8,41 @@ class Controlpanel extends CI_Controller {
 		
 		$this->load->database();
 		$this->load->helper('url');
-		
+		$this->load->library('ion_auth');
 		$this->load->library('grocery_CRUD');	
 	}
 	
-	function _example_output($output = null)
+	function _cmspage($output = null)
 	{
-		$this->load->view('example.php',$output);	
+		$this->load->view('cmspage.php',$output);	
 	}
 	
 	function offices()
 	{
 		$output = $this->grocery_crud->render();
 
-		$this->_example_output($output);
+		$this->_cmspage($output);
 	}
 	
 	function index()
 	{
-		$this->_example_output((object)array('output' => '' , 'js_files' => array() , 'css_files' => array()));
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		redirect('controlpanel/storeInfo');
 	}	
 	
 	function storeInfo()
 	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
 		try{
 			$crud = new grocery_CRUD();
-
 			$crud->set_theme('flexigrid');
 			$crud->where('store_id','656644');
 			$crud->set_table('stores');
@@ -44,8 +53,8 @@ class Controlpanel extends CI_Controller {
 			$crud->edit_fields('store_name','store_address','description','phone','website','time_working');
 			$output = $crud->render();
 			
-			$this->_example_output($output);
-			
+			$this->_cmspage($output);
+			 print_r($user = $this->ion_auth->user()->row());
 		}catch(Exception $e){
 			show_error($e->getMessage().' --- '.$e->getTraceAsString());
 		}
@@ -68,7 +77,7 @@ class Controlpanel extends CI_Controller {
  
     $output = $crud->render();
  
-    $this->_example_output($output);
+    $this->_cmspage($output);
 }   
 
 	function employees_management()
@@ -87,7 +96,7 @@ class Controlpanel extends CI_Controller {
 			
 			$output = $crud->render();
 
-			$this->_example_output($output);
+			$this->_cmspage($output);
 	}
 	
 	function customers_management()
@@ -104,7 +113,7 @@ class Controlpanel extends CI_Controller {
 			
 			$output = $crud->render();
 			
-			$this->_example_output($output);
+			$this->_cmspage($output);
 	}	
 	
 	function orders_management()
@@ -120,7 +129,7 @@ class Controlpanel extends CI_Controller {
 			
 			$output = $crud->render();
 			
-			$this->_example_output($output);
+			$this->_cmspage($output);
 	}
 	
 	function products_management()
@@ -134,7 +143,7 @@ class Controlpanel extends CI_Controller {
 			
 			$output = $crud->render();
 			
-			$this->_example_output($output);
+			$this->_cmspage($output);
 	}	
 	
 	function valueToEuro($value, $row)
@@ -155,7 +164,7 @@ class Controlpanel extends CI_Controller {
 		
 		$output = $crud->render();
 		
-		$this->_example_output($output);
+		$this->_cmspage($output);
 	}
 	
 }
