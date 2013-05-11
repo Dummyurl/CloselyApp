@@ -36,7 +36,8 @@
 	<div class="stores_slider">
 		<ul>
 				<?php foreach ($stores as $store) : ?>
-					<li><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $store->store_id?>.jpg"  /></li>
+				<?php $logo = $this->catalog_model->getStoreImage($store->store_id); ?>
+					<li><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $logo ?>"  /></li>
 				<?php endforeach ?>
 		</ul>
 	</div>

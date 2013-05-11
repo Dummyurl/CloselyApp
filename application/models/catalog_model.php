@@ -182,7 +182,7 @@ class catalog_model extends ci_Model {
 	
 	function getImageUrl($table,$row){
 		if ($table == 'stores' || $table == 'recommands' || $table == 'coupons'){
-			$image = base_url() .  'asset/img/bizlogos/' . $row['store_id'] . '.jpg';
+			$image = base_url() .  'asset/img/bizlogos/' . $this->getStoreImage($row['store_id']);
 		} elseif($table == 'shopping') { 
 			$image = base_url() . 'asset/img/shops/' . $row['shop_image'] ;
 		} elseif($table == 'products') { 
@@ -199,4 +199,31 @@ class catalog_model extends ci_Model {
 		$q = $this->db->get('products');
 		return $q->result();
 	}
+	
+	function getStoreImage ($id){
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores');
+		$store = $q->result();
+		return $store[0]->store_logo;
+	}
+
+	function fetch_store_products ($storeId , $start,$limit) {
+		$this->db->limit($limit, $start);
+		$this->db->where('store_id', $storeId);
+		$query = $this->db->get("products"); 
+		if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+	}
+
+	function count_store_products($storeId){
+		$this->db->where('store_id', $storeId);
+		$query = $this->db->get("products");
+		return $query->num_rows();
+	}
+
 }

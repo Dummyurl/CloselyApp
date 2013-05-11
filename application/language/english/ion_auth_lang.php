@@ -15,47 +15,47 @@
 */
 
 // Account Creation
-$lang['account_creation_successful'] 	  	 = 'Account Successfully Created';
-$lang['account_creation_unsuccessful'] 	 	 = 'Unable to Create Account';
-$lang['account_creation_duplicate_email'] 	 = 'Email Already Used or Invalid';
-$lang['account_creation_duplicate_username'] = 'Username Already Used or Invalid';
+$lang['account_creation_successful'] 	  	 = 'החשבון הוצר בהצלחה';
+$lang['account_creation_unsuccessful'] 	 	 = 'יצירת חשבון נכשלה';
+$lang['account_creation_duplicate_email'] 	 = 'האימייל נמצא בשימוש או לא תקין';
+$lang['account_creation_duplicate_username'] = 'שם משתמש נמצא בשימוש או אינו תקין';
 
 // Password
-$lang['password_change_successful'] 	 	 = 'Password Successfully Changed';
-$lang['password_change_unsuccessful'] 	  	 = 'Unable to Change Password';
-$lang['forgot_password_successful'] 	 	 = 'Password Reset Email Sent';
-$lang['forgot_password_unsuccessful'] 	 	 = 'Unable to Reset Password';
+$lang['password_change_successful'] 	 	 = 'הסיסמא שונתה בהצלחה';
+$lang['password_change_unsuccessful'] 	  	 = 'שינוי הסיסמא נכשל';
+$lang['forgot_password_successful'] 	 	 = 'הסיסמה אופסה. נשלח אימייל עם סיסמא חדשה';
+$lang['forgot_password_unsuccessful'] 	 	 = 'לא מצליח לאפס סיסמא';
 
 // Activation
-$lang['activate_successful'] 		  	     = 'Account Activated';
-$lang['activate_unsuccessful'] 		 	     = 'Unable to Activate Account';
-$lang['deactivate_successful'] 		  	     = 'Account De-Activated';
-$lang['deactivate_unsuccessful'] 	  	     = 'Unable to De-Activate Account';
-$lang['activation_email_successful'] 	  	 = 'Activation Email Sent';
-$lang['activation_email_unsuccessful']   	 = 'Unable to Send Activation Email';
+$lang['activate_successful'] 		  	     = 'חשבון הופעל';
+$lang['activate_unsuccessful'] 		 	     = 'לא מצליח להפעיל חשבון';
+$lang['deactivate_successful'] 		  	     = 'החשבון אינו פעיל';
+$lang['deactivate_unsuccessful'] 	  	     = 'לא מצליח לכבות את החשבון';
+$lang['activation_email_successful'] 	  	 = 'אימייל אימות נשלח';
+$lang['activation_email_unsuccessful']   	 = 'שליחת אימייל אימות נכשלה';
 
 // Login / Logout
-$lang['login_successful'] 		  	         = 'Logged In Successfully';
-$lang['login_unsuccessful'] 		  	     = 'Incorrect Login';
-$lang['login_unsuccessful_not_active'] 		 = 'Account is inactive';
-$lang['login_timeout']                       = 'Temporarily Locked Out.  Try again later.';
-$lang['logout_successful'] 		 	         = 'Logged Out Successfully';
+$lang['login_successful'] 		  	         = 'התחבר בהצלחה';
+$lang['login_unsuccessful'] 		  	     = 'התחברות שגוייה';
+$lang['login_unsuccessful_not_active'] 		 = 'חשבון אינו פעיל';
+$lang['login_timeout']                       = 'נעול זמנית ץ נסה שוב מאוחר יותר';
+$lang['logout_successful'] 		 	         = 'התנתק בהצלחה';
 
 // Account Changes
-$lang['update_successful'] 		 	         = 'Account Information Successfully Updated';
-$lang['update_unsuccessful'] 		 	     = 'Unable to Update Account Information';
-$lang['delete_successful']               = 'User Deleted';
-$lang['delete_unsuccessful']           = 'Unable to Delete User';
+$lang['update_successful'] 		 	         = 'פרטי החשבון עודכנו בהצלחה';
+$lang['update_unsuccessful'] 		 	     = 'עדכון החשבון נכשל';
+$lang['delete_successful']               = 'משתמש נמחק';
+$lang['delete_unsuccessful']           = 'מחיקת משתמש נכשלה';
 
 // Groups
-$lang['group_creation_successful']  = 'Group created Successfully';
-$lang['group_already_exists']       = 'Group name already taken';
-$lang['group_update_successful']    = 'Group details updated';
-$lang['group_delete_successful']    = 'Group deleted';
-$lang['group_delete_unsuccessful'] 	= 'Unable to delete group';
-$lang['group_name_required'] 		= 'Group name is a required field';
+$lang['group_creation_successful']  = 'הקבוצה נוצרה בהצלחה';
+$lang['group_already_exists']       = 'שם הקבוצה קיים';
+$lang['group_update_successful']    = 'פרטי הקבוצה עודכנו';
+$lang['group_delete_successful']    = 'הקבוצה נחמקה';
+$lang['group_delete_unsuccessful'] 	= 'מחיקת קבוצה נכשלה';
+$lang['group_name_required'] 		= 'עלייך למלא את שם הקבוצה';
 
 // Email Subjects
-$lang['email_forgotten_password_subject']    = 'Forgotten Password Verification';
-$lang['email_new_password_subject']          = 'New Password';
-$lang['email_activation_subject']            = 'Account Activation';
+$lang['email_forgotten_password_subject']    = 'אימות שכחתי סיסמא';
+$lang['email_new_password_subject']          = 'סיסמא חדשה';
+$lang['email_activation_subject']            = 'הפעלת חשבון';

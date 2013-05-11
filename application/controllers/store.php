@@ -76,6 +76,9 @@ class Store extends CI_Controller {
 			case 'storerecommands':
 				$data['current_tab'] = 'recommands';
 				break;
+			case 'storeproducts':
+				$data['current_tab'] = 'products';
+				break;
 		}
 		$data['isloggin'] = $this->input->post('loggin');
 		$data['freinds'] = $this->input->post('freinds');
@@ -85,6 +88,8 @@ class Store extends CI_Controller {
 		$data['info'] = $storeInfo[0];
 		$data['loadmap'] = 1;
 		$data['branches']['locations'] = $this->stores_model->getBranches($storeId);
+		$data['records']['products'] = $this->catalog_model->fetch_store_products($storeId,0,9);
+		$data['records']['products_cnt'] = $this->catalog_model->count_store_products($storeId);
 		$data['records']['last_shops'] = $this->catalog_model->fetch_store_shops($storeId,0,9);
 		$data['records']['last_shops_cnt'] = $this->catalog_model->count_store_shops($storeId);
 		$data['all_switch'] = 'selected_switch';

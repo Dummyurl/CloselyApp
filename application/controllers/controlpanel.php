@@ -1,5 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+/* stdClass Object ( [store_id] => 656644 [store_name] => ברשקה [store_address] => בלבבבבב [store_logo] => 656644.jpg [create_date] => 15/10/88 [description] => כגדכגדכדגגדכדג [phone] => 05244697777 [website] => www.root.co.il [location] => 32.11548300000006,34.77102100000002 [wall_image] => bersh.jpg [time_working] => ימים ראשון עד חמישי מהשעה 9 עד 23 
+ימי שישי וערבי חג מ8 עד 14 [id] => 33 [email] => kalvaad@gmail.com [ip_address] => [username] => [password] => 4fe1edde298f8dd3fdefd0527c2415027ffe6f63 [salt] => [activation_code] => [forgotten_password_code] => fa6923e211f308c82ba6d9e4bc31154e8303a29d [forgotten_password_time] => 1368185434 [remember_code] => 6d8a758ca55b1f295daf04ba3780e1692de5cf3e [created_on] => 1368183813 [last_login] => 1368205219 [active] => 1 [first_name] => admin [last_name] => admin [company] => admin [user_id] => 33 )
+ */
 class Controlpanel extends CI_Controller {
 
 	function __construct()
@@ -41,80 +44,257 @@ class Controlpanel extends CI_Controller {
 		{
 			redirect('auth/login');
 		}
+		 $storeData = $this->ion_auth->user()->row();
 		try{
-			$crud = new grocery_CRUD();
-			$crud->set_theme('flexigrid');
-			$crud->where('store_id','656644');
-			$crud->set_table('stores');
-			$crud->set_subject('קניות שבוצעו בחנות');
-			$crud->required_fields('store_name','store_address','description','phone','website','time_working');
-			$crud->columns('store_id','store_name','store_address','create_date','description','phone','website','time_working');
-			$crud->display_as('store_name','שם העסק')->display_as('store_address','כתובת העסק');
-			$crud->edit_fields('store_name','store_address','description','phone','website','time_working');
-			$output = $crud->render();
 			
+			$crud = new grocery_CRUD();
+			$crud->unset_add();
+			$crud->unset_delete();
+			$crud->set_theme('flexigrid');
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('stores');
+			$crud->set_subject('פרטי העסק');
+			$crud->required_fields('store_name','store_address','description','phone','time_working','first_name','last_name','email','store_logo','wall_image');
+			$crud->columns('store_name','store_address','create_date','description','phone','website','time_working','first_name','last_name','email','store_logo','wall_image');
+			$crud->display_as('store_name','שם העסק')
+				->display_as('store_address','כתובת העסק')
+				->display_as('description','תאור העסק')
+				->display_as('phone','טלפון')
+				->display_as('website','כתובת אתר')
+				->display_as('time_working','שעות פעילות')
+				->display_as('first_name','שם פרטי')
+				->display_as('last_name','משפחה')
+				->display_as('email','אימייל')
+				->display_as('store_logo','לוגו')
+				->display_as('wall_image','תמונה ראשית');
+			$crud->fields('store_name','store_address','description','phone','website','time_working','first_name','last_name','email','store_logo','wall_image');
+			$crud->set_field_upload('store_logo','asset/img/bizlogos');
+			$crud->set_field_upload('wall_image','asset/img/bizwalls');
+			$output = $crud->render();
 			$this->_cmspage($output);
-			 print_r($user = $this->ion_auth->user()->row());
+			
 		}catch(Exception $e){
 			show_error($e->getMessage().' --- '.$e->getTraceAsString());
 		}
 	}
 	
 	
-	function hidden_test($office_id = 0)
-{
-    $crud = new grocery_CRUD();
- 
-    $crud->set_table('customers');
-    $crud->columns('customerName','contactLastName','phone','city','country','salesRepEmployeeNumber','creditLimit');
-    $crud->display_as('salesRepEmployeeNumber','from Employeer');
-    $crud->set_subject('Customer');
-    $crud->set_relation('salesRepEmployeeNumber','employees','lastName');
-    $crud->add_fields('customerName','contactLastName','phone','city','country','salesRepEmployeeNumber','creditLimit','office_id');
-    $crud->edit_fields('customerName','contactLastName','phone','city','country','salesRepEmployeeNumber','creditLimit');
- 
-    $crud->field_type('office_id', 'hidden', $office_id);
- 
-    $output = $crud->render();
- 
-    $this->_cmspage($output);
-}   
-
-	function employees_management()
+	function products()
 	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		 $storeData = $this->ion_auth->user()->row();
+		try{
+			
 			$crud = new grocery_CRUD();
-
 			$crud->set_theme('flexigrid');
-			$crud->set_table('employees');
-			$crud->set_relation('officeCode','offices','city');
-			$crud->display_as('officeCode','Office City');
-			$crud->set_subject('Employee');
-			
-			$crud->required_fields('lastName');
-			
-			$crud->set_field_upload('file_url','assets/uploads/files');
-			
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('products');
+			$crud->set_subject('מוצרים');
+			$crud->required_fields('product_name','product_id','description','product_image','store_category');
+			$crud->columns('product_id','product_name','description','product_image','store_category');
+			$crud->display_as('product_name','שם המוצר')
+				->display_as('description','תאור המוצר')
+				->display_as('product_id','מק"ט')
+				->display_as('product_image','תמונה')
+				->display_as('store_category','קטגוריה');
+			$crud->fields('store_id','product_name','product_id','description','product_image','store_category');
+			$crud->set_field_upload('product_image','asset/img/store/' . $storeData->store_id);
+			$crud->field_type('store_id','invisible');
+			$crud->callback_before_insert(array($this,'test_callback'));
 			$output = $crud->render();
-
 			$this->_cmspage($output);
+			
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
+	}
+ 
+function test_callback($post_array){
+    $post_array['store_id'] = $this->ion_auth->user()->row()->store_id;
+    return $post_array;
+}
+ 
+ 
+
+	function discounts()
+	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		 $storeData = $this->ion_auth->user()->row();
+		try{
+			
+			$crud = new grocery_CRUD();
+			$crud->set_theme('flexigrid');
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('store_discounts');
+			$crud->set_subject('הנחות ומבצעים');
+			$crud->required_fields('discount_type','discount_name','discount_duration','discount_products','discount_start');
+			$crud->columns('discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->display_as('discount_type','סוג ההנחה /מבצע')
+				->display_as('discount_name','שם ההנחה')
+				->display_as('discount_duration','משך ההנחה')
+				->display_as('discount_products','מוצרים המשתתפים במבצע')
+				->display_as('image','תמונה')
+				->display_as('discount_start','תאריך התחלת המבצע');
+			$crud->fields('store_id','discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->set_field_upload('image','asset/img/store/' . $storeData->store_id . '/discounts');
+			$crud->field_type('store_id','invisible');
+			$crud->callback_before_insert(array($this,'test_callback'));
+			$output = $crud->render();
+			$this->_cmspage($output);
+			
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
 	}
 	
-	function customers_management()
+	function adv()
 	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		 $storeData = $this->ion_auth->user()->row();
+		try{
+			
 			$crud = new grocery_CRUD();
-
-			$crud->set_table('customers');
-			$crud->columns('customerName','contactLastName','phone','city','country','salesRepEmployeeNumber','creditLimit');
-			$crud->display_as('salesRepEmployeeNumber','from Employeer')
-				 ->display_as('customerName','Name')
-				 ->display_as('contactLastName','Last Name');
-			$crud->set_subject('Customer');
-			$crud->set_relation('salesRepEmployeeNumber','employees','lastName');
-			
+			$crud->set_theme('flexigrid');
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('banners');
+			$crud->set_subject('באנרים');
+			$crud->required_fields('banner_name','position','page','start_date','end_date','image');
+			$crud->columns('banner_id','banner_name','position','page','start_date','end_date','image');
+			$crud->display_as('banner_name','כותרת הבאנר')
+				->display_as('position','מיקום')
+				->display_as('page','עמוד')
+				->display_as('start_date','תאריך התחלה')
+				->display_as('end_date','תאריך סיום')
+				->display_as('image','באנר');
+			$crud->fields('store_id','banner_name','position','page','start_date','end_date','image');
+			$crud->set_field_upload('image','asset/img/store/' . $storeData->store_id . '/banners');
+			$crud->field_type('store_id','invisible');
+			$crud->callback_before_insert(array($this,'test_callback'));
 			$output = $crud->render();
-			
 			$this->_cmspage($output);
-	}	
+			
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
+	}
+	
+	function setting()
+	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		 $storeData = $this->ion_auth->user()->row();
+		try{
+			
+			$crud = new grocery_CRUD();
+			$crud->set_theme('flexigrid');
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('store_discounts');
+			$crud->set_subject('הנחות ומבצעים');
+			$crud->required_fields('discount_type','discount_name','discount_duration','discount_products','discount_start');
+			$crud->columns('discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->display_as('discount_type','סוג ההנחה /מבצע')
+				->display_as('discount_name','שם ההנחה')
+				->display_as('discount_duration','משך ההנחה')
+				->display_as('discount_products','מוצרים המשתתפים במבצע')
+				->display_as('image','תמונה')
+				->display_as('discount_start','תאריך התחלת המבצע');
+			$crud->fields('store_id','discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->set_field_upload('image','asset/img/store/' . $storeData->store_id . '/discounts');
+			$crud->field_type('store_id','invisible');
+			$crud->callback_before_insert(array($this,'test_callback'));
+			$output = $crud->render();
+			$this->_cmspage($output);
+			
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
+	}
+	
+		function reports()
+	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		 $storeData = $this->ion_auth->user()->row();
+		try{
+			
+			$crud = new grocery_CRUD();
+			$crud->set_theme('flexigrid');
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('store_discounts');
+			$crud->set_subject('הנחות ומבצעים');
+			$crud->required_fields('discount_type','discount_name','discount_duration','discount_products','discount_start');
+			$crud->columns('discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->display_as('discount_type','סוג ההנחה /מבצע')
+				->display_as('discount_name','שם ההנחה')
+				->display_as('discount_duration','משך ההנחה')
+				->display_as('discount_products','מוצרים המשתתפים במבצע')
+				->display_as('image','תמונה')
+				->display_as('discount_start','תאריך התחלת המבצע');
+			$crud->fields('store_id','discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->set_field_upload('image','asset/img/store/' . $storeData->store_id . '/discounts');
+			$crud->field_type('store_id','invisible');
+			$crud->callback_before_insert(array($this,'test_callback'));
+			$output = $crud->render();
+			$this->_cmspage($output);
+			
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
+	}
+	
+	
+	function messages()
+	{
+		$this->session->set_flashdata('redirect',$this->uri->uri_string());
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		 $storeData = $this->ion_auth->user()->row();
+		try{
+			
+			$crud = new grocery_CRUD();
+			$crud->set_theme('flexigrid');
+			$crud->where('store_id',$storeData->store_id);
+			$crud->set_table('store_discounts');
+			$crud->set_subject('הנחות ומבצעים');
+			$crud->required_fields('discount_type','discount_name','discount_duration','discount_products','discount_start');
+			$crud->columns('discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->display_as('discount_type','סוג ההנחה /מבצע')
+				->display_as('discount_name','שם ההנחה')
+				->display_as('discount_duration','משך ההנחה')
+				->display_as('discount_products','מוצרים המשתתפים במבצע')
+				->display_as('image','תמונה')
+				->display_as('discount_start','תאריך התחלת המבצע');
+			$crud->fields('store_id','discount_name','discount_type','discount_start','discount_duration','discount_products','image');
+			$crud->set_field_upload('image','asset/img/store/' . $storeData->store_id . '/discounts');
+			$crud->field_type('store_id','invisible');
+			$crud->callback_before_insert(array($this,'test_callback'));
+			$output = $crud->render();
+			$this->_cmspage($output);
+			
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
+	}
 	
 	function orders_management()
 	{

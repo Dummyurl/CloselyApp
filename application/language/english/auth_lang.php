@@ -21,16 +21,16 @@
 $lang['error_csrf'] = 'This form post did not pass our security checks.';
 
 // Login
-$lang['login_heading']         = 'Login';
-$lang['login_subheading']      = 'Please login with your email/username and password below.';
-$lang['login_identity_label']  = 'Email/Username:';
-$lang['login_password_label']  = 'Password:';
-$lang['login_remember_label']  = 'Remember Me:';
-$lang['login_submit_btn']      = 'Login';
-$lang['login_forgot_password'] = 'Forgot your password?';
+$lang['login_heading']         = 'התחברות';
+$lang['login_subheading']      = 'אנא התחבר עם שם המשתמש /אימייל';
+$lang['login_identity_label']  = ':שם משתמש/אימייל';
+$lang['login_password_label']  = ':סיסמא';
+$lang['login_remember_label']  = ':זכור אותי';
+$lang['login_submit_btn']      = 'התחבר';
+$lang['login_forgot_password'] = '?שכחת את הסיסמא';
 
 // Index
-$lang['index_heading']           = 'Users';
+$lang['index_heading']           = 'משתמשים';
 $lang['index_subheading']        = 'Below is a list of the users.';
 $lang['index_fname_th']          = 'First Name';
 $lang['index_lname_th']          = 'Last Name';

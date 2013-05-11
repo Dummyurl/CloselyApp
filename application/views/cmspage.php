@@ -53,13 +53,13 @@ a:hover
 </div>
 	<nav class="clearfix">
 		<ul class="clearfix">
-			<li><a href="#">פרטי העסק</a></li>
-			<li><a href="#">מוצרים</a></li>
-			<li><a href="#">הנחות ומבצעים</a></li>
-			<li><a href="#">ניהול באנרים</a></li>
-			<li><a href="#">הגדרות</a></li>
-			<li><a href="#">דוחות</a></li>	
-			<li><a href="#">הודעות</a></li>
+			<li><a href='<?php echo site_url('controlpanel/messages')?>'>הודעות ופניות</a></li>
+			<li><a href='<?php echo site_url('controlpanel/reports')?>'>דוחות</a></li>
+			<li><a href='<?php echo site_url('controlpanel/setting')?>'>הגדרות</a></li>
+			<li><a href='<?php echo site_url('controlpanel/adv')?>'>ניהול באנרים</a></li>
+			<li><a href='<?php echo site_url('controlpanel/discounts')?>'>הנחות ומבצעים</a></li>
+			<li><a href='<?php echo site_url('controlpanel/products')?>'>מוצרים</a></li>
+			<li><a href='<?php echo site_url('controlpanel/storeInfo')?>'>פרטי העסק</a></li>
 		</ul>
 		<a href="#" id="pull">תפריט</a>
 	</nav>
