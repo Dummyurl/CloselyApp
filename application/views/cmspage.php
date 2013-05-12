@@ -57,6 +57,7 @@ a:hover
 			<li><a href='<?php echo site_url('controlpanel/reports')?>'>דוחות</a></li>
 			<li><a href='<?php echo site_url('controlpanel/setting')?>'>הגדרות</a></li>
 			<li><a href='<?php echo site_url('controlpanel/adv')?>'>ניהול באנרים</a></li>
+			<li><a href='<?php echo site_url('controlpanel/coupons')?>'>קופוני שיתוף</a></li>
 			<li><a href='<?php echo site_url('controlpanel/discounts')?>'>הנחות ומבצעים</a></li>
 			<li><a href='<?php echo site_url('controlpanel/products')?>'>מוצרים</a></li>
 			<li><a href='<?php echo site_url('controlpanel/storeInfo')?>'>פרטי העסק</a></li>

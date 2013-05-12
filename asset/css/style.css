@@ -2607,6 +2607,25 @@ z-index: 10000;
 width: 100%;
 }
 
+/* products grid */
+
+.product-photo{overflow: hidden;
+width: 222px;
+height: 222px;
+
+}
+
+.product_store_logo{
+width: 22px;
+height: 22px;
+}
+
+.product_grid_title{text-align: center;
+padding: 3px;
+font-size: 13px;
+font-weight: bold;
+color: rgb(0, 0, 143);}
+
 	/* right boxes */
 .info_box {
 width: 307px;

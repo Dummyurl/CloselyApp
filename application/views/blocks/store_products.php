@@ -1,40 +1,37 @@
 <?php $this->load->helper('url'); ?>
 <div class="wall-messages">	
 	<ul class="list_container">
-		<?php $j = 0; ?>
 		<?php foreach ($products as $product) : ?>
 		<?php $storeInfo = $this->catalog_model->getStoreInfo($product->store_id) ?>
-		<li class="listGrid">
+		<li class="listGrid products">
 			<div class="product_grid">
 				<div class="shop_header">
-				<img src="https://graph.facebook.com/<?php echo $shop->user_id ?>/picture"/>
+		<?php	/* 	<a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="product_store_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a> */ ?>
 				<div class="my_barcode"><?php echo $product->product_id ?></div>
 				<div class="triangle"></div>
 				</div>
+			</div>
 				<div class="shop_contant">
 					<div class="clearfix"></div>
+				<div class="product_grid_title"><?php echo $product->product_name  ?></span></div>
 					<div class="shop_image">
-						<img class="shop-photo" src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id . '/' . $product->product_image  ?>"/>   
-					<?php endif ?>
+						<img class="product-photo" src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id . '/' . $product->product_image  ?>"/>   
 					</div>
 				</div>
-				<div class="shop_footer">
+								<div class="shop_footer">
 					<div class="addon_icons">
 						<ul>
 						<?php if (!empty($product->price)) : ?>
 						<li><img src="<?php echo base_url();?>asset/img/fav.png"/></li>
 						<?php endif ?>
 						</ul>
-					</div>
+				</div>
 					<div class="triangle-up"></div>
-					<div class="shop_title"><?php echo $product->product_name  ?></span></div>
 					<div class="stars-rate"></div>
 					<div class="clearfix"></div>
 					<div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
 					<div class="shop_detials"><a href="/catalog/product/<?php echo $product->url_key ?>">עמוד המוצר</a></div>
 				</div>
-			</div>	
-			
 		</li>
 	<?php endforeach ?>
 	<div class = "more_result"></div>

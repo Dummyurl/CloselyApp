@@ -102,5 +102,29 @@ class stores_model extends ci_Model {
 		return $q->result();
 	}
 	
+	function getWebsiteCategories($id) {
+		$this->db->select('category_id'); 
+/* 		$this->db->where('store_id', $id);  */
+		$q = $this->db->get('categories');
+		return $q->result();
+	}
+	
+	function getStoreProducts($id) {
+		$this->db->select('product_name'); 
+ 		$this->db->where('store_id', $id);
+		$q = $this->db->get('products');
+		return $q->result();
+	}
+
+
+	
+	function getStoreCategories($id) {
+		$this->db->select('category_id'); 
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores_custom_categories');
+		return $q->result();
+	}
+	
+	
 	
 }

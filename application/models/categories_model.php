@@ -34,10 +34,25 @@ class categories_model extends ci_Model {
 		return $res[0]->category_id;
 	}
 	
+	function getStoreCategoryName($id) {
+		$this->db->select('category_name'); 
+		$this->db->where('category_id',$id); 
+		$q = $this->db->get('stores_custom_categories');
+		$res = $q->result();
+		return $res[0];
+	}
+	
+	function getWebsiteCategoryName($id) {
+		$this->db->where('category_id',$id); 
+		$q = $this->db->get('categories');
+		$res = $q->result();
+		return $res[0];
+	}
+	
 	function getStoresInCategory($id) {
 		$this->db->select('store_id'); 
 		$this->db->where('category_id',$id); 
-		$q = $this->db->get('store_categories');;
+		$q = $this->db->get('store_categories');
 		return $q->result();
 	}
 	
