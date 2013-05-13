@@ -8,7 +8,6 @@
 			<div class="product_grid">
 				<div class="shop_header">
 				<img src="https://graph.facebook.com/<?php echo $shop->user_id ?>/picture"/>
-				<div class="my_barcode"><?php echo $product->product_id ?></div>
 				<div class="triangle"></div>
 				</div>
 				<div class="shop_contant">

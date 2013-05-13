@@ -65,10 +65,10 @@ $(document).ready(function(){
 	
 	(function animate() {
 		$(".stores_slider li:first").each(function(){
-			$(this).animate({marginLeft:-$(this).outerWidth(true)},3000,function(){
+			$(this).animate({marginLeft:-$(this).outerWidth(true)},1000,function(){
 				$(this).insertAfter(".stores_slider li:last").fadeIn('slow');
 				$(this).css({marginLeft:0});
-				setTimeout(function(){animate()},2000);
+				setTimeout(function(){animate()},900);
 			});
 		});
 	})();

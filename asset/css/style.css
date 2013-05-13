@@ -2547,13 +2547,6 @@ background: rgb(25, 168, 162);
 margin: 4px 10px 0px 0px;
 padding: 5px 52px;}
 
-.product_grid .shop_footer .triangle-up{border-color: rgba(255, 255, 255, 0) rgba(182, 126, 41, 0) rgb(255, 255, 255) transparent;
-border-style: solid;
-border-width: 10px;
-left: 282px;
-position: absolute;
-top: 240px;
-z-index: 1000;}
 .triangle_blocks{border-color: rgba(90, 145, 204, 0.97) rgba(182, 126, 41, 0) transparent transparent;
 border-style: solid;
 border-width: 13px;
@@ -2609,22 +2602,76 @@ width: 100%;
 
 /* products grid */
 
-.product-photo{overflow: hidden;
+.products{position: relative;}
+
+.products .product-photo{overflow: hidden;
 width: 222px;
 height: 222px;
 
 }
 
-.product_store_logo{
+.products .shop_footer{}
+.products .price_container{}
+.products .product_price{position: absolute;
+top: 200px;
+text-align: center;
+right: -3px;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3e3fa), color-stop(100%, #a5defb))!important;
+background-image: -webkit-linear-gradient(top, rgb(9, 221, 0), rgb(0, 255, 20))!important;
+background-image: -moz-linear-gradient(top, rgb(9, 221, 0), rgb(0, 255, 20))!important;
+background-image: -ms-linear-gradient(top, rgb(9, 221, 0), rgb(0, 255, 20))!important;
+background-image: -o-linear-gradient(top, rgb(9, 221, 0), rgb(0, 255, 20))!important;
+background-image: linear-gradient(top, rgb(9, 221, 0), rgb(0, 255, 20));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c3e3fa, endColorstr=#a5defb)!important;
+min-width: 50px;
+padding: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+-webkit-box-shadow: -1px -1px 13px -5px rgba(0,0,0,.8);
+-moz-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
+box-shadow: 1px -1px 13px -5px rgba(0,0,0,.8);}
+
+.products .stars-rate{
+position: absolute;
+background: url(../img/star.png) repeat-x left -33px;
+width: 58px;
+height: 19px;
+top: 7px;
+left: 5px;
+}
+.products .shop_footer .triangle-up{border-color: rgba(255, 255, 255, 0) rgba(182, 126, 41, 0) rgb(255, 255, 255) transparent;
+border-style: solid;
+border-width: 10px;
+left: 20px;
+position: absolute;
+top: 252px;
+z-index: 1000;}
+
+.products .product_store_logo{
 width: 22px;
 height: 22px;
 }
 
-.product_grid_title{text-align: center;
-padding: 3px;
-font-size: 13px;
+.products .rating{height: 10px;}
+.products .raters{color: orange;
 font-weight: bold;
-color: rgb(0, 0, 143);}
+direction: rtl;
+text-align: center;}
+.products .product_grid_title{text-align: right;
+padding: 5px;
+font-size: 13px;
+height: 38px;
+font-weight: bold;
+color: rgb(0, 0, 143);
+border-bottom: 1px rgb(213, 213, 213) solid;}
+.products .product_grid_title .title_text{float: right;
+width: 125px;
+padding: 0px;
+height: 42px;
+overflow: hidden;}
+
+.products .product_header{height:0px!important}
 
 	/* right boxes */
 .info_box {

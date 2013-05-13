@@ -119,7 +119,7 @@ class Controlpanel extends CI_Controller {
 				->display_as('product_image','תמונה')
 				->display_as('store_category','קטגוריות בחנות')
 				->display_as('website_categories','קטגוריות באתר');
-			$crud->fields('store_id','product_name','product_id','description','product_image','store_category','website_categories');
+			$crud->fields('store_id','product_name','product_id','description','product_image','store_category','website_categories','url_key');
 			$crud->set_field_upload('product_image','asset/img/store/' . $storeData->store_id);
 			if ($storeCategoriesList){
 				$crud->field_type('store_category','multiselect',$storeCategoriesList);
@@ -132,7 +132,8 @@ class Controlpanel extends CI_Controller {
 				$crud->field_type('website_categories','invisible');
 			} 
 			$crud->field_type('store_id','invisible');
-			$crud->callback_before_insert(array($this,'test_callback'));
+			$crud->field_type('url_key','invisible');
+			$crud->callback_before_insert(array($this,'addproduct'));
 			$output = $crud->render();
 			$this->_cmspage($output);
 			
@@ -141,6 +142,13 @@ class Controlpanel extends CI_Controller {
 		}
 	}
  
+ 
+ function addproduct($post_array){
+    $post_array['store_id'] = $this->ion_auth->user()->row()->store_id;
+	$post_array['url_key'] = str_replace(" ","_",$post_array['product_name']);
+    return $post_array;
+}
+
 function test_callback($post_array){
     $post_array['store_id'] = $this->ion_auth->user()->row()->store_id;
     return $post_array;

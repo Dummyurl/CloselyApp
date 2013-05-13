@@ -92,6 +92,7 @@ class Store extends CI_Controller {
 		$data['records']['products_cnt'] = $this->catalog_model->count_store_products($storeId);
 		$data['records']['last_shops'] = $this->catalog_model->fetch_store_shops($storeId,0,9);
 		$data['records']['last_shops_cnt'] = $this->catalog_model->count_store_shops($storeId);
+		// $data['records']['productList'] =array('store'=>$storeId);
 		$data['all_switch'] = 'selected_switch';
 		$data['freinds_switch'] = '';
 		$this->load->view('page/store/'.$tab,$data);

@@ -50,6 +50,8 @@
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.thumbnailScroller.js"></script>
 		<!-- Fancybox slider -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.bxslider.min.js"></script>
+		<!-- Fancybox slider -->
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.cycle.all.js"></script>		
 
 		
 	<script type="text/javascript" charset="utf-8">

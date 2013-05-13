@@ -21,7 +21,6 @@ class Products extends CI_Controller {
 		$offset = (($requested_page - 1) * 9);
 		$data['products'] = $this->catalog_model->fetch_store_products($store,$offset , 9) ;
 		$this->load->view('catalog/productscroll',$data); 
-		echo 'fdfsf';
 	}
 
 	function view($productId)
