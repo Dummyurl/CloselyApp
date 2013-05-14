@@ -220,10 +220,66 @@ class catalog_model extends ci_Model {
         return false;
 	}
 
+	function fetch_category_products ($categoryId , $start,$limit) {
+		$this->db->limit($limit, $start);
+		$this->db->where('store_category', $categoryId);
+		$query = $this->db->get("products"); 
+		if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+	}	
+	
+	
 	function count_store_products($storeId){
 		$this->db->where('store_id', $storeId);
 		$query = $this->db->get("products");
 		return $query->num_rows();
 	}
+
+	
+
+	
+	function fetch_category_shops ($categoryId , $view , $freinds , $start,$limit) {
+		$this->db->limit($limit, $start);
+		if (!empty($freinds) && $view == 2) {
+			$this->db->where_in('user_id',$freinds);				
+		}
+		$this->db->where('category_id', $categoryId);
+		$this->db->order_by("create_time", "desc");
+		$query = $this->db->get("shopping");
+		return $query->result();		
+	}	
+	
+	function fetch_store_shopping ($storeId , $view , $freinds , $start,$limit) {
+		$this->db->limit($limit, $start);
+		if (!empty($freinds) && $view == 2) {
+			$this->db->where_in('user_id',$freinds);				
+		}
+		$this->db->where('store_id', $storeId);
+		$this->db->order_by("create_time", "desc");
+		$query = $this->db->get("shopping");
+		return $query->result();		
+	}
+	
+	function fetch_user_shopping ($userId , $start,$limit) {
+		$this->db->limit($limit, $start);
+		$this->db->where('user_id', $userId);
+		$this->db->order_by("create_time", "desc");
+		$query = $this->db->get("shopping");
+		return $query->result();		
+	}
+	
+	function count_user_shops($userId){
+		$this->db->where('user_id', $userId);
+		$query = $this->db->get("shopping");
+		return $query->num_rows();
+	}
+
+	
+	
 
 }

@@ -157,10 +157,8 @@
 </script>
 
  <script type="text/javascript">
+ $(document).ready(function(){	
             var page = 1;
-			function loading() { /* $('#more').hide(); */ }
-			
-
 
             $(window).scroll(function () {
                // $('#more').hide();
@@ -176,7 +174,7 @@
 				var winh = $(document).height();
                 if((winh - scrolling)<600) {
                   //  $('#more').show();
-					window.setInterval(loading, 2000);
+					// window.setInterval(loading, 2000);
                   //  $('#no-more').hide();
 
                     page++;
@@ -188,13 +186,14 @@
                       //  $('#no-more').css("top","400");
                       //  $('#no-more').show();
                     }else{
-					url = '<?php echo base_url();?>' + 'shops/index/' + page;
+					url = '<?php echo base_url();?>' + getUrl('<?php echo $page ?>') + page;
                         $.ajax({
                             type: "POST",
                             url: url,
+							data:getParams('<?php echo $page ?>'),
 							beforeSend:  function(){
 								$("#loading").show();
-								setTimeout(function(){getNewUpdates();}, 58000);
+								// setTimeout(function(){getNewUpdates();}, 58000);
 							},
                             success: function(res) {
 							setTimeout(function(){
@@ -210,5 +209,40 @@
 
 
             });
-
+			
+function getParams(view) {
+	switch(view)
+	{
+	case 'category':
+	  return '&categoryId=<?php echo isset($categoryId) ? $categoryId : '' ?>&view=<?php echo $view ?>&freinds=<?php echo $freinds ?>' ;
+	  break;
+ 	case 'store':
+	  return '&storeId=<?php echo isset($storeId) ? $storeId : '' ?>&view=<?php echo $view ?>&freinds=<?php echo $freinds ?>' ;
+	  break;
+	case 'user':
+	  return '&userId=<?php echo isset($userId) ? $userId : '' ?>' ;
+	  break; 
+	default:
+	  return '';
+	}
+}
+	
+function getUrl(view) {
+	switch(view)
+	{
+	case 'category':
+	  return 'shops/category/' ;
+	  break;
+	case 'store':
+	  return 'shops/store/' ;
+	  break;
+	case 'user':
+	  return 'shops/user/' ;
+	  break;
+	default:
+	  return 'shops/category/';
+	}
+}
+			
+});
         </script>

@@ -28,6 +28,11 @@ class Catalog extends CI_Controller {
 		$view = $this->input->post('view');	
 		$freinds = json_decode($this->input->post('freinds'));
 		
+		$data['categoryId'] = $categoryId;
+		$data['view'] = $view;
+		$data['freinds'] = $freinds;
+		$data['page'] = 'category';
+		
 		if ($view == 2){
 			$data['all_switch'] = '';
 			$data['freinds_switch'] = 'selected_switch';
@@ -38,18 +43,23 @@ class Catalog extends CI_Controller {
 		switch ($tab) {
 			case 'catshops':
 				$table = 'shopping';
-				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,9);
 				$this->load->view('blocks/shops',$data);
 				break;
 			case 'catcoupons':
 				$table = 'coupons';
-				$data['coupons'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$data['coupons'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,18);
 				$this->load->view('blocks/bannerslist',$data);
 				break;
 			case 'catrecommands':
 				$table = 'recommands';
-				$data['recommands'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$data['recommands'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,9);
 				$this->load->view('blocks/store_recommands',$data);
+				break;
+			case 'catproducts':
+				$table = 'products';
+				$data['products'] = $this->categories_model->getProducts($categoryId ,$view , $freinds,0,9);
+				$this->load->view('blocks/category_products',$data);
 				break;
 		}	
 
@@ -62,22 +72,31 @@ class Catalog extends CI_Controller {
 		$categoryId = $this->input->post('category');	
 		$view = $this->input->post('view');	
 		$freinds = json_decode($this->input->post('freinds'));
+		$data['categoryId'] = $categoryId;
+		$data['view'] = $view;
+		$data['freinds'] = $freinds;
+		$data['page'] = 'category';
 
 		switch ($tab) {
 			case 'catshops':
 				$table = 'shopping';
-				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,9);
 				$this->load->view('blocks/shops',$data);
 				break;
 			case 'catcoupons':
 				$table = 'coupons';
-				$data['coupons'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$data['coupons'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,18);
 				$this->load->view('blocks/bannerslist',$data);
 				break;
 			case 'catrecommands':
 				$table = 'recommands';
-				$data['recommands'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds);
+				$data['recommands'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,9);
 				$this->load->view('blocks/store_recommands',$data);
+				break;
+			case 'catproducts':
+				$table = 'products';
+				$data['products'] = $this->categories_model->getProducts($categoryId ,$view , $freinds,0,9);
+				$this->load->view('blocks/category_products',$data);
 				break;
 		}	
     }
@@ -103,7 +122,13 @@ class Catalog extends CI_Controller {
 		$data['content']['category']['view'] = $view;
 		$data['content']['category']['coupons'] = $this->categories_model->getCoupons($id);
 		$data['content']['category']['recommands'] = $this->categories_model->getRecommands($id);
-		$data['content']['category']['shops']['last_shops'] = $this->categories_model->getShops($id);
+		$data['content']['category']['shops']['last_shops'] = $this->categories_model->getShops($id,0,9);
+		$data['content']['category']['shops']['last_shops_cnt'] = $this->categories_model->countShops($id);
+		$data['content']['category']['shops']['page'] = 'category';
+		$data['content']['category']['shops']['view'] = $view;
+		$data['content']['category']['shops']['freinds'] = 1;
+		$data['content']['category']['shops']['categoryId'] = $id;
+		
 		$data['fb_data'] = $fb_data;
 		$data['content']['category']['freinds'] = null;
 		if ($onlyfreinds){

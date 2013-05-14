@@ -62,19 +62,29 @@ class categories_model extends ci_Model {
 		return $q->result();
 	}
 
-	function getShops($id) {
-		$this->db->where('category_id', $id); 
+	function getShops($id,$start,$limit) {
+		$this->db->limit($limit, $start);
+		$this->db->where('category_id', $id);
+		$this->db->order_by("create_time", "desc");
 		$q = $this->db->get('shopping');
 		return $q->result();
 	}
 
+	function countShops($id) {
+		$this->db->where('category_id', $id);
+		$q = $this->db->get('shopping');
+		return $q->num_rows();
+	}
+	
+	
 	function getRecommands($id) {
 		$this->db->where('category_id', $id); 
 		$q = $this->db->get('recommands');
 		return $q->result();
 	}
 	
-	function getRecords($tab , $categoryId ,$view , $freinds){
+	function getRecords($tab , $categoryId ,$view , $freinds , $start,$limit){
+		$this->db->limit($limit, $start);
 		if (!empty($freinds) && $view == 2) {
 			$this->db->where_in('user_id',$freinds);				
 		}
@@ -83,5 +93,15 @@ class categories_model extends ci_Model {
 		$q = $this->db->get($tab,9);
 		return $q->result();
 	}
-	
+
+	function getProducts($categoryId ,$view , $freinds , $start,$limit){
+		$this->db->limit($limit, $start);
+		if (!empty($freinds) && $view == 2) {
+			$this->db->where_in('user_id',$freinds);				
+		}
+		$this->db->where('store_category', $categoryId); 
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('products');
+		return $q->result();
+	}	
 }

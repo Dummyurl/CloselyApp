@@ -21,6 +21,37 @@ class Shops extends CI_Controller {
 		$this->load->view('catalog/shopscroll',$data);
 	}
 	
+	function category($page)
+    {
+		$categoryId = $this->input->post('categoryId');
+		$view = $this->input->post('view');	
+		$freinds = json_decode($this->input->post('freinds'));
+		$requested_page = $page;
+		$offset = (($requested_page - 1) * 9);
+		$data['shops'] = $this->catalog_model->fetch_category_shops($categoryId , $view , $freinds ,$offset , 9) ;
+		$this->load->view('catalog/shopscroll',$data);
+	}
+	
+	function store($page)
+    {
+		$storeId = $this->input->post('storeId');
+		$view = $this->input->post('view');	
+		$freinds = json_decode($this->input->post('freinds'));
+		$requested_page = $page;
+		$offset = (($requested_page - 1) * 9);
+		$data['shops'] = $this->catalog_model->fetch_store_shopping($storeId , $view , $freinds ,$offset , 9) ;
+		$this->load->view('catalog/shopscroll',$data);
+	}
+	
+	function user($page)
+    {
+		$userId = $this->input->post('userId');	
+		$requested_page = $page;
+		$offset = (($requested_page - 1) * 9);
+		$data['shops'] = $this->catalog_model->fetch_user_shopping($userId,$offset , 9) ;
+		$this->load->view('catalog/shopscroll',$data);
+	}
+	
 	function view($userId)
     {
 

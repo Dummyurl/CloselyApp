@@ -32,7 +32,10 @@ class User extends CI_Controller {
 		$data['records']['coupons'] = $this->users_model->getCoupons($userId);
 		$data['records']['recommands'] = $this->users_model->getRecommands($userId);
 		$data['info'] = $userInfo[0];
-		$data['records']['last_shops'] = $this->users_model->getShops($userId,0,9);
+		$data['records']['last_shops'] = $this->catalog_model->fetch_user_shopping($userId,0,9);
+		$data['records']['last_shops_cnt'] = $this->catalog_model->count_user_shops($userId);
+		$data['records']['page'] = 'user';
+		$data['records']['userId'] = $userId;
 		// $data['records']['last_shops_cnt'] = $this->users_model->count_store_shops($storeId);
 		$this->load->view('page/user/'.$tab,$data);
     }
@@ -51,7 +54,10 @@ class User extends CI_Controller {
 		$data['content']['user']['id'] = $userId;
 		$userInfo = $this->users_model->getUser($userId);
 		$data['content']['user']['info'] = $userInfo[0];
-		$data['content']['user']['last_shops'] = $this->users_model->getShops($userId,0,9);
+		$data['content']['user']['last_shops'] = $this->catalog_model->fetch_user_shopping($userId,0,9);
+		$data['content']['user']['last_shops_cnt'] = $this->catalog_model->count_user_shops($userId);
+		$data['content']['user']['page'] = 'user';
+		$data['content']['user']['userId'] = $userId;
 		$data['content']['user']['freinds'] = $this->users_model->getFreindsId($userId);
 		$data['content']['user']['shopstores']['locations'] = $this->stores_model->getShopStoreLocation($shopStores);
 		$data['content']['user']['view'] = $view;

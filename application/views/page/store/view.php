@@ -59,6 +59,7 @@ $(".select_bar").css("right",322);
 				beforeSend: function() {
 					$("#load_store_tab").show();
 				},				success: function(block) {
+				console.log('sdfsd');
 					// $("#loading-feed").hide();
 					 $('.store_tab_page').html(block);
 					 $("#load_store_tab").hide();

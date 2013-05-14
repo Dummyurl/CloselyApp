@@ -36,6 +36,11 @@ class Store extends CI_Controller {
 		$freinds = json_decode($this->input->post('freinds'));
 		$actionsData = $this->stores_model->getRecords($tab , $storeId ,$view , $freinds);
 
+		$data['records']['storeId'] =$storeId;
+		$data['records']['view'] = $view;
+		$data['records']['freinds'] = $freinds;
+		$data['records']['page'] = 'store';
+		
 		switch ($tab) {
 			case 'shopping':
 				$pagetab = 'freindsshop';
@@ -92,6 +97,10 @@ class Store extends CI_Controller {
 		$data['records']['products_cnt'] = $this->catalog_model->count_store_products($storeId);
 		$data['records']['last_shops'] = $this->catalog_model->fetch_store_shops($storeId,0,9);
 		$data['records']['last_shops_cnt'] = $this->catalog_model->count_store_shops($storeId);
+		$data['records']['storeId'] =$storeId;
+		$data['records']['view'] =1;
+		$data['records']['freinds'] = $this->input->post('freinds');
+		$data['records']['page'] = 'store';
 		// $data['records']['productList'] =array('store'=>$storeId);
 		$data['all_switch'] = 'selected_switch';
 		$data['freinds_switch'] = '';

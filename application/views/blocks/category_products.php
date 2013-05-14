@@ -71,11 +71,11 @@ $(document).ready(function(){
                       //  $('#no-more').css("top","400");
                       //  $('#no-more').show();
                     }else{
-					url = '<?php echo base_url();?>' + 'products/index/' + page;
+					url = '<?php echo base_url();?>' + 'products/category/' + page;
                         $.ajax({
                             type: "POST",
                             url: url,
-							data:'&store=' + '<?php echo $storeInfo[0]->store_id ?>',
+							data:'&categoryId=' + '<?php echo $categoryId ?>',
 							beforeSend:  function(){
 								$("#loading").show();
 								setTimeout(function(){getNewUpdates();}, 58000);
