@@ -243,17 +243,8 @@ class catalog_model extends ci_Model {
 	
 
 	
-	function fetch_category_shops ($categoryId , $view , $freinds , $start,$limit) {
-		$this->db->limit($limit, $start);
-		if (!empty($freinds) && $view == 2) {
-			$this->db->where_in('user_id',$freinds);				
-		}
-		$this->db->where('category_id', $categoryId);
-		$this->db->order_by("create_time", "desc");
-		$query = $this->db->get("shopping");
-		return $query->result();		
-	}	
-	
+
+		
 	function fetch_store_shopping ($storeId , $view , $freinds , $start,$limit) {
 		$this->db->limit($limit, $start);
 		if (!empty($freinds) && $view == 2) {
@@ -279,7 +270,29 @@ class catalog_model extends ci_Model {
 		return $query->num_rows();
 	}
 
-	
+	function getCategoryProductsArr($categoryId,$type,$store){
+		$productsArr = array();
+		$this->db->select('product_id');
+		$this->db->where('category_id', $categoryId); 
+		$this->db->where('category_type', $type); 
+		if (!empty($store)) {
+			$this->db->where('store_id',$store);				
+		}	
+		$q = $this->db->get('products_categories');
+		foreach($q->result()as $product){
+			$productsArr[] = $product->product_id;
+		}	
+		return $productsArr;
+	}
+
+	function getProducts($categoryId ,$type , $start,$limit , $store = null){
+		$productsList = $this->getCategoryProductsArr($categoryId,$type,$store);
+		$this->db->limit($limit, $start);
+		$this->db->where_in('product_id',$productsList);
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('products');
+		return $q->result();
+	}
 	
 
 }

@@ -9,7 +9,7 @@ class Shops extends CI_Controller {
 		$this->load->model('catalog_model');
 		$this->load->model('stores_model');
 		$this->load->model('users_model');
-
+		$this->load->model('categories_model');
 		
     }
 
@@ -28,7 +28,7 @@ class Shops extends CI_Controller {
 		$freinds = json_decode($this->input->post('freinds'));
 		$requested_page = $page;
 		$offset = (($requested_page - 1) * 9);
-		$data['shops'] = $this->catalog_model->fetch_category_shops($categoryId , $view , $freinds ,$offset , 9) ;
+		$data['shops'] = $this->categories_model->fetch_category_shops($categoryId , $view , $freinds ,$offset , 9) ;
 		$this->load->view('catalog/shopscroll',$data);
 	}
 	

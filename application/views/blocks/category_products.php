@@ -48,7 +48,7 @@ $(document).ready(function(){
             $(window).scroll(function () {
                // $('#more').hide();
               //  $('#no-more').hide();
-			  console.log($(window).scrollTop() + $(window).height());
+			//  console.log($(window).scrollTop() + $(window).height());
 
                 if($(window).scrollTop() + $(window).height() > $(document).height() - 600) {
 					
@@ -56,6 +56,7 @@ $(document).ready(function(){
                 }
 				
 				var scrolling = $(window).scrollTop() + $(window).height();
+				console.log(winh - scrolling);
 				var winh = $(document).height();
                 if((winh - scrolling)<600) {
                   //  $('#more').show();

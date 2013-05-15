@@ -43,6 +43,7 @@ class Catalog extends CI_Controller {
 		switch ($tab) {
 			case 'catshops':
 				$table = 'shopping';
+				$data['last_shops_cnt'] = $this->categories_model->countShops($categoryId);
 				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,9);
 				$this->load->view('blocks/shops',$data);
 				break;
@@ -58,7 +59,7 @@ class Catalog extends CI_Controller {
 				break;
 			case 'catproducts':
 				$table = 'products';
-				$data['products'] = $this->categories_model->getProducts($categoryId ,$view , $freinds,0,9);
+				$data['products'] = $this->catalog_model->getProducts($categoryId ,1,0,9);
 				$this->load->view('blocks/category_products',$data);
 				break;
 		}	
@@ -80,6 +81,7 @@ class Catalog extends CI_Controller {
 		switch ($tab) {
 			case 'catshops':
 				$table = 'shopping';
+				$data['last_shops_cnt'] = $this->categories_model->countShops($categoryId);
 				$data['last_shops'] = $this->categories_model->getRecords($table , $categoryId ,$view , $freinds,0,9);
 				$this->load->view('blocks/shops',$data);
 				break;
@@ -95,7 +97,7 @@ class Catalog extends CI_Controller {
 				break;
 			case 'catproducts':
 				$table = 'products';
-				$data['products'] = $this->categories_model->getProducts($categoryId ,$view , $freinds,0,9);
+				$data['products'] = $this->catalog_model->getProducts($categoryId ,1,0,9);
 				$this->load->view('blocks/category_products',$data);
 				break;
 		}	

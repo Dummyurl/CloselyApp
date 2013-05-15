@@ -163,7 +163,7 @@
             $(window).scroll(function () {
                // $('#more').hide();
               //  $('#no-more').hide();
-			  console.log($(window).scrollTop() + $(window).height());
+			 
 
                 if($(window).scrollTop() + $(window).height() > $(document).height() - 600) {
 					
@@ -172,7 +172,9 @@
 				
 				var scrolling = $(window).scrollTop() + $(window).height();
 				var winh = $(document).height();
+				 console.log(winh - scrolling);
                 if((winh - scrolling)<600) {
+				
                   //  $('#more').show();
 					// window.setInterval(loading, 2000);
                   //  $('#no-more').hide();
@@ -180,9 +182,9 @@
                     page++;
 
                     var actual_count = "<?php echo $last_shops_cnt; ?>";
-
+console.log(actual_count);
                     if((page-1)* 9 > actual_count){
-					 
+					 console.log('niso');
                       //  $('#no-more').css("top","400");
                       //  $('#no-more').show();
                     }else{

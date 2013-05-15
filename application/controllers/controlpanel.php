@@ -103,7 +103,7 @@ class Controlpanel extends CI_Controller {
 			}  
   			foreach($websiteCategoriesId as $category){
 				$catNameObj = $this->categories_model->getWebsiteCategoryName($category->category_id);
-				$websiteCategoriesList[] = $catNameObj->category_name;
+				$websiteCategoriesList[$catNameObj->category_id] = $catNameObj->category_name;
 			}  
 			/* 	print_R($categoriesList); */
 			$crud = new grocery_CRUD();
@@ -112,10 +112,11 @@ class Controlpanel extends CI_Controller {
 			$crud->set_table('products');
 			$crud->set_subject('מוצרים');
 			$crud->required_fields('product_name','product_id','description','product_image','website_categories');
-			$crud->columns('product_id','product_name','description','product_image','store_category','website_categories');
+			$crud->columns('product_id','product_name','price','description','product_image','store_category','website_categories');
 			$crud->display_as('product_name','שם המוצר')
 				->display_as('description','תאור המוצר')
 				->display_as('product_id','מק"ט')
+				->display_as('price','מחיר')
 				->display_as('product_image','תמונה')
 				->display_as('store_category','קטגוריות בחנות')
 				->display_as('website_categories','קטגוריות באתר');
@@ -127,13 +128,14 @@ class Controlpanel extends CI_Controller {
 				$crud->field_type('store_category','invisible');
 			}
 			if ($websiteCategoriesList){
-				$crud->field_type('website_categories','multiselect',$websiteCategoriesList);
+				$crud->field_type('website_categories','dropdown',$websiteCategoriesList);
 		    } else {
 				$crud->field_type('website_categories','invisible');
 			} 
 			$crud->field_type('store_id','invisible');
 			$crud->field_type('url_key','invisible');
 			$crud->callback_before_insert(array($this,'addproduct'));
+			$crud->callback_after_insert(array($this,'saveCategories'));
 			$output = $crud->render();
 			$this->_cmspage($output);
 			
@@ -142,6 +144,12 @@ class Controlpanel extends CI_Controller {
 		}
 	}
  
+ 
+ 
+	function saveCategories($post_array,$primary_key){
+		$this->categories_model->saveCategory($post_array['website_categories'] ,1, $post_array);
+	    $this->categories_model->saveCategory($post_array['store_category'] ,2, $post_array);
+	}
  
  function addproduct($post_array){
     $post_array['store_id'] = $this->ion_auth->user()->row()->store_id;

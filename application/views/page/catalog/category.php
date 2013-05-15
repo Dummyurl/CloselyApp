@@ -16,7 +16,7 @@
 		<?php $sub_cnt = sizeof($subCategories) ?>
 			<ul>
 			<?php foreach ($subCategories as $category) : ?>
-				<li><h3 style="font-size:<?php echo 90/$sub_cnt ?>px"><?php echo $category->category_name ?></h3></li>
+				<li><a href="<?php echo $category->url ?>"><h3 style="font-size:<?php echo 90/$sub_cnt ?>px"><?php echo $category->category_name ?></h3></a></li>
 			<?php endforeach ?>
 			</ul>
 		</div>
@@ -102,6 +102,7 @@ $(document).ready(function(){
 		last.outerWidth(newLastWidth+adding);
 		var catalogview = 1;
 		var currenttab = 'catshops';
+		
 	
 		$('#tab-switch-1').click(function(){
 			if ('<?php echo $isloggin ?>'){

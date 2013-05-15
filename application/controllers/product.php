@@ -7,6 +7,7 @@ class Products extends CI_Controller {
         parent::__construct();
         $this->load->model('Facebook_model');
 		$this->load->model('catalog_model');
+		$this->load->model('categories_model');
     }
 
     function popup($productId)
@@ -28,7 +29,7 @@ class Products extends CI_Controller {
 		$category = $this->input->post('category');
  		$requested_page = $page;
 		$offset = (($requested_page - 1) * 9);
-		$data['products'] = $this->catalog_model->fetch_category_products($category,$offset , 9) ;
+		$data['products'] = $this->categories_model->getProducts($category ,1, $offset,9) ;
 		$this->load->view('catalog/productscroll',$data); 
 	}
 
