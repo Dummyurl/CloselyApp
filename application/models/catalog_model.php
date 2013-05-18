@@ -193,9 +193,12 @@ class catalog_model extends ci_Model {
 	return $image;
 	}
 	
-	function getShopProducts ($products){
+	function getShopProducts ($products,$storeId = null){
 		$productsArr = explode("," , $products);
 		$this->db->where_in('product_id',$productsArr);
+		if ($storeId){
+			$this->db->where('store_id',$storeId);
+		}
 		$q = $this->db->get('products');
 		return $q->result();
 	}
@@ -241,7 +244,12 @@ class catalog_model extends ci_Model {
 	}
 
 	
-
+	function getShopProductsIds($id) {
+		$this->db->where('shop_id', $id); 
+		$q = $this->db->get('shopping');
+		$res = $q->result();
+		return $res[0]->products;	
+	}
 	
 
 		

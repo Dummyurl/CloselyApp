@@ -11,6 +11,7 @@ class Catalog extends CI_Controller {
 		$this->load->model('users_model');
 		$this->load->model('catalog_model');
 		$this->load->model('coupons_model');
+		$this->load->model('products_model');
     }
 
 
@@ -141,17 +142,21 @@ class Catalog extends CI_Controller {
 		$this->load->view('home',$data);
 	}
 	
-	function product($urlName)
+	function product($stroeName,$urlName)
 	{
+		$storeId = $this->stores_model->getStoreId($stroeName);
 		$fb_data = $this->session->userdata('fb_data');
 		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
 		$data['records']['categories'] = $this->categories_model->getAll();
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
 		$data['feed']['stores'] = $this->stores_model->getAll();
 		$data['content']['page'] = 'product';
-		$id = $this->product_model->getProductId($urlName);
-		$data['content']['product'] = $id;
+		$productId = $this->products_model->getProductId($urlName);
+		$data['content']['product']['id'] = $productId;
 		$data['content']['product']['urlName'] = $urlName;
+		$data['content']['product']['info'] = $this->products_model->getInfo($storeId,$productId);
+		$data['content']['product']['stores'] = $this->products_model->getStores($productId);
+		$data['content']['product']['buyers'] = $this->products_model->getBuyers($productId);
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}
@@ -160,11 +165,27 @@ class Catalog extends CI_Controller {
 	{
 		$fb_data = $this->session->userdata('fb_data');
 		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
+		$info = $this->catalog_model->getShopInfo($id);
+		$mainProductId = $info[0]->main_product;
+		$userId = $info[0]->user_id;
+		$coupon = $this->catalog_model->getCoupon($info[0]->coupon_id);
+		$storeId = $info[0]->store_id;
+		$store = $this->stores_model->getStoreInfo($storeId);
+		$products = $this->catalog_model->getShopProductsIds($id);
 		$data['records']['categories'] = $this->categories_model->getAll();
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
 		$data['feed']['stores'] = $this->stores_model->getAll();
 		$data['content']['page'] = 'shop';
-		$data['content']['shop'] = $id;
+		$data['content']['shop']['id'] = $id;
+		$data['content']['shop']['shopProducts'] = $this->catalog_model->getShopProducts($products,$storeId);
+		$data['content']['shop']['info'] = $info[0];
+		$data['content']['shop']['mainProduct'] = $this->products_model->getInfo($storeId,$mainProductId);
+		$data['content']['shop']['storeId'] = $storeId;
+		$data['content']['shop']['coupon']['coupon'] =  $coupon[0];
+		$data['content']['shop']['coupon']['store'] =  $store[0];
+		$data['content']['shop']['coupon']['shop'] =  $info[0];
+		$data['content']['shop']['coupon']['userId'] =  $userId;
+		$data['content']['shop']['coupon']['user'] =  $this->users_model->getUserName($userId);
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}

@@ -10,7 +10,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="main_picture"><img src="<?php echo base_url();?>asset/img/cat_main_bg.jpg" /></div>
+		<div class="main_picture"><img src="<?php echo base_url();?>asset/img/<?php echo $info[0]->main_image ?>" /></div>
 		<div class="description"><h2><?php echo $info[0]->description ?></h2></div>
 		<div class="sub_categories">
 		<?php $sub_cnt = sizeof($subCategories) ?>

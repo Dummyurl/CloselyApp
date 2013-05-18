@@ -28,7 +28,7 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
-					<div class="shop_detials"><a href="/catalog/product/<?php echo $product->url_key ?>">עמוד המוצר</a></div>
+					<div class="shop_detials"><a href="/catalog/product/<?php echo $storeInfo[0]->url_key . '/' . $product->url_key ?>">עמוד המוצר</a></div>
 				</div>
 		</li>
 	<?php endforeach ?>

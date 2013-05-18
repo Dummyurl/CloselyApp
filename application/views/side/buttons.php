@@ -52,6 +52,12 @@ jQuery(document).ready(function($){
 			success: function(msg){	
 				 $("#loading-image").hide();
 				 $('.bubble-center').html(msg);
+				 if ($('.categories_list').outerWidth() == 0 ){
+					$('.bubble-center').height(80);
+					$('.categories_list').html('<div style="color:black;text-align:center">לא קיימות תתי קטגוריות</div>');
+				} else {
+					$('.bubble-center').height($('.categories_list').outerWidth());
+				}
 			}
 		});
 

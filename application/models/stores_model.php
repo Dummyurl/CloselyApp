@@ -35,7 +35,14 @@ class stores_model extends ci_Model {
 		}
 	}
 	
-	
+	function getStoreId($urlName) {
+	    $urlName = urldecode($urlName);
+		$this->db->select('store_id'); 
+		$this->db->where('url_key',$urlName); 
+		$q = $this->db->get('stores');
+		$res = $q->result();
+		return $res[0]->store_id;
+	}
 
 	function getlocation($id) {
 		$this->db->select('location'); 

@@ -46,7 +46,10 @@
 											<?php endif ?>
 										</div>
 									</div>
-									<span><?php echo $product->product_name ?></span></div>
+									<span><?php echo $product->product_name ?></span>
+									<img  src="<?php echo base_url();?>asset/img/openinfo.png"/>
+								</div>
+									
 								</li>
 							<?php endforeach ?>
 						</ul>
@@ -78,6 +81,7 @@
 											<?php endif ?>
 										</div>
 									</div>
+						<img  src="<?php echo base_url();?>asset/img/openinfo.png"/>
 						<span><?php echo $shop->shop_title ?></span></div>
 						</div>    
 					<?php endif ?>
@@ -132,15 +136,6 @@
 		 	$('.tumb_image[rel=' + $(this).attr('rel') + ']').animate({opacity: 0,}, 200);			
 		}
 
-		$('.product_title').hoverIntent(pullTitle,pushTitle);
-		 function pullTitle(){ /* $(this).children('.over-img-photo').css('display','block'); */
-			$(this).animate({top: '0px',}, 200);
-			 $('.bx-prev , .bx-next').css('z-index','0');	
-		 }
-		 function pushTitle(){ /* $(this).children('.over-img-photo').css('display','none'); */
-		 	$(this).animate({top: '-133px'}, 200);
-			 $('.bx-prev , .bx-next').css('z-index','700');	
-		 }
 		 
 		$('.tumb_image li').click(function(){
 			$('.bxslider li').each(function() {
@@ -152,6 +147,11 @@
 			$('.bxslider li[rel=' + $(this).attr('rel') + ']').fadeIn();	
 			
 		});
+		
+	  $(".product_title").click(function () {
+			$(this).toggleClass("push_title", 1000, "easeOutSine" );
+			return false;
+	  });
 		
 	 });
 </script>
@@ -224,6 +224,9 @@ function getParams(view) {
 	case 'user':
 	  return '&userId=<?php echo isset($userId) ? $userId : '' ?>' ;
 	  break; 
+	case 'home':
+	  return '' ;
+	  break; 
 	default:
 	  return '';
 	}
@@ -241,8 +244,11 @@ function getUrl(view) {
 	case 'user':
 	  return 'shops/user/' ;
 	  break;
+	case 'home':
+	  return 'shops/index/' ;
+	  break;
 	default:
-	  return 'shops/category/';
+	  return 'shops/index/';
 	}
 }
 			

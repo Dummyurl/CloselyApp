@@ -37,6 +37,9 @@ class Main extends CI_Controller {
 		$this->load->model('catalog_model');
 		$data['content']['records']['last_shops'] = $this->catalog_model->fetch_shops(0,9);
 		$data['content']['records']['last_shops_cnt'] = $this->catalog_model->countAll();
+		$data['content']['records']['page'] = 'home';
+		$data['content']['records']['view'] = '0';
+		$data['content']['records']['freinds'] = '0';
 		$fb_data = $this->session->userdata('fb_data');
 		// Load model for USERS	
 		$this->load->model('users_model');
