@@ -57,6 +57,10 @@ class Shops extends CI_Controller {
 
 	}
 	
+
+	
+	
+	
 	function popup($shopId)
     {
 		$info = $this->catalog_model->getShopInfo($shopId);

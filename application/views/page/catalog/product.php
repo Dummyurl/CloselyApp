@@ -14,20 +14,37 @@
 			<div class="product_stores">
 				<div class="header">עסקים המשווקים את  המוצר</div>
 				<div class="triangle"></div>
-				<?php foreach ($stores as $store) : ?>
-					<?php $storeInfo = $this->catalog_model->getStoreInfo($store->store_id) ?>
-				<?php endforeach ?>
+				<div class="store_header">
+					<div class="store_logo_hr">עסק</div>
+					<div class="store_address_hr">כתובת</div>
+					<div class="store_times_hr">שעות פעילות</div>
+					<div class="store_rate_hr">דירוג</div>
+
+				</div>
+				<ul class="stores_list">
+					<?php foreach ($stores as $store) : ?>
+						<?php $storeInfo = $this->catalog_model->getStoreInfo($store->store_id) ?>
+						<li class="store_line">
+							<div class="store_logo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
+							<div class="store_address"><?php echo $storeInfo[0]->store_address ?></div>
+							<div class="store_times">שעות פעילות</div>
+							<div class="store_rate"><img src="<?php echo base_url() . 'asset/img/handrating_full.png'  ?> "/></div>
+						</li>
+					<?php endforeach ?>
+				</ul>
 			</div>
 
 
 		</div>
 		<div class="middle_content">
 			<div class="product_buyers">
-			<div class="header">קנו את המוצר</div>
-			<div class="triangle"></div>
-			<?php foreach ($buyers as $buyer) : ?>
-			
-			<?php endforeach ?>
+				<div class="header">קנו את המוצר</div>
+				<div class="triangle"></div>
+				<ul class="buyers_list">
+				<?php foreach ($buyers as $buyer) : ?>
+					<li class="buyer"><a href="<?php echo base_url();?>user/popup/<?php echo $buyer ?>" class="fancybox"><img src="https://graph.facebook.com/<?php echo $buyer ?>/picture"/></a></li>
+				<?php endforeach ?>
+				</ul>
 			</div>
 			<div class="adv">
 			</div>

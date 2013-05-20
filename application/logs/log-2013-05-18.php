@@ -29286,3 +29286,6448 @@ DEBUG - 2013-05-18 08:51:10 --> Model Class Initialized
 DEBUG - 2013-05-18 08:51:10 --> Helper loaded: url_helper
 DEBUG - 2013-05-18 08:51:10 --> Final output sent to browser
 DEBUG - 2013-05-18 08:51:10 --> Total execution time: 0.0911
+DEBUG - 2013-05-18 08:52:41 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:41 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> No URI present. Default controller set.
+DEBUG - 2013-05-18 08:52:41 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:41 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:41 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:41 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/blocks/slider.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/blocks/banners.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:52:41 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 08:52:41 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:41 --> Total execution time: 0.2171
+DEBUG - 2013-05-18 08:52:42 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:42 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:42 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:42 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:42 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:42 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:43 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:43 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:43 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:43 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:43 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:43 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 08:52:43 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:43 --> Total execution time: 0.4525
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:52:43 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:43 --> Total execution time: 0.5010
+DEBUG - 2013-05-18 08:52:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Helper loaded: url_helper
+ERROR - 2013-05-18 08:52:43 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:52:43 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:43 --> Total execution time: 0.5896
+DEBUG - 2013-05-18 08:52:43 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:43 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:43 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:43 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> URI Class Initialized
+ERROR - 2013-05-18 08:52:43 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 08:52:43 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:43 --> Router Class Initialized
+ERROR - 2013-05-18 08:52:43 --> 404 Page Not Found --> img
+ERROR - 2013-05-18 08:52:43 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 08:52:44 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:44 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Router Class Initialized
+ERROR - 2013-05-18 08:52:44 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 08:52:44 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:44 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:44 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:44 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:44 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:52:44 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:44 --> Total execution time: 0.1101
+DEBUG - 2013-05-18 08:52:45 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:45 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:45 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:45 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:45 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:45 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:52:45 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:45 --> Total execution time: 0.1133
+DEBUG - 2013-05-18 08:52:50 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:50 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Router Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Output Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Security Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Input Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:52:50 --> Language Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Session Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:52:50 --> Session routines successfully run
+DEBUG - 2013-05-18 08:52:50 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:52:50 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> Model Class Initialized
+DEBUG - 2013-05-18 08:52:50 --> File loaded: application/views/catalog/shopscroll.php
+DEBUG - 2013-05-18 08:52:50 --> Final output sent to browser
+DEBUG - 2013-05-18 08:52:50 --> Total execution time: 0.1031
+DEBUG - 2013-05-18 08:52:51 --> Config Class Initialized
+DEBUG - 2013-05-18 08:52:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:52:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:52:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:52:51 --> URI Class Initialized
+DEBUG - 2013-05-18 08:52:51 --> Router Class Initialized
+ERROR - 2013-05-18 08:52:51 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 08:53:15 --> Config Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:53:15 --> URI Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Router Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Output Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Security Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Input Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:53:15 --> Language Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Session Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:53:15 --> Session routines successfully run
+DEBUG - 2013-05-18 08:53:15 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:15 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:53:15 --> Final output sent to browser
+DEBUG - 2013-05-18 08:53:15 --> Total execution time: 0.1211
+DEBUG - 2013-05-18 08:53:40 --> Config Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:53:40 --> URI Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Router Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Output Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Security Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Input Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:53:40 --> Language Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Session Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:53:40 --> Session routines successfully run
+DEBUG - 2013-05-18 08:53:40 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Model Class Initialized
+DEBUG - 2013-05-18 08:53:40 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:53:40 --> Final output sent to browser
+DEBUG - 2013-05-18 08:53:40 --> Total execution time: 0.1053
+DEBUG - 2013-05-18 08:54:32 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:32 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:32 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:32 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:32 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:54:32 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:32 --> Total execution time: 0.1311
+DEBUG - 2013-05-18 08:54:33 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:33 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:33 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:33 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:54:33 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:33 --> Total execution time: 0.1133
+DEBUG - 2013-05-18 08:54:33 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:33 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:33 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:33 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:54:33 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 08:54:33 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:33 --> Total execution time: 0.3081
+DEBUG - 2013-05-18 08:54:34 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:34 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:34 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:34 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:34 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:34 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:34 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:34 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:34 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:34 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:34 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:34 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:34 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:34 --> Total execution time: 0.2992
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:34 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:35 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:35 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 08:54:35 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:35 --> Total execution time: 0.3803
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:35 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:35 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:35 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:54:35 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:35 --> Total execution time: 0.5397
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:54:35 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:54:35 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:35 --> Total execution time: 0.3636
+DEBUG - 2013-05-18 08:54:35 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:35 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:35 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:35 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:35 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:35 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:35 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:35 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:35 --> Model Class Initialized
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:54:35 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:54:36 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:36 --> Total execution time: 0.3599
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:54:36 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:36 --> Total execution time: 0.5242
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Model Class Initialized
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:54:36 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:54:36 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:54:36 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:36 --> Total execution time: 0.6639
+DEBUG - 2013-05-18 08:54:36 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:36 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:36 --> Router Class Initialized
+ERROR - 2013-05-18 08:54:36 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 08:54:37 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:37 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Router Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Output Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Security Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Input Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:54:37 --> Language Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Session Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:54:37 --> Session routines successfully run
+DEBUG - 2013-05-18 08:54:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:54:37 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Model Class Initialized
+DEBUG - 2013-05-18 08:54:37 --> Model Class Initialized
+ERROR - 2013-05-18 08:54:37 --> Severity: Notice  --> Undefined property: stdClass::$shop_category /home/shoppix/public_html/application/controllers/shops.php 76
+DEBUG - 2013-05-18 08:54:37 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:54:37 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:54:37 --> File loaded: application/views/head/storelocation.php
+ERROR - 2013-05-18 08:54:37 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/popups/shop.php 52
+ERROR - 2013-05-18 08:54:37 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/popups/shop.php 52
+DEBUG - 2013-05-18 08:54:37 --> File loaded: application/views/blocks/comments_template.php
+DEBUG - 2013-05-18 08:54:37 --> File loaded: application/views/blocks/singlebanner.php
+DEBUG - 2013-05-18 08:54:37 --> File loaded: application/views/popups/shop.php
+DEBUG - 2013-05-18 08:54:37 --> Final output sent to browser
+DEBUG - 2013-05-18 08:54:37 --> Total execution time: 0.1275
+DEBUG - 2013-05-18 08:54:38 --> Config Class Initialized
+DEBUG - 2013-05-18 08:54:38 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:54:38 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:54:38 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:54:38 --> URI Class Initialized
+DEBUG - 2013-05-18 08:54:38 --> Router Class Initialized
+ERROR - 2013-05-18 08:54:38 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 08:55:02 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:02 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:02 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:02 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:02 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:02 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:55:02 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:02 --> Total execution time: 0.2669
+DEBUG - 2013-05-18 08:55:03 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:03 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:03 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:03 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:03 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:55:03 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 08:55:03 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:03 --> Total execution time: 0.4332
+DEBUG - 2013-05-18 08:55:04 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:04 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:04 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:04 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:04 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:04 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:04 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:04 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:04 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 08:55:04 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:04 --> Total execution time: 0.6910
+DEBUG - 2013-05-18 08:55:04 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:05 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:05 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 08:55:05 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:05 --> Total execution time: 0.8574
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:05 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:05 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:05 --> Total execution time: 1.0292
+DEBUG - 2013-05-18 08:55:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:05 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:05 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:05 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:05 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 08:55:05 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:05 --> Total execution time: 0.9046
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:05 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:06 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:06 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Router Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Output Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Security Class Initialized
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:55:06 --> Security Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:06 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:06 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Input Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:55:06 --> Language Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:55:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:55:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:06 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Session Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:55:06 --> Session routines successfully run
+DEBUG - 2013-05-18 08:55:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:55:06 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:06 --> Total execution time: 1.1672
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:55:06 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:06 --> Total execution time: 0.6038
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:55:06 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:06 --> Total execution time: 0.7417
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Model Class Initialized
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 08:55:06 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 08:55:06 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 08:55:06 --> Final output sent to browser
+DEBUG - 2013-05-18 08:55:06 --> Total execution time: 0.9080
+DEBUG - 2013-05-18 08:55:06 --> Config Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:55:06 --> URI Class Initialized
+DEBUG - 2013-05-18 08:55:06 --> Router Class Initialized
+ERROR - 2013-05-18 08:55:06 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 08:56:02 --> Config Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Hooks Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 08:56:02 --> URI Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Router Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Output Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Security Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Input Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 08:56:02 --> Language Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Loader Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Session Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 08:56:02 --> Session routines successfully run
+DEBUG - 2013-05-18 08:56:02 --> Controller Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Model Class Initialized
+DEBUG - 2013-05-18 08:56:02 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 08:56:02 --> Final output sent to browser
+DEBUG - 2013-05-18 08:56:02 --> Total execution time: 0.0881
+DEBUG - 2013-05-18 17:42:29 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:29 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Router Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> No URI present. Default controller set.
+DEBUG - 2013-05-18 17:42:29 --> Output Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Security Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Input Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:42:29 --> Language Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Session Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:42:29 --> A session cookie was not found.
+DEBUG - 2013-05-18 17:42:29 --> Session routines successfully run
+DEBUG - 2013-05-18 17:42:29 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/blocks/slider.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/blocks/banners.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 17:42:29 --> Final output sent to browser
+DEBUG - 2013-05-18 17:42:29 --> Total execution time: 0.1227
+DEBUG - 2013-05-18 17:42:29 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:29 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Router Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Output Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Security Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Input Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:42:29 --> Language Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Session Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:42:29 --> Session routines successfully run
+DEBUG - 2013-05-18 17:42:29 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:42:29 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 17:42:29 --> Final output sent to browser
+DEBUG - 2013-05-18 17:42:29 --> Total execution time: 0.1126
+DEBUG - 2013-05-18 17:42:29 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:29 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:29 --> Router Class Initialized
+ERROR - 2013-05-18 17:42:29 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:42:30 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:30 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Router Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Output Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Security Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Input Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:42:30 --> Language Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Session Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:42:30 --> Session routines successfully run
+DEBUG - 2013-05-18 17:42:30 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:42:30 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:30 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Router Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> Output Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> Security Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Input Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:42:30 --> Language Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:42:30 --> Final output sent to browser
+DEBUG - 2013-05-18 17:42:30 --> Total execution time: 0.1272
+DEBUG - 2013-05-18 17:42:30 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Session Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:42:30 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:30 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Router Class Initialized
+ERROR - 2013-05-18 17:42:30 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:42:30 --> Session routines successfully run
+DEBUG - 2013-05-18 17:42:30 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:42:30 --> Final output sent to browser
+DEBUG - 2013-05-18 17:42:30 --> Total execution time: 0.1550
+DEBUG - 2013-05-18 17:42:30 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:30 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:30 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:30 --> Router Class Initialized
+ERROR - 2013-05-18 17:42:30 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:42:30 --> Router Class Initialized
+ERROR - 2013-05-18 17:42:30 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:42:31 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:31 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:31 --> Router Class Initialized
+ERROR - 2013-05-18 17:42:31 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:43:01 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:01 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:01 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:01 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:01 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:01 --> File loaded: application/views/catalog/shopscroll.php
+DEBUG - 2013-05-18 17:43:01 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:01 --> Total execution time: 0.0434
+DEBUG - 2013-05-18 17:43:03 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:03 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:03 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:03 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:03 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:03 --> Router Class Initialized
+ERROR - 2013-05-18 17:43:03 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:43:14 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:14 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:14 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:14 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:14 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:14 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 17:43:14 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:14 --> Total execution time: 0.0366
+DEBUG - 2013-05-18 17:43:27 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:27 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:27 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:27 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:27 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:27 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:27 --> Total execution time: 0.0256
+DEBUG - 2013-05-18 17:43:42 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:42 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:42 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:42 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:42 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:42 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 17:43:42 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:42 --> Total execution time: 0.1212
+DEBUG - 2013-05-18 17:43:54 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:54 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:54 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:54 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:54 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:54 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 17:43:54 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:54 --> Total execution time: 0.1218
+DEBUG - 2013-05-18 17:44:25 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:25 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:25 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:25 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:25 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:25 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:25 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:25 --> Total execution time: 0.1162
+DEBUG - 2013-05-18 17:44:41 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:41 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:41 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:41 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:41 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:41 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 17:44:41 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:41 --> Total execution time: 0.1130
+DEBUG - 2013-05-18 17:44:42 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:42 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:42 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:42 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:42 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:42 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:44:43 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 17:44:43 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:43 --> Total execution time: 0.2603
+DEBUG - 2013-05-18 17:44:43 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:43 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:43 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:43 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:43 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:43 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:43 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:43 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:43 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:43 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:44:44 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:44 --> Total execution time: 0.4416
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:44:44 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:44 --> Total execution time: 0.5647
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:44:44 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:44 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:44:44 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:44 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:44:44 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:44 --> Total execution time: 0.7667
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:44 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:44 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:44 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Loader Class Initialized
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:44:44 --> Database Driver Class Initialized
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:44:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:44:44 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:44:44 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:44 --> Total execution time: 1.1213
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:44 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 17:44:44 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:44 --> Total execution time: 0.4594
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:45 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:45 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:45 --> Total execution time: 0.5509
+DEBUG - 2013-05-18 17:44:45 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> Model Class Initialized
+ERROR - 2013-05-18 17:44:45 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:44:45 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:45 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:44:45 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:45 --> Total execution time: 0.6460
+DEBUG - 2013-05-18 17:44:50 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:50 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:50 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:50 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:50 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Model Class Initialized
+ERROR - 2013-05-18 17:44:50 --> Severity: Notice  --> Undefined variable: products_cnt /home/shoppix/public_html/application/views/blocks/category_products.php 68
+DEBUG - 2013-05-18 17:44:50 --> File loaded: application/views/blocks/category_products.php
+DEBUG - 2013-05-18 17:44:50 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:50 --> Total execution time: 0.1423
+DEBUG - 2013-05-18 17:44:50 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:50 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:50 --> Router Class Initialized
+ERROR - 2013-05-18 17:44:50 --> 404 Page Not Found --> asset
+DEBUG - 2013-05-18 17:44:52 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:52 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:52 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:52 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:52 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:52 --> File loaded: application/views/catalog/shopscroll.php
+DEBUG - 2013-05-18 17:44:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:52 --> Total execution time: 0.1472
+DEBUG - 2013-05-18 17:44:54 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:54 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:54 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:54 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:54 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:54 --> Router Class Initialized
+ERROR - 2013-05-18 17:44:54 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:45:19 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:19 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:19 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:19 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:19 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/head/multilocation.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/page/store/storeinfo.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/page/store/view.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:45:19 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 17:45:19 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:19 --> Total execution time: 0.2753
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+ERROR - 2013-05-18 17:45:20 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+ERROR - 2013-05-18 17:45:20 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+ERROR - 2013-05-18 17:45:20 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+ERROR - 2013-05-18 17:45:20 --> 404 Page Not Found --> img
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:20 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:21 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:21 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:21 --> Total execution time: 0.2450
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:21 --> Total execution time: 0.3089
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:21 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 17:45:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:21 --> Total execution time: 0.3667
+DEBUG - 2013-05-18 17:45:23 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:23 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:23 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:23 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:23 --> File loaded: application/views/blocks/store_sales.php
+DEBUG - 2013-05-18 17:45:23 --> File loaded: application/views/page/store/storesales.php
+DEBUG - 2013-05-18 17:45:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:23 --> Total execution time: 0.1189
+DEBUG - 2013-05-18 17:45:24 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:24 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:24 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:24 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:24 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:24 --> Router Class Initialized
+ERROR - 2013-05-18 17:45:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:45:26 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:26 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:26 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:26 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:26 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:26 --> File loaded: application/views/blocks/store_products.php
+DEBUG - 2013-05-18 17:45:26 --> File loaded: application/views/page/store/storeproducts.php
+DEBUG - 2013-05-18 17:45:26 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:26 --> Total execution time: 0.1242
+DEBUG - 2013-05-18 17:45:26 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:26 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:26 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:26 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:26 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:26 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:27 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:27 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 17:45:27 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:27 --> Total execution time: 0.1297
+DEBUG - 2013-05-18 17:45:32 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:32 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:32 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:32 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:32 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:32 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:32 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:32 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:32 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> File loaded: application/views/catalog/productscroll.php
+DEBUG - 2013-05-18 17:45:32 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:32 --> Total execution time: 0.3219
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:32 --> File loaded: application/views/catalog/productscroll.php
+DEBUG - 2013-05-18 17:45:32 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:32 --> Total execution time: 0.3356
+DEBUG - 2013-05-18 17:45:32 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:32 --> File loaded: application/views/catalog/productscroll.php
+DEBUG - 2013-05-18 17:45:32 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:32 --> Total execution time: 0.3113
+DEBUG - 2013-05-18 17:45:50 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:50 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:50 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:50 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:50 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:45:50 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 17:45:50 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:50 --> Total execution time: 0.1745
+DEBUG - 2013-05-18 17:45:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:51 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:51 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:51 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:51 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:51 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:51 --> URI Class Initialized
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:45:51 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:45:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:45:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:45:51 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:51 --> Total execution time: 0.5548
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:51 --> URI Class Initialized
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+DEBUG - 2013-05-18 17:45:51 --> Router Class Initialized
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:45:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:45:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:45:51 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:45:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:45:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:45:52 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:52 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:52 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:52 --> Total execution time: 0.8353
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:45:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:52 --> Total execution time: 0.9594
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:45:52 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:45:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:52 --> Total execution time: 1.0858
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 17:45:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:52 --> Total execution time: 0.7102
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:45:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:52 --> Total execution time: 0.6014
+DEBUG - 2013-05-18 17:45:52 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:52 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Router Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Output Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Security Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Input Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:45:52 --> Language Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Session Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:45:52 --> Session routines successfully run
+DEBUG - 2013-05-18 17:45:52 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:45:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:45:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:45:52 --> Total execution time: 0.0935
+DEBUG - 2013-05-18 17:45:53 --> Config Class Initialized
+DEBUG - 2013-05-18 17:45:53 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:45:53 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:45:53 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:45:53 --> URI Class Initialized
+DEBUG - 2013-05-18 17:45:53 --> Router Class Initialized
+ERROR - 2013-05-18 17:45:53 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:46:49 --> Config Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:46:49 --> URI Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Router Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Output Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Security Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Input Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:46:49 --> Language Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Session Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:46:49 --> Session routines successfully run
+DEBUG - 2013-05-18 17:46:49 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 17:46:49 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:46:49 --> Final output sent to browser
+DEBUG - 2013-05-18 17:46:49 --> Total execution time: 0.0863
+DEBUG - 2013-05-18 17:47:47 --> Config Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:47:47 --> URI Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Router Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Output Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Security Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Input Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:47:47 --> Language Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Session Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:47:47 --> Session routines successfully run
+DEBUG - 2013-05-18 17:47:47 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Model Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Model Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Model Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Model Class Initialized
+DEBUG - 2013-05-18 17:47:47 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:47:47 --> Final output sent to browser
+DEBUG - 2013-05-18 17:47:47 --> Total execution time: 0.0909
+DEBUG - 2013-05-18 17:48:45 --> Config Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:48:45 --> URI Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Router Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Output Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Security Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Input Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:48:45 --> Language Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Session Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:48:45 --> Session routines successfully run
+DEBUG - 2013-05-18 17:48:45 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Model Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Model Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Model Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Model Class Initialized
+DEBUG - 2013-05-18 17:48:45 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:48:45 --> Final output sent to browser
+DEBUG - 2013-05-18 17:48:45 --> Total execution time: 0.1010
+DEBUG - 2013-05-18 17:49:43 --> Config Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:49:43 --> URI Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Router Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Output Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Security Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Input Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:49:43 --> Language Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Session Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:49:43 --> Session routines successfully run
+DEBUG - 2013-05-18 17:49:43 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Model Class Initialized
+DEBUG - 2013-05-18 17:49:43 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:49:43 --> Final output sent to browser
+DEBUG - 2013-05-18 17:49:43 --> Total execution time: 0.0953
+DEBUG - 2013-05-18 17:50:41 --> Config Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:50:41 --> URI Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Router Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Output Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Security Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Input Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:50:41 --> Language Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Session Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:50:41 --> Session routines successfully run
+DEBUG - 2013-05-18 17:50:41 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Model Class Initialized
+DEBUG - 2013-05-18 17:50:41 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:50:41 --> Final output sent to browser
+DEBUG - 2013-05-18 17:50:41 --> Total execution time: 0.1051
+DEBUG - 2013-05-18 17:51:17 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:17 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:17 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:17 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:17 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:17 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 17:51:17 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:17 --> Total execution time: 0.1171
+DEBUG - 2013-05-18 17:51:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:20 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:20 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:51:21 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 17:51:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:21 --> Total execution time: 0.3258
+DEBUG - 2013-05-18 17:51:22 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:22 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:22 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:22 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:22 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:22 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:22 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:22 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:22 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:22 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:22 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:51:22 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:22 --> Total execution time: 0.6160
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:51:22 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:22 --> Total execution time: 0.7130
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:22 --> Model Class Initialized
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:51:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:51:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:51:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:23 --> Total execution time: 0.8003
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:51:23 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:51:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:23 --> Total execution time: 0.9337
+DEBUG - 2013-05-18 17:51:23 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:23 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:23 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:23 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:23 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:23 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:23 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:23 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:23 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:51:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:23 --> Total execution time: 0.2598
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:23 --> Total execution time: 0.2912
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:23 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 17:51:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:23 --> Total execution time: 0.3087
+DEBUG - 2013-05-18 17:51:23 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:23 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:23 --> Router Class Initialized
+ERROR - 2013-05-18 17:51:23 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:51:39 --> Config Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:51:39 --> URI Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Router Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Output Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Security Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Input Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:51:39 --> Language Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Session Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:51:39 --> Session routines successfully run
+DEBUG - 2013-05-18 17:51:39 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Model Class Initialized
+DEBUG - 2013-05-18 17:51:39 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:51:39 --> Final output sent to browser
+DEBUG - 2013-05-18 17:51:39 --> Total execution time: 0.0987
+DEBUG - 2013-05-18 17:52:21 --> Config Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:52:21 --> URI Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Router Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Output Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Security Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Input Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:52:21 --> Language Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:52:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:52:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:52:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:52:21 --> Total execution time: 0.1839
+DEBUG - 2013-05-18 17:52:37 --> Config Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:52:37 --> URI Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Router Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Output Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Security Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Input Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:52:37 --> Language Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Session Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:52:37 --> Session routines successfully run
+DEBUG - 2013-05-18 17:52:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:52:37 --> Final output sent to browser
+DEBUG - 2013-05-18 17:52:37 --> Total execution time: 0.0933
+DEBUG - 2013-05-18 17:53:19 --> Config Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:53:19 --> URI Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Router Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Output Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Security Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Input Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:53:19 --> Language Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Session Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:53:19 --> Session routines successfully run
+DEBUG - 2013-05-18 17:53:19 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:19 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:53:19 --> Final output sent to browser
+DEBUG - 2013-05-18 17:53:19 --> Total execution time: 0.0992
+DEBUG - 2013-05-18 17:53:35 --> Config Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:53:35 --> URI Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Router Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Output Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Security Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Input Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:53:35 --> Language Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Session Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:53:35 --> Session routines successfully run
+DEBUG - 2013-05-18 17:53:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Model Class Initialized
+DEBUG - 2013-05-18 17:53:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:53:35 --> Final output sent to browser
+DEBUG - 2013-05-18 17:53:35 --> Total execution time: 0.0921
+DEBUG - 2013-05-18 17:54:17 --> Config Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:54:17 --> URI Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Router Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Output Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Security Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Input Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:54:17 --> Language Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Session Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:54:17 --> Session routines successfully run
+DEBUG - 2013-05-18 17:54:17 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:17 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:54:17 --> Final output sent to browser
+DEBUG - 2013-05-18 17:54:17 --> Total execution time: 0.1425
+DEBUG - 2013-05-18 17:54:33 --> Config Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:54:33 --> URI Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Router Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Output Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Security Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Input Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:54:33 --> Language Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Session Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:54:33 --> Session routines successfully run
+DEBUG - 2013-05-18 17:54:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:54:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:54:33 --> Final output sent to browser
+DEBUG - 2013-05-18 17:54:33 --> Total execution time: 0.0881
+DEBUG - 2013-05-18 17:55:15 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:15 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:15 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:15 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:15 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:15 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:15 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:15 --> Total execution time: 0.1085
+DEBUG - 2013-05-18 17:55:31 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:31 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:31 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:31 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:31 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:31 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:31 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:31 --> Total execution time: 0.0923
+DEBUG - 2013-05-18 17:55:55 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:55 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:55 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:55 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:55 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:55:55 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 17:55:55 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:55 --> Total execution time: 0.1728
+DEBUG - 2013-05-18 17:55:56 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:56 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:56 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:56 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:56 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:56 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:56 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:56 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:56 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:56 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:56 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:56 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:56 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:56 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:56 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:56 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:56 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:55:56 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:56 --> Total execution time: 0.4511
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:56 --> Security Class Initialized
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+DEBUG - 2013-05-18 17:55:56 --> Input Class Initialized
+ERROR - 2013-05-18 17:55:56 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:56 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:55:56 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+DEBUG - 2013-05-18 17:55:57 --> Loader Class Initialized
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:55:57 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:57 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:57 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:55:57 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:57 --> Total execution time: 0.7480
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:55:57 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:57 --> Total execution time: 0.9005
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/products_model.php 19
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 4
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/product.php 11
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/page/catalog/product.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 17:55:57 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 17:55:57 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:57 --> Total execution time: 1.0227
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 17:55:57 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:57 --> Total execution time: 0.6446
+DEBUG - 2013-05-18 17:55:57 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:57 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:57 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:57 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:57 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:57 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:57 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:57 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:57 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:57 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:57 --> Total execution time: 0.1475
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:57 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:57 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 17:55:57 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:57 --> Total execution time: 0.1606
+DEBUG - 2013-05-18 17:55:58 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:58 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:58 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:58 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:58 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:58 --> Router Class Initialized
+ERROR - 2013-05-18 17:55:58 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 17:56:13 --> Config Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:56:13 --> URI Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Router Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Output Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Security Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Input Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:56:13 --> Language Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Session Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:56:13 --> Session routines successfully run
+DEBUG - 2013-05-18 17:56:13 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:13 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:56:13 --> Final output sent to browser
+DEBUG - 2013-05-18 17:56:13 --> Total execution time: 0.0905
+DEBUG - 2013-05-18 17:56:54 --> Config Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:56:54 --> URI Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Router Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Output Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Security Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Input Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:56:54 --> Language Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Session Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:56:54 --> Session routines successfully run
+DEBUG - 2013-05-18 17:56:54 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Model Class Initialized
+DEBUG - 2013-05-18 17:56:54 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:56:54 --> Final output sent to browser
+DEBUG - 2013-05-18 17:56:54 --> Total execution time: 0.0920
+DEBUG - 2013-05-18 17:57:11 --> Config Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:57:11 --> URI Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Router Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Output Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Security Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Input Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:57:11 --> Language Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Session Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:57:11 --> Session routines successfully run
+DEBUG - 2013-05-18 17:57:11 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:11 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:57:11 --> Final output sent to browser
+DEBUG - 2013-05-18 17:57:11 --> Total execution time: 0.0965
+DEBUG - 2013-05-18 17:57:52 --> Config Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:57:52 --> URI Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Router Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Output Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Security Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Input Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:57:52 --> Language Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Session Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:57:52 --> Session routines successfully run
+DEBUG - 2013-05-18 17:57:52 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:57:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:57:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:57:52 --> Total execution time: 0.0884
+DEBUG - 2013-05-18 17:58:09 --> Config Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:58:09 --> URI Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Router Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Output Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Security Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Input Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:58:09 --> Language Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Session Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:58:09 --> Session routines successfully run
+DEBUG - 2013-05-18 17:58:09 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:09 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:58:09 --> Final output sent to browser
+DEBUG - 2013-05-18 17:58:09 --> Total execution time: 0.0860
+DEBUG - 2013-05-18 17:58:50 --> Config Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:58:50 --> URI Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Router Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Output Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Security Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Input Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:58:50 --> Language Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Session Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:58:50 --> Session routines successfully run
+DEBUG - 2013-05-18 17:58:50 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Model Class Initialized
+DEBUG - 2013-05-18 17:58:50 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:58:50 --> Final output sent to browser
+DEBUG - 2013-05-18 17:58:50 --> Total execution time: 0.0760
+DEBUG - 2013-05-18 17:59:48 --> Config Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:59:48 --> URI Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Router Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Output Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Security Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Input Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:59:48 --> Language Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Session Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:59:48 --> Session routines successfully run
+DEBUG - 2013-05-18 17:59:48 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Model Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Model Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Model Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Model Class Initialized
+DEBUG - 2013-05-18 17:59:48 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:59:48 --> Final output sent to browser
+DEBUG - 2013-05-18 17:59:48 --> Total execution time: 0.0857
+DEBUG - 2013-05-18 18:00:46 --> Config Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:00:46 --> URI Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Router Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Output Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Security Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Input Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:00:46 --> Language Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Session Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:00:46 --> Session routines successfully run
+DEBUG - 2013-05-18 18:00:46 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:00:46 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:00:46 --> Final output sent to browser
+DEBUG - 2013-05-18 18:00:46 --> Total execution time: 0.0737
+DEBUG - 2013-05-18 18:01:44 --> Config Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:01:44 --> URI Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Router Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Output Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Security Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Input Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:01:44 --> Language Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Session Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:01:44 --> Session routines successfully run
+DEBUG - 2013-05-18 18:01:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Model Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Model Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Model Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Model Class Initialized
+DEBUG - 2013-05-18 18:01:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:01:44 --> Final output sent to browser
+DEBUG - 2013-05-18 18:01:44 --> Total execution time: 0.0867
+DEBUG - 2013-05-18 18:02:42 --> Config Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:02:42 --> URI Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Router Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Output Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Security Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Input Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:02:42 --> Language Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Session Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:02:42 --> Session routines successfully run
+DEBUG - 2013-05-18 18:02:42 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:02:42 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:02:42 --> Final output sent to browser
+DEBUG - 2013-05-18 18:02:42 --> Total execution time: 0.0730
+DEBUG - 2013-05-18 18:03:40 --> Config Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:03:40 --> URI Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Router Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Output Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Security Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Input Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:03:40 --> Language Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Session Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:03:40 --> Session routines successfully run
+DEBUG - 2013-05-18 18:03:40 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Model Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Model Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Model Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Model Class Initialized
+DEBUG - 2013-05-18 18:03:40 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:03:40 --> Final output sent to browser
+DEBUG - 2013-05-18 18:03:40 --> Total execution time: 0.0759
+DEBUG - 2013-05-18 18:04:38 --> Config Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:04:38 --> URI Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Router Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Output Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Security Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Input Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:04:38 --> Language Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Session Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:04:38 --> Session routines successfully run
+DEBUG - 2013-05-18 18:04:38 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Model Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Model Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Model Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Model Class Initialized
+DEBUG - 2013-05-18 18:04:38 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:04:38 --> Final output sent to browser
+DEBUG - 2013-05-18 18:04:38 --> Total execution time: 0.0770
+DEBUG - 2013-05-18 18:05:36 --> Config Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:05:36 --> URI Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Router Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Output Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Security Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Input Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:05:36 --> Language Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Session Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:05:36 --> Session routines successfully run
+DEBUG - 2013-05-18 18:05:36 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:05:36 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:05:36 --> Final output sent to browser
+DEBUG - 2013-05-18 18:05:36 --> Total execution time: 0.0891
+DEBUG - 2013-05-18 18:06:19 --> Config Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:06:19 --> URI Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Router Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Output Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Security Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Input Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:06:19 --> Language Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Session Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:06:19 --> Session routines successfully run
+DEBUG - 2013-05-18 18:06:19 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:19 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 18:06:19 --> Final output sent to browser
+DEBUG - 2013-05-18 18:06:19 --> Total execution time: 0.1127
+DEBUG - 2013-05-18 18:06:34 --> Config Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:06:34 --> URI Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Router Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Output Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Security Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Input Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:06:34 --> Language Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Session Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:06:34 --> Session routines successfully run
+DEBUG - 2013-05-18 18:06:34 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Model Class Initialized
+DEBUG - 2013-05-18 18:06:34 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:06:34 --> Final output sent to browser
+DEBUG - 2013-05-18 18:06:34 --> Total execution time: 0.0841
+DEBUG - 2013-05-18 18:07:32 --> Config Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:07:32 --> URI Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Router Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Output Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Security Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Input Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:07:32 --> Language Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Session Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:07:32 --> Session routines successfully run
+DEBUG - 2013-05-18 18:07:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:07:32 --> Final output sent to browser
+DEBUG - 2013-05-18 18:07:32 --> Total execution time: 0.1036
+DEBUG - 2013-05-18 18:07:33 --> Config Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:07:33 --> URI Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Router Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Output Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Security Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Input Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:07:33 --> Language Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Session Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:07:33 --> Session routines successfully run
+DEBUG - 2013-05-18 18:07:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:07:33 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 18:07:33 --> Final output sent to browser
+DEBUG - 2013-05-18 18:07:33 --> Total execution time: 0.1281
+DEBUG - 2013-05-18 18:08:30 --> Config Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:08:30 --> URI Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Router Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Output Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Security Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Input Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:08:30 --> Language Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Session Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:08:30 --> Session routines successfully run
+DEBUG - 2013-05-18 18:08:30 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:08:30 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:08:30 --> Final output sent to browser
+DEBUG - 2013-05-18 18:08:30 --> Total execution time: 0.1044
+DEBUG - 2013-05-18 18:09:28 --> Config Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:09:28 --> URI Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Router Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Output Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Security Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Input Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:09:28 --> Language Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Session Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:09:28 --> Session routines successfully run
+DEBUG - 2013-05-18 18:09:28 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:09:28 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:09:28 --> Final output sent to browser
+DEBUG - 2013-05-18 18:09:28 --> Total execution time: 0.0877
+DEBUG - 2013-05-18 18:10:26 --> Config Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:10:26 --> URI Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Router Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Output Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Security Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Input Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:10:26 --> Language Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Session Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:10:26 --> Session routines successfully run
+DEBUG - 2013-05-18 18:10:26 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Model Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Model Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Model Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Model Class Initialized
+DEBUG - 2013-05-18 18:10:26 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:10:26 --> Final output sent to browser
+DEBUG - 2013-05-18 18:10:26 --> Total execution time: 0.0906
+DEBUG - 2013-05-18 18:11:24 --> Config Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:11:24 --> URI Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Router Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Output Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Security Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Input Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:11:24 --> Language Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Session Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:11:24 --> Session routines successfully run
+DEBUG - 2013-05-18 18:11:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:11:24 --> Final output sent to browser
+DEBUG - 2013-05-18 18:11:24 --> Total execution time: 0.0865
+DEBUG - 2013-05-18 18:11:48 --> Config Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:11:48 --> URI Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Router Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Output Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Security Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Input Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:11:48 --> Language Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Session Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:11:48 --> Session routines successfully run
+DEBUG - 2013-05-18 18:11:48 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:11:48 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 18:11:48 --> Final output sent to browser
+DEBUG - 2013-05-18 18:11:48 --> Total execution time: 0.1043
+DEBUG - 2013-05-18 18:12:22 --> Config Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:12:22 --> URI Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Router Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Output Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Security Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Input Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:12:22 --> Language Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Session Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:12:22 --> Session routines successfully run
+DEBUG - 2013-05-18 18:12:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:12:22 --> Final output sent to browser
+DEBUG - 2013-05-18 18:12:22 --> Total execution time: 0.0901
+DEBUG - 2013-05-18 18:12:29 --> Config Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:12:29 --> URI Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Router Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Output Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Security Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Input Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:12:29 --> Language Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:12:29 --> Session Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:12:30 --> Session routines successfully run
+DEBUG - 2013-05-18 18:12:30 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> Model Class Initialized
+DEBUG - 2013-05-18 18:12:30 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 18:12:30 --> Final output sent to browser
+DEBUG - 2013-05-18 18:12:30 --> Total execution time: 0.1277
+DEBUG - 2013-05-18 18:13:20 --> Config Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:13:20 --> URI Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Router Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Output Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Security Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Input Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:13:20 --> Language Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Session Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:13:20 --> Session routines successfully run
+DEBUG - 2013-05-18 18:13:20 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Model Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Model Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Model Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Model Class Initialized
+DEBUG - 2013-05-18 18:13:20 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:13:20 --> Final output sent to browser
+DEBUG - 2013-05-18 18:13:20 --> Total execution time: 0.0897
+DEBUG - 2013-05-18 18:14:18 --> Config Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:14:18 --> URI Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Router Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Output Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Security Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Input Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:14:18 --> Language Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Session Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:14:18 --> Session routines successfully run
+DEBUG - 2013-05-18 18:14:18 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Model Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Model Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Model Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Model Class Initialized
+DEBUG - 2013-05-18 18:14:18 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:14:18 --> Final output sent to browser
+DEBUG - 2013-05-18 18:14:18 --> Total execution time: 0.0982
+DEBUG - 2013-05-18 18:15:16 --> Config Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:15:16 --> URI Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Router Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Output Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Security Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Input Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:15:16 --> Language Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Session Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:15:16 --> Session routines successfully run
+DEBUG - 2013-05-18 18:15:16 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Model Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Model Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Model Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Model Class Initialized
+DEBUG - 2013-05-18 18:15:16 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:15:16 --> Final output sent to browser
+DEBUG - 2013-05-18 18:15:16 --> Total execution time: 0.0895
+DEBUG - 2013-05-18 18:16:14 --> Config Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:16:14 --> URI Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Router Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Output Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Security Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Input Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:16:14 --> Language Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Session Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:16:14 --> Session routines successfully run
+DEBUG - 2013-05-18 18:16:14 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:14 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:16:14 --> Final output sent to browser
+DEBUG - 2013-05-18 18:16:14 --> Total execution time: 0.0936
+DEBUG - 2013-05-18 18:16:17 --> Config Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:16:17 --> URI Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Router Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Output Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Security Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Input Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:16:17 --> Language Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Session Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:16:17 --> Session routines successfully run
+DEBUG - 2013-05-18 18:16:17 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> Model Class Initialized
+DEBUG - 2013-05-18 18:16:17 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 18:16:17 --> Final output sent to browser
+DEBUG - 2013-05-18 18:16:17 --> Total execution time: 0.1265
+DEBUG - 2013-05-18 18:17:12 --> Config Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:17:12 --> URI Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Router Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Output Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Security Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Input Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:17:12 --> Language Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Session Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:17:12 --> Session routines successfully run
+DEBUG - 2013-05-18 18:17:12 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Model Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Model Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Model Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Model Class Initialized
+DEBUG - 2013-05-18 18:17:12 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:17:12 --> Final output sent to browser
+DEBUG - 2013-05-18 18:17:12 --> Total execution time: 0.0924
+DEBUG - 2013-05-18 18:18:10 --> Config Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:18:10 --> URI Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Router Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Output Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Security Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Input Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:18:10 --> Language Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Session Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:18:10 --> Session routines successfully run
+DEBUG - 2013-05-18 18:18:10 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:10 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:18:10 --> Final output sent to browser
+DEBUG - 2013-05-18 18:18:10 --> Total execution time: 0.0989
+DEBUG - 2013-05-18 18:18:48 --> Config Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:18:48 --> URI Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Router Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Output Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Security Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Input Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:18:48 --> Language Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Session Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:18:48 --> Session routines successfully run
+DEBUG - 2013-05-18 18:18:48 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> Model Class Initialized
+DEBUG - 2013-05-18 18:18:48 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 18:18:48 --> Final output sent to browser
+DEBUG - 2013-05-18 18:18:48 --> Total execution time: 0.1780
+DEBUG - 2013-05-18 18:19:08 --> Config Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:19:08 --> URI Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Router Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Output Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Security Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Input Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:19:08 --> Language Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Session Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:19:08 --> Session routines successfully run
+DEBUG - 2013-05-18 18:19:08 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:19:08 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:19:08 --> Final output sent to browser
+DEBUG - 2013-05-18 18:19:08 --> Total execution time: 0.0920
+DEBUG - 2013-05-18 20:43:51 --> Config Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:43:51 --> URI Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Router Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Output Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Security Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Input Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:43:51 --> Language Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Session Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:43:51 --> A session cookie was not found.
+DEBUG - 2013-05-18 20:43:51 --> Session routines successfully run
+DEBUG - 2013-05-18 20:43:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Model Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Model Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Model Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Model Class Initialized
+DEBUG - 2013-05-18 20:43:51 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:43:51 --> Final output sent to browser
+DEBUG - 2013-05-18 20:43:51 --> Total execution time: 0.0337
+DEBUG - 2013-05-18 20:44:29 --> Config Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:44:29 --> URI Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Router Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Output Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Security Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Input Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:44:29 --> Language Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Session Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:44:29 --> Session routines successfully run
+DEBUG - 2013-05-18 20:44:29 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Model Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Model Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Model Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Model Class Initialized
+DEBUG - 2013-05-18 20:44:29 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:44:29 --> Final output sent to browser
+DEBUG - 2013-05-18 20:44:29 --> Total execution time: 0.0305
+DEBUG - 2013-05-18 20:45:27 --> Config Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:45:27 --> URI Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Router Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Output Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Security Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Input Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:45:27 --> Language Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Session Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:45:27 --> Session routines successfully run
+DEBUG - 2013-05-18 20:45:27 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:45:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:45:28 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:45:28 --> Final output sent to browser
+DEBUG - 2013-05-18 20:45:28 --> Total execution time: 0.0834
+DEBUG - 2013-05-18 20:46:25 --> Config Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:46:25 --> URI Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Router Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Output Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Security Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Input Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:46:25 --> Language Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Session Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:46:25 --> Session routines successfully run
+DEBUG - 2013-05-18 20:46:25 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:46:25 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:46:25 --> Final output sent to browser
+DEBUG - 2013-05-18 20:46:25 --> Total execution time: 0.0764
+DEBUG - 2013-05-18 20:47:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:47:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Router Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Output Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Security Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Input Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:47:23 --> Language Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Session Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:47:23 --> Session routines successfully run
+DEBUG - 2013-05-18 20:47:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:47:23 --> Final output sent to browser
+DEBUG - 2013-05-18 20:47:23 --> Total execution time: 0.0715
+DEBUG - 2013-05-18 20:47:38 --> Config Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:47:38 --> URI Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Router Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Output Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Security Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Input Class Initialized
+DEBUG - 2013-05-18 20:47:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:47:38 --> Language Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Session Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:47:39 --> Session routines successfully run
+DEBUG - 2013-05-18 20:47:39 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> Model Class Initialized
+DEBUG - 2013-05-18 20:47:39 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 20:47:39 --> Final output sent to browser
+DEBUG - 2013-05-18 20:47:39 --> Total execution time: 0.3371
+DEBUG - 2013-05-18 20:48:00 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:00 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:00 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:00 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:00 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:00 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:00 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:01 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:01 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:01 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:01 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 20:48:01 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:01 --> Total execution time: 0.1343
+DEBUG - 2013-05-18 20:48:04 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:04 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:04 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:04 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:48:04 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 20:48:04 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:04 --> Total execution time: 0.2664
+DEBUG - 2013-05-18 20:48:05 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:05 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:05 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:05 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:05 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:05 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:05 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:05 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:48:05 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:05 --> Total execution time: 0.3920
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:48:05 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:05 --> Total execution time: 0.5192
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:05 --> Model Class Initialized
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:48:05 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:48:05 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:48:05 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:05 --> Total execution time: 0.6167
+DEBUG - 2013-05-18 20:48:06 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:06 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:06 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:06 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:06 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:06 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:06 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:06 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:06 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:06 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 20:48:06 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:06 --> Total execution time: 0.2723
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:06 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:06 --> Total execution time: 0.3179
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:48:06 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:06 --> Total execution time: 0.5036
+DEBUG - 2013-05-18 20:48:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:06 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:06 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:06 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Model Class Initialized
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/categories_model.php 44
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/categories_model.php 44
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 5
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 13
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/views/page/catalog/category.php 14
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/category.php 14
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/blocks/shops.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/page/catalog/category.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:48:06 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:48:06 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:48:06 --> Final output sent to browser
+DEBUG - 2013-05-18 20:48:06 --> Total execution time: 0.2934
+DEBUG - 2013-05-18 20:48:06 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:06 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:06 --> Router Class Initialized
+ERROR - 2013-05-18 20:48:06 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:48:27 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:27 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:27 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:27 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:27 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Model Class Initialized
+ERROR - 2013-05-18 20:48:27 --> 404 Page Not Found --> shops/5434552
+DEBUG - 2013-05-18 20:48:27 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:27 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:27 --> Router Class Initialized
+ERROR - 2013-05-18 20:48:27 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:48:36 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:36 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> Router Class Initialized
+ERROR - 2013-05-18 20:48:36 --> 404 Page Not Found --> shop
+DEBUG - 2013-05-18 20:48:36 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:36 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:36 --> Router Class Initialized
+ERROR - 2013-05-18 20:48:36 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:48:40 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:40 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Router Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Output Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Security Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Input Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:48:40 --> Language Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Session Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:48:40 --> Session routines successfully run
+DEBUG - 2013-05-18 20:48:40 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:48:40 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Model Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Model Class Initialized
+ERROR - 2013-05-18 20:48:40 --> 404 Page Not Found --> shops/5434552
+DEBUG - 2013-05-18 20:48:40 --> Config Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:48:40 --> URI Class Initialized
+DEBUG - 2013-05-18 20:48:40 --> Router Class Initialized
+ERROR - 2013-05-18 20:48:40 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:49:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:23 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:23 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Model Class Initialized
+ERROR - 2013-05-18 20:49:23 --> 404 Page Not Found --> catalog/shops
+DEBUG - 2013-05-18 20:49:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:23 --> Router Class Initialized
+ERROR - 2013-05-18 20:49:23 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:49:31 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:31 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:31 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:31 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:31 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:49:31 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 20:49:31 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:31 --> Total execution time: 0.1384
+DEBUG - 2013-05-18 20:49:31 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:31 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:31 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:31 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:31 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:32 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:32 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:32 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:32 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:49:32 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:32 --> Total execution time: 0.4658
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:32 --> URI Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+DEBUG - 2013-05-18 20:49:32 --> Router Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+DEBUG - 2013-05-18 20:49:32 --> Output Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+DEBUG - 2013-05-18 20:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:32 --> Language Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+DEBUG - 2013-05-18 20:49:32 --> Loader Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:49:32 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:32 --> Total execution time: 0.6610
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:49:32 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:32 --> Total execution time: 0.8163
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:49:32 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:49:32 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:32 --> Total execution time: 0.9821
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:32 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:33 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:33 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:49:33 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:33 --> Total execution time: 0.5937
+DEBUG - 2013-05-18 20:49:33 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:33 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:33 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:33 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:33 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:33 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:33 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:33 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:33 --> Total execution time: 0.1889
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:33 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 20:49:33 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:33 --> Total execution time: 0.2493
+DEBUG - 2013-05-18 20:49:33 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:33 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:33 --> Router Class Initialized
+ERROR - 2013-05-18 20:49:33 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:49:44 --> Config Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:49:44 --> URI Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Router Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Output Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Security Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Input Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:49:44 --> Language Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Session Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:49:44 --> Session routines successfully run
+DEBUG - 2013-05-18 20:49:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> Model Class Initialized
+DEBUG - 2013-05-18 20:49:44 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 20:49:44 --> Final output sent to browser
+DEBUG - 2013-05-18 20:49:44 --> Total execution time: 0.1061
+DEBUG - 2013-05-18 20:50:30 --> Config Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:50:30 --> URI Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Router Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Output Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Security Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Input Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:50:30 --> Language Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Session Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:50:30 --> Session routines successfully run
+DEBUG - 2013-05-18 20:50:30 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Model Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Model Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Model Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Model Class Initialized
+DEBUG - 2013-05-18 20:50:30 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:50:30 --> Final output sent to browser
+DEBUG - 2013-05-18 20:50:30 --> Total execution time: 0.2041
+DEBUG - 2013-05-18 20:51:28 --> Config Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:51:28 --> URI Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Router Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Output Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Security Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Input Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:51:28 --> Language Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Session Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:51:28 --> Session routines successfully run
+DEBUG - 2013-05-18 20:51:28 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:51:28 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:51:28 --> Final output sent to browser
+DEBUG - 2013-05-18 20:51:28 --> Total execution time: 0.0981
+DEBUG - 2013-05-18 20:52:19 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:19 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:19 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:19 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:19 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:52:19 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 20:52:19 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:19 --> Total execution time: 0.1631
+DEBUG - 2013-05-18 20:52:20 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:20 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:20 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:20 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:20 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:52:20 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:52:20 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:52:20 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:20 --> Total execution time: 0.1954
+DEBUG - 2013-05-18 20:52:20 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:20 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:20 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:20 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:20 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:20 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:21 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 20:52:21 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:21 --> Total execution time: 0.1645
+DEBUG - 2013-05-18 20:52:21 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:21 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:21 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:21 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:21 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> URI Class Initialized
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+DEBUG - 2013-05-18 20:52:21 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Output Class Initialized
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+DEBUG - 2013-05-18 20:52:21 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Security Class Initialized
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:52:21 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+DEBUG - 2013-05-18 20:52:21 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:21 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:22 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Loader Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+DEBUG - 2013-05-18 20:52:22 --> Loader Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:52:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:22 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:22 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:22 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:52:22 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:22 --> Total execution time: 0.9219
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:22 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Global POST and COOKIE data sanitized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+DEBUG - 2013-05-18 20:52:22 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Input Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+DEBUG - 2013-05-18 20:52:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:22 --> Language Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+DEBUG - 2013-05-18 20:52:22 --> Loader Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+DEBUG - 2013-05-18 20:52:22 --> Loader Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 20:52:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Database Driver Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:52:22 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:22 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:22 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:52:22 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:22 --> Total execution time: 0.9423
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:52:22 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:52:22 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:22 --> Total execution time: 1.0525
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:22 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:22 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:22 --> File loaded: application/views/side/lastactions.php
+ERROR - 2013-05-18 20:52:22 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:52:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:23 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:52:23 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:23 --> Total execution time: 0.6746
+DEBUG - 2013-05-18 20:52:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:23 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:23 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:23 --> Total execution time: 0.7795
+DEBUG - 2013-05-18 20:52:28 --> Config Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:52:28 --> URI Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Router Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Output Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Security Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Input Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:52:28 --> Language Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Session Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:52:28 --> Session routines successfully run
+DEBUG - 2013-05-18 20:52:28 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> Model Class Initialized
+DEBUG - 2013-05-18 20:52:28 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 20:52:28 --> Final output sent to browser
+DEBUG - 2013-05-18 20:52:28 --> Total execution time: 0.1544
+DEBUG - 2013-05-18 20:53:18 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:18 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:18 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:18 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:18 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:18 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:18 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:18 --> Total execution time: 0.0764
+DEBUG - 2013-05-18 20:53:22 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:22 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:22 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:22 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:53:22 --> File loaded: application/views/home.php
+DEBUG - 2013-05-18 20:53:22 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:22 --> Total execution time: 0.1570
+DEBUG - 2013-05-18 20:53:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:23 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:23 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:23 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:23 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:23 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:24 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:24 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:24 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:24 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/buttons.php
+DEBUG - 2013-05-18 20:53:24 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> UTF-8 Support Enabled
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:53:24 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:24 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:53:24 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:24 --> Total execution time: 0.4614
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:24 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:24 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Config Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+DEBUG - 2013-05-18 20:53:24 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:24 --> URI Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+DEBUG - 2013-05-18 20:53:24 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Output Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+DEBUG - 2013-05-18 20:53:24 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Input Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+DEBUG - 2013-05-18 20:53:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:24 --> Language Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+DEBUG - 2013-05-18 20:53:24 --> Loader Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:53:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:24 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:53:24 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:24 --> Total execution time: 0.7399
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:53:24 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:24 --> Total execution time: 0.8821
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 169
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 170
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 171
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/controllers/catalog.php 172
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/catalog_model.php 251
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 181
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/products_model.php 27
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 184
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 185
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/controllers/catalog.php 186
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Undefined offset: 0 /home/shoppix/public_html/application/models/users_model.php 159
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/models/users_model.php 159
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/meta.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/css.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/head/js.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/bizplace.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/header/navigation.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/buttons.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 4
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> Trying to get property of non-object /home/shoppix/public_html/application/views/page/catalog/shop.php 11
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/page/catalog/shop.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/content.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/sidebar.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/footer/footer.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/home.php
+ERROR - 2013-05-18 20:53:24 --> Severity: Notice  --> ob_end_clean(): failed to delete buffer. No buffer to delete /home/shoppix/public_html/system/core/Loader.php 863
+DEBUG - 2013-05-18 20:53:24 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:24 --> Total execution time: 0.9983
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:24 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:24 --> Total execution time: 0.6527
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:24 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:24 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:24 --> Router Class Initialized
+ERROR - 2013-05-18 20:53:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> File loaded: application/views/side/lastactions.php
+DEBUG - 2013-05-18 20:53:24 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:24 --> Total execution time: 0.5524
+DEBUG - 2013-05-18 20:53:25 --> Config Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:53:25 --> URI Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Router Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Output Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Security Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Input Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:53:25 --> Language Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Session Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:53:25 --> Session routines successfully run
+DEBUG - 2013-05-18 20:53:25 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Model Class Initialized
+DEBUG - 2013-05-18 20:53:25 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:53:25 --> File loaded: application/views/side/topusers.php
+DEBUG - 2013-05-18 20:53:25 --> Final output sent to browser
+DEBUG - 2013-05-18 20:53:25 --> Total execution time: 0.0999
+DEBUG - 2013-05-18 20:54:22 --> Config Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:54:22 --> URI Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Router Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Output Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Security Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Input Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:54:22 --> Language Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Session Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:54:22 --> Session routines successfully run
+DEBUG - 2013-05-18 20:54:22 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Model Class Initialized
+DEBUG - 2013-05-18 20:54:22 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:54:22 --> Final output sent to browser
+DEBUG - 2013-05-18 20:54:22 --> Total execution time: 0.0873
+DEBUG - 2013-05-18 20:55:20 --> Config Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:55:20 --> URI Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Router Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Output Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Security Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Input Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:55:20 --> Language Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Session Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:55:20 --> Session routines successfully run
+DEBUG - 2013-05-18 20:55:20 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Model Class Initialized
+DEBUG - 2013-05-18 20:55:20 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:55:20 --> Final output sent to browser
+DEBUG - 2013-05-18 20:55:20 --> Total execution time: 0.1069
+DEBUG - 2013-05-18 20:56:18 --> Config Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:56:18 --> URI Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Router Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Output Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Security Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Input Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:56:18 --> Language Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Session Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:56:18 --> Session routines successfully run
+DEBUG - 2013-05-18 20:56:18 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:18 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:56:18 --> Final output sent to browser
+DEBUG - 2013-05-18 20:56:18 --> Total execution time: 0.0841
+DEBUG - 2013-05-18 20:56:58 --> Config Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:56:58 --> URI Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Router Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Output Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Security Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Input Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:56:58 --> Language Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Session Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:56:58 --> Session routines successfully run
+DEBUG - 2013-05-18 20:56:58 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> Model Class Initialized
+DEBUG - 2013-05-18 20:56:58 --> File loaded: application/views/catalog/categories/subcategories.php
+DEBUG - 2013-05-18 20:56:58 --> Final output sent to browser
+DEBUG - 2013-05-18 20:56:58 --> Total execution time: 0.1477
+DEBUG - 2013-05-18 20:57:16 --> Config Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:57:16 --> URI Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Router Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Output Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Security Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Input Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:57:16 --> Language Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Session Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:57:16 --> Session routines successfully run
+DEBUG - 2013-05-18 20:57:16 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Model Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Model Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Model Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Model Class Initialized
+DEBUG - 2013-05-18 20:57:16 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:57:16 --> Final output sent to browser
+DEBUG - 2013-05-18 20:57:16 --> Total execution time: 0.1115
+DEBUG - 2013-05-18 20:58:14 --> Config Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:58:14 --> URI Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Router Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Output Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Security Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Input Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:58:14 --> Language Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Session Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:58:14 --> Session routines successfully run
+DEBUG - 2013-05-18 20:58:14 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Model Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Model Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Model Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Model Class Initialized
+DEBUG - 2013-05-18 20:58:14 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:58:14 --> Final output sent to browser
+DEBUG - 2013-05-18 20:58:14 --> Total execution time: 0.0929
+DEBUG - 2013-05-18 20:59:12 --> Config Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Hooks Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 20:59:12 --> URI Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Router Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Output Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Security Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Input Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 20:59:12 --> Language Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Loader Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Session Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 20:59:12 --> Session routines successfully run
+DEBUG - 2013-05-18 20:59:12 --> Controller Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Model Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Model Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Model Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Model Class Initialized
+DEBUG - 2013-05-18 20:59:12 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 20:59:12 --> Final output sent to browser
+DEBUG - 2013-05-18 20:59:12 --> Total execution time: 0.1074
+DEBUG - 2013-05-18 21:00:10 --> Config Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Hooks Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 21:00:10 --> URI Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Router Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Output Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Security Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Input Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 21:00:10 --> Language Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Loader Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Session Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 21:00:10 --> Session routines successfully run
+DEBUG - 2013-05-18 21:00:10 --> Controller Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Model Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Model Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Model Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Model Class Initialized
+DEBUG - 2013-05-18 21:00:10 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 21:00:10 --> Final output sent to browser
+DEBUG - 2013-05-18 21:00:10 --> Total execution time: 0.0900
+DEBUG - 2013-05-18 21:01:08 --> Config Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Hooks Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 21:01:08 --> URI Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Router Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Output Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Security Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Input Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 21:01:08 --> Language Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Loader Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Session Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 21:01:08 --> Session routines successfully run
+DEBUG - 2013-05-18 21:01:08 --> Controller Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Model Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Model Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Model Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Model Class Initialized
+DEBUG - 2013-05-18 21:01:08 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 21:01:08 --> Final output sent to browser
+DEBUG - 2013-05-18 21:01:08 --> Total execution time: 0.1421
+DEBUG - 2013-05-18 21:02:06 --> Config Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 21:02:06 --> URI Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Router Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Output Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Security Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Input Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 21:02:06 --> Language Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Session Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 21:02:06 --> Session routines successfully run
+DEBUG - 2013-05-18 21:02:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Model Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Model Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Model Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Model Class Initialized
+DEBUG - 2013-05-18 21:02:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 21:02:06 --> Final output sent to browser
+DEBUG - 2013-05-18 21:02:06 --> Total execution time: 0.2015
+DEBUG - 2013-05-18 21:03:04 --> Config Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 21:03:04 --> URI Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Router Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Output Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Security Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Input Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 21:03:04 --> Language Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Session Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 21:03:04 --> Session routines successfully run
+DEBUG - 2013-05-18 21:03:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Model Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Model Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Model Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Model Class Initialized
+DEBUG - 2013-05-18 21:03:04 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 21:03:04 --> Final output sent to browser
+DEBUG - 2013-05-18 21:03:04 --> Total execution time: 0.0962

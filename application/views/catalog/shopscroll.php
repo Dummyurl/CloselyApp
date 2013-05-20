@@ -7,7 +7,7 @@
 		<?php $userInfo = $this->catalog_model->getUserInfo	($shop->user_id) ?>
 		<?php $shopComments = $this->catalog_model->commentsForShop($shop->shop_id) ?>
 		<?php $shopCoupon = $this->catalog_model->couponForShop($shop->shop_id) ?>
-		<li class="listGrid">
+		<li class="listGrid" rel="<?php echo $j ?>">
 
 			<div class="product_grid">
 				<div class="shop_header">
@@ -127,13 +127,16 @@
 	  });
 		 
 		$('.tumb_image li').click(function(){
-			$('.bxslider li').each(function() {
+			var parentRel = $(this).closest(".listGrid").attr('rel');
+			var parentElement = $('.listGrid [rel=' + parentRel + ']');
+			var image = $('#box-' + parentRel + ' li[rel=' + $(this).attr('rel') + ']');
+			var allImages = $('#box-' + parentRel + ' li');
+			allImages.each(function() {
 				$(this).css('z-index','0');	
 				$(this).hide();	
 			});
-			
-			$('.bxslider li[rel=' + $(this).attr('rel') + ']').css('z-index','50');	
-			$('.bxslider li[rel=' + $(this).attr('rel') + ']').fadeIn();	
+			image.css('z-index','50');	
+			image.fadeIn();	
 			
 		});
 		

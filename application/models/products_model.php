@@ -27,6 +27,14 @@ class products_model extends ci_Model {
 		return $res[0];
 	}
 	
+	function jsonInfo($storeId,$productId) {
+		$this->db->where('store_id',$storeId); 
+		$this->db->where('product_id',$productId); 
+		$q = $this->db->get('products');
+		$res = $q->result_array();
+		return $res[0];
+	}
+	
 	function getStores($productId) {
 		$this->db->select('store_id'); 
 		$this->db->where('product_id',$productId); 
@@ -35,9 +43,15 @@ class products_model extends ci_Model {
 	}
 
 	function getBuyers($productId) {
+		$users = array();
 		$this->db->select('user_id'); 
 		$this->db->like('products',$productId); 
 		$q = $this->db->get('shopping');
-		return $q->result();
+		foreach ($q->result() as $user){
+			if(!in_array($user->user_id,$users)){
+				$users[] = $user->user_id;
+			}
+		}
+		return $users;
 	}
 }

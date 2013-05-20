@@ -17,9 +17,18 @@ class Catalog extends CI_Controller {
 
 	function categoryInfo($id)
 	{
+		
 		 $data['info'] = $this->categories_model->getCategoryInfo($id);
 		 $data['subcategories'] = $this->categories_model->getSubCategories($id);
 		 $this->load->view('catalog/categories/subcategories',$data);
+	}
+	
+	function getProduct()
+    {
+		$productId = $this->input->post('id');	
+		$storeId = $this->input->post('store');	
+		$data['info'] = $this->products_model->jsonInfo($storeId,$productId);
+		$this->load->view('catalog/shopproduct',$data);
 	}
 	
 	function getview()
@@ -186,6 +195,7 @@ class Catalog extends CI_Controller {
 		$data['content']['shop']['coupon']['shop'] =  $info[0];
 		$data['content']['shop']['coupon']['userId'] =  $userId;
 		$data['content']['shop']['coupon']['user'] =  $this->users_model->getUserName($userId);
+		$data['content']['shop']['blocks']['comments'] =  $this->catalog_model->getShopComments($id);
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}

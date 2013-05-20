@@ -2401,9 +2401,40 @@ color: rgb(255, 255, 255);}
 
 .product_page_container .content{clear:both}
 .product_page_container .content .top_content{}
-.product_page_container .content .top_content .image_box{float:right;width:300px;}
-.product_page_container .content .top_content .image_box img{width:300px;width:300px;}
-.product_page_container .content .top_content .product_stores{float:left;width:410px;position: relative;}
+.product_page_container .content .top_content .image_box{float:right;width:250px;margin: 12px 12px;}
+.product_page_container .content .top_content .image_box img{height: 250px;width:250px;}
+.product_page_container .content .top_content .product_stores{float: left;
+width: 438px;
+height: 250px;
+position: relative;
+margin: 12px 0px;
+border: 1px rgb(206, 206, 206) solid;}
+
+.product_page_container .content .top_content .product_stores .store_header{color: rgb(255, 255, 255);
+padding: 10px;
+background: gray;
+height: 12px;
+font-weight: bold;}
+.product_page_container .content .top_content .product_stores .store_header .store_logo_hr{float: right;text-align:center;width:100px}
+.product_page_container .content .top_content .product_stores .store_header .store_address_hr{float: right;text-align:center;margin: 0px 5px;width:100px}
+.product_page_container .content .top_content .product_stores .store_header .store_times_hr{float: right;text-align:center;}
+.product_page_container .content .top_content .product_stores .store_header .store_rate_hr{float: left;text-align:center;width:100px}
+.product_page_container .content .top_content .product_stores .stores_list{list-style:none;color:black;clear:both}
+.product_page_container .content .top_content .product_stores .stores_list li{border-bottom: 1px rgb(211, 211, 211) solid;
+height: 57px;}
+.product_page_container .content .top_content .product_stores .stores_list li .store_logo{float:right;margin: 10px;}
+.product_page_container .content .top_content .product_stores .stores_list li .store_logo img{width:100px;height:40px}
+.product_page_container .content .top_content .product_stores .stores_list li .store_address{float: right;
+margin: 10px 5px;
+width: 100px;
+text-align: right;}
+.product_page_container .content .top_content .product_stores .stores_list li .store_times{float:right;margin: 10px 5px;}
+.product_page_container .content .top_content .product_stores .stores_list li .store_rate{float: left;
+margin: 10px;}
+
+
+
+
 
 .product_page_container .content  .triangle{
 	border-color: rgba(223, 223, 223, 1) rgba(182, 126, 41, 0) transparent transparent;
@@ -2421,11 +2452,22 @@ color: rgb(255, 255, 255);}
 	padding: 5px 11px;
 	height: 25px;
 	color: rgb(1, 69, 133);
+	margin: 0;
 }
 
 .product_page_container .content .middle_content{clear:both}
-.product_page_container .content .middle_content .product_buyers{float:right;width:410px;position: relative;}
-.product_page_container .content .middle_content .adv{float:left;width:300px;}
+.product_page_container .content .middle_content .product_buyers{float: right;
+width: 408px;
+height: 250px;
+position: relative;
+margin: 0px 12px;
+border: 1px rgb(206, 206, 206) solid;}
+.product_page_container .content .middle_content .product_buyers .buyers_list{list-style-type: none;width: 100%;}
+.product_page_container .content .middle_content .product_buyers .buyers_list .buyer{float:right;margin: 10px 2px;}
+.product_page_container .content .middle_content .adv{float: left;
+width: 280px;
+height: 252px;
+background: rgb(199, 199, 199);}
 
 
 /* shop page */
@@ -2437,12 +2479,28 @@ color: rgb(255, 255, 255);}
 
 .shop_page_container .content{clear:both}
 .shop_page_container .content .top_content{}
-.shop_page_container .content .top_content .image_box{float:right;width:300px;}
-.shop_page_container .content .top_content .image_box img{width:300px;width:300px;}
-.shop_page_container .content .top_content .top_left{float:left;width:410px;position: relative;}
-.shop_page_container .content .top_content .top_left .product_slider{}
-.shop_page_container .content .top_content .top_left .shop_owner{}
-
+.shop_page_container .content .top_content .image_box{float:right;width:250px;margin: 12px 12px;}
+.shop_page_container .content .top_content .image_box img{height: 250px;width:250px;}
+.shop_page_container .content .top_content .top_left{float: left;
+margin: 12px 0px 12px 0px;}
+.shop_page_container .content .top_content .top_left .product_slider{margin: 0;
+border: 1px rgb(206, 206, 206) solid;
+width: 434px;
+height: 157px;
+position: relative;}
+.product_slider .jTscrollerContainer{position:relative!important;}
+.shop_page_container .content .top_content .top_left .product_slider #slider img{width:100px;height:100px}
+.shop_page_container .content .top_content .top_left .shop_owner{border: 1px rgb(206, 206, 206) solid;
+margin: 10px 0px;
+height: 80px;}
+.shop_page_container .content .top_content .top_left .shop_owner .owner_pic{float: right;
+margin: 0px;
+padding: 0px 27px;
+background: url(../img/shop_summery_arrow.png) no-repeat;
+width: 36px;
+height: 80px;}
+.shop_page_container .content .top_content .top_left .shop_owner .owner_pic img{margin: 14px 0px;}
+.shop_page_container .content .top_content .top_left .shop_owner .shop_summery{float:left}
 
 .shop_page_container .content  .triangle{
 	border-color: rgba(223, 223, 223, 1) rgba(182, 126, 41, 0) transparent transparent;
@@ -2463,13 +2521,69 @@ color: rgb(255, 255, 255);}
 }
 
 .shop_page_container .content .middle_content{clear:both}
-.shop_page_container .content .middle_content .product_details{float:right;width:100%;position: relative;}
-.shop_page_container .content .middle_content .product_details .description{}
+.shop_page_container .content .middle_content .product_details{float: right;
+width: 98%;
+position: relative;
+margin: 0px 12px;
+border: 1px rgb(206, 206, 206) solid;
+height: 100px;}
+.shop_page_container .content .middle_content .product_details .description{color: black;
+text-align: right;}
 .shop_page_container .content .footer_content {clear:both;}
-.shop_page_container .content .footer_content .adv{float:right}
-.shop_page_container .content .footer_content .coupon_box{float:left;width:300px;}
+.shop_page_container .content .footer_content .adv{float: right;
+width: 385px;
+height: 203px;
+position: relative;
+margin: 12px;
+border: 1px rgb(206, 206, 206) solid;}
+.shop_page_container .content .footer_content .coupon_box{float: left;
+width: 300px;
+margin: 12px 0px;
+position: relative;
+height: 200px;
+border: 1px rgb(206, 206, 206) solid;}
+.shop_page_container .content .footer_content .coupon_box .coupon{margin: 12px 33px;overflow: hidden;}
 .shop_page_container .content .footer_content .comments{clear:both;}
 	
+.comments    .recommands ul{list-style-type: none;float: right;}
+.comments   .recommands li{text-align: right;
+width: 100%;
+height: 50px;
+padding: 0px;
+margin: 0px 0px 0px -11px;}
+.comments    .recommands .more_recommands p{float: left;color:black;padding: 8px 8px;}
+.comments    .recommands li .user_image img{float: right;height: 40px;width: 40px;}
+.comments    .recommands li .comment_bubble{float: right;background: url(../img/rc_bubble_store.png) no-repeat;min-height: 50px;width: 93%;}
+.comments    .recommands li .comment_bubble .rating{float: left;background: url(../img/handrating_none.png) no-repeat;width: 114px;height: 43px;background-position: 5px 7px;}
+.comments    .recommands li .comment_bubble .rating .auto{float: left;background: url(../img/handrating_full.png) no-repeat;width: 114px;height: 43px;background-position: 5px 7px;}
+.comments   .recommands li .comment_bubble .user_recommend{float: right;color:black;padding: 0px 0px 5px 0px;width: 93%;}
+.comments    .recommands li .comment_bubble .user_recommend .user_name{float: right;
+margin: 2px 34px!important;
+font-weight: bold;
+color: rgb(0, 13, 78);}
+.comments   .recommands li .comment_bubble .user_recommend .text_recommand{clear: both;
+margin: 0px -44px!important;
+width: 87%;
+overflow: hidden;}
+.comments    .recommands .comments_block{background: rgb(11, 144, 177);
+padding: 8px 5px;
+width: 98%;
+height: 35px;
+margin: 10px 0px;}
+
+.comments  .recommands .comments_block .add_comment{float: left;
+border: 1px white solid;
+padding: 3px 11px;
+margin: 2px 7px;}
+.comments  .recommands .comments_block input{float: right;
+text-align: right;
+width: 401px;
+padding: 0px 6px;}
+.comments  .recommands  #commentsList{overflow: hidden;width: 100%;
+height: auto!important;}
+
+.comments  .recommands .head_bubble{background: url(../img/long_comment_head.png) no-repeat !important;}
+
 /* grid shop view */	
 	.product_grid{position: relative;}
 	.product_grid .shop_header{height: 63px;
