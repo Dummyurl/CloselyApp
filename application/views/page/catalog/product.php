@@ -9,6 +9,9 @@
 		
 			<div class="image_box">
 				<img src="<?php echo base_url();?>asset/img/store/<?php echo $info->store_id .'/'. $info->product_image ?>"/>
+				<?php if($info->price) : ?>
+					<div class="product_price"><?php echo '₪' . $info->price ?></div>
+				<?php endif ?>
 			</div>
 			
 			<div class="product_stores">
@@ -16,8 +19,8 @@
 				<div class="triangle"></div>
 				<div class="store_header">
 					<div class="store_logo_hr">עסק</div>
-					<div class="store_address_hr">כתובת</div>
-					<div class="store_times_hr">שעות פעילות</div>
+					<div class="store_address_hr">פרטי העסק</div>
+					<div class="store_times_hr">מחיר</div>
 					<div class="store_rate_hr">דירוג</div>
 
 				</div>
@@ -26,8 +29,8 @@
 						<?php $storeInfo = $this->catalog_model->getStoreInfo($store->store_id) ?>
 						<li class="store_line">
 							<div class="store_logo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
-							<div class="store_address"><?php echo $storeInfo[0]->store_address ?></div>
-							<div class="store_times">שעות פעילות</div>
+							<div class="store_address">פרטים</div>
+							<div class="store_times"><?php echo '₪' .  $store->price ?></div>
 							<div class="store_rate"><img src="<?php echo base_url() . 'asset/img/handrating_full.png'  ?> "/></div>
 						</li>
 					<?php endforeach ?>
@@ -36,7 +39,13 @@
 
 
 		</div>
+		
 		<div class="middle_content">
+			<div class="product_details">
+				<div class="header">פרטי המוצר</div>
+				<div class="triangle"></div>
+				<div class="description"><?php echo $info->description ?></div>
+			</div>
 			<div class="product_buyers">
 				<div class="header">קנו את המוצר</div>
 				<div class="triangle"></div>
@@ -50,15 +59,15 @@
 			</div>
 		</div>
 		<div id="loadind_tab"><img src="<?php echo base_url();?>asset/img/ajax-loader.gif" /></br>טוען עמוד</div>
-		<div class="actions_grid">
-			<div class="store_block_header">המלצות</div>
-			<div class="triangle"></div>
-			<?php /* $this->load->view('blocks/shops',$last_shops); */ ?>
+		<div class="prd_rec">
+			<div class="comments">
+				<?php $this->load->view('blocks/product_comments_template',$blocks); ?>
+			</div>
 		</div>
 	</div>
 </div>	
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
-
+	$(function(){$('.stores_list').jScrollPane();});
  }); 
 </script>

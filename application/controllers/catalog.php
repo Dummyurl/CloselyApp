@@ -166,6 +166,7 @@ class Catalog extends CI_Controller {
 		$data['content']['product']['info'] = $this->products_model->getInfo($storeId,$productId);
 		$data['content']['product']['stores'] = $this->products_model->getStores($productId);
 		$data['content']['product']['buyers'] = $this->products_model->getBuyers($productId);
+		$data['content']['product']['blocks']['comments'] =  $this->catalog_model->getProductRecommands($productId);
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}
@@ -189,6 +190,7 @@ class Catalog extends CI_Controller {
 		$data['content']['shop']['shopProducts'] = $this->catalog_model->getShopProducts($products,$storeId);
 		$data['content']['shop']['info'] = $info[0];
 		$data['content']['shop']['mainProduct'] = $this->products_model->getInfo($storeId,$mainProductId);
+		$data['content']['shop']['store'] = $store[0];
 		$data['content']['shop']['storeId'] = $storeId;
 		$data['content']['shop']['coupon']['coupon'] =  $coupon[0];
 		$data['content']['shop']['coupon']['store'] =  $store[0];

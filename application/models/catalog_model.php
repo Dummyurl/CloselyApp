@@ -302,5 +302,12 @@ class catalog_model extends ci_Model {
 		return $q->result();
 	}
 	
+	function getProductRecommands($productId){
+		$this->db->where('product_id', $productId);
+		$this->db->order_by("create_time", "desc");
+		$q = $this->db->get('products_recommands');
+		return $q->result();
+	}
+	
 
 }

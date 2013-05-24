@@ -35,8 +35,7 @@ class products_model extends ci_Model {
 		return $res[0];
 	}
 	
-	function getStores($productId) {
-		$this->db->select('store_id'); 
+	function getStores($productId) { 
 		$this->db->where('product_id',$productId); 
 		$q = $this->db->get('products');
 		return $q->result();

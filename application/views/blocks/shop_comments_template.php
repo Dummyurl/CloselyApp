@@ -1,10 +1,8 @@
 				<div class="recommands">
-					<div class="headerblock">תגובות</div>
-					<div class="triangle"></div>
 					<div class="contentblock">
 					<div class="comments_block">
-						<div class="triangle up"></div>
-						<input type="text" value="כתוב תגובה">
+						<div class="triangle add_comment_block"></div>
+						<input type="text" name="addComment" value="כתוב תגובה">
 						<div class="add_comment">הגב</div>
 					</div>
 					<ul class="store_recommand_list" id="commentsList">
@@ -25,3 +23,18 @@
 
 					</div>
 				</div>
+				
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){				
+				
+				
+	var Input = $('input[name=addComment]');
+	var default_value = Input.val();
+	Input.focus(function() {
+		if(Input.val() == default_value) Input.val("");
+	}).blur(function(){
+		// $('#divResult').hide();
+		if(Input.val().length == 0) Input.val(default_value);
+	}); 
+ }); 
+</script>
