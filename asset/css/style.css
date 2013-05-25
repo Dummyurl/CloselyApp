@@ -3675,3 +3675,32 @@ left: 0px;
 }
 
 .popup #autocomplete{display:none}
+#boxResult {
+position: absolute;
+width: 293px;
+z-index: 20;
+display: none;
+right: 0px;
+top: 162px;
+margin-top: -1px;
+overflow: hidden;
+border: 1px rgb(162, 162, 162) solid;
+background-color: white;
+}
+#boxResult .tableName{background: rgb(211, 211, 211);
+border-bottom: 1px rgb(236, 236, 236) solid;
+padding: 6px 9px 6px 0px;
+margin: 0px 0px 0px 0px;
+text-align: right;
+color: rgb(0, 0, 105);
+font-size: 16px;
+font-weight: bold;}
+#boxResult  .tabline{}
+#boxResult .tabline img{position: relative!important;
+display: block!important;
+height: 40px!important;
+width: 40px!important;
+top: -1px!important;
+right: 6px!important;
+}}
+

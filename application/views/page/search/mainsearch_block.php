@@ -1,8 +1,8 @@
 <?php $this->load->helper('url'); ?>
-<?php $searchTab = array('stores'=>'עסקים','shopping'=>'קניות','coupons'=>'קופונים','recommands'=>'המלצות','products'=>'מוצרים','branches'=>'סניפים') ?>
+<?php $searchTab = array('stores'=>'עסקים','shopping'=>'קניות','coupons'=>'קופונים','recommands'=>'המלצות','products'=>'מוצרים','branches'=>'סניפים','fusers'=>'משתמשים') ?>
 <ul>
 <?php foreach ($searchResult as $table=>$result ) : ?>
-<li class="box-row">
+<li class="tabline">
 	<div class="tableName">
 		<?php echo $searchTab[$table]; ?>
 	</div>
@@ -11,7 +11,7 @@
 		<li class="box-row">
 			<div class="line-contant search_addon">
 				<a href="<?php echo $row['url'] ?>"><img src="<?php echo $row['image'] ?>" /></a>
-				<a href="<?php echo $row['url'] ?>"><div class="feed_text title" id="res_title"><?php echo $row['title'] ?></a></div>
+				<a href="<?php echo $row['url'] ?>"><div class="feed_text title" id="res_title"><?php echo $row['title'] ?></div></a>
 				<div class="feed_text"><?php echo $row['description'] ?></div>
 			</div>
 		</li>
