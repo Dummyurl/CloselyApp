@@ -81,10 +81,18 @@ class Feed extends CI_Controller {
 	
 	function getSearchResult()
     {
-	$data = array('word'=>$this->input->post('word'),'table'=>$this->input->post('table'),'category'=>$this->input->post('category'));
-	$info['searchResult'] = $this->catalog_model->searchKey($data);
-	// print_r($searchResult);
-	$this->load->view('page/search/search_block',$info);
+		$data = array('word'=>$this->input->post('word'),'table'=>$this->input->post('table'),'category'=>$this->input->post('category'));
+		$info['searchResult'] = $this->catalog_model->searchKey($data);
+		// print_r($searchResult);
+		$this->load->view('page/search/search_block',$info);
+    }
+	
+	function getAllResult()
+    {
+		$data = array('word'=>$this->input->post('word'));
+		$info['searchResult'] = $this->catalog_model->mainSearch($data);
+		// print_r($searchResult);
+		$this->load->view('page/search/mainsearch_block',$info);
     }
 	
 }

@@ -118,7 +118,11 @@
 					</div> */
 					?>
 					<?php /* <img src="<?php echo base_url();?>asset/img/banners/topbanner.png" alt="Post" /> */ ?>
-					<div class="find">חפש</div><input type="text" value="חפש כל דבר" name="findme"></div>
+					<div class="find">חפש</div>
+						<input type="text" value="חפש כל דבר" name="findme" id="searchOnsite">
+						<div id="boxResult"></div>
+					</div>
+				
 				</div>
 				<a href="#" id="top-open">Menu</a>
 
@@ -147,6 +151,29 @@ $(document).ready(function(){
 	}).blur(function(){
 		// $('#divResult').hide();
 		if(Input.val().length == 0) Input.val(default_value);
+	});
+	
+	$("#searchOnsite").keyup(function() 
+	{ 
+	var inputSearch = $(this).val();
+	var dataString = 'word='+ encodeURI(inputSearch);
+	var returl  = '<?php echo base_url();?>' + 'feed/getAllResult';
+	if(inputSearch!='')
+	{
+		$.ajax({
+		type: "POST",
+		url: returl,
+		data: dataString,
+		cache: false,
+		success: function(html)
+		{
+		$("#boxResult").html(html).show();
+		}
+		});
+	} else {
+	$("#boxResult").hide();
+	return false; 
+	} 
 	});
 
 	

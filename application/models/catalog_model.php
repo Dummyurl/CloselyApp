@@ -180,6 +180,57 @@ class catalog_model extends ci_Model {
 	}	
 
 	
+	function mainSearch($data) {
+		$statment = $data['word'];
+		$tables = $this->getSearchMapping();
+		
+		$collection = array();
+		$result = array();
+		foreach($tables as $table=>$tableprep){
+				$attributes = $tableprep['attributes'];
+				$conditions = $tableprep['cond'];
+				$select = $tableprep['select'];
+				$this->db->select($select);
+				foreach($attributes as $attribute){
+					$this->db->or_like($attribute,$statment);
+				}
+/* 				foreach($conditions as $col=>$cond){
+					$this->db->where($col . '!=', $cond);
+				} */
+				$q = $this->db->get($table);	
+				$collection[$table] = $q->result_array();
+		}
+  		foreach($collection as $table=>$tabresult){
+			$fixKeys = $tables[$table]['defaultAtrr'];	
+			foreach($tabresult as $row){	
+				$result[$table][] = $this->convertResultData($row , $fixKeys , $table); 
+			}
+		}  
+		return $result;	
+	}	
+	
+ 	function convertResultData($row , $fixKeys , $table ){
+		$this->load->model('stores_model');
+		$newRow = array();
+		$newRow['title'] = $row[$fixKeys['title']];
+		if($table == 'products'){
+			$urlKey = $this->stores_model->getStoreUrlKey($row['store_id']);
+			$newRow['url'] = $fixKeys['urlpath'] . $urlKey . '/'. $row['url_key'];
+		} else {
+			$newRow['url'] = $fixKeys['urlpath'] . $row[$fixKeys['url']];
+		}
+		if($table == 'shopping' || $table == 'products'){
+			$newRow['image'] = str_replace("storeid",$row['store_id'],$fixKeys['imagepath'] . $row[$fixKeys['image']]);
+		} elseif($table == 'coupons' || $table == 'recommands' || $table == 'fusers') {
+			$newRow['image'] = str_replace("user",$row['user_id'],'https://graph.facebook.com/user/picture');
+		} else {
+			$newRow['image'] = $fixKeys['imagepath'] . $this->stores_model->getStoreImage($row['store_id']);
+		}
+		 $newRow['description'] = $row[$fixKeys['description']];
+		return $newRow; 
+	}
+
+	
 	function getImageUrl($table,$row){
 		if ($table == 'stores' || $table == 'recommands' || $table == 'coupons'){
 			$image = base_url() .  'asset/img/bizlogos/' . $this->getStoreImage($row['store_id']);
@@ -191,6 +242,80 @@ class catalog_model extends ci_Model {
 			$image = 'https://graph.facebook.com/' . $row['user_id'] . '/picture' ;
 		}
 	return $image;
+	}
+	
+	function getSearchMapping(){
+		 return array('stores'=>
+					array('attributes'=>array('store_name','store_id','website','email'),'cond'=>array('active'=>0),'select'=>array('store_id','url_key','store_logo','store_name','store_address'),
+							'defaultAtrr'=>array(
+								'title'=>'store_name',
+								'urlpath'=> base_url() ,
+								'url'=>'store_id',
+								'imagepath'=> base_url() . 'asset/img/bizlogos/',
+								'image'=>'store_logo',
+								'description'=>'store_address')
+						),
+						'shopping'=>
+							array('attributes'=>array('shop_id','shop_title'),'cond'=>array('visable'=>0),'select'=>array('shop_id','store_id','user_id','shop_image','shop_title','shop_description'),
+								'defaultAtrr'=>array(
+									'title'=>'shop_title',
+									'urlpath'=> base_url() . 'catalog/shop/',
+									'url'=>'shop_id',
+									'imagepath'=> base_url() . 'asset/img/store/storeid/',
+									'image'=>'shop_image',
+									'description'=>'shop_description')
+							),
+						'coupons'=>
+							array('attributes'=>array('coupon_id','coupon_name','type'),'cond'=>array('visable'=>0,'strongly'=>0),'select'=>array('coupon_id','coupon_name','type','shop_id','description','user_id'),
+								'defaultAtrr'=>array(
+									'title'=>'coupon_name',
+									'urlpath'=> base_url() . 'catalog/shop/',
+									'url'=>'shop_id',
+									'imagepath'=> 'facebook',
+									'image'=>'user_id',
+									'description'=>'description')
+							),
+						'fusers'=>
+							array('attributes'=>array('user_id','user_name','email'),'cond'=>array('visable'=>0,'view_in_search'=>0),'select'=>array('user_id','user_name','email'),
+								'defaultAtrr'=>array(
+									'title'=>'user_name',
+									'urlpath'=> base_url() . 'user/page/',
+									'url'=>'user_id',
+									'imagepath'=> 'facebook',
+									'image'=>'user_id',
+									'description'=>'email')
+							),
+						'recommands'=>
+							array('attributes'=>array('recommand_title','store_id'),'cond'=>array(),'select'=>array('recommand_title','user_id','store_id','category_id','description'),
+								'defaultAtrr'=>array(
+									'title'=>'recommand_title',
+									'urlpath'=> base_url() ,
+									'url'=>'store_id',
+									'imagepath'=> 'facebook',
+									'image'=>'user_id',
+									'description'=>'description')
+							),
+						'products'=>
+							array('attributes'=>array('product_id','product_name'),'cond'=>array('visable'=>0),'select'=>array('product_id','product_name','product_image','store_id','url_key','description'),
+								'defaultAtrr'=>array(
+									'title'=>'product_name',
+									'urlpath'=> base_url() . 'catalog/product/',
+									'url'=>'url_key',
+									'imagepath'=> base_url() . 'asset/img/store/storeid/',
+									'image'=>'product_image',
+									'description'=>'description')
+							),
+						'branches'=>
+							array('attributes'=>array('store_id'),'cond'=>array('active'=>0),'select'=>array('store_id','title','address'),
+								'defaultAtrr'=>array(
+									'title'=>'title',
+									'urlpath'=> base_url() ,
+									'url'=>'store_id',
+									'imagepath'=> base_url() . 'asset/img/bizlogos/',
+									'image'=>'',
+									'description'=>'address')
+							),
+				);
 	}
 	
 	function getShopProducts ($products,$storeId = null){
@@ -309,5 +434,6 @@ class catalog_model extends ci_Model {
 		return $q->result();
 	}
 	
+
 
 }

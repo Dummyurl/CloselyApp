@@ -19,6 +19,22 @@ class stores_model extends ci_Model {
 		return $q->result();	
 	}
 	
+	function getStoreUrlKey($id) {
+		$this->db->select('url_key'); 
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores');
+		$res = $q->result();
+		return $res[0]->url_key;	
+	}
+	
+	function getStoreImage($id) {
+		$this->db->select('store_logo'); 
+		$this->db->where('store_id', $id); 
+		$q = $this->db->get('stores');
+		$res = $q->result();
+		return $res[0]->store_logo;	
+	}
+	
 	function getBranches($id) {
 		$this->db->where('store_id', $id); 
 		$q = $this->db->get('branches');
