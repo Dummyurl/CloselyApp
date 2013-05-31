@@ -2418,6 +2418,8 @@ padding: 10px;
 background: gray;
 height: 12px;
 font-weight: bold;}
+
+.tb_title{cursor: pointer;}
 .product_page_container .content .top_content .product_stores .store_header .store_logo_hr{float: right;text-align:center;width:100px}
 .product_page_container .content .top_content .product_stores .store_header .store_address_hr{float: right;text-align:center;margin: 0px 5px;width:100px}
 .product_page_container .content .top_content .product_stores .store_header .store_times_hr{float: right;text-align:center;width: 50px;}

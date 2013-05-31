@@ -436,12 +436,12 @@ class catalog_model extends ci_Model {
 		return $q->result();
 	}
 	
-	function getRate($productid,$rate,$storeId,$ip) {
+	function getRate($productid,$rate,$storeId,$userId) {
 		$data = array(
-			'rate_id' => $storeid ,
+			'rate_id' => $productid ,
 			'rating' => $rate ,
-			'user_ip' =>  $ip ,
-			'store_ip' =>  $storeId				
+			'user_id' =>  $userId ,
+			'store_id' =>  $storeId				
 		);
 		$this->db->insert('rating', $data); 
 		return $this->db->_error_number();	

@@ -171,7 +171,7 @@ class Catalog extends CI_Controller {
 		$data['content']['product']['iBuyThisProduct'] = $this->products_model->checkForBuyer($storeId,$productId,$onlyfreinds);
 		$data['content']['product']['totalRating'] = $this->products_model->getProductRating($storeId,$productId);
 		$data['content']['product']['raters'] = $this->products_model->getRaterNum($storeId,$productId);
-
+		$data['content']['product']['userId'] = $onlyfreinds ? $onlyfreinds : 0;
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}

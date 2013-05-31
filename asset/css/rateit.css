@@ -103,3 +103,9 @@ font-size: 12px;
 direction: rtl;
 color: rgb(233, 77, 3);
 padding: 0px 5px;}
+
+.rate_score{clear: both;
+margin: -32px 39px;
+float: left;
+color: rgb(0, 144, 189);
+font-weight: bold;}

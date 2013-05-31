@@ -36,7 +36,15 @@ class products_model extends ci_Model {
 	}
 	
 	function getStores($productId) { 
+		$this->db->select('store_id,price'); 
 		$this->db->where('product_id',$productId); 
+		$q = $this->db->get('products');
+		return $q->result_array();
+	}
+	
+	function getSortedStores($productId,$sortBy,$order) { 
+		$this->db->where('product_id',$productId);
+		$this->db->order_by($sortBy,$order);
 		$q = $this->db->get('products');
 		return $q->result();
 	}

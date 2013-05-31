@@ -51,6 +51,8 @@ class Store extends CI_Controller {
 
     }
 
+
+	
 	function getview()
     {	
 		$tab = $this->input->post('tab');
