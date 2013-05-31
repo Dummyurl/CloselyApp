@@ -10,6 +10,7 @@ class Store extends CI_Controller {
 		$this->load->model('users_model');
 		$this->load->model('coupons_model');
 		$this->load->model('catalog_model');
+		$this->load->helper('cookie');
     }
 
     function popup($storeId)
@@ -21,6 +22,28 @@ class Store extends CI_Controller {
 		$data['lastRecommands'] = $this->stores_model->getLastRecommands($storeId);
 		$data['store']= $store[0];
 		$this->load->view('popups/store',$data);
+    }
+	
+	function ratestore()
+    {
+		$ip = $this->input->ip_address();
+		$rating = $this->input->post('rating');
+		$storeId = $this->input->post('store');	
+		if(!$this->stores_model->getRate($storeId,$rating,$ip)){
+			if (!get_cookie('rateStore-' . $storeId)) {
+			// cookie not set, first visit
+
+			// create cookie to avoid hitting this case again
+			$cookie = array(
+				'name'   => 'rateStore-' . $storeId,
+				'value'  => $rating,
+				'expire' => time()+86500,
+				'prefix' => '',
+			);
+			set_cookie($cookie);
+			}
+		}
+				
     }
 	
 	function index()
@@ -121,6 +144,10 @@ class Store extends CI_Controller {
 		$storeInfo = $this->stores_model->getStoreInfo($storeId);
 		$data['content']['store']['info'] = $storeInfo[0];
 		$data['content']['store']['isloggin'] = $onlyfreinds;
+		$data['content']['store']['iRateThisStore'] = $this->stores_model->ratedStore($storeId,$onlyfreinds);
+		$data['content']['store']['iBuyInStore'] = $this->stores_model->checkForBuyer($storeId,$onlyfreinds);
+		$data['content']['store']['totalRating'] = $this->stores_model->getStoreRating($storeId);
+		$data['content']['store']['raters'] = $this->stores_model->getRaterNum($storeId);
 		$data['content']['store']['current_tab'] = 'shopping';
 		$data['content']['store']['branches']['locations'] = $this->stores_model->getBranches($storeId);
 		$data['content']['store']['recommandsCnt'] = $this->stores_model->recommandsCnt($storeId);

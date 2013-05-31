@@ -2,11 +2,26 @@
 <?php $this->load->view('head/multilocation',$branches); ?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=he&libraries=places"></script>		
 <div class="store_add_buttons">
+<?php if ($iBuyInStore['buy']) : ?>
+		<?php if ($iRateThisStore['exist']) : ?>
+		<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" data-rateit-readonly="true" <?php echo 'data-rateit-value="' . $totalRating . '" data-rateit-ispreset="true"' ?>></div></div>
+		<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
+		<div class="rating_messaege"><?php echo 'דירגת כבר חנות זו' ?></div>
+		<?php else : ?>
+		<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" <?php /* echo !empty($iRateThisStore) ?  'data-rateit-value="' . $iRateThisStore . '" data-rateit-ispreset="true" data-rateit-readonly="true"' : '' ; */ ?>></div></div>
+		<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
+		<div class="rating_messaege"><?php echo $iBuyInStore['message'] ?></div>
+		<?php endif ?>
+	<?php else : ?>
+	<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" data-rateit-readonly="true" <?php echo 'data-rateit-value="' . $totalRating . '" data-rateit-ispreset="true"' ?>></div></div>
+	<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
+	<div class="rating_messaege"><?php echo $iBuyInStore['message'] ?></div>
+<?php endif ?>
 
-	<div class="store_rating"><img src="<?php echo base_url();?>asset/img/handrating_full.png" /> :דירוג</div>
 	<div class="store_add">הוסף המלצה<img src="<?php echo base_url();?>asset/img/add.png" /></div>
 	<div class="store_add">הוסף קנייה<img src="<?php echo base_url();?>asset/img/add.png" /></div>
 </div>
+
 <div class="store_wall_image">
 <div class="headline"><?php echo $info->store_name;?></div>
 <div class="imageline"><img src="<?php echo base_url();?>asset/img/bizlogos/<?php echo $info->store_logo;?>" class="headimage"  /></div>
@@ -37,6 +52,36 @@
 
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
+
+	//we bind only to the rateit controls within the products div
+	$('.store_rating .rateit').bind('rated reset', function (e) {
+		var ri = $(this);
+
+		//if the use pressed reset, it will get value: 0 (to be compatible with the HTML range control), we could check if e.type == 'reset', and then set the value to  null .
+		var value = ri.rateit('value');
+		var storeID = ri.data('storeid'); // if the product id was in some hidden field: ri.closest('li').find('input[name="productid"]').val()
+
+		//maybe we want to disable voting?
+		ri.rateit('readonly', true);
+		var rateUrl = '<?php echo base_url();?>' + 'store/ratestore';
+		$.ajax({
+			url: rateUrl, //your server side script
+			data: { store: storeID, rating: value }, //our data
+			type: 'POST',
+			success: function (data) {
+				$('#response').append('<li>' + data + '</li>');
+
+			},
+			error: function (jxhr, msg, err) {
+				$('#response').append('<li style="color:red">' + msg + '</li>');
+			}
+		});
+	});
+
+
+
+
+
 $(".select_bar").css("right",322);
 
 	$('.store_buttons li').click(function(){

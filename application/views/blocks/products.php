@@ -1,9 +1,11 @@
 <?php $this->load->helper('url'); ?>
+
 <div class="wall-messages">	
 	<ul class="list_container">
 		<?php $j = 0; ?>
 		<?php foreach ($products as $product) : ?>
 		<?php $storeInfo = $this->catalog_model->getStoreInfo($product->store_id) ?>
+		<?php $rating = $this->catalog_model->getProductRating($product->store_id,$product->product_id) ?>
 		<li class="listGrid">
 			<div class="product_grid">
 				<div class="shop_header">
@@ -27,7 +29,7 @@
 					</div>
 					<div class="triangle-up"></div>
 					<div class="shop_title"><?php echo $product->product_name  ?></span></div>
-					<div class="stars-rate"></div>
+					<div class="product_rating"><div data-storeid="<?php echo $info->store_id;?>" data-storeid="<?php echo $product->store_id ?>"  class="rateit" data-rateit-readonly="true" <?php echo 'data-rateit-value="' . $$rating . '" data-rateit-ispreset="true"' ?>></div></div>
 					<div class="clearfix"></div>
 					<div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
 					<div class="shop_detials"><a href="/catalog/product/<?php echo $product->url_key ?>">עמוד המוצר</a></div>
@@ -46,7 +48,30 @@
             var page = 1;
 			function loading() { /* $('#more').hide(); */ }
 			
+			//we bind only to the rateit controls within the products div
+			$('.product_rating .rateit').bind('rated reset', function (e) {
+				var ri = $(this);
 
+				//if the use pressed reset, it will get value: 0 (to be compatible with the HTML range control), we could check if e.type == 'reset', and then set the value to  null .
+				var value = ri.rateit('value');
+				var productID = ri.data('productid'); // if the product id was in some hidden field: ri.closest('li').find('input[name="productid"]').val()
+				var storeID = ri.data('storeid');
+				//maybe we want to disable voting?
+				ri.rateit('readonly', true);
+				var rateUrl = '<?php echo base_url();?>' + 'product/rateproduct';
+				$.ajax({
+					url: rateUrl, //your server side script
+					data: { product: productID, rating: value , store: storeID }, //our data
+					type: 'POST',
+					success: function (data) {
+						$('#response').append('<li>' + data + '</li>');
+
+					},
+					error: function (jxhr, msg, err) {
+						$('#response').append('<li style="color:red">' + msg + '</li>');
+					}
+				});
+			});
 
             $(window).scroll(function () {
                // $('#more').hide();

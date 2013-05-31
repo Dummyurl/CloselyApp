@@ -32,7 +32,7 @@
 							<div class="clearfix"></div>
 							<p class="coupon_adder"><?php echo $userInfo[0]->user_name  . ' :נוסף ע"י'?></p>
 							<div class="ask_for_coupon">בקש קופון</div>
-							<div class="shop_info">פרטי הקנייה</div>
+							<a href="<?php echo base_url() . 'catalog/shop/' . $coupon->shop_id;?>"><div class="shop_info">פרטי הקנייה</div></a>
 						</div>
 					</div>	
 				</li>

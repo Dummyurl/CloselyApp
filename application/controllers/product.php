@@ -32,6 +32,29 @@ class Products extends CI_Controller {
 		$data['products'] = $this->categories_model->getProducts($category ,1, $offset,9) ;
 		$this->load->view('catalog/productscroll',$data); 
 	}
+	
+	function rateproduct()
+    {
+		$ip = $this->input->ip_address();
+		$rating = $this->input->post('rating');
+		$productId = $this->input->post('product');	
+		$storeId = $this->input->post('store');
+		if(!$this->catalog_model->getRate($productId,$rating,$storeId,$ip)){
+			if (!get_cookie('rateProduct-' . $productId . '-' . $storeId)) {
+			// cookie not set, first visit
+
+			// create cookie to avoid hitting this case again
+			$cookie = array(
+				'name'   => 'rateProduct-' . $productId . '-' . $storeId,
+				'value'  => $rating,
+				'expire' => time()+86500,
+				'prefix' => '',
+			);
+			set_cookie($cookie);
+			}
+		}
+				
+    }
 
 	function view($productId)
     {

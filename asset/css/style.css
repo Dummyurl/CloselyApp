@@ -67,7 +67,7 @@ body a{
 	display: inline-block;
 	padding-top: 110px;
 	padding-bottom: 25px;
-	margin: 0px -34px;
+	margin: 0px -9px;
 }
 
 #logo img{width:300px}
@@ -1777,7 +1777,8 @@ margin: 21px 0px 8px 35px;
 .store_bubble{top: 250px !important;
 margin: 4px 30px !important;
 border-radius: 10px !important;}
-.store_rating{float:left}
+.store_rating{float: right;
+margin: 0px 10px 0px 0px;}
 
 
 /* store recommands tab */
@@ -1804,8 +1805,10 @@ z-index: 1002;
 .store_add_buttons{color: rgb(0, 6, 80);
 font-size: 15px;
 font-weight: bold;
+position: relative;
 height: 30px;}
-.store_add{float:right;padding: 0px 10px;}
+.store_add{float:left;padding: 0px 10px;}
+.store_add img{height: 15px;width:15px}
 
 .store_tab_page .store_block_header{background: rgb(228, 228, 228);
 text-align: right;
@@ -2282,7 +2285,7 @@ font-weight: bold;}
 .coupon_over .coupon_adder{color: green !important;
 font-weight: bold !important;}
 .coupon_over .ask_for_coupon{padding:5px 10px;background:orange;float:right;margin: 5px;}
-.coupon_over .shop_info{padding:5px 10px;background:orange;float:right;margin: 5px;}
+.coupon_over .shop_info{padding:5px 10px;background:orange;float:right;margin: 5px;color:#fff}
 
 	 .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
             margin:0;
@@ -2465,6 +2468,9 @@ margin: 10px;}
 	color: rgb(1, 69, 133);
 	margin: 0;
 }
+
+.product_page_container .content  .header .product_headtext{float:right}
+.product_page_container .content  .header .product_ratig{float:left}
 
 .product_page_container .content .middle_content{clear:both}
 .product_page_container .content .middle_content .product_details{float: right;
@@ -2664,6 +2670,14 @@ margin: 0px 0px 0px 0px;
 text-align: center;
 /* background: url(../img/shop_det_bg.png) no-repeat; */}
 
+
+.facebook_like{width: 99px;
+position: absolute;
+height: 30px;
+top: 41px;
+left: 0px;
+float: left;}
+
 .shop_header .triangle{
 border-color: rgba(255, 255, 255, 0.97) rgba(182, 126, 41, 0) transparent transparent;
 border-style: solid;
@@ -2720,6 +2734,7 @@ box-shadow: 0px 0px 16px -5px rgba(0,0,0,.8);}
 .tumb_image li{float:right;height: 44px;margin: 2px 2px 2px 0px;}
 .tumb_image ul{list-style-type: none;margin: 4px;}
 
+.fb-like{}
 
 .shop_info_over{top: 10px;
 width: 207px;
@@ -2904,6 +2919,7 @@ height: 22px;
 .products .raters{color: orange;
 font-weight: bold;
 direction: rtl;
+width: 53px;
 text-align: center;}
 .products .product_grid_title{text-align: right;
 padding: 5px;
@@ -2924,9 +2940,14 @@ overflow: hidden;}
 .info_box {
 width: 307px;
 float: right;
-margin: 5px 3px 5px -8px;
-	
+margin: 5px 3px 5px -8px;	
 }
+
+.ads{height: 300px;
+background: rgb(192, 192, 192);
+width: 299px;
+margin: 14px 0px 0px 0px;
+float: right;}
 
 .infobox-container {
     position: relative;
@@ -3227,7 +3248,9 @@ overflow: hidden;
 height: 200px;}
 .feed_text{color: black;
 padding: 0px 63px 0px 0px;
-font-size: 13px;}
+font-size: 13px;
+direction: rtl;
+}
 .title{color: rgb(230, 17, 17);
 font-weight: bold;
 }
@@ -3702,5 +3725,5 @@ height: 40px!important;
 width: 40px!important;
 top: -1px!important;
 right: 6px!important;
-}}
+}
 

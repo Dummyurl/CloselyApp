@@ -167,6 +167,11 @@ class Catalog extends CI_Controller {
 		$data['content']['product']['stores'] = $this->products_model->getStores($productId);
 		$data['content']['product']['buyers'] = $this->products_model->getBuyers($productId);
 		$data['content']['product']['blocks']['comments'] =  $this->catalog_model->getProductRecommands($productId);
+		$data['content']['product']['iRateThisProduct'] = $this->products_model->ratedProduct($storeId,$productId,$onlyfreinds);
+		$data['content']['product']['iBuyThisProduct'] = $this->products_model->checkForBuyer($storeId,$productId,$onlyfreinds);
+		$data['content']['product']['totalRating'] = $this->products_model->getProductRating($storeId,$productId);
+		$data['content']['product']['raters'] = $this->products_model->getRaterNum($storeId,$productId);
+
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
 	}
@@ -180,11 +185,18 @@ class Catalog extends CI_Controller {
 		$userId = $info[0]->user_id;
 		$coupon = $this->catalog_model->getCoupon($info[0]->coupon_id);
 		$storeId = $info[0]->store_id;
+		$userName  = $this->users_model->getUserName($userId);
 		$store = $this->stores_model->getStoreInfo($storeId);
 		$products = $this->catalog_model->getShopProductsIds($id);
 		$data['records']['categories'] = $this->categories_model->getAll();
 		$data['feed']['latest'] = $this->users_model->getLatestfeed($onlyfreinds);
 		$data['feed']['stores'] = $this->stores_model->getAll();
+		$data['pageInfo']['title'] =  'אהבתי את הקנייה של' . $userName . 'בשופיקס';
+		$data['pageInfo']['type'] =  $info[0]->shop_title;
+		$data['pageInfo']['url'] =  base_url() . '/catalog/shop/' . $info[0]->shop_id;
+		$data['pageInfo']['image'] =  base_url() . 'asset/img/store/' . $storeId .'/'. $info[0]->shop_image;
+		$data['pageInfo']['site_name'] =  'Shoppix אתר שיתוף הקניות הראשון בישראל'; 
+		$data['pageInfo']['description'] =  $info[0]->shop_description; 
 		$data['content']['page'] = 'shop';
 		$data['content']['shop']['id'] = $id;
 		$data['content']['shop']['shopProducts'] = $this->catalog_model->getShopProducts($products,$storeId);
@@ -196,7 +208,7 @@ class Catalog extends CI_Controller {
 		$data['content']['shop']['coupon']['store'] =  $store[0];
 		$data['content']['shop']['coupon']['shop'] =  $info[0];
 		$data['content']['shop']['coupon']['userId'] =  $userId;
-		$data['content']['shop']['coupon']['user'] =  $this->users_model->getUserName($userId);
+		$data['content']['shop']['coupon']['user'] =  $userName;
 		$data['content']['shop']['blocks']['comments'] =  $this->catalog_model->getShopComments($id);
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);

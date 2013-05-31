@@ -1,8 +1,8 @@
 <?php $this->load->helper('url'); ?>
 <!doctype html>
-<html class="no-js">	
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">	
 	<head>
-		<?php $this->load->view('head/meta'); ?>
+		<?php $this->load->view('head/meta',isset($pageInfo) ? $pageInfo : 'bla'); ?>
 		<?php $this->load->view('head/css'); ?>
 		<?php $this->load->view('head/js'); ?>
 	</head>	

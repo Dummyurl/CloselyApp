@@ -43,6 +43,8 @@ class catalog_model extends ci_Model {
         return false;
    }
 
+   
+	
 	function fetch_store_shops ($storeId , $start,$limit) {
 		$this->db->limit($limit, $start);
 		$this->db->order_by("create_time", "asc");
@@ -434,6 +436,37 @@ class catalog_model extends ci_Model {
 		return $q->result();
 	}
 	
-
+	function getRate($productid,$rate,$storeId,$ip) {
+		$data = array(
+			'rate_id' => $storeid ,
+			'rating' => $rate ,
+			'user_ip' =>  $ip ,
+			'store_ip' =>  $storeId				
+		);
+		$this->db->insert('rating', $data); 
+		return $this->db->_error_number();	
+	}
+		
+	function getProductRating($store_id,$product_id){
+		$totalRating = 0;
+		$this->db->where('rate_id', $product_id);
+		$this->db->where('store_id', $store_id);
+		$q = $this->db->get('rating');
+		if ($res = $q->result()){
+			foreach ($res as $rate){
+				$totalRating += $rate->rating;
+			}
+			return $totalRating/sizeof($res);
+		}
+		return $totalRating;
+	}
+	
+	function getRatersNum($store_id,$product_id){
+		$totalRating = 0;
+		$this->db->where('rate_id', $product_id);
+		$this->db->where('store_id', $store_id);
+		$q = $this->db->get('rating');
+		return $q->num_rows();
+	}
 
 }

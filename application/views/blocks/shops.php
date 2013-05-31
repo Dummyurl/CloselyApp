@@ -103,7 +103,7 @@
 					</div>
 					<div class="triangle-up"></div>
 					<div class="shop_title">:בקנייה זו נרכשו </br><span><?php echo '. כ ' .  ($i-1) . ' פריטים '  ?></span></div>
-					<div class="stars-rate"></div>
+					<iframe class="facebook_like" allowTransparency='true' frameborder='0' scrolling='no' src='http://www.facebook.com/plugins/like.php?href=<?php echo base_url() . '/catalog/shops/' . $shop->shop_id ?>&send=false&layout=button_count&width=40&show_faces=false&action=like&colorscheme=light&height=2'></iframe>
 					<div class="clearfix"></div>
 					<div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>
 					<div class="shop_detials"><a href="/shops/popup/<?php echo $shop->shop_id ?>" class="fancybox">פרטי הקנייה</a></div>

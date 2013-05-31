@@ -67,6 +67,11 @@
 			</div>	
 		</div>
 			<?php endif ?>	
+			
+		<div class="ads">
+	
+		</div>		
+		
 		<div class="box-block">
 			<div class="info_box">
 				<div class="infobox-container"> 	

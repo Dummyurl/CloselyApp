@@ -1,6 +1,9 @@
 <?php $this->load->helper('url'); ?>
+<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.rateit.js"></script>
 		<?php foreach ($products as $product) : ?>
 		<?php $storeInfo = $this->catalog_model->getStoreInfo($product->store_id) ?>
+		<?php $rating = $this->catalog_model->getProductRating($product->store_id,$product->product_id) ?>
+		<?php $raters = $this->catalog_model->getRatersNum($product->store_id,$product->product_id) ?>
 		<li class="listGrid products">
 				<div class="product_grid">
 					<div class="shop_header product_header">
@@ -21,8 +24,8 @@
 				<div class="shop_footer">
 					<div class="triangle-up"></div>
 					<div class="stars-rate">
-					<img class="rating" src="<?php echo base_url();?>asset/img/star.png" />
-					<div class="raters">5 דירוגים</div>
+					<div class="product_rating"><div  class="rateit" data-rateit-readonly="true" <?php echo 'data-rateit-value="' . $rating . '" data-rateit-ispreset="true"' ?>></div></div>
+					<div class="raters"><?php echo $raters . ' מדרגים ' ?></div>
 					</div>
 					<div class="clearfix"></div>
 					<div class="brandlogo"><a href="<?php echo base_url();?>store/popup/<?php echo $storeInfo[0]->store_id ?>" class = "fancybox"><img class="biz_logo" src="<?php echo base_url() . 'asset/img/bizlogos/' . $storeInfo[0]->store_logo  ?> "/></a></div>

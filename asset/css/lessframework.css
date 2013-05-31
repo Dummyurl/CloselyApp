@@ -389,6 +389,10 @@ height: auto;
 		width: 300px;
 	}
 	
+	#top-widget-holder .fbicon {
+		display: none;
+	}
+	
 	.home-slider-clearfix {
 		clear: both;
 	}

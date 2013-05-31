@@ -10,5 +10,6 @@
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/skin.css"/>
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/jquery.bxslider.css"/>
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/fancybox/jquery.fancybox.css"/>
+		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/rateit.css"/>
 
 				

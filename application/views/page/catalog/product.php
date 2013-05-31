@@ -42,7 +42,27 @@
 		
 		<div class="middle_content">
 			<div class="product_details">
-				<div class="header">פרטי המוצר</div>
+				<div class="header">
+					<div class= "product_headtext">פרטי המוצר</div>
+					<div class= "product_ratig">
+					<?php if ($iBuyThisProduct['buy']) : ?>
+						<?php if ($iRateThisProduct['exist']) : ?>
+							<div class="rating_messaege product_rate"><?php echo 'דירגת כבר חנות זו' ?></div>
+							<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" data-rateit-readonly="true" <?php echo 'data-rateit-value="' . $totalRating . '" data-rateit-ispreset="true"' ?>></div></div>
+							<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
+							<?php else : ?>
+							<div class="rating_messaege product_rate"><?php echo $iBuyThisProduct['message'] ?></div>
+							<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" <?php /* echo !empty($iRateThisStore) ?  'data-rateit-value="' . $iRateThisStore . '" data-rateit-ispreset="true" data-rateit-readonly="true"' : '' ; */ ?>></div></div>
+							<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
+							<?php endif ?>
+						<?php else : ?>
+						<div class="rating_messaege product_rate"><?php echo $iBuyThisProduct['message'] ?></div>
+						<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" data-rateit-readonly="true" <?php echo 'data-rateit-value="' . $totalRating . '" data-rateit-ispreset="true"' ?>></div></div>
+						<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
+					<?php endif ?>
+					</div>
+			</div>
+				
 				<div class="triangle"></div>
 				<div class="description"><?php echo $info->description ?></div>
 			</div>

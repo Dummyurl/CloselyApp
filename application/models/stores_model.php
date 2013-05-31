@@ -19,6 +19,65 @@ class stores_model extends ci_Model {
 		return $q->result();	
 	}
 	
+	function getRate($storeid,$rate,$ip) {
+		$data = array(
+			'rate_id' => $storeid ,
+			'rating' => $rate ,
+			'user_ip' =>  $ip		
+		);
+		$this->db->insert('rating', $data); 
+		return $this->db->_error_number();	
+	}
+	
+	
+	function ratedStore($storeid,$userId) {
+		if ($userId){
+			$this->db->where('rate_id', $storeid);
+			$this->db->where('user_id', $userId);
+			$q = $this->db->get('rating');
+			if ($res = $q->result()){
+				return array('user'=>$userId , 'rating'=>$res[0]->rating , 'exist'=>true);
+			}
+			return array('user'=>$userId , 'rating'=>null , 'exist'=>false);
+		}
+	  return array('user'=>null , 'rating'=>null , 'exist'=>false);	
+	}
+	
+	function checkForBuyer($storeid,$userId) {
+		if ($userId){
+			$this->db->where('store_id', $storeid);
+			$this->db->where('user_id', $userId);
+			$q = $this->db->get('shopping');
+			if ($res = $q->result()){
+				return array('buy'=>true , 'message'=>'בתור לקוח שביצע רכישה בחנות , תוכל לדרג את החנות');
+			}
+			return array('buy'=>false , 'message'=>'דירוג החנות אפשרי רק ללקוחות שביצעו רכישה בחנות');
+		}
+	  return array('buy'=>false , 'message'=>'דירוג החנות אפשרי אך ורק למשתמשים רשומים');	
+	}
+	
+	
+	
+	function getStoreRating($storeid) {
+			$totalRating = 0;
+			$this->db->where('rate_id', $storeid);
+			$q = $this->db->get('rating');
+			if ($res = $q->result()){
+				foreach ($res as $rate){
+					$totalRating += $rate->rating;
+				}
+				return $totalRating/sizeof($res);
+			}
+			return $totalRating;
+	}
+	
+	function getRaterNum($id) {
+		$this->db->where('rate_id', $id);
+		$q = $this->db->get('rating');
+		return $q->num_rows();
+	}
+	
+	
 	function getStoreUrlKey($id) {
 		$this->db->select('url_key'); 
 		$this->db->where('store_id', $id); 
