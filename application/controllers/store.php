@@ -26,10 +26,10 @@ class Store extends CI_Controller {
 	
 	function ratestore()
     {
-		$ip = $this->input->ip_address();
+		$user = $this->input->post('user');
 		$rating = $this->input->post('rating');
 		$storeId = $this->input->post('store');	
-		if(!$this->stores_model->getRate($storeId,$rating,$ip)){
+		if(!$this->stores_model->getRate($storeId,$rating,$user)){
 			if (!get_cookie('rateStore-' . $storeId)) {
 			// cookie not set, first visit
 
@@ -161,6 +161,7 @@ class Store extends CI_Controller {
 			$data['content']['records']['freinds'] = $freindslist;
 			$data['content']['store']['freinds'] = $freindslist;			
 		}
+		$data['content']['store']['userId'] = $onlyfreinds ? $onlyfreinds : 0;
 		
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);

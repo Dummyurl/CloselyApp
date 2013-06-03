@@ -19,11 +19,11 @@ class stores_model extends ci_Model {
 		return $q->result();	
 	}
 	
-	function getRate($storeid,$rate,$ip) {
+	function getRate($storeid,$rate,$user) {
 		$data = array(
 			'rate_id' => $storeid ,
 			'rating' => $rate ,
-			'user_ip' =>  $ip		
+			'user_id' =>  $user		
 		);
 		$this->db->insert('rating', $data); 
 		return $this->db->_error_number();	
@@ -35,6 +35,7 @@ class stores_model extends ci_Model {
 			$this->db->where('rate_id', $storeid);
 			$this->db->where('user_id', $userId);
 			$q = $this->db->get('rating');
+			log_message('debug',print_r($q->result(),true));
 			if ($res = $q->result()){
 				return array('user'=>$userId , 'rating'=>$res[0]->rating , 'exist'=>true);
 			}

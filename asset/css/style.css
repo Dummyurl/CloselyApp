@@ -2949,7 +2949,8 @@ margin: 5px 3px 5px -8px;
 background: rgb(192, 192, 192);
 width: 299px;
 margin: 14px 0px 0px 0px;
-float: right;}
+float: right;
+clear: right;}
 
 .infobox-container {
     position: relative;

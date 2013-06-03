@@ -8,7 +8,7 @@
 		<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
 		<div class="rating_messaege"><?php echo 'דירגת כבר חנות זו' ?></div>
 		<?php else : ?>
-		<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" <?php /* echo !empty($iRateThisStore) ?  'data-rateit-value="' . $iRateThisStore . '" data-rateit-ispreset="true" data-rateit-readonly="true"' : '' ; */ ?>></div></div>
+		<div class="store_rating"><div data-storeid="<?php echo $info->store_id;?>"  class="rateit" <?php echo 'data-rateit-value="' . $totalRating . '" data-rateit-ispreset="true"' ?>></div></div>
 		<div class="raters"><?php echo '(' .  $raters . ' מדרגים )' ?></div>
 		<div class="rating_messaege"><?php echo $iBuyInStore['message'] ?></div>
 		<?php endif ?>
@@ -66,7 +66,7 @@ $(document).ready(function(){
 		var rateUrl = '<?php echo base_url();?>' + 'store/ratestore';
 		$.ajax({
 			url: rateUrl, //your server side script
-			data: { store: storeID, rating: value }, //our data
+			data: { store: storeID, rating: value , user: '<?php echo $userId ?>'}, //our data
 			type: 'POST',
 			success: function (data) {
 				$('#response').append('<li>' + data + '</li>');

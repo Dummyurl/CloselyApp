@@ -37,3 +37,23 @@
 	</body>
 	
 </html>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){	
+	$(window).scroll(function () {
+/* 		if($(window).scrollTop() >= 300){
+ 			$("#headline").css("position",'fixed');
+			$("#headline").css("top",58);
+			$("#headline").css("right",161);
+			$("#headline").css("z-index",100000); 
+			$("#corner").hide()
+		} else {
+			$("#headline").css("position",'relative');
+			$("#headline").css("top",0);
+			$("#headline").css("right",0);
+			$("#corner").show()
+			
+		} */
+	});
+}); 
+</script>
