@@ -39,7 +39,7 @@
 							<div class="coupon_shop"><?php echo ':הקנייה </br>' .  $shopInfo[0]->shop_title ?></div>
 							<div class="clearfix"></div>
 							<p class="coupon_adder"><?php echo $userInfo[0]->user_name  . ' :נוסף ע"י'?></p>
-							<div class="ask_for_coupon">בקש קופון</div>
+							<div class="ask_for_coupon" id="<?php echo $coupon->coupon_id ?>">בקש קופון</div>
 							<a href="<?php echo base_url() . 'catalog/shop/' . $coupon->shop_id;?>"><div class="shop_info">פרטי הקנייה</div></a>
 						</div>
 					</div>	
@@ -66,5 +66,37 @@
 				}, function() {
 					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:530});
 				});
-			});
+				
+				
+				$('.ask_for_coupon').click(function(){
+					var couponId = $(this).attr('id');
+					url = '<?php echo base_url();?>' + 'catalog/requastCoupon';
+					// $.fancybox.showActivity();
+/* 					$.ajax({  
+							type: "POST",  
+							url: url, 
+							cache	: false,
+							data:  {userId: '<?php echo $userId ?>' , couponId: couponId},
+							success: function(html) {
+								$.fancybox(html);
+							}	 
+						}); */		
+						
+ 				$.fancybox(
+					{
+						autoSize:false,
+						href : url + '?couponId=' + couponId,
+						width:400,
+						height:360,
+						scrolling:'no',
+						padding:0,
+						closeBtn: false,
+						type : 'iframe',
+					}); 
+					return false;	
+				});
+			});		
+			
+			
+
 </script>

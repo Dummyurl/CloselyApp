@@ -31,6 +31,15 @@ class Catalog extends CI_Controller {
 		$this->load->view('catalog/shopproduct',$data);
 	}
 	
+	function requastCoupon()
+    {
+		$fb_data = $this->session->userdata('fb_data');
+		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 0 ;
+		$coupon_id = $this->input->get('couponId');
+		$data['coupon'] = $this->catalog_model->getCoupon($coupon_id);
+		$this->load->view('popups/askforcoupon',$data);
+	}
+	
 	function getview()
     {	
 		$tab = $this->input->post('tab');
