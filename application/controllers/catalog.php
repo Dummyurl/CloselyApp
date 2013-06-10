@@ -34,11 +34,30 @@ class Catalog extends CI_Controller {
 	function requastCoupon()
     {
 		$fb_data = $this->session->userdata('fb_data');
-		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 0 ;
+		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 1130160922 ;
+		if ($user){
+			$data['couponList'] = $this->catalog_model->getCouponsList($user);
+		}
+		// log_message('debug',print_r($data['couponList'],true));
+		$data['user'] = $user ;
 		$coupon_id = $this->input->get('couponId');
 		$data['coupon'] = $this->catalog_model->getCoupon($coupon_id);
 		$this->load->view('popups/askforcoupon',$data);
 	}
+	
+	function submitcouponrequest()
+    {
+		// log_message('debug',print_r($data['couponList'],true));
+		$requesterId = $this->input->post('requesterId');
+		$requestFrom = $this->input->post('requestfrom');
+		$couponId = $this->input->post('couponId');
+		$Message = $this->input->post('requestMessage');
+		$excludes = explode(",",$this->input->post('excludes'));
+		echo $this->catalog_model->postCouponRequest($requesterId,$requestFrom,$couponId,$Message,$excludes);
+		 
+	}
+	
+	
 	
 	function getview()
     {	

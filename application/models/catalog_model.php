@@ -88,7 +88,43 @@ class catalog_model extends ci_Model {
 		$this->db->where('coupon_id', $id); 
 		$q = $this->db->get('coupons');
 		return $q->result();	
+	}
+	
+	function postCouponRequest($requesterId,$requestFrom,$couponId,$Message,$excludes) {
+
+		$data = array(
+			'ask_user_id' => $requesterId ,
+			'request_user_id' => $requestFrom ,
+			'ask_coupon_id' =>  $couponId ,
+			'message' =>  $Message,
+			'offer_coupon' =>  serialize($this->getUserOfferCoupons($requesterId , $excludes))			
+		);
+		
+		$this->db->insert('requested_coupons', $data); 
+		return $this->db->_error_number();		
+	}
+
+
+	function getUserOfferCoupons($user_id , $excludes) {
+			
+		$this->db->select('coupon_id');
+		$this->db->where('user_id', $user_id);
+		if(!empty($excludes)){
+			$this->db->where_not_in('coupon_name',$excludes);
+		}
+		$q = $this->db->get('coupons');
+		log_message('debug',print_r(serialize($q->result_array()),true));
+		return $q->result_array();	
 	}	
+	
+
+	function getCouponsList($user_id) {
+		$this->db->select('coupon_id,coupon_name');
+		$this->db->where('user_id', $user_id); 
+		$q = $this->db->get('coupons');
+		return $q->result();	
+	}	
+	
 	
 	function getShopComments($id) {
 		$this->db->where('shop_id', $id); 
