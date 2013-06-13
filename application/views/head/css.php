@@ -12,5 +12,6 @@
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/fancybox/jquery.fancybox.css"/>
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/rateit.css"/>
 		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/chosen.css"/>
+		<link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/scrollbar.css">
 
 				

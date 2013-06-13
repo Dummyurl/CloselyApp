@@ -121,8 +121,8 @@ aside{
     font-size: 12px;
     line-height: 1.5em;
 }
-#top-widget-holder img{float:right;margin: 1px 2px;}
-#top-widget-holder .fbicon{float:left;margin: 1px 2px;}
+#top-widget-holder img{float:right;margin: 5px 2px;}
+#top-widget-holder .fbicon{float:left;margin: 8px 2px;}
 .page-heading{
 	text-align: right;
 margin: 27px 0px 24px 1px;
@@ -151,12 +151,7 @@ padding: 0 5px;
 margin: 117px -2px;
 text-align: right;
 direction: rtl;
-border-radius: 6px;
--moz-border-radius: 6px;
--webkit-border-radius: 6px;
--moz-box-shadow: inset 5px 5px 15px -7px black;
--webkit-box-shadow: inset 5px 5px 15px -7px black;
-box-shadow: inset 5px 5px 15px -7px black;}
+}
 .side-top-img img{position: absolute;
 top: -25px;
 right: -1px;
@@ -168,17 +163,14 @@ height: 133px;}
 .addbold{font-weight: bold;
 font-size: 12px;
 color: rgb(4, 18, 172);}
-.find{border-radius: 6px;
--moz-border-radius: 6px;
--webkit-border-radius: 6px;
-border: 1px solid #CCC;
+.find{border: 1px solid #CCC;
 position: absolute;
-bottom: 0px;
+bottom: -3px;
 font-size: 19px;
 font-weight: bold;
-color: black;
-left: 3px;
-padding: 7px 12px;
+color: rgb(243, 243, 243);
+left: -3px;
+padding: 12px 6px 11px 6px;
 background: orange;
 }
 /* WIDGETS------------------------------------------------*/
@@ -544,9 +536,9 @@ nav a{
 /* MAIN ------------------------------------------------------------*/
 
 #main{
- -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+ -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.1);
 
 	padding-top: 40px;
 	background: url(../img/oblique-lines.png) repeat-x;
@@ -1031,15 +1023,8 @@ article .meta .user{
 	float: right;
 	width: 260px; /* 300 - 40 padding */
 	min-height: 275px;
-	margin-top: -58px;
+	margin-top: -16px;
 	padding: 20px 14px 20px 24px;
-	
-	-webkit-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-	-moz-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-	-o-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-	box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-	
-	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 }
 
 #headline h1{ 
@@ -1050,7 +1035,7 @@ article .meta .user{
 
 #headline em#corner,
 #sidebar em#corner{
-	display: block;
+	display: none;
 	position: absolute;
 	top:0px;
 	left: -14px;
@@ -1121,9 +1106,7 @@ font-weight: bold;
 display: block;
 text-align: center;
 position: relative;
-background:rgb(248, 172, 2);
-background: -moz-linear-gradient(top,rgb(248, 172, 2), rgb(248, 172, 2) 0%, rgb(248, 172, 2) 51%, rgb(248, 172, 2));
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(248, 172, 2)), color-stop(.5, rgb(248, 172, 2)), to(rgb(248, 199, 2)));
+background:rgb(252, 172, 32);
 }	
 	/* WHILE HOVERED */
 	.button:hover {
@@ -2090,8 +2073,9 @@ float: right;
 width: 710px;
 margin-right: 30px;
 margin-top: 70px;
-height: 120px;
-		
+border: 1px rgb(223, 223, 223) solid;
+height:225px;
+overflow: hidden;		
 	}
 	
 	.main_cupon-4{
@@ -2461,7 +2445,7 @@ font-weight: bold !important;}
 position: relative;
 float: right;
 width: 715px;
-margin: 95px 24px 30px 0px;
+margin: 20px 24px 30px 0px;
 overflow: hidden;
 color: black;
 	}
@@ -2480,10 +2464,6 @@ margin: 7px;
 border-style: solid;
 border-width: 1px;
 border-color: rgb(145, 145, 145);
--webkit-border-radius: 3px 3px 0 0;
--moz-border-radius: 3px 3px 0 0;
-border-radius: 3px 3px 0 0;
-
 	}
 	.double_grey_double_divider{margin: 12px 8px 12px 6px;
 height: 1px;}
@@ -2744,13 +2724,13 @@ height: auto!important;}
 .comments  .recommands .head_bubble{background: url(../img/long_comment_head.png) no-repeat !important;}
 
 /* grid shop view */	
-	.product_grid{position: relative;}
+	.product_grid{position: relative;overflow:hidden;}
 	.product_grid .shop_header{height: 63px;
 background: white;
 border-bottom: 1px rgb(209, 209, 209) solid;}
  	.product_grid .shop_header img{float:right;margin: 7px;} 
 	.product_grid .shop_contant{margin: 0px 0px 7px;
-height: 222px;}
+height: 233px;}
 	.product_grid .shop_contant .shop_head  .shop_buyer{float:right; margin: 0px 8px 0px 0px;}
 	.product_grid  .shop_title{margin: 13px 4px 0px 8px;
 padding: 4px;
@@ -2766,8 +2746,12 @@ color: orange;}
 	
 .brandlogo{float: right;}
 .brandlogo img{margin: 5px 7px 0px;
-height: 30px;
-width: 84px;}
+height: 20px;
+opacity: 0.5;
+width: 60px;
+position: absolute;
+left: 0px;
+z-index: 100;}
 	.product_grid .shop_contant .shop_image{height: 240px;
 position: relative;
 width: 100%;
@@ -2778,11 +2762,9 @@ text-align: center;
 
 
 .facebook_like{width: 99px;
-position: absolute;
-height: 30px;
-top: 41px;
-left: 0px;
-float: left;}
+width: 100px;
+float: left;
+margin: 6px 0px;}
 
 .shop_header .triangle{
 border-color: rgba(255, 255, 255, 0.97) rgba(182, 126, 41, 0) transparent transparent;
@@ -2827,7 +2809,7 @@ opacity: 0.3;
 cursor: pointer;}
 .tumb_image img:hover{opacity:1;}
 .tumb_image{position: absolute;
-bottom: 12px;
+bottom: 65px;
 z-index: 400;
 opacity:0;
 left: 2px;
@@ -2968,6 +2950,56 @@ z-index: 10000;
 width: 100%;
 }
 
+
+
+/* Newgrig */
+.grid_foot{
+	width: 100%;
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	background: rgba(241, 241, 241, 0.75);
+	top: 180px;
+	z-index: 100;
+}
+.grid_foot img{float:right;margin: 6px;}
+.grid_foot li{border-top:1px black dashed;height:20px;width:100%;clear: both;}
+.grid_foot .title{
+	float: right;
+	margin: 6px;
+	color: rgb(102, 0, 0);
+	font-size: 14px;
+	width: 93px;
+	text-align: right;
+}
+.grid_foot .subj{float: right;
+margin: 0px 7px;
+color: rgb(0, 0, 119);}
+.grid_foot .desc{float:left;float: left;
+margin: 0px 12px;}
+.grid_foot p{font-size:12px;padding:0px;color: black;
+font-weight: 100;}
+
+.overshop{
+-moz-box-shadow: -6px 6px 20px 0px rgb(63, 63, 63);
+-webkit-box-shadow: -6px 6px 20px 0px rgb(63, 63, 63);
+box-shadow: -5px 6px 20px 0px rgb(63, 63, 63);
+}
+
+
+.bxslider .product_name{
+display:none;
+margin: 0 auto;
+position: absolute;
+top: 6px;
+color: rgb(1, 8, 88);
+width: 150px;
+padding: 5px 36px;
+background: rgba(255, 255, 255, 0.7);
+font-weight: bold;
+font-size: 14px;
+}
+
 /* products grid */
 
 .products{position: relative;}
@@ -3100,7 +3132,8 @@ z-index: -1; /* displayed under bubble */
 
 }
 
-.box-block{background: url(../img/boxbg.png) left bottom no-repeat rgba(247, 246, 240, 0.19);
+.box-block{
+/* background: url(../img/boxbg.png) left bottom no-repeat rgba(247, 246, 240, 0.19); */
 float: right;clear:right}
 .infobox {
 text-align: right;
@@ -3109,9 +3142,10 @@ padding: 10px 5px 5px 5px;
 margin: 10px;
 position: relative;
 z-index: 90;
--webkit-box-shadow: -1px -1px 13px -5px rgba(0,0,0,.8);
+/* -webkit-box-shadow: -1px -1px 13px -5px rgba(0,0,0,.8);
 -moz-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
-box-shadow: 1px -1px 13px -5px rgba(0,0,0,.8);
+box-shadow: 1px -1px 13px -5px rgba(0,0,0,.8); */
+border: 1px rgb(228, 228, 228) solid;
 color: #fff;
 font-size: 90%;
 }
@@ -3123,9 +3157,9 @@ padding: 10px 20px;
 margin: 0;
 left: 5px;
 z-index: 100;
--webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+/* -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
 -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+box-shadow: 0px 0px 3px rgba(0,0,0,0.55); */
 font-size: 160%;
 text-align: right;
 font-weight: bold;
@@ -3140,10 +3174,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', En
 
 .header_orange{
 background:rgb(248, 172, 2);
-background: -moz-linear-gradient( center top, rgb(255, 173, 0) 0%, rgb(255, 153, 0) 41% );
+/* background: -moz-linear-gradient( center top, rgb(255, 173, 0) 0%, rgb(255, 153, 0) 41% );
 background: -webkit-gradient( linear, center bottom, center top, from(rgb(255, 173, 0)), to(rgba(255, 122, 0, 0.41)) );
 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000');
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')";}
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')"; */}
 
 .header_gray{
 background:rgb(250, 250, 250);
@@ -3833,4 +3867,6 @@ width: 40px!important;
 top: -1px!important;
 right: 6px!important;
 }
+
+.login_bt{float:right}
 

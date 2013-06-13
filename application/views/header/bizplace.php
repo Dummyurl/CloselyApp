@@ -1,51 +1,15 @@
 
 	<div id="top-widget-holder">
-		<img src="<?php echo base_url();?>asset/img/social/twitter.png" alt="Post" class="fbicon" />
-		<img src="<?php echo base_url();?>asset/img/social/facebook.png" alt="Post" class="fbicon" />
-		<img src="<?php echo base_url();?>asset/img/social/google.png" alt="Post" class="fbicon" />
+		<img src="<?php echo base_url();?>asset/img/social/tweeter_s.png" alt="Post" class="fbicon" />
+		<img src="<?php echo base_url();?>asset/img/social/facebook_s.png" alt="Post" class="fbicon" />
+		<img src="<?php echo base_url();?>asset/img/social/google_s.png" alt="Post" class="fbicon" />
+		<img src="<?php echo base_url();?>asset/img/social/youtube_s.png" alt="Post" class="fbicon" />
 				<div class="wrapper">
 					
 						<div class="top-panel">
-							<span class="thispro">
-							<input type="text" value="הזן קוד קופון">
-							<div class="searchbutton search header_orange"><span class="search_text">שתף</span></div>
-							</span>
-							<div class="panel-shadow">
-								<div class="user-panel" id="panel">
-									<div class="face-text">
-										<div class="user-panel-contant">
-										<?php if(!$fb_data['me']): ?>
-										<div class="panel_line">
-											<img src="<?php echo base_url();?>asset/img/facebook1.png" alt="Post" class="fbicon" /><a href="<?php echo $fb_data['loginUrl']; ?>"  class="fbconnect" onclick = "facebookPopup(this.href); return false"><?php echo ' התחבר עם פייסבוק '; ?></a>
-											<img class="biz-icon" src="<?php echo base_url();?>asset/img/bizicon.png" alt="Post" /><a href="#"><?php echo ' בעל עסק? לחץ כאן '; ?></a>	
-										</div>
-										<?php else: ?>
-										<a href="#" class="open_panel"><img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="smallpic" /><div class="user_text">פאנל משתמש</div></a>
-										<div class="notification_icons">
-										<img src="<?php echo base_url();?>asset/img/comment.png" alt="Post" class="fbicon" />
-										<img src="<?php echo base_url();?>asset/img/cart.png" alt="Post" class="fbicon" style="margin:-3px 0px;" />
-										<img src="<?php echo base_url();?>asset/img/request.png" alt="Post" class="fbicon" />
-										<img src="<?php echo base_url();?>asset/img/coupons.png" alt="Post" class="fbicon" />
-										</div>
-										<div class="panel_contant">
-										<img src="https://graph.facebook.com/<?php echo $fb_data['uid']; ?>/picture" alt="" class="pic" />
-											<p><?php echo $fb_data['me']['name']; ?> ,הי<br />
-										הודעות חדשות<a href="<?php echo $fb_data['logoutUrl']; ?>">7</a>יש לך
-										</p>
-										<div class="mypanel_buttons">
-											<img src="<?php echo base_url();?>asset/img/buttons/mysetting.png" alt="Post" class="panel_btn" />
-											<img src="<?php echo base_url();?>asset/img/buttons/myfav.png" alt="Post" class="panel_btn" />
-											<img src="<?php echo base_url();?>asset/img/buttons/myclubs.png" alt="Post" class="panel_btn" />
-											<img src="<?php echo base_url();?>asset/img/buttons/mycoupons.png" alt="Post" class="panel_btn" />
-											<img src="<?php echo base_url();?>asset/img/buttons/myshops.png" alt="Post" class="panel_btn" />
-										</div>
-										<!-- <a href="<?php echo site_url('main/topsecret'); ?>">You can access the top secret page</a> or <a href="<?php echo $fb_data['logoutUrl']; ?>">logout</a> </p> -->
-										</div>
-										<?php endif; ?>
-										</div>	
-									</div>
-								</div>
-							</div>
+							<a href="#" class="login_bt" onclick="fb_login();"><img src="<?php echo base_url();?>asset/img/facbooklogin.png" /></a>
+							<a href="#" class="login_bt"><img src="<?php echo base_url();?>asset/img/bt_div.png" /></a>
+							<a href="#" class="login_bt"><img src="<?php echo base_url();?>asset/img/bizlogin.png" /></a>
 						</div>
 					
 					<div id="top-widget">
@@ -191,61 +155,37 @@ $(document).ready(function(){
     xfbml      : true  // parse XFBML
   });
 
-  // Here we subscribe to the auth.authResponseChange JavaScript event. This event is fired
-  // for any authentication related change, such as login, logout or session refresh. This means that
-  // whenever someone who was previously logged out tries to log in again, the correct case below 
-  // will be handled. 
-  FB.Event.subscribe('auth.authResponseChange', function(response) {
-    // Here we specify what we do with the response anytime this event occurs. 
-    if (response.status === 'connected') {
-      // The response object is returned with a status field that lets the app know the current
-      // login status of the person. In this case, we're handling the situation where they 
-      // have logged in to the app.
-      testAPI();
-    } else if (response.status === 'not_authorized') {
-      // In this case, the person is logged into Facebook, but not into the app, so we call
-      // FB.login() to prompt them to do so. 
-      // In real-life usage, you wouldn't want to immediately prompt someone to login 
-      // like this, for two reasons:
-      // (1) JavaScript created popup windows are blocked by most browsers unless they 
-      // result from direct interaction from people using the app (such as a mouse click)
-      // (2) it is a bad experience to be continually prompted to login upon page load.
-      FB.login();
-    } else {
-      // In this case, the person is not logged into Facebook, so we call the login() 
-      // function to prompt them to do so. Note that at this stage there is no indication
-      // of whether they are logged into the app. If they aren't then they'll see the Login
-      // dialog right after they log in to Facebook. 
-      // The same caveats as above apply to the FB.login() call here.
-      FB.login();
-    }
-  });
   };
 
-  // Load the SDK asynchronously
-  (function(d){
-   var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-   if (d.getElementById(id)) {return;}
-   js = d.createElement('script'); js.id = id; js.async = true;
-   js.src = "//connect.facebook.net/en_US/all.js";
-   ref.parentNode.insertBefore(js, ref);
-  }(document));
+function fb_login(){
+    FB.login(function(response) {
 
-  // Here we run a very simple test of the Graph API after login is successful. 
-  // This testAPI() function is only called in those cases. 
-  function testAPI() {
-    console.log('Welcome!  Fetching your information.... ');
-    FB.api('/me', function(response) {
-      console.log('Good to see you, ' + response.name + '.');
+        if (response.authResponse) {
+            console.log('Welcome!  Fetching your information.... ');
+            //console.log(response); // dump complete info
+            access_token = response.authResponse.accessToken; //get access token
+            user_id = response.authResponse.userID; //get FB UID
+
+            FB.api('/me', function(response) {
+                user_email = response.email; //get user email
+          // you can store this data into your database             
+            });
+
+        } else {
+            //user hit cancel button
+            console.log('User cancelled login or did not fully authorize.');
+
+        }
+    }, {
+        scope: 'publish_stream,email'
     });
-  }
+}
+(function() {
+    var e = document.createElement('script');
+    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+    e.async = true;
+    document.getElementById('fb-root').appendChild(e);
+}());
+
+
 </script>
-
-<!--
-  Below we include the Login Button social plugin. This button uses the JavaScript SDK to
-  present a graphical Login button that triggers the FB.login() function when clicked.
-
-  Learn more about options for the login button plugin:
-  /docs/reference/plugins/login/ -->
-
-<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>			

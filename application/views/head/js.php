@@ -43,7 +43,7 @@
 		<!-- Fancybox -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/fancybox/jquery.fancybox.pack.js"></script>
 		<!-- Fancybox slider -->
-		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery-ui-1.8.13.custom.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery-ui.js"></script>
 		<!-- Fancybox slider -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.thumbnailScroller.js"></script>
 		<!-- Fancybox slider -->
@@ -51,7 +51,10 @@
 		<!-- Fancybox slider -->
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.cycle.all.js"></script>	
 		<script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.rateit.js"></script>
-		<script type="text/javascript" src="<?php echo base_url();?>asset/js/chosen.jquery.js"></script>			
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/chosen.jquery.js"></script>
+		<!-- swiper -->
+		<script type="text/javascript" src="<?php echo base_url();?>asset/js/iscroll.js"></script>
+	
 	
 
 		

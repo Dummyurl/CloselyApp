@@ -36,7 +36,7 @@ body {-webkit-tap-highlight-color: #ea4c88;}
 
 /* HEADER ------------------------------------------------------------*/
 
-header{ background: rgb(96,124, 150) url(../img/small-top-bg.png) top left repeat-x; }
+header{ background: rgb(84, 173, 190) url(../img/topbar1.png) top left repeat-x; }
 
 
 /* WIDGETS------------------------------------------------*/
@@ -171,13 +171,8 @@ article .meta{
 
 #slider-holder #headline{ 
 
-border-style: solid;
-border-width: 1px;
-background: rgb(247, 247, 247);
-border-color: rgb(223, 223, 223) -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,.8);
--moz-box-shadow: 5px 4px 11px rgba(0,0,0,.8);
-box-shadow: 1px -4px 20px -5px rgba(0,0,0,.8);
-margin-top: -58px;
+border: 1px rgb(228, 228, 228) solid;
+
  }
 
 
