@@ -23,6 +23,39 @@ class User extends CI_Controller {
 		$this->load->view('popups/user',$data);
     }
 	
+	function follow($userId)
+    {
+		$follower = $this->input->post('user');
+		if($this->users_model->isFollowed($userId,$follower)){
+			$folowed = 1;
+		} else {
+			$folowed = 0;
+		}
+		
+		$errors = $this->users_model->followMe($userId , $follower, $folowed);
+		echo $errors;	
+    }
+	
+	function addtofreinds()
+    {
+		$fb_data = $this->session->userdata('fb_data');
+		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 1130160922;
+		$data['requester'] = $this->users_model->getUser($user);
+		$data['user'] =$this->users_model->getUser($this->input->get('user')) ;
+		$this->load->view('popups/addfreind',$data);
+		// 1384303991782967
+    }
+	
+	function submitfreindrequest()
+    {
+		$requesterId = $this->input->post('requesterId');
+		$requestFrom = $this->input->post('requestfrom');
+		$Message = $this->input->post('requestMessage');
+		echo $this->users_model->postFreindshipRequest($requesterId,$requestFrom,$Message);
+    }
+	
+	
+	
 	function gettab()
     {
 		$tab = $this->input->post('tab');
@@ -42,8 +75,9 @@ class User extends CI_Controller {
 	
 	function page($userId , $view = null)
     {
+			
 		$fb_data = $this->session->userdata('fb_data');
-		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : false ;
+		$onlyfreinds = isset($fb_data['me']) ? $fb_data['me']['id'] : 0 ;
 		$this->load->model('categories_model');
 		$this->load->model('stores_model');
 		$shopStores = $this->users_model->getUserShopStores($userId);
@@ -61,6 +95,22 @@ class User extends CI_Controller {
 		$data['content']['user']['freinds'] = $this->users_model->getFreindsId($userId);
 		$data['content']['user']['shopstores']['locations'] = $this->stores_model->getShopStoreLocation($shopStores);
 		$data['content']['user']['view'] = $view;
+		$onlyfreinds = 1130160922;
+		$data['content']['user']['loginuser'] = $onlyfreinds;
+		
+		if ($onlyfreinds){
+			$data['content']['user']['isFollowed'] = $this->users_model->isFollowed($userId,$onlyfreinds);
+			$data['content']['user']['followStatus'] = $this->users_model->getFollowStatus($userId,$onlyfreinds);
+			$data['content']['user']['isMyFreind'] = $this->users_model->isMyFreind($userId,$onlyfreinds);
+		if(is_numeric($userId)){
+			$data['content']['user']['FreindRequest'] = $this->users_model->freindshipRequest($userId,$onlyfreinds);
+		}
+		} else {
+			$data['content']['user']['isFollowed'] = 0;
+			$data['content']['user']['followStatus'] = 0;
+			$data['content']['user']['isMyFreind'] = 0;
+			$data['content']['user']['FreindRequest'] = 0;
+		}
 		$data['fb_data'] = $fb_data;
 		$this->load->view('home',$data);
     }

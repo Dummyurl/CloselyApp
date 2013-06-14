@@ -25,7 +25,7 @@
 							<?php $i=1; ?>
 								<?php foreach ($shopProducts as $product) : ?>
 									<li rel="<?php echo $i++ ?>">
-										<div class = "product_name"><?php echo $product->product_name ?></div>
+										<div class = "product_name"><a href="<?php echo base_url();?>catalog/product/<?php echo $storeInfo[0]->store_name . '/' . $product->url_key ?>" ><?php echo $product->product_name ?></a></div>
 										<img src="<?php echo base_url();?>asset/img/store/<?php echo $product->store_id .'/'. $product->product_image ?>"/>									
 									</li>
 								<?php endforeach ?>
@@ -50,7 +50,7 @@
 					<img src="https://graph.facebook.com/<?php echo $shop->user_id ?>/picture"/>
 					<div class = "title">
 					<span><?php echo $shop->shop_title ?></span>
-					<p>Niso mazuz</p>
+					<p><?php echo $userInfo[0]->user_name ?></p>
 					</div>
 					<a href="/shops/popup/<?php echo $shop->shop_id ?>" class="fancybox"><img src="<?php echo base_url();?>asset/img/show_shop.png"/></a> 				
 					<ul>
@@ -60,15 +60,15 @@
 						</li>
 						<li>
 							<div class="subj" >סכום הקנייה</div>
-							<div class="desc" >66</div>
+							<div class="desc" ><?php echo !empty($shop->shop_price) ? $shop->shop_price . ' ש"ח ' : "לא צויין"; ?></div>
 						</li>
 						<li>
 							<div class="subj" >בית עסק</div>
-							<div class="desc" >זארה</div>
+							<div class="desc" ><?php echo $storeInfo[0]->store_name ?></div>
 						</li>
 						<li>
 							<div class="subj" >קופון</div>
-							<div class="desc" >50 אחוז הנחה בקסטרו</div>
+							<div class="desc" >  על כל הקולקציה50 אחוז הנחה בקסטרו</div>
 						</li>
 						<li>
 							<div class="subj" >שתף חברים</div>
@@ -97,16 +97,15 @@
   });	
   
   
-  
-		$('.shop_footer , .tumb_image').hoverIntent(overimg,outimg);
-		 function overimg(){ /* $(this).children('.over-img-photo').css('display','block'); */	
-			$('.tumb_image[rel=' + $(this).attr('rel') + ']').animate({opacity: 1,}, 200);
-			
+/*   
+		$('.tumb_image').hoverIntent(overimg,outimg);
+		 function overimg(){ 
+				$('.tumb_image[rel=' + $(this).attr('rel') + ']').animate({opacity: 1,}, 200);	
 		 }
-		 function outimg(){ /* $(this).children('.over-img-photo').css('display','none'); */
+		 function outimg(){ 
 		 	$('.tumb_image[rel=' + $(this).attr('rel') + ']').animate({opacity: 0,}, 200);			
 		}
-		
+ */		
 	$(document).ready(function(){			 
 		$('.listGrid').hoverIntent(overimg1,outimg1);
 		 function overimg1(){ $(this).addClass('overshop'); $(this).find(".bx-controls-direction a , .product_name").show()}
@@ -130,7 +129,7 @@ var curHeight;
 			diff = 180 - p.top;
 			if (offset1 <= diff){
 				//$(this).height(180);
-				p.top = 60;
+				p.top = 40;
 			} else {
 				//$(this).height(60);
 				p.top = 180;

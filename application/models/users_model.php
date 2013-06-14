@@ -117,6 +117,74 @@ class users_model extends ci_Model {
 		return true;
 	}
 	
+	function followMe($userId , $follower, $folowed) {
+		if($folowed){
+			$follow = $this->getFollowStatus($userId,$follower);
+			$status = !$follow[0]->status;
+			$data = array('status'=>$status);
+			$this->db->where('follow_id', $userId);
+			$this->db->where('follower_id', $follower);
+			$this->db->update('followers', $data); 
+		} else {
+			$data = array('follower_id'=>$follower ,'follow_id'=>$userId,'status'=>1);
+			$this->db->insert('followers',$data);
+			$status = 1;
+		}
+		return $status;
+	}
+
+	function isFollowed($userId,$onlyfreinds) {
+		$this->db->where('follow_id', $userId);
+		$this->db->where('follower_id', $onlyfreinds); 		
+		$q = $this->db->get('followers');
+		return $q->result();
+	}
+	
+	function getFollowStatus($userId,$onlyfreinds) {
+		$this->db->select('status');
+		$this->db->where('follow_id', $userId);
+		$this->db->where('follower_id', $onlyfreinds); 		
+		$q = $this->db->get('followers');
+		return $q->result();
+	}
+
+
+	function postFreindshipRequest($requesterId,$requestFrom,$Message) {
+
+		$data = array(
+			'request_from' => $requestFrom ,
+			'requester_id' => $requesterId ,
+			'message' =>  $Message,			
+		);
+		
+		$this->db->insert('freindships_request', $data); 
+		return $this->db->_error_number();		
+	}
+
+	function isMyFreind($userId,$myId) {
+		$this->db->where('user_id', $myId); 
+		$q = $this->db->get('fusers');
+		$res = $q->result();
+		if ($res){
+			$freindsArr = unserialize($res[0]->reg_freinds);		
+			if (in_array($userId,$freindsArr)){
+				return true;
+			}
+		}
+		return false;
+	}
+
+	function freindshipRequest($userId,$myId) {
+		log_message('debug','requester_id' . $userId);
+		log_message('debug','request_from' . $myId);
+		$this->db->where('requester_id', $myId);
+		$this->db->where('request_from', $userId); 		
+		$q = $this->db->get('freindships_request');
+		log_message('debug',print_r($q->result(),true));
+		return $q->result();
+	}
+	
+	
 	function updateFreindsList($info) {
 		$id = $info['id'];
 		$freinds = $info['freinds'];

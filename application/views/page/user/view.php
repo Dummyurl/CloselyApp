@@ -31,9 +31,9 @@
 				<div class="picture"><img src="https://graph.facebook.com/<?php echo $id; ?>/picture?type=large"  /></div>
 				<div class="buttons">
 				<ul>
-					<li class="action_button">עקוב אחריי</li>
-					<li class="action_button">הוסף לחברים</li>
-					<li class="action_button">שלח הודעה</li>
+					<li class="action_button" id ="followme">עקוב אחריי</li>
+					<li class="action_button" id ="addtofreinds">הוסף לחברים</li>
+					<li class="action_button" id ="sendmessage">שלח הודעה</li>
 				</ul>
 				</div>
 			</div>
@@ -70,6 +70,7 @@
 		</div>
 	</div>
 </div>	
+<?php print_r($FreindRequest); ?>
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
 var tabsId = ['myshops','mycoupons','myrecommands'];
@@ -139,8 +140,67 @@ var tabsId = ['myshops','mycoupons','myrecommands'];
 					 
 				});		
 	});
-	
 
+if('<?php echo !empty($isFollowed) && $followStatus[0]->status ?>'){	
+	$('#followme').html('במעקב');
+	$('#followme').addClass('following');
+}
+
+	
+	$('#followme').click(function(){
+		var url = '<?php echo base_url();?>' + 'user/follow/' + <?php echo $id ?>;
+		if('<?php echo !empty($loginuser) ?>'){
+			$.ajax({  
+				type: "POST",  
+				url: url,  
+				data: {user: '<?php echo $loginuser ?>'},				
+				success: function(status) { 
+					if(status){
+					
+						$('#followme').html('במעקב');
+						$('#followme').addClass('following');
+					} else {
+						$('#followme').html('עקוב אחרי');
+						$('#followme').removeClass('following');						
+					}
+				}
+			});	
+		} else {
+			alert('עלייך להתחבר לאתר כדי לבצע פעולה זו');
+		}
+	});
+
+	if('<?php echo !empty($isMyFreind) ?>'){	
+		$('#addtofreinds').html('חברים');
+		$('#addtofreinds').addClass('following');
+	} else if('<?php echo !empty($FreindRequest) ?>'){
+		$('#addtofreinds').html('נשלחה בקשת חברות');
+		// $('#addtofreinds').addClass('following');
+	}
+	$('#addtofreinds').click(function(){
+	console.log('<?php echo !empty($loginuser) ?>');
+		if('<?php echo !empty($loginuser) ?>'){
+		
+				var userId = '<?php echo $id ?>';
+				var url = '<?php echo base_url();?>' + 'user/addtofreinds';
+ 				$.fancybox({
+					autoSize:false,
+					href : url + '?user=' + userId,
+					width:400,
+					height:300,
+					scrolling:'no',
+					padding:0,
+					closeBtn: false,
+					type : 'iframe',
+				}); 
+				return false;		
+		} else {
+			alert('עלייך להתחבר לאתר כדי לבצע פעולה זו');
+		}
+	});
+	
+	
+	
 	
  }); 
 </script>

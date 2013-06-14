@@ -34,7 +34,7 @@ class Catalog extends CI_Controller {
 	function requastCoupon()
     {
 		$fb_data = $this->session->userdata('fb_data');
-		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 1130160922 ;
+		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 0;
 		if ($user){
 			$data['couponList'] = $this->catalog_model->getCouponsList($user);
 		}

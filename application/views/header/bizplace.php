@@ -4,6 +4,7 @@
 		<img src="<?php echo base_url();?>asset/img/social/facebook_s.png" alt="Post" class="fbicon" />
 		<img src="<?php echo base_url();?>asset/img/social/google_s.png" alt="Post" class="fbicon" />
 		<img src="<?php echo base_url();?>asset/img/social/youtube_s.png" alt="Post" class="fbicon" />
+		<div class="coupon_bt">+ הוסף קנייה</div>
 				<div class="wrapper">
 					
 						<div class="top-panel">
@@ -11,7 +12,8 @@
 							<a href="#" class="login_bt"><img src="<?php echo base_url();?>asset/img/bt_div.png" /></a>
 							<a href="#" class="login_bt"><img src="<?php echo base_url();?>asset/img/bizlogin.png" /></a>
 						</div>
-					
+						
+				
 					<div id="top-widget">
 						<div class="padding">
 						<ul  class="widget-cols clearfix">
@@ -88,7 +90,7 @@
 					</div>
 				
 				</div>
-
+			
 
 			</div>
 			
