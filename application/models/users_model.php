@@ -22,7 +22,7 @@ class users_model extends ci_Model {
 		$res = $q->result();
 		$freindsArr = unserialize($res[0]->reg_freinds);
 		foreach($freindsArr as $uid=>$name){
-			$userIdArr[] = $name;
+			$userIdArr[] =  sprintf("%.0f",$name);
 		}
 		return $userIdArr;
 	}
@@ -161,6 +161,25 @@ class users_model extends ci_Model {
 		return $this->db->_error_number();		
 	}
 
+	function postUserMessage($sender,$recipt,$message) {
+
+		$data = array(
+			'sender' => $sender ,
+			'recipt' => $recipt ,	
+		);	
+		$this->db->insert('users_conversetions', $data); 
+		
+		$data = array(
+			'c_id' => $this->db->insert_id(),
+			'post_user_id' => $sender ,
+			'to_user' => $recipt ,
+			'message' => $message,
+		);
+		$this->db->insert('users_conversetions_replaies', $data); 
+		return $this->db->_error_number();		
+	}
+	
+	
 	function isMyFreind($userId,$myId) {
 		$this->db->where('user_id', $myId); 
 		$q = $this->db->get('fusers');
@@ -175,12 +194,12 @@ class users_model extends ci_Model {
 	}
 
 	function freindshipRequest($userId,$myId) {
-		log_message('debug','requester_id' . $userId);
-		log_message('debug','request_from' . $myId);
+		// log_message('debug','requester_id' . $userId);
+		// log_message('debug','request_from' . $myId);
 		$this->db->where('requester_id', $myId);
 		$this->db->where('request_from', $userId); 		
 		$q = $this->db->get('freindships_request');
-		log_message('debug',print_r($q->result(),true));
+		// log_message('debug',print_r($q->result(),true));
 		return $q->result();
 	}
 	
@@ -221,6 +240,7 @@ class users_model extends ci_Model {
 	
 	
 	function getUserName($uid) {
+		// log_message('debug',sprintf("%.0f",$uid));
 		$this->db->where('user_id', $uid); 
 		$q = $this->db->get('fusers');
 		$user = $q->result();

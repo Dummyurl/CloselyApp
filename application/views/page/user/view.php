@@ -8,7 +8,6 @@
 <link rel="stylesheet" media="all" href="<?php echo base_url();?>asset/css/jquery.thumbnailScroller.css"/>
 <div class="user_page_container">
 	<div class="title_top">
-		<div class="fav"></div>
 		<div class="title"><?php echo $info->user_name?></div>
 		<input type="text" value="חיפוש">
 		<div class="w-triangle"></div>
@@ -70,7 +69,7 @@
 		</div>
 	</div>
 </div>	
-<?php print_r($FreindRequest); ?>
+<?php // print_r($FreindRequest); ?>
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){	
 var tabsId = ['myshops','mycoupons','myrecommands'];
@@ -170,30 +169,63 @@ if('<?php echo !empty($isFollowed) && $followStatus[0]->status ?>'){
 		}
 	});
 
+	var letmeask = true;
+	var reason;
 	if('<?php echo !empty($isMyFreind) ?>'){	
 		$('#addtofreinds').html('חברים');
 		$('#addtofreinds').addClass('following');
+		letmeask = false;
+		reason = 'אתם כבר חברים';
 	} else if('<?php echo !empty($FreindRequest) ?>'){
 		$('#addtofreinds').html('נשלחה בקשת חברות');
+		letmeask = false;
+		reason = 'נשלחה בקשת חברות';
 		// $('#addtofreinds').addClass('following');
 	}
+	
+	
 	$('#addtofreinds').click(function(){
-	console.log('<?php echo !empty($loginuser) ?>');
 		if('<?php echo !empty($loginuser) ?>'){
-		
+			if(letmeask){
 				var userId = '<?php echo $id ?>';
 				var url = '<?php echo base_url();?>' + 'user/addtofreinds';
  				$.fancybox({
 					autoSize:false,
 					href : url + '?user=' + userId,
 					width:400,
-					height:300,
+					height:380,
+					scrolling:'no',
+					padding:0,
+					closeBtn: false,
+					type : 'iframe',
+					afterClose: function() {
+					  parent.location.reload(true); 
+					}
+				}); 
+				return false;
+			} else {
+			alert(reason);	
+			}
+		} else {
+			alert('עלייך להתחבר לאתר כדי לבצע פעולה זו');
+		}
+	});
+	
+	$('#sendmessage').click(function(){
+		if('<?php echo !empty($loginuser) ?>'){
+				var userId = '<?php echo $id ?>';
+				var url = '<?php echo base_url();?>' + 'user/sendmessage';
+ 				$.fancybox({
+					autoSize:false,
+					href : url + '?user=' + userId,
+					width:400,
+					height:320,
 					scrolling:'no',
 					padding:0,
 					closeBtn: false,
 					type : 'iframe',
 				}); 
-				return false;		
+				return false;
 		} else {
 			alert('עלייך להתחבר לאתר כדי לבצע פעולה זו');
 		}

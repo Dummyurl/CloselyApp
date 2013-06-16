@@ -4,7 +4,7 @@ Thumbnail scroller jQuery plugin
 scrollers styling
 */
 .jThumbnailScroller{position:relative; background:#fff; padding:0; overflow:hidden;}
-.jThumbnailScroller .jTscrollerContainer{position:absolute;}
+.jThumbnailScroller .jTscrollerContainer{position:absolute}
 .jThumbnailScroller .jTscroller{position:relative; height:100%; margin: 5px 0; left:0; top:0; display:inline-block; *display:inline;}
 .jThumbnailScroller .jTscroller a:first-child{margin-left:10px;}
 .jThumbnailScroller .jTscroller a img{border:none;}

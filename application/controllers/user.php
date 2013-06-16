@@ -10,6 +10,8 @@ class User extends CI_Controller {
 		$this->load->model('catalog_model');
 		$this->load->model('coupons_model');
 		$this->load->model('stores_model');
+		$this->load->helper('url');
+		$this->load->helper('captcha');
     }
 
     function popup($userId)
@@ -35,14 +37,44 @@ class User extends CI_Controller {
 		$errors = $this->users_model->followMe($userId , $follower, $folowed);
 		echo $errors;	
     }
+
+	function generatecaptcha()
+    {
+		$vals = array(
+			'img_path'     => './captcha/',
+			'img_url'     => base_url() . 'captcha/',
+			'img_width'     => '150',
+			'img_height' => 30,
+			'border' => 0, 
+			'expiration' => 7200
+		);
+		$cap = create_captcha($vals);
+		$word = $this->session->set_userdata('word', strtolower($cap['word']));
+		
+		echo json_encode($cap);
+	}
 	
 	function addtofreinds()
     {
 		$fb_data = $this->session->userdata('fb_data');
-		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 1130160922;
-		$data['requester'] = $this->users_model->getUser($user);
-		$data['user'] =$this->users_model->getUser($this->input->get('user')) ;
-		$this->load->view('popups/addfreind',$data);
+		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 1649208165;
+		if($user){
+			$vals = array(
+				'img_path'     => './captcha/',
+				'img_url'     => base_url() . 'captcha/',
+				'img_width'     => '150',
+				'img_height' => 30,
+				'border' => 0, 
+				'expiration' => 7200
+			);
+			$cap = create_captcha($vals);
+			$data['image'] = $cap['image'];
+			$this->session->set_userdata('word', strtolower($cap['word']));
+			// log_message('debug',$this->session->userdata('word'));
+			$data['requester'] = $this->users_model->getUser($user);
+			$data['user'] =$this->users_model->getUser($this->input->get('user')) ;
+			$this->load->view('popups/addfreind',$data);
+		}
 		// 1384303991782967
     }
 	
@@ -53,8 +85,28 @@ class User extends CI_Controller {
 		$Message = $this->input->post('requestMessage');
 		echo $this->users_model->postFreindshipRequest($requesterId,$requestFrom,$Message);
     }
+
+	function postusermessage()
+    {
+		$sender = $this->input->post('senderId');
+		$recipt = $this->input->post('recipt');
+		$message = $this->input->post('message');
+		echo $this->users_model->postUserMessage($sender,$recipt,$message);
+    }
+
 	
-	
+	function sendmessage()
+    {
+		$fb_data = $this->session->userdata('fb_data');
+		$user = isset($fb_data['me']) ? $fb_data['me']['id'] : 1649208165;
+		if ($user){
+
+			$data['sender'] = $this->users_model->getUser($user);
+			$data['user'] =$this->users_model->getUser($this->input->get('user')) ;
+			$this->load->view('popups/sendmessage',$data);
+		}
+		// 1384303991782967
+    }	
 	
 	function gettab()
     {
@@ -95,7 +147,7 @@ class User extends CI_Controller {
 		$data['content']['user']['freinds'] = $this->users_model->getFreindsId($userId);
 		$data['content']['user']['shopstores']['locations'] = $this->stores_model->getShopStoreLocation($shopStores);
 		$data['content']['user']['view'] = $view;
-		$onlyfreinds = 1130160922;
+		$onlyfreinds = 1649208165;
 		$data['content']['user']['loginuser'] = $onlyfreinds;
 		
 		if ($onlyfreinds){

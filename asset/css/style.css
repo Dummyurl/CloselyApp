@@ -1666,7 +1666,7 @@ width: 145px;
 height: 22px;
 font-weight: bold;
 margin: 0px 9px 9px 9px;}
-.user_adv  .jTscrollerContainer {position: relative !important;}
+.user_adv  .jTscrollerContainer {position: relative !important;height:60px}
 
 .my_freinds{width: 685px;
 height: 77px;
@@ -1898,9 +1898,37 @@ margin: 0 auto;
 text-align: right;
 color: rgb(204, 0, 0);
 font-size: 13px;}
-.popup .controls{}
-
-
+.popup .controls{clear: both;}
+.popup .captcha{
+float: right;
+margin: 7px;}
+.popup .captcha_fill{float: right;
+clear: both;
+margin: 5px;}
+.popup .captcha_fill input{direction: rtl;
+font-size: 17px;
+height: 27px;
+width: 177px;
+text-align: center;
+color: gray;}
+.popup .captcha_container{clear: both;
+width: 96%;
+float: left;
+border: 1px rgb(194, 194, 194) solid;
+margin: 4px 8px;}
+.popup #error_message{clear: both;
+float: right;
+margin: 7px;
+color: red;}
+.success{ color:green!important;
+width: 100%;
+position: absolute;
+text-align: center;
+background: rgba(255, 255, 255, 0.89);
+height: 160px;
+padding: 50px 0px;
+font-size: 20px;
+font-weight: bold;}
 
 /* store recommands tab */
 .store_tab_page .user_image{float:right;}
@@ -2958,6 +2986,10 @@ left: 12px;
 display:none;
 background: rgba(252, 252, 252, 0.41);
 padding: 78px 121px;
+}
+#sending{
+display:none;
+float: right;
 }
 #loading-feed{position: absolute;
 z-index: 44;
