@@ -32,13 +32,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 import ru.ifsoft.chat.adapter.GalleryListAdapter;
+import ru.ifsoft.chat.adapter.PropertyListAdapter;
 import ru.ifsoft.chat.app.App;
 import ru.ifsoft.chat.constants.Constants;
 import ru.ifsoft.chat.dialogs.MyPhotoActionDialog;
 import ru.ifsoft.chat.dialogs.PhotoActionDialog;
 import ru.ifsoft.chat.dialogs.PhotoDeleteDialog;
 import ru.ifsoft.chat.dialogs.PhotoReportDialog;
-import ru.ifsoft.chat.model.Image;
+import ru.ifsoft.chat.model.Property;
 import ru.ifsoft.chat.util.Api;
 import ru.ifsoft.chat.util.CustomRequest;
 import ru.ifsoft.chat.util.PhotoInterface;
@@ -55,10 +56,11 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
     SwipeRefreshLayout mItemsContainer;
 
+
     FloatingActionButton mFabButton;
 
-    private ArrayList<Image> itemsList;
-    private GalleryListAdapter itemsAdapter;
+    private ArrayList<Property> itemsList;
+    private PropertyListAdapter itemsAdapter;
 
     private long profileId = 0;
 
@@ -82,7 +84,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
         if (savedInstanceState != null) {
 
             itemsList = savedInstanceState.getParcelableArrayList(STATE_LIST);
-            itemsAdapter = new GalleryListAdapter(getActivity(), itemsList);
+            itemsAdapter = new PropertyListAdapter(getActivity(), itemsList);
 
             viewMore = savedInstanceState.getBoolean("viewMore");
             restore = savedInstanceState.getBoolean("restore");
@@ -91,7 +93,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
         } else {
 
             itemsList = new ArrayList<>();
-            itemsAdapter = new GalleryListAdapter(getActivity(), itemsList);
+            itemsAdapter = new PropertyListAdapter(getActivity(), itemsList);
 
             restore = false;
             itemId = 0;
@@ -156,7 +158,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
             @Override
             public void onClick(View view, int position) {
 
-                Image img = (Image) itemsList.get(position);
+                Property img = (Property) itemsList.get(position);
 
                 Intent intent = new Intent(getActivity(), ViewImageActivity.class);
                 intent.putExtra("itemId", img.getId());
@@ -236,10 +238,10 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
             int position = data.getIntExtra("position", 0);
 
-            Image item = itemsList.get(position);
+            Property item = itemsList.get(position);
 
-            item.setComment(data.getStringExtra("post"));
-            item.setImgUrl(data.getStringExtra("imgUrl"));
+           //  item.setComment(data.getStringExtra("post"));
+           //  item.setImgUrl(data.getStringExtra("imgUrl"));
 
             itemsAdapter.notifyDataSetChanged();
         }
@@ -285,7 +287,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
                                             JSONObject itemObj = (JSONObject) itemsArray.get(i);
 
-                                            Image item = new Image(itemObj);
+                                            Property item = new Property(itemObj);
 
                                             itemsList.add(item);
                                         }
@@ -371,7 +373,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
     public void onPhotoReport(int position, int reasonId) {
 
-        final Image item = itemsList.get(position);
+        final Property item = itemsList.get(position);
 
         if (App.getInstance().isConnected()) {
 
@@ -387,7 +389,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
     public void onPhotoDelete(int position) {
 
-        final Image item = itemsList.get(position);
+        final Property item = itemsList.get(position);
 
         itemsList.remove(position);
         itemsAdapter.notifyDataSetChanged();
@@ -437,9 +439,9 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
     public void action(int position) {
 
-        final Image item = itemsList.get(position);
+        final Property item = itemsList.get(position);
 
-        if (item.getFromUserId() == App.getInstance().getId()) {
+        if (item.getId() == App.getInstance().getId()) {
 
             /** Getting the fragment manager */
             android.app.FragmentManager fm = getActivity().getFragmentManager();

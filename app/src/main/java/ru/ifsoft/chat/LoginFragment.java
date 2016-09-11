@@ -343,7 +343,7 @@ public class LoginFragment extends Fragment implements Constants {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-
+                        Log.i(TAG,response.toString());
                         if (App.getInstance().authorize(response)) {
 
                             if (App.getInstance().getState() == ACCOUNT_STATE_ENABLED) {

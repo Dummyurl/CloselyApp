@@ -595,16 +595,16 @@
 
     <string-array name="navDrawerItems">
         <item>Profile</item>
-        <item>My Photos</item>
-        <item>Friends</item>
+        <item>My Properties</item>
+        <item>My Rewards</item>
         <item>Messages</item>
         <item>Notifications</item>
-        <item>Profile Guests</item>
-        <item>Profile Likes</item>
+        <item>Properties Guests</item>
+        <item>Favorites locations</item>
         <item>I Liked</item>
         <item>Upgrades</item>
-        <item>People Nearby</item>
-        <item>Photos Stream</item>
+        <item>Coins Nearby</item>
+        <item>Collects Stream</item>
         <item>Search</item>
         <item>Settings</item>
     </string-array>

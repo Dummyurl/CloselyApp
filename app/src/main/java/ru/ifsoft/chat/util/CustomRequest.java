@@ -12,9 +12,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
 import java.util.Map;
 
-public class CustomRequest extends Request<JSONObject> {
+import ru.ifsoft.chat.constants.Constants;
+
+public class CustomRequest extends Request<JSONObject> implements Constants {
 
     private Listener<JSONObject> listener;
     private Map<String, String> params;
@@ -37,6 +40,13 @@ public class CustomRequest extends Request<JSONObject> {
             throws com.android.volley.AuthFailureError {
         return params;
     };
+
+    @Override
+    public Map getHeaders() throws com.android.volley.AuthFailureError {
+        Map headers = new HashMap();
+        headers.put("Authorization", "Bearer  " + APP_AUTH_KEY);
+        return headers;
+    }
 
     @Override
     protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {

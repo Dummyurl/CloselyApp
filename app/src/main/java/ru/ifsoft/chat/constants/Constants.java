@@ -14,6 +14,8 @@ public interface Constants {
 
     public static final String BILLING_KEY = "MIIBIjANBgkqhkiG9w034535345grew3eWngk5G3DOY8tYKQIDAQAB";
 
+    public static final String APP_AUTH_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcsIm9yZyI6NiwiaXNzIjoiaHR0cDpcL1wvYmtuLmltXC9hcHBzXC9hZGQiLCJpYXQiOjE0NjkyMDA1OTcsImV4cCI6MjA2OTIwMDU5NywibmJmIjoxNDY5MjAwNTk3LCJqdGkiOiI0NDUzMzE1YTBkZWU2YmE1MzBlZGIwMGMyNDM0YWZlNyJ9.ysoPZU7VCLhss-Ue8Iy1sE8XDYl2ovXOU15ANGStFvk";
+
     // Fortumo settings | Settings from In-App Purchasing for Android | See documentation
 
     public static String FORTUMO_SERVICE_ID = "34534534f43f34f";
@@ -23,8 +25,10 @@ public interface Constants {
     public static final String CLIENT_ID = "1";  //Client ID | For identify the application | Example: 12567
 
     public static final String API_DOMAIN = "http://chat.ifsoft.ru/";  //url address to which the application sends requests
+    public static final String API_DOMAIN2 = "https://landlord.closely.me/";  //url address to which the application sends requests
 
     public static final String API_FILE_EXTENSION = ".inc.php";
+    public static final String API_VERSION1 = "v1";
     public static final String API_VERSION = "v2";
 
     public static final String METHOD_ACCOUNT_GET_SETTINGS = API_DOMAIN + "api/" + API_VERSION + "/method/account.getSettings" + API_FILE_EXTENSION;
@@ -32,8 +36,11 @@ public interface Constants {
     public static final String METHOD_DIALOGS_NEW_GET = API_DOMAIN + "api/" + API_VERSION + "/method/dialogs_new.get" + API_FILE_EXTENSION;
     public static final String METHOD_CHAT_UPDATE = API_DOMAIN + "api/" + API_VERSION + "/method/chat.update" + API_FILE_EXTENSION;
 
-    public static final String METHOD_ACCOUNT_LOGIN = API_DOMAIN + "api/" + API_VERSION + "/method/account.signIn" + API_FILE_EXTENSION;
-    public static final String METHOD_ACCOUNT_SIGNUP = API_DOMAIN + "api/" + API_VERSION + "/method/account.signUp" + API_FILE_EXTENSION;
+    // public static final String METHOD_ACCOUNT_LOGIN = API_DOMAIN + "api/" + API_VERSION + "/method/account.signIn" + API_FILE_EXTENSION;
+    public static final String METHOD_ACCOUNT_LOGIN = API_DOMAIN2 + "api/" + API_VERSION1 + "/customer/login";
+    // public static final String METHOD_ACCOUNT_SIGNUP = API_DOMAIN + "api/" + API_VERSION + "/method/account.signUp" + API_FILE_EXTENSION;
+    public static final String METHOD_ACCOUNT_SIGNUP = API_DOMAIN2 + "api/" + API_VERSION1 + "/customer";
+
     public static final String METHOD_ACCOUNT_AUTHORIZE = API_DOMAIN + "api/" + API_VERSION + "/method/account.authorize" + API_FILE_EXTENSION;
     public static final String METHOD_ACCOUNT_ADD_FUNDS = API_DOMAIN + "api/" + API_VERSION + "/method/account.addFunds" + API_FILE_EXTENSION;
     public static final String METHOD_ACCOUNT_SET_GCM_TOKEN = API_DOMAIN + "api/" + API_VERSION + "/method/account.setGcmToken" + API_FILE_EXTENSION;
@@ -96,7 +103,8 @@ public interface Constants {
     public static final String METHOD_ITEMS_LIKE = API_DOMAIN + "api/" + API_VERSION + "/method/items.like" + API_FILE_EXTENSION;
 
     public static final String METHOD_PHOTOS_REMOVE = API_DOMAIN + "api/" + API_VERSION + "/method/photos.remove" + API_FILE_EXTENSION;
-    public static final String METHOD_PHOTOS_GET = API_DOMAIN + "api/" + API_VERSION + "/method/photos.get" + API_FILE_EXTENSION;
+    // public static final String METHOD_PHOTOS_GET = API_DOMAIN + "api/" + API_VERSION + "/method/photos.get" + API_FILE_EXTENSION;
+    public static final String METHOD_PHOTOS_GET = API_DOMAIN2 + "api/" + API_VERSION1 + "/location/owned";
     public static final String METHOD_PHOTOS_NEW = API_DOMAIN + "api/" + API_VERSION + "/method/photos.new" + API_FILE_EXTENSION;
     public static final String METHOD_PHOTOS_REPORT = API_DOMAIN + "api/" + API_VERSION + "/method/photos.report" + API_FILE_EXTENSION;
     public static final String METHOD_PHOTOS_UPLOAD_IMG = API_DOMAIN + "api/" + API_VERSION + "/method/photos.uploadImg" + API_FILE_EXTENSION;

@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/userCover"
-            android:src="@drawable/app_logo"
+            android:src="@color/material_blue_grey_800"
             android:scaleType="centerCrop" />
 
         <LinearLayout

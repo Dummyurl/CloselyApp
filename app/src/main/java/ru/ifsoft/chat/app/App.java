@@ -355,26 +355,26 @@ public class App extends Application implements Constants {
     }
 
     public Boolean authorize(JSONObject authObj) {
-
+        Log.i(TAG,authObj.toString());
         try {
 
             if (authObj.has("error_code")) {
-
+                Log.i(TAG,"firs1");
                 this.setErrorCode(authObj.getInt("error_code"));
             }
 
             if (!authObj.has("error")) {
-
+                Log.i(TAG,"firs2");
                 return false;
             }
 
             if (authObj.getBoolean("error")) {
-
+                Log.i(TAG,"firs3");
                 return false;
             }
 
             if (!authObj.has("account")) {
-
+                Log.i(TAG,"firs4");
                 return false;
             }
 
@@ -389,16 +389,16 @@ public class App extends Application implements Constants {
                 this.setState(accountObj.getInt("state"));
                 this.setAdmob(accountObj.getInt("admob"));
                 this.setGhost(accountObj.getInt("ghost"));
-                this.setVip(accountObj.getInt("vip"));
+                // this.setVip(accountObj.getInt("vip"));
                 this.setBalance(accountObj.getInt("balance"));
                 this.setVerify(accountObj.getInt("verify"));
                 this.setFacebookId(accountObj.getString("fb_id"));
-                this.setAllowPhotosComments(accountObj.getInt("allowPhotosComments"));
+                // this.setAllowPhotosComments(accountObj.getInt("allowPhotosComments"));
                 this.setAllowComments(accountObj.getInt("allowComments"));
                 this.setAllowMessages(accountObj.getInt("allowMessages"));
                 this.setAllowLikesGCM(accountObj.getInt("allowLikesGCM"));
                 this.setAllowCommentsGCM(accountObj.getInt("allowCommentsGCM"));
-                this.setAllowFollowersGCM(accountObj.getInt("allowFollowersGCM"));
+                // this.setAllowFollowersGCM(accountObj.getInt("allowFollowersGCM"));
                 this.setAllowMessagesGCM(accountObj.getInt("allowMessagesGCM"));
                 this.setAllowGiftsGCM(accountObj.getInt("allowGiftsGCM"));
                 this.setAllowCommentReplyGCM(accountObj.getInt("allowCommentReplyGCM"));
@@ -409,7 +409,7 @@ public class App extends Application implements Constants {
                 this.setNotificationsCount(accountObj.getInt("notificationsCount"));
                 this.setGuestsCount(accountObj.getInt("guestsCount"));
                 this.setMessagesCount(accountObj.getInt("messagesCount"));
-                this.setNewFriendsCount(accountObj.getInt("newFriendsCount"));
+                // this.setNewFriendsCount(accountObj.getInt("newFriendsCount"));
 
                 if (App.getInstance().getLat() == 0.000000 && App.getInstance().getLng() == 0.000000) {
 
@@ -417,7 +417,7 @@ public class App extends Application implements Constants {
                     this.setLng(accountObj.getDouble("lng"));
                 }
 
-                Log.d("Account", accountObj.toString());
+                Log.i("Account", accountObj.toString());
             }
 
             this.setId(authObj.getLong("accountId"));
@@ -437,6 +437,7 @@ public class App extends Application implements Constants {
         } catch (JSONException e) {
 
             e.printStackTrace();
+            Log.i(TAG,"firs4");
             return false;
         }
     }
