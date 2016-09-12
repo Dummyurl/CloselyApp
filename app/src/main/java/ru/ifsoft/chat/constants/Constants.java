@@ -104,7 +104,7 @@ public interface Constants {
 
     public static final String METHOD_PHOTOS_REMOVE = API_DOMAIN + "api/" + API_VERSION + "/method/photos.remove" + API_FILE_EXTENSION;
     // public static final String METHOD_PHOTOS_GET = API_DOMAIN + "api/" + API_VERSION + "/method/photos.get" + API_FILE_EXTENSION;
-    public static final String METHOD_PHOTOS_GET = API_DOMAIN2 + "api/" + API_VERSION1 + "/location/owned";
+    public static final String METHOD_PHOTOS_GET = API_DOMAIN2 + "api/" + API_VERSION1 + "/customer/locations";
     public static final String METHOD_PHOTOS_NEW = API_DOMAIN + "api/" + API_VERSION + "/method/photos.new" + API_FILE_EXTENSION;
     public static final String METHOD_PHOTOS_REPORT = API_DOMAIN + "api/" + API_VERSION + "/method/photos.report" + API_FILE_EXTENSION;
     public static final String METHOD_PHOTOS_UPLOAD_IMG = API_DOMAIN + "api/" + API_VERSION + "/method/photos.uploadImg" + API_FILE_EXTENSION;

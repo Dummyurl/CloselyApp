@@ -114,6 +114,11 @@ public class Property extends Application implements Constants, Parcelable {
         return this.owned_customer_id;
     }
 
+    public boolean isForSell() {
+
+        return this.forsell;
+    }
+
     public Double getLat() {
 
         return this.lat;
@@ -130,7 +135,7 @@ public class Property extends Application implements Constants, Parcelable {
         return this.locationName;
     }
 
-    public String getAddress(String guestUserFullname) {
+    public String getAddress() {
 
         return this.address;
     }

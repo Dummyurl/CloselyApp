@@ -62,8 +62,6 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
     private ArrayList<Property> itemsList;
     private PropertyListAdapter itemsAdapter;
 
-    private long profileId = 0;
-
     private int itemId = 0;
     private int arrayLength = 0;
     private Boolean loadingMore = false;
@@ -100,10 +98,6 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
         }
 
         Intent i = getActivity().getIntent();
-
-        profileId = i.getLongExtra("profileId", 0);
-
-        if (profileId == 0) profileId = App.getInstance().getId();
     }
 
     @Override
@@ -119,8 +113,6 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
         mFabButton = (FloatingActionButton) rootView.findViewById(R.id.fabButton);
         mFabButton.setImageResource(R.drawable.ic_action_new);
-
-        if (profileId != App.getInstance().getId()) mFabButton.setVisibility(View.GONE);
 
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_view);
 
@@ -157,9 +149,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
         mRecyclerView.addOnItemTouchListener(new GalleryListAdapter.RecyclerTouchListener(getActivity(), mRecyclerView, new GalleryListAdapter.ClickListener() {
             @Override
             public void onClick(View view, int position) {
-
                 Property img = (Property) itemsList.get(position);
-
                 Intent intent = new Intent(getActivity(), ViewImageActivity.class);
                 intent.putExtra("itemId", img.getId());
                 startActivity(intent);
@@ -257,7 +247,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
         mItemsContainer.setRefreshing(true);
 
-        CustomRequest jsonReq = new CustomRequest(Request.Method.POST, METHOD_PHOTOS_GET, null,
+        CustomRequest jsonReq = new CustomRequest(Request.Method.GET, METHOD_PHOTOS_GET, null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
@@ -273,21 +263,20 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
                             if (!response.getBoolean("error")) {
 
-                                itemId = response.getInt("photoId");
+                                if (response.has("locations")) {
 
-                                if (response.has("photos")) {
-
-                                    JSONArray itemsArray = response.getJSONArray("photos");
+                                    JSONArray itemsArray = response.getJSONArray("locations");
 
                                     arrayLength = itemsArray.length();
 
                                     if (arrayLength > 0) {
 
                                         for (int i = 0; i < itemsArray.length(); i++) {
-
+                                            Log.d(TAG,itemsArray.get(i).toString());
                                             JSONObject itemObj = (JSONObject) itemsArray.get(i);
-
+                                            Log.d(TAG,itemObj.toString());
                                             Property item = new Property(itemObj);
+                                            // Log.d(TAG,itemObj.toString());
 
                                             itemsList.add(item);
                                         }
@@ -317,10 +306,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("accountId", Long.toString(App.getInstance().getId()));
                 params.put("accessToken", App.getInstance().getAccessToken());
-                params.put("profileId", Long.toString(profileId));
-                params.put("photoId", Integer.toString(itemId));
                 params.put("language", "en");
-
                 return params;
             }
         };

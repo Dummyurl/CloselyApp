@@ -2,12 +2,13 @@ package ru.ifsoft.chat.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.view.GestureDetector;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 
@@ -17,105 +18,63 @@ import ru.ifsoft.chat.model.Property;
 
 public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapter.MyViewHolder> {
 
-    private List<Property> images;
-    private Context mContext;
+	private Context mContext;
+	private List<Property> itemList;
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+	public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        public ImageView thumbnail;
+		public TextView title, status, marketValue;
+		public ImageView thumbnail;
 
         public MyViewHolder(View view) {
 
-            super(view);
-            thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
-        }
-    }
+			super(view);
+
+			title = (TextView) view.findViewById(R.id.title);
+			status = (TextView) view.findViewById(R.id.status);
+			thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
+		}
+	}
 
 
-    public PropertyListAdapter(Context context, List<Property> images) {
+	public PropertyListAdapter(Context mContext, List<Property> itemList) {
 
-        mContext = context;
-        this.images = images;
-    }
+		this.mContext = mContext;
+		this.itemList = itemList;
+	}
 
-    @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+	@Override
+	public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.gallery_thumbnail, parent, false);
+		View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.user_list_row, parent, false);
 
-        return new MyViewHolder(itemView);
-    }
 
-    @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+		return new MyViewHolder(itemView);
+	}
 
-        Property image = images.get(position);
+	@Override
+	public void onBindViewHolder(final MyViewHolder holder, int position) {
 
-    }
+        Property u = itemList.get(position);
+		holder.title.setText(u.getLocationName());
+		holder.marketValue.setText(String.valueOf(u.getMarketValue()));
 
-    @Override
-    public int getItemCount() {
+		if (!u.isForSell()) {
 
-        return images.size();
-    }
+			holder.title.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
 
-    public interface ClickListener {
+		} else {
 
-        void onClick(View view, int position);
+			holder.title.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.profile_verify_icon, 0);
+		}
 
-        void onLongClick(View view, int position);
-    }
+		// loading album cover using Glide library
+		Glide.with(mContext).load(u.getLogo()).into(holder.thumbnail);
+	}
 
-    public static class RecyclerTouchListener implements RecyclerView.OnItemTouchListener {
+	@Override
+	public int getItemCount() {
 
-        private GestureDetector gestureDetector;
-        private PropertyListAdapter.ClickListener clickListener;
-
-        public RecyclerTouchListener(Context context, final RecyclerView recyclerView, final PropertyListAdapter.ClickListener clickListener) {
-
-            this.clickListener = clickListener;
-
-            gestureDetector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
-
-                @Override
-                public boolean onSingleTapUp(MotionEvent e) {
-
-                    return true;
-                }
-
-                @Override
-                public void onLongPress(MotionEvent e) {
-
-                    View child = recyclerView.findChildViewUnder(e.getX(), e.getY());
-
-                    if (child != null && clickListener != null) {
-
-                        clickListener.onLongClick(child, recyclerView.getChildPosition(child));
-                    }
-                }
-            });
-        }
-
-        @Override
-        public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
-
-            View child = rv.findChildViewUnder(e.getX(), e.getY());
-
-            if (child != null && clickListener != null && gestureDetector.onTouchEvent(e)) {
-
-                clickListener.onClick(child, rv.getChildPosition(child));
-            }
-            return false;
-        }
-
-        @Override
-        public void onTouchEvent(RecyclerView rv, MotionEvent e) {
-
-        }
-
-        @Override
-        public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
-
-        }
-    }
+		return itemList.size();
+	}
 }
