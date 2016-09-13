@@ -41,16 +41,6 @@
                 android:drawablePadding="5dp"
                 android:text="Title" />
 
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title"
-                android:paddingBottom="@dimen/item_price_padding_bottom"
-                android:paddingLeft="@dimen/item_title_padding"
-                android:paddingRight="@dimen/item_title_padding"
-                android:textSize="@dimen/item_price"
-                android:text="Online" />
 
             <TextView
                 android:id="@+id/marketValue"

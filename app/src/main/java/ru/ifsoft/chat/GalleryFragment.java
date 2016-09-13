@@ -31,7 +31,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import ru.ifsoft.chat.adapter.GalleryListAdapter;
 import ru.ifsoft.chat.adapter.PropertyListAdapter;
 import ru.ifsoft.chat.app.App;
 import ru.ifsoft.chat.constants.Constants;
@@ -146,7 +145,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
             }
         });
 
-        mRecyclerView.addOnItemTouchListener(new GalleryListAdapter.RecyclerTouchListener(getActivity(), mRecyclerView, new GalleryListAdapter.ClickListener() {
+        mRecyclerView.addOnItemTouchListener(new PropertyListAdapter.RecyclerTouchListener(getActivity(), mRecyclerView, new PropertyListAdapter.ClickListener() {
             @Override
             public void onClick(View view, int position) {
                 Property img = (Property) itemsList.get(position);
@@ -247,7 +246,7 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
         mItemsContainer.setRefreshing(true);
 
-        CustomRequest jsonReq = new CustomRequest(Request.Method.GET, METHOD_PHOTOS_GET, null,
+        CustomRequest jsonReq = new CustomRequest(Request.Method.POST,METHOD_PHOTOS_GET, null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
@@ -313,6 +312,8 @@ public class GalleryFragment extends Fragment implements Constants, SwipeRefresh
 
         App.getInstance().addToRequestQueue(jsonReq);
     }
+
+
 
     public void loadingComplete() {
 

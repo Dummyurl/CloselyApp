@@ -137,7 +137,7 @@ public interface Constants {
 
 
 
-    public static final String WEB_SITE = "http://chat.ifsoft.ru/";  //web site url address
+    public static final String WEB_SITE = "https://landlord.closely.me/";  //web site url address
 
     public static final String APP_TEMP_FOLDER = "chat"; //directory for temporary storage of images from the camera
 

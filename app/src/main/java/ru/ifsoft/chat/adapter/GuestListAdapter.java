@@ -31,7 +31,7 @@ public class GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.MyVi
 			super(view);
 
 			title = (TextView) view.findViewById(R.id.title);
-			status = (TextView) view.findViewById(R.id.status);
+			// status = (TextView) view.findViewById(R.id.status);
 			thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
 		}
 	}
@@ -57,7 +57,7 @@ public class GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.MyVi
 
 		Guest u = itemList.get(position);
 		holder.title.setText(u.getGuestUserFullname());
-		holder.status.setText(u.getTimeAgo());
+		// holder.status.setText(u.getTimeAgo());
 
 		if (!u.isVerify()) {
 

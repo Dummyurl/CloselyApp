@@ -34,8 +34,8 @@ public class Property extends Application implements Constants, Parcelable {
                 this.setLocation(jsonData.getDouble("lat"), jsonData.getDouble("lng"));
                 this.setLocationName(jsonData.getString("name"));
                 this.setAddress(jsonData.getString("address"));
-                this.setLogo(jsonData.getString("logo"));
-                this.setForsell(jsonData.getBoolean("forsell"));
+                this.setLogo(jsonData.getString("company_logo"));
+                this.setForsell(jsonData.getInt("for_sell") != 0 );
         } catch (Throwable t) {
 
             Log.e("Guest", "Could not parse malformed JSON: \"" + jsonData.toString() + "\"");

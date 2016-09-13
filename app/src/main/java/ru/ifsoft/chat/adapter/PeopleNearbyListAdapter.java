@@ -31,7 +31,7 @@ public class PeopleNearbyListAdapter extends RecyclerView.Adapter<PeopleNearbyLi
 			super(view);
 
 			title = (TextView) view.findViewById(R.id.title);
-			status = (TextView) view.findViewById(R.id.status);
+			// status = (TextView) view.findViewById(R.id.status);
 			thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
 		}
 	}
