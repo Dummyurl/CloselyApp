@@ -26,11 +26,7 @@ public class Property extends Application implements Constants, Parcelable {
     }
 
     public Property(JSONObject jsonData) {
-
         try {
-
-            if (!jsonData.getBoolean("error")) {
-
                 this.setId(jsonData.getLong("id"));
                 this.setMarketValue(jsonData.getLong("market_value"));
                 this.setOwnedCusromerId(jsonData.getInt("owned_customer_id"));
@@ -40,8 +36,6 @@ public class Property extends Application implements Constants, Parcelable {
                 this.setAddress(jsonData.getString("address"));
                 this.setLogo(jsonData.getString("logo"));
                 this.setForsell(jsonData.getBoolean("forsell"));
-            }
-
         } catch (Throwable t) {
 
             Log.e("Guest", "Could not parse malformed JSON: \"" + jsonData.toString() + "\"");

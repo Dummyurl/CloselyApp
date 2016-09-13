@@ -33,6 +33,7 @@ public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapte
 			title = (TextView) view.findViewById(R.id.title);
 			status = (TextView) view.findViewById(R.id.status);
 			thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
+            marketValue = (TextView) view.findViewById(R.id.marketValue);
 		}
 	}
 
@@ -57,7 +58,7 @@ public class PropertyListAdapter extends RecyclerView.Adapter<PropertyListAdapte
 
         Property u = itemList.get(position);
 		holder.title.setText(u.getLocationName());
-		holder.marketValue.setText(String.valueOf(u.getMarketValue()));
+		holder.marketValue.setText(Long.toString(u.getMarketValue()));
 
 		if (!u.isForSell()) {
 
